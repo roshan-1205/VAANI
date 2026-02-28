@@ -1,0 +1,42 @@
+.dashboard {
+  padding: 32px;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.grid-full {
+  grid-column: 1 / -1;
+}
+
+.grid-left {
+  grid-column: 1;
+}
+
+.grid-right {
+  grid-column: 2;
+}
+
+@media (max-width: 1024px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .grid-left,
+  .grid-right {
+    grid-column: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    padding: 16px;
+  }
+  
+  .dashboard-grid {
+    gap: 16px;
+  }
+}

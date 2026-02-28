@@ -1,0 +1,222 @@
+.notifications-page {
+  padding: 24px;
+  min-height: calc(100vh - 80px);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.notifications-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+}
+
+.notifications-header h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #01070f;
+  margin: 0 0 8px 0;
+}
+
+.notifications-header p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: rgba(1, 7, 15, 0.6);
+  margin: 0;
+}
+
+.mark-all-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 20px;
+  background: #01070f;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.mark-all-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 16px rgba(1, 7, 15, 0.2);
+}
+
+.notifications-filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.filter-btn {
+  padding: 10px 20px;
+  background: rgba(1, 7, 15, 0.05);
+  border: 1px solid rgba(1, 7, 15, 0.1);
+  border-radius: 12px;
+  color: rgba(1, 7, 15, 0.7);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-btn:hover {
+  background: rgba(1, 7, 15, 0.08);
+  border-color: rgba(1, 7, 15, 0.2);
+}
+
+.filter-btn.active {
+  background: #01070f;
+  color: white;
+  border-color: #01070f;
+}
+
+.notifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.notification-item {
+  display: flex;
+  gap: 16px;
+  background: #01070f;
+  border-radius: 16px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.notification-item.unread {
+  border-left: 4px solid #8b5cf6;
+}
+
+.notification-item:hover {
+  transform: translateX(4px);
+  box-shadow: 0 8px 24px rgba(1, 7, 15, 0.15);
+}
+
+.notification-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.notification-content {
+  flex: 1;
+}
+
+.notification-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.notification-top h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+
+.notification-time {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+  white-space: nowrap;
+}
+
+.notification-content p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.notification-actions {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.action-icon-btn {
+  width: 36px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.05);
+  border: none;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.action-icon-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+
+.action-icon-btn.delete:hover {
+  background: rgba(239, 68, 68, 0.2);
+  color: #ef4444;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 20px;
+  text-align: center;
+  color: rgba(1, 7, 15, 0.4);
+}
+
+.empty-state h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: rgba(1, 7, 15, 0.6);
+  margin: 16px 0 8px 0;
+}
+
+.empty-state p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: rgba(1, 7, 15, 0.5);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .notifications-page {
+    padding: 16px;
+  }
+  
+  .notifications-header {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .notification-item {
+    flex-direction: column;
+  }
+  
+  .notification-actions {
+    justify-content: flex-end;
+  }
+}
