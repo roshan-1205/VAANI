@@ -1,7 +1,29 @@
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 
 function Navbar() {
   const location = useLocation()
+  const navigate = useNavigate()
+  
+  const handleSubscriptionClick = (e) => {
+    e.preventDefault()
+    
+    if (location.pathname === '/') {
+      // If on home page, scroll to pricing section
+      const pricingSection = document.getElementById('pricing')
+      if (pricingSection) {
+        pricingSection.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      }
+    } else {
+      // If on another page, navigate to home and then scroll
+      navigate('/')
+      setTimeout(() => {
+        const pricingSection = document.getElementById('pricing')
+        if (pricingSection) {
+          pricingSection.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        }
+      }, 100)
+    }
+  }
   
   return (
     <nav className="bg-[#0F172A] px-1 md:px-16 ">
@@ -23,6 +45,14 @@ function Navbar() {
             Resources
             <span className={`absolute left-0 bottom-0 ${location.pathname === '/resources' ? 'w-full' : 'w-0'} h-0.5 bg-white transition-all duration-300 group-hover:w-full`}></span>
           </Link>
+          <a 
+            href="#pricing" 
+            onClick={handleSubscriptionClick}
+            className={`${location.pathname === '/subscription' || location.pathname === '/' ? 'text-white' : 'text-[#E5E7EB]'} hover:text-white transition-colors relative group cursor-pointer`}
+          >
+            Subscription
+            <span className={`absolute left-0 bottom-0 ${location.pathname === '/subscription' ? 'w-full' : 'w-0'} h-0.5 bg-white transition-all duration-300 group-hover:w-full`}></span>
+          </a>
           <Link to="/teams" className={`${location.pathname === '/teams' ? 'text-white' : 'text-[#E5E7EB]'} hover:text-white transition-colors relative group`}>
             Teams
             <span className={`absolute left-0 bottom-0 ${location.pathname === '/teams' ? 'w-full' : 'w-0'} h-0.5 bg-white transition-all duration-300 group-hover:w-full`}></span>

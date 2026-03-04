@@ -6,6 +6,7 @@ import Features from '../components/Features'
 import Architecture from '../components/Architecture'
 import About from '../components/About'
 import VideoTestimonials from '../components/VideoTestimonials'
+import PricingSection from '../components/PricingSection'
 import CTABanner from '../components/CTABanner'
 import Footer from '../components/Footer'
 import ChatbotWidget from '../components/ChatbotWidget'
@@ -20,6 +21,7 @@ function HomePage() {
       <Architecture />
       <About />
       <VideoTestimonials />
+      <PricingSection />
       <CTABanner />
       <Footer />
       <ChatbotWidget />

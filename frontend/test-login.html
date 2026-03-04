@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Login - VAANI</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            max-width: 500px;
+            width: 100%;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 28px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #555;
+            font-size: 14px;
+        }
+        input, select {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 14px;
+            transition: all 0.3s;
+        }
+        input:focus, select:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        button {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 10px;
+            transition: transform 0.2s;
+        }
+        button:hover {
+            transform: translateY(-2px);
+        }
+        button:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        .message {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 10px;
+            display: none;
+            font-size: 14px;
+        }
+        .success {
+            background: #d1fae5;
+            color: #065f46;
+            border: 2px solid #10b981;
+        }
+        .error {
+            background: #fee2e2;
+            color: #991b1b;
+            border: 2px solid #ef4444;
+        }
+        .info {
+            background: #e0f2fe;
+            color: #075985;
+            border: 2px solid #0ea5e9;
+            margin-bottom: 20px;
+        }
+        .quick-login {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .quick-btn {
+            padding: 10px;
+            background: #f3f4f6;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 12px;
+            font-weight: 600;
+            color: #374151;
+            transition: all 0.2s;
+        }
+        .quick-btn:hover {
+            background: #e5e7eb;
+            border-color: #667eea;
+        }
+        .loading {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 3px solid rgba(255,255,255,.3);
+            border-radius: 50%;
+            border-top-color: white;
+            animation: spin 1s ease-in-out infinite;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔐 Test Login</h1>
+        <p class="subtitle">Quick login testing for VAANI Admin Dashboard</p>
+        
+        <div class="message info" style="display: block;">
+            <strong>Quick Test:</strong> Click a button below to auto-fill credentials
+        </div>
+
+        <div class="quick-login">
+            <button class="quick-btn" onclick="fillAdmin()">👨‍💼 Admin</button>
+            <button class="quick-btn" onclick="fillUser()">👤 User</button>
+            <button class="quick-btn" onclick="fillVolunteer()">🤝 Volunteer</button>
+        </div>
+
+        <form id="loginForm">
+            <div class="form-group">
+                <label>Email:</label>
+                <input type="email" id="email" placeholder="Enter email" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password" id="password" placeholder="Enter password" required>
+            </div>
+            
+            <button type="submit" id="loginBtn">
+                <span id="btnText">Login & Test</span>
+            </button>
+        </form>
+
+        <div id="message" class="message"></div>
+    </div>
+
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+        import { getAuth, signInWithEmailAndPassword } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js';
+        import { getFirestore, doc, getDoc } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyDXqMaStxNZnnUK8atg8G9Z5GVEKOREKiw",
+            authDomain: "vanni-166b8.firebaseapp.com",
+            projectId: "vanni-166b8",
+            storageBucket: "vanni-166b8.firebasestorage.app",
+            messagingSenderId: "961709941045",
+            appId: "1:961709941045:web:455ea47df23189d9976c7c",
+            measurementId: "G-595S3494MT"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        const db = getFirestore(app);
+
+        window.fillAdmin = () => {
+            document.getElementById('email').value = 'admin@vaani.gov.in';
+            document.getElementById('password').value = 'Admin@123';
+        };
+
+        window.fillUser = () => {
+            document.getElementById('email').value = 'user@vaani.gov.in';
+            document.getElementById('password').value = 'User@123';
+        };
+
+        window.fillVolunteer = () => {
+            document.getElementById('email').value = 'volunteer@vaani.gov.in';
+            document.getElementById('password').value = 'Volunteer@123';
+        };
+
+        const form = document.getElementById('loginForm');
+        const messageDiv = document.getElementById('message');
+        const loginBtn = document.getElementById('loginBtn');
+        const btnText = document.getElementById('btnText');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            
+            messageDiv.style.display = 'none';
+            loginBtn.disabled = true;
+            btnText.innerHTML = '<span class="loading"></span> Logging in...';
+            
+            try {
+                // Sign in with Firebase Auth
+                const userCredential = await signInWithEmailAndPassword(auth, email, password);
+                const user = userCredential.user;
+                
+                // Get user role from Firestore
+                const userDoc = await getDoc(doc(db, 'users', user.uid));
+                
+                if (!userDoc.exists()) {
+                    throw new Error('User data not found in database');
+                }
+                
+                const userData = userDoc.data();
+                const role = userData.role;
+                
+                // Store in sessionStorage
+                sessionStorage.setItem('userRole', role);
+                sessionStorage.setItem('userEmail', user.email);
+                sessionStorage.setItem('userId', user.uid);
+                
+                messageDiv.className = 'message success';
+                messageDiv.style.display = 'block';
+                messageDiv.innerHTML = `
+                    <strong>✅ Login Successful!</strong><br><br>
+                    <strong>User Details:</strong><br>
+                    Email: ${user.email}<br>
+                    Role: <strong>${role}</strong><br>
+                    UID: ${user.uid}<br><br>
+                    <strong>Redirecting to dashboard...</strong>
+                `;
+                
+                // Redirect based on role
+                setTimeout(() => {
+                    if (role === 'admin') {
+                        window.location.href = 'http://localhost:5173/admin';
+                    } else if (role === 'volunteer') {
+                        window.location.href = 'http://localhost:5173/volunteer-dashboard';
+                    } else {
+                        window.location.href = 'http://localhost:5173/user-dashboard';
+                    }
+                }, 2000);
+                
+            } catch (error) {
+                console.error('Login error:', error);
+                
+                messageDiv.className = 'message error';
+                messageDiv.style.display = 'block';
+                
+                if (error.code === 'auth/user-not-found') {
+                    messageDiv.innerHTML = `
+                        <strong>❌ User Not Found</strong><br>
+                        No account exists with this email.<br><br>
+                        <a href="http://localhost:5173/create-admin.html" target="_blank">Create Admin User</a>
+                    `;
+                } else if (error.code === 'auth/wrong-password') {
+                    messageDiv.innerHTML = '<strong>❌ Wrong Password</strong><br>Please check your password and try again.';
+                } else if (error.code === 'auth/invalid-email') {
+                    messageDiv.innerHTML = '<strong>❌ Invalid Email</strong><br>Please enter a valid email address.';
+                } else {
+                    messageDiv.innerHTML = `<strong>❌ Login Failed</strong><br>${error.message}`;
+                }
+                
+                loginBtn.disabled = false;
+                btnText.textContent = 'Login & Test';
+            }
+        });
+    </script>
+</body>
+</html>

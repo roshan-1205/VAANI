@@ -52,6 +52,17 @@ html, body, #root {
   }
 }
 
+@keyframes dropdownSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .animate-blob {
   animation: blob 7s infinite;
 }

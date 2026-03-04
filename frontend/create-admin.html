@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Admin User</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        button {
+            width: 100%;
+            padding: 12px;
+            background: #3b82f6;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        button:hover {
+            background: #2563eb;
+        }
+        .message {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            display: none;
+        }
+        .success {
+            background: #d1fae5;
+            color: #065f46;
+            border: 1px solid #10b981;
+        }
+        .error {
+            background: #fee2e2;
+            color: #991b1b;
+            border: 1px solid #ef4444;
+        }
+        .info {
+            background: #e0f2fe;
+            color: #075985;
+            border: 1px solid #0ea5e9;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔐 Create Admin User</h1>
+        
+        <div class="message info" style="display: block;">
+            <strong>Note:</strong> This will create an admin user in Firebase. Use these credentials to login.
+        </div>
+
+        <form id="adminForm">
+            <div class="form-group">
+                <label>Email:</label>
+                <input type="email" id="email" value="admin@vaani.gov.in" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Password:</label>
+                <input type="password" id="password" value="Admin@123" required>
+            </div>
+            
+            <button type="submit">Create Admin User</button>
+        </form>
+
+        <div id="message" class="message"></div>
+    </div>
+
+    <script type="module">
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+        import { getAuth, createUserWithEmailAndPassword } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js';
+        import { getFirestore, doc, setDoc } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyDXqMaStxNZnnUK8atg8G9Z5GVEKOREKiw",
+            authDomain: "vanni-166b8.firebaseapp.com",
+            projectId: "vanni-166b8",
+            storageBucket: "vanni-166b8.firebasestorage.app",
+            messagingSenderId: "961709941045",
+            appId: "1:961709941045:web:455ea47df23189d9976c7c",
+            measurementId: "G-595S3494MT"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+        const db = getFirestore(app);
+
+        const form = document.getElementById('adminForm');
+        const messageDiv = document.getElementById('message');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const email = document.getElementById('email').value;
+            const password = document.getElementById('password').value;
+            
+            messageDiv.style.display = 'none';
+            
+            try {
+                // Create user in Firebase Auth
+                const userCredential = await createUserWithEmailAndPassword(auth, email, password);
+                const user = userCredential.user;
+                
+                // Save admin role in Firestore
+                await setDoc(doc(db, 'users', user.uid), {
+                    email: user.email,
+                    role: 'admin',
+                    createdAt: new Date().toISOString(),
+                    displayName: 'Admin User'
+                });
+                
+                messageDiv.className = 'message success';
+                messageDiv.style.display = 'block';
+                messageDiv.innerHTML = `
+                    <strong>✅ Success!</strong><br>
+                    Admin user created successfully!<br><br>
+                    <strong>Login Credentials:</strong><br>
+                    Email: ${email}<br>
+                    Password: ${password}<br><br>
+                    You can now login at <a href="http://localhost:5173/login" target="_blank">http://localhost:5173/login</a>
+                `;
+                
+                form.reset();
+            } catch (error) {
+                console.error('Error:', error);
+                
+                messageDiv.className = 'message error';
+                messageDiv.style.display = 'block';
+                
+                if (error.code === 'auth/email-already-in-use') {
+                    messageDiv.innerHTML = `
+                        <strong>⚠️ User Already Exists!</strong><br>
+                        This email is already registered. You can login with:<br><br>
+                        Email: ${email}<br>
+                        Password: ${password}<br><br>
+                        <a href="http://localhost:5173/login" target="_blank">Go to Login Page</a>
+                    `;
+                } else {
+                    messageDiv.innerHTML = `<strong>❌ Error:</strong> ${error.message}`;
+                }
+            }
+        });
+    </script>
+</body>
+</html>

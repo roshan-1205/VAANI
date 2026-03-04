@@ -110,37 +110,8 @@ function SignupPage() {
   const handlePhoneSignup = async (e) => {
     e.preventDefault()
     setLoading(true)
-    setError('')
-
-    if (!termsAccepted) {
-      setError('Please accept the Terms of Service and Privacy Policy')
-      setLoading(false)
-      return
-    }
-
-    try {
-      if (!otpSent) {
-        setupRecaptcha('recaptcha-container')
-        await sendOTP(formData.mobile)
-        setOtpSent(true)
-      } else {
-        const result = await verifyOTP(otp, activeTab)
-        
-        if (result.success) {
-          // Store user data
-          sessionStorage.setItem('userName', result.user.displayName || formData.mobile);
-          sessionStorage.setItem('userPhone', formData.mobile);
-          sessionStorage.setItem('userRole', result.role);
-          
-          // Redirect to login page after successful signup
-          navigate('/login');
-        }
-      }
-    } catch (err) {
-      setError(err.message || 'Phone signup failed')
-    } finally {
-      setLoading(false)
-    }
+    setError('Phone authentication is not available. Please use Email or Google signup.')
+    setLoading(false)
   }
 
   return (

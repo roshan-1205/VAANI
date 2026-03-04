@@ -71,7 +71,7 @@ function Footer() {
         {/* Bottom Section */}
         <div className="border-t border-[#1E293B] pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-[#94A3B8] text-base">
-            © 2024 Vaani. All rights reserved.
+            © 2026 Vaani. All rights reserved.
           </p>
           <div className="flex space-x-8">
             <a href="#" className="text-[#94A3B8] hover:text-white transition-colors text-base">Privacy</a>

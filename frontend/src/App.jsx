@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import HomePage from './pages/HomePage'
 import LoginPage from './pages/LoginPage'
 import SignupPage from './pages/SignupPage'
+import TestLogin from './pages/TestLogin'
 import OverviewPage from './pages/OverviewPage'
 import ResourcesPage from './pages/ResourcesPage'
 import GuidesPage from './pages/GuidesPage'
@@ -18,7 +19,9 @@ import BlogPage from './pages/BlogPage'
 import SurveyPage from './pages/SurveyPage'
 import FeedbackPage from './pages/FeedbackPage'
 import ArticlePage from './pages/ArticlePage'
-import UserDashboard from './pages/UserDashboard'
+import UserDashboard from './pages/user/UserDashboard'
+import VolunteerDashboard from './pages/volunteer/VolunteerDashboard'
+import AdminApp from './pages/admin/AdminApp'
 
 function App() {
   return (
@@ -49,9 +52,20 @@ function App() {
             <Route path="/feedback" element={<FeedbackPage />} />
             <Route path="/login" element={<LoginPage />} />
             <Route path="/signup" element={<SignupPage />} />
-            <Route path="/user-dashboard" element={
+            <Route path="/test-login" element={<TestLogin />} />
+            <Route path="/user-dashboard/*" element={
               <ProtectedRoute allowedRoles={['user']}>
                 <UserDashboard />
+              </ProtectedRoute>
+            } />
+            <Route path="/volunteer-dashboard/*" element={
+              <ProtectedRoute allowedRoles={['volunteer']}>
+                <VolunteerDashboard />
+              </ProtectedRoute>
+            } />
+            <Route path="/admin/*" element={
+              <ProtectedRoute allowedRoles={['admin']}>
+                <AdminApp />
               </ProtectedRoute>
             } />
             

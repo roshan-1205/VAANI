@@ -29,23 +29,37 @@ function LoginPage() {
     setError('')
 
     try {
+      console.log('🔄 Attempting login with:', formData.email);
       const result = await loginWithEmail(formData.email, formData.password)
       
+      console.log('📦 Login result:', result);
+      console.log('📦 User role from result:', result.role);
+      console.log('📦 SessionStorage role:', sessionStorage.getItem('userRole'));
+      
       if (result.success) {
-        console.log('✅ Login successful. Redirecting based on role:', result.role);
+        console.log('✅ Login successful. Role:', result.role);
         
-        // Redirect based on role
-        if (result.role === 'admin') {
-          window.location.href = 'http://localhost:3002'; // Admin Dashboard
-        } else if (result.role === 'volunteer') {
-          window.location.href = 'http://localhost:3001'; // Volunteer Dashboard
-        } else {
-          window.location.href = 'http://localhost:3000'; // User Dashboard
-        }
+        // Small delay to ensure sessionStorage is set
+        setTimeout(() => {
+          // Determine redirect path based on role
+          if (result.role === 'admin') {
+            console.log('→ Redirecting to Admin Dashboard');
+            window.location.href = '/admin/dashboard';
+          } else if (result.role === 'volunteer') {
+            console.log('→ Redirecting to Volunteer Dashboard');
+            window.location.href = '/volunteer-dashboard';
+          } else {
+            console.log('→ Redirecting to User Dashboard');
+            window.location.href = '/user-dashboard';
+          }
+        }, 300);
+      } else {
+        console.error('❌ Login failed - no success flag');
+        setError('Login failed. Please try again.');
       }
     } catch (err) {
       console.error('❌ Login error:', err);
-      setError(err.message || 'Login failed')
+      setError(err.message || 'Login failed. Please check your credentials.')
     } finally {
       setLoading(false)
     }
@@ -56,10 +70,29 @@ function LoginPage() {
     setError('')
 
     try {
-      // For Google login during signup, user needs to select role first
-      // This will be handled in SignupPage
-      setError('Please use the Signup page for Google authentication')
+      const result = await loginWithGoogle('user')
+      
+      if (result.success) {
+        console.log('✅ Google login successful. Role:', result.role);
+        console.log('📦 SessionStorage role:', sessionStorage.getItem('userRole'));
+        
+        // Small delay to ensure sessionStorage is set
+        setTimeout(() => {
+          // Determine redirect path based on role
+          if (result.role === 'admin') {
+            console.log('→ Redirecting to Admin Dashboard');
+            window.location.href = '/admin/dashboard';
+          } else if (result.role === 'volunteer') {
+            console.log('→ Redirecting to Volunteer Dashboard');
+            window.location.href = '/volunteer-dashboard';
+          } else {
+            console.log('→ Redirecting to User Dashboard');
+            window.location.href = '/user-dashboard';
+          }
+        }, 300);
+      }
     } catch (err) {
+      console.error('❌ Google login error:', err);
       setError(err.message || 'Google login failed')
     } finally {
       setLoading(false)
@@ -69,32 +102,8 @@ function LoginPage() {
   const handlePhoneLogin = async (e) => {
     e.preventDefault()
     setLoading(true)
-    setError('')
-
-    try {
-      if (!otpSent) {
-        // Setup reCAPTCHA and send OTP
-        setupRecaptcha('recaptcha-container')
-        await sendOTP(formData.phone)
-        setOtpSent(true)
-      } else {
-        // Verify OTP
-        const result = await verifyOTP(otp)
-        
-        if (result.success) {
-          if (result.needsRole) {
-            navigate('/signup')
-          } else {
-            // Redirect to user dashboard
-            navigate('/user-dashboard');
-          }
-        }
-      }
-    } catch (err) {
-      setError(err.message || 'Phone login failed')
-    } finally {
-      setLoading(false)
-    }
+    setError('Phone authentication is not available. Please use Email or Google login.')
+    setLoading(false)
   }
 
   return (
