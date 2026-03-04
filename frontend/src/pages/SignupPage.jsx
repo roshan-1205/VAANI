@@ -59,30 +59,15 @@ function SignupPage() {
     try {
       const result = await signupWithEmail(formData.email, formData.password, activeTab)
       
-      console.log('Signup result:', result) // Debug log
-      
       if (result.success) {
-        console.log('Signup successful, role:', result.role) // Debug log
+        console.log('✅ Signup successful with role:', result.role);
         
-        // Store user data for dashboard
-        sessionStorage.setItem('userName', formData.fullName);
-        sessionStorage.setItem('userEmail', formData.email);
-        sessionStorage.setItem('userRole', result.role);
-        
-        // Redirect based on role directly to dashboard
-        if (result.role === 'admin') {
-          window.location.href = 'http://localhost:3000'
-        } else if (result.role === 'volunteer') {
-          console.log('Redirecting volunteer to dashboard at http://localhost:3002')
-          window.location.href = 'http://localhost:3002'
-        } else if (result.role === 'user') {
-          navigate('/user-dashboard')
-        } else {
-          navigate('/login')
-        }
+        // Show success message and redirect to login
+        alert(`Account created successfully as ${activeTab}! Please login to continue.`);
+        navigate('/login');
       }
     } catch (err) {
-      console.error('Signup error:', err) // Debug log
+      console.error('❌ Signup error:', err);
       setError(err.message || 'Signup failed')
     } finally {
       setLoading(false)
@@ -103,23 +88,19 @@ function SignupPage() {
       const result = await loginWithGoogle(activeTab)
       
       if (result.success) {
-        // Store user data
-        sessionStorage.setItem('userName', result.user.displayName || result.user.email.split('@')[0]);
-        sessionStorage.setItem('userEmail', result.user.email);
-        sessionStorage.setItem('userRole', result.role);
+        console.log('✅ Google signup successful with role:', result.role);
         
         // Redirect based on role
         if (result.role === 'admin') {
-          window.location.href = 'http://localhost:3000'
+          window.location.href = 'http://localhost:3002';
         } else if (result.role === 'volunteer') {
-          window.location.href = 'http://localhost:3002'
-        } else if (result.role === 'user') {
-          navigate('/user-dashboard')
+          window.location.href = 'http://localhost:3001';
         } else {
-          navigate('/login')
+          window.location.href = 'http://localhost:3000';
         }
       }
     } catch (err) {
+      console.error('❌ Google signup error:', err);
       setError(err.message || 'Google signup failed')
     } finally {
       setLoading(false)
@@ -151,16 +132,8 @@ function SignupPage() {
           sessionStorage.setItem('userPhone', formData.mobile);
           sessionStorage.setItem('userRole', result.role);
           
-          // Redirect based on role
-          if (result.role === 'admin') {
-            window.location.href = 'http://localhost:3000'
-          } else if (result.role === 'volunteer') {
-            window.location.href = 'http://localhost:3002'
-          } else if (result.role === 'user') {
-            navigate('/user-dashboard')
-          } else {
-            navigate('/login')
-          }
+          // Redirect to login page after successful signup
+          navigate('/login');
         }
       }
     } catch (err) {

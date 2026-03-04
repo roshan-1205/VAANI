@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { logout, getToken } from '../services/authService';
+import AIVoiceInteraction from '../../user-dashboard/src/components/AIVoiceInteraction';
 
 function UserDashboard() {
   const navigate = useNavigate();
@@ -18,7 +19,7 @@ function UserDashboard() {
   useEffect(() => {
     const fetchDashboardData = async () => {
       try {
-        const token = getToken();
+        const token = await getToken();
         const response = await fetch('http://localhost:8000/api/user-dashboard', {
           headers: {
             'Authorization': `Bearer ${token}`
@@ -82,6 +83,11 @@ function UserDashboard() {
             <p><span className="font-medium">Role:</span> {role}</p>
             <p><span className="font-medium">Email Verified:</span> {user?.emailVerified ? 'Yes' : 'No'}</p>
           </div>
+        </div>
+
+        {/* Voice Assistant Component */}
+        <div className="mb-6">
+          <AIVoiceInteraction />
         </div>
 
         {error && (

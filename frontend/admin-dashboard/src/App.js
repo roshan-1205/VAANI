@@ -9,6 +9,7 @@ import Services from './pages/Services';
 import LanguageInsights from './pages/LanguageInsights';
 import Settings from './pages/Settings';
 import LoadingScreen from './components/LoadingScreen';
+import { checkAdminAuth } from './utils/auth';
 import './App.css';
 
 function App() {
@@ -16,10 +17,15 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-    return () => clearTimeout(timer);
+    // Check authentication on mount
+    const isAuthenticated = checkAdminAuth();
+    
+    if (isAuthenticated) {
+      const timer = setTimeout(() => {
+        setLoading(false);
+      }, 2000);
+      return () => clearTimeout(timer);
+    }
   }, []);
 
   if (loading) {

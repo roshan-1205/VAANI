@@ -31,28 +31,20 @@ function LoginPage() {
     try {
       const result = await loginWithEmail(formData.email, formData.password)
       
-      console.log('Login result:', result)
-      console.log('User role detected:', result.role)
-      
       if (result.success) {
-        // Store user data
-        sessionStorage.setItem('userName', result.user.displayName || formData.email.split('@')[0]);
-        sessionStorage.setItem('userEmail', formData.email);
-        sessionStorage.setItem('userRole', result.role);
+        console.log('✅ Login successful. Redirecting based on role:', result.role);
         
         // Redirect based on role
         if (result.role === 'admin') {
-          window.location.href = 'http://localhost:3000'
+          window.location.href = 'http://localhost:3002'; // Admin Dashboard
         } else if (result.role === 'volunteer') {
-          window.location.href = 'http://localhost:3002'
-        } else if (result.role === 'user') {
-          navigate('/user-dashboard')
+          window.location.href = 'http://localhost:3001'; // Volunteer Dashboard
         } else {
-          navigate('/')
+          window.location.href = 'http://localhost:3000'; // User Dashboard
         }
       }
     } catch (err) {
-      console.error('Login error:', err) // Debug log
+      console.error('❌ Login error:', err);
       setError(err.message || 'Login failed')
     } finally {
       setLoading(false)
@@ -64,24 +56,9 @@ function LoginPage() {
     setError('')
 
     try {
-      const result = await loginWithGoogle()
-      
-      if (result.success) {
-        if (result.needsRole) {
-          navigate('/signup')
-        } else {
-          // Redirect based on role
-          if (result.role === 'admin') {
-            window.location.href = 'http://localhost:3000'
-          } else if (result.role === 'volunteer') {
-            window.location.href = 'http://localhost:3002'
-          } else if (result.role === 'user') {
-            navigate('/user-dashboard')
-          } else {
-            navigate('/')
-          }
-        }
-      }
+      // For Google login during signup, user needs to select role first
+      // This will be handled in SignupPage
+      setError('Please use the Signup page for Google authentication')
     } catch (err) {
       setError(err.message || 'Google login failed')
     } finally {
@@ -108,15 +85,8 @@ function LoginPage() {
           if (result.needsRole) {
             navigate('/signup')
           } else {
-            if (result.role === 'admin') {
-              window.location.href = 'http://localhost:3000'
-            } else if (result.role === 'volunteer') {
-              window.location.href = 'http://localhost:3002'
-            } else if (result.role === 'user') {
-              navigate('/user-dashboard')
-            } else {
-              navigate('/')
-            }
+            // Redirect to user dashboard
+            navigate('/user-dashboard');
           }
         }
       }

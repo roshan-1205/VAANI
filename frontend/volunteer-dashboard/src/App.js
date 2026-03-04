@@ -11,6 +11,7 @@ import Performance from './pages/Performance';
 import Messages from './pages/Messages';
 import Settings from './pages/Settings';
 import LoadingScreen from './components/LoadingScreen';
+import { checkVolunteerAuth } from './utils/auth';
 import './App.css';
 
 function App() {
@@ -18,10 +19,15 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 2000);
-    return () => clearTimeout(timer);
+    // Check authentication on mount
+    const isAuthenticated = checkVolunteerAuth();
+    
+    if (isAuthenticated) {
+      const timer = setTimeout(() => {
+        setLoading(false);
+      }, 2000);
+      return () => clearTimeout(timer);
+    }
   }, []);
 
   if (loading) {

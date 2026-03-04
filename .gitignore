@@ -41,3 +41,8 @@ venv/
 # Misc
 .cache/
 .temp/
+
+# amplify
+.amplify
+amplify_outputs*
+amplifyconfiguration*

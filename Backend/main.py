@@ -2,6 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from app.routes import auth, protected
 from app.config import settings
+from mangum import Mangum
 
 app = FastAPI(title="VAANI Authentication API", version="1.0.0")
 
@@ -25,3 +26,6 @@ async def root():
 @app.get("/health")
 async def health_check():
     return {"status": "healthy"}
+
+# AWS Lambda handler
+handler = Mangum(app)
