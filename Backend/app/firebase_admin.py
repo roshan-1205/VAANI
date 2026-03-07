@@ -6,10 +6,19 @@ import os
 # Initialize Firebase Admin SDK
 def initialize_firebase():
     if not firebase_admin._apps:
-        cred_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), settings.FIREBASE_CREDENTIALS_PATH)
-        cred = credentials.Certificate(cred_path)
-        firebase_admin.initialize_app(cred)
-        print("✅ Firebase Admin SDK initialized successfully")
+        try:
+            cred_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), settings.FIREBASE_CREDENTIALS_PATH)
+            if os.path.exists(cred_path):
+                cred = credentials.Certificate(cred_path)
+                firebase_admin.initialize_app(cred)
+                print("✅ Firebase Admin SDK initialized successfully")
+            else:
+                print("⚠️  Firebase credentials not found - running in mock mode")
+                print(f"   Expected: {cred_path}")
+                print("   Create serviceAccountKey.json from Firebase Console")
+        except Exception as e:
+            print(f"⚠️  Firebase initialization failed: {e}")
+            print("   Backend will run in mock mode")
 
 initialize_firebase()
 

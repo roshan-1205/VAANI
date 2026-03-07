@@ -1,0 +1,39 @@
+# AYUSHMAN ENTRIES TO DELETE (Short Answers)
+
+Delete these 5 keys from responses.json:
+
+1. KEY: 08a7f4c956a0ab77d62d52b20457557e
+   MESSAGE: hinglish:Ayushman card kaise banwaye?
+   LENGTH: 170 chars (SHORT - DELETE THIS)
+   
+2. KEY: 40d97080b660f7ea7118d5398c91e2aa
+   MESSAGE: english:Ayushman Bharat Yojana kya hai?
+   LENGTH: 166 chars (SHORT - DELETE THIS)
+   
+3. KEY: 822f3903f08cb50d3cd0c2893e207fde
+   MESSAGE: english:What is Ayushman Bharat Yojana?
+   LENGTH: 166 chars (SHORT - DELETE THIS)
+   
+4. KEY: ab6f745a467ee589c972cd6ce23fcdc0
+   MESSAGE: english:How to make Ayushman card?
+   LENGTH: 148 chars (SHORT - DELETE THIS)
+   
+5. KEY: 4b3188a706258e751fc7c5e0804a9b4e
+   MESSAGE: hinglish:Ayushman Bharat Yojana kya hai?
+   LENGTH: 198 chars (SHORT - DELETE THIS)
+
+---
+
+HOW TO DELETE MANUALLY:
+
+1. Open: VAANI/ai-backend/cache/responses-formatted.json
+2. Search for each KEY above (Ctrl+F)
+3. Delete the entire entry including the key and all its data
+4. Make sure to remove the comma after the previous entry if needed
+5. Save the file
+6. Run: node train-and-test-loop.js (to add detailed answers back)
+
+OR
+
+Run this command to auto-delete:
+node delete-short-ayushman.js

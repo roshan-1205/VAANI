@@ -1,0 +1,1167 @@
+{
+  "responses": {
+    "ddc3facb4eaa70453d676bdbea54a4f2": {
+      "message": "hinglish:Tum kaun ho?",
+      "response": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic problems report karne, government schemes ki information dene aur complaint status track karne me.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878823392,
+      "lastUsed": 1772880498511,
+      "useCount": 9
+    },
+    "0dffef24bc58d73720e7a7803d49e25b": {
+      "message": "english:Who are you?",
+      "response": "My name is Vaani. I am an AI based civic assistant. I help citizens report civic problems, provide government scheme information and track complaint status.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878823510,
+      "lastUsed": 1772880498636,
+      "useCount": 7
+    },
+    "50b362716dd3dabff3152b65a1d435fa": {
+      "message": "hindi:तुम कौन हो?",
+      "response": "मेरा नाम Vaani है। मैं एक AI based civic assistant हूं। मैं citizens की मदद करता हूं civic problems report करने, government schemes की information देने और complaint status track करने में।",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hindi"
+      },
+      "createdAt": 1772878823620,
+      "lastUsed": 1772880498753,
+      "useCount": 7
+    },
+    "20add97c9af21868bf90e871420bc4a1": {
+      "message": "hinglish:tum kon ho",
+      "response": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic problems report karne, government schemes ki information dene aur complaint status track karne me.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878823731,
+      "lastUsed": 1772879337163,
+      "useCount": 3
+    },
+    "7dff271cf8a596f971be84b1dcc2cc1f": {
+      "message": "hinglish:wani kya hai",
+      "response": "Vaani ek smart AI assistant hai jo logon ko government services aur civic complaints me madad karta hai. Yahan aap road, pani, bijli aur safai jaise issues report kar sakte ho.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878823841,
+      "lastUsed": 1772879337272,
+      "useCount": 3
+    },
+    "dc26f8f040264fef8df992382ddb63f3": {
+      "message": "hinglish:complain kese kare",
+      "response": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878823953,
+      "lastUsed": 1772879337384,
+      "useCount": 2
+    },
+    "19eed46830d373e5b6f6ceb1568544d8": {
+      "message": "hinglish:pani nhi aa rha",
+      "response": "Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.",
+      "metadata": {
+        "source": "training_similar",
+        "language": "hinglish",
+        "score": 0.5744230769230769
+      },
+      "createdAt": 1772878824061,
+      "lastUsed": 1772879337496,
+      "useCount": 3
+    },
+    "e61626415f20182ba5098936de5fc55e": {
+      "message": "hinglish:Vaani kya hai?",
+      "response": "Vaani ek smart AI assistant hai jo logon ko government services aur civic complaints me madad karta hai. Yahan aap road, pani, bijli aur safai jaise issues report kar sakte ho.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878824169,
+      "lastUsed": 1772880498865,
+      "useCount": 9
+    },
+    "2653877499ecb880acae5a212ebff912": {
+      "message": "english:What is Vaani?",
+      "response": "Vaani is a smart AI assistant that helps people with government services and civic complaints. Here you can report issues like road, water, electricity and sanitation.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878824275,
+      "lastUsed": 1772880498972,
+      "useCount": 7
+    },
+    "08a7f4c956a0ab77d62d52b20457557e": {
+      "message": "hinglish:Ayushman card kaise banwaye?",
+      "response": "Ayushman card banwane ke liye aap Ayushman Bharat portal par eligibility check kar sakte ho. Agar aap eligible ho to nearest CSC center ya hospital me card ban sakta hai.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878824384,
+      "lastUsed": 1772880504065,
+      "useCount": 8
+    },
+    "d28c3e0d26f8c82b7578c63c06bfe7a1": {
+      "message": "hinglish:Volunteer help mil sakti hai kya?",
+      "response": "Haan agar zarurat ho to aap volunteer assistance request kar sakte ho. Volunteer aapki madad kar sakta hai.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878824494,
+      "lastUsed": 1772880504703,
+      "useCount": 8
+    },
+    "28726e9ee61c222fe82dc1313e1985c3": {
+      "message": "hinglish:Complaint karna free hai kya?",
+      "response": "Haan civic complaints register karna free hota hai. Iske liye koi charge nahi hota.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878824609,
+      "lastUsed": 1772880504923,
+      "useCount": 7
+    },
+    "9348a77840da4d538c0b5e6aeb18b546": {
+      "message": "hinglish:PM Awas Yojana me apply kaise kare?",
+      "response": "PM Awas Yojana ke liye aap official government portal par online application kar sakte ho.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878824727,
+      "lastUsed": 1772880504282,
+      "useCount": 7
+    },
+    "ae819ab3a612ec278d0566dc4cc56df9": {
+      "message": "hinglish:Ration card kaise banwaye?",
+      "response": "Ration card banwane ke liye aap apne state food supply portal par online apply kar sakte ho.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878824838,
+      "lastUsed": 1772880504495,
+      "useCount": 7
+    },
+    "5674e5491794aeaba18dbb669ef67b90": {
+      "message": "hinglish:Sadak toot gayi hai kya kare?",
+      "response": "Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal department ko issue ki information mil jayegi.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878824950,
+      "lastUsed": 1772880501312,
+      "useCount": 7
+    },
+    "944814597221bd1c8d34f7de0ae31faa": {
+      "message": "hinglish:Street light kharab hai kya kare?",
+      "response": "Aap street light repair complaint register kar sakte ho. Isse electricity department ko repair request bhej di jayegi.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878825065,
+      "lastUsed": 1772880501625,
+      "useCount": 8
+    },
+    "2ce8a4d9f90f9fe237a2432cf2414cfa": {
+      "message": "hinglish:Kooda nahi uth raha kya kare?",
+      "response": "Agar kachra collect nahi ho raha hai to aap sanitation complaint register kar sakte ho.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878825172,
+      "lastUsed": 1772880502276,
+      "useCount": 7
+    },
+    "c8a085244cb2f499ad1eb7ece7f22916": {
+      "message": "hinglish:tum koun ho",
+      "response": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic problems report karne, government schemes ki information dene aur complaint status track karne me.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878833683,
+      "lastUsed": 1772878833683,
+      "useCount": 1
+    },
+    "da3dd587e8f890fd29fd81e61776e218": {
+      "message": "hinglish:vani kya he",
+      "response": "Vaani ek smart AI assistant hai jo logon ko government services aur civic complaints me madad karta hai. Yahan aap road, pani, bijli aur safai jaise issues report kar sakte ho.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878833703,
+      "lastUsed": 1772878833703,
+      "useCount": 1
+    },
+    "9b30ca99205960890a29146f4bcce55a": {
+      "message": "hinglish:complaint kese kare",
+      "response": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878833708,
+      "lastUsed": 1772878833708,
+      "useCount": 1
+    },
+    "4d0e23ff5a524461dc5261801d9afde9": {
+      "message": "hinglish:complain kaise kare",
+      "response": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878833716,
+      "lastUsed": 1772878833716,
+      "useCount": 1
+    },
+    "4f571df6d93f8f131a03e5734732319c": {
+      "message": "hinglish:sadak tut gayi hai",
+      "response": "Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal department ko issue ki information mil jayegi.",
+      "metadata": {
+        "source": "training_similar",
+        "language": "hinglish",
+        "score": 0.85
+      },
+      "createdAt": 1772878833722,
+      "lastUsed": 1772878833722,
+      "useCount": 1
+    },
+    "7d41d7ce073e1480cd8786b8714947b0": {
+      "message": "hinglish:sadak toot gai hai",
+      "response": "Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal department ko issue ki information mil jayegi.",
+      "metadata": {
+        "source": "training_similar",
+        "language": "hinglish",
+        "score": 0.85
+      },
+      "createdAt": 1772878833729,
+      "lastUsed": 1772878833729,
+      "useCount": 1
+    },
+    "2238673d285406a78e51b0c0adb26c34": {
+      "message": "hinglish:pani nahi aa raha",
+      "response": "Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.",
+      "metadata": {
+        "source": "training_similar",
+        "language": "hinglish",
+        "score": 0.85
+      },
+      "createdAt": 1772878833734,
+      "lastUsed": 1772878833734,
+      "useCount": 1
+    },
+    "f02cb4c3503d53140dfff893f4ec036d": {
+      "message": "hindi:Vaani क्या है?",
+      "response": "Vaani एक smart AI assistant है जो लोगों को government services और civic complaints में मदद करता है। यहां आप road, pani, bijli और safai जैसे issues report कर सकते हो।",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hindi"
+      },
+      "createdAt": 1772878844715,
+      "lastUsed": 1772880499080,
+      "useCount": 5
+    },
+    "b6f5b3ef871f9aac85dc257bee3e4929": {
+      "message": "hinglish:Tum kya madad kar sakte ho?",
+      "response": "Main aapko civic issues report karne, government schemes ke baare me batane aur complaint ka status check karne me madad kar sakta hoon.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878844719,
+      "lastUsed": 1772880499189,
+      "useCount": 5
+    },
+    "ed6ee260c77e5c2a751e3018dd361113": {
+      "message": "english:What help can you provide?",
+      "response": "I can help you report civic issues, provide information about government schemes and check complaint status.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844724,
+      "lastUsed": 1772880499293,
+      "useCount": 5
+    },
+    "89b0ff97748bad2365f77ea9193d6371": {
+      "message": "hinglish:Namaste",
+      "response": "Namaste. Main Vaani hoon. Kripya bataye main aapki kaise madad kar sakta hoon.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878844745,
+      "lastUsed": 1772880499503,
+      "useCount": 5
+    },
+    "75e4d685012ed6d472df246b46489f21": {
+      "message": "english:Hello",
+      "response": "Hello. I am Vaani. Please tell me how I can help you.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844760,
+      "lastUsed": 1772880499612,
+      "useCount": 5
+    },
+    "80a7ba110da66c09a8f01a8d73c1a57a": {
+      "message": "hindi:नमस्ते",
+      "response": "नमस्ते। मैं Vaani हूं। कृपया बताएं मैं आपकी कैसे मदद कर सकता हूं।",
+      "metadata": {
+        "source": "training_exact"
+      },
+      "createdAt": 1772894846484,
+      "lastUsed": 1772894846484,
+      "useCount": 1
+    },
+    "fb54dfe066f5b3a813814e1fcd917cc8": {
+      "message": "hinglish:Mujhe madad chahiye",
+      "response": "Zaroor. Kripya bataye aapko kis cheez me madad chahiye. Main aapko sahi direction me guide karunga.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878844788,
+      "lastUsed": 1772880499821,
+      "useCount": 5
+    },
+    "6a3e0fe8567c0e3c671dc7c2dd3dbe2f": {
+      "message": "english:I need help",
+      "response": "Sure. Please tell me what you need help with. I will guide you in the right direction.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844801,
+      "lastUsed": 1772880499925,
+      "useCount": 5
+    },
+    "1afd67708d1764af0aa42fc251c575ce": {
+      "message": "hinglish:Main bahut pareshan hoon",
+      "response": "Mujhe afsos hai ki aap pareshan hain. Kripya apni problem bataye. Main aapko solution dhoondhne me madad karunga.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878844806,
+      "lastUsed": 1772880500141,
+      "useCount": 5
+    },
+    "90f7ce38f297180f508fcfdd79615137": {
+      "message": "english:I am very worried",
+      "response": "I am sorry that you are worried. Please tell me your problem. I will help you find a solution.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844809,
+      "lastUsed": 1772880500250,
+      "useCount": 5
+    },
+    "9b59785efe36676b74bbe3f21912eed6": {
+      "message": "hinglish:Complaint kaise kare?",
+      "response": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878844812,
+      "lastUsed": 1772880500673,
+      "useCount": 6
+    },
+    "54254ced955fc29c74b594c5e40786ae": {
+      "message": "english:How to file a complaint?",
+      "response": "To file a complaint, choose problem category, provide location and write problem description. Then you can submit the complaint.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844815,
+      "lastUsed": 1772880500778,
+      "useCount": 5
+    },
+    "d758395c0b0faca7ca2262056ce9d7fc": {
+      "message": "english:Complaint status kaise check kare?",
+      "response": "You can check your complaint status through complaint ID.",
+      "metadata": {
+        "source": "training_similar",
+        "language": "english",
+        "score": 0.6435606060606062
+      },
+      "createdAt": 1772878844819,
+      "lastUsed": 1772880500993,
+      "useCount": 5
+    },
+    "b6fa8d93287398da7396b3e2b4660825": {
+      "message": "english:How to check complaint status?",
+      "response": "You can check your complaint status through complaint ID.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844823,
+      "lastUsed": 1772880501097,
+      "useCount": 5
+    },
+    "b39603c4687a07c7b483a3ecd94a97f2": {
+      "message": "english:Road is damaged, what to do?",
+      "response": "If road is damaged, you can register a road maintenance complaint. This will inform the municipal department about the issue.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844832,
+      "lastUsed": 1772880501416,
+      "useCount": 5
+    },
+    "a8a01f169f888a96b8c9addd16b68a4b": {
+      "message": "english:Street light is broken, what to do?",
+      "response": "You can register a street light repair complaint. This will send a repair request to the electricity department.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844840,
+      "lastUsed": 1772880501735,
+      "useCount": 5
+    },
+    "4d56c74322bc1e5c389a18277fef5c58": {
+      "message": "hinglish:Pani nahi aa raha kya kare?",
+      "response": "Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878844846,
+      "lastUsed": 1772880501944,
+      "useCount": 6
+    },
+    "3650656d5695508a48631c559859e263": {
+      "message": "english:Water not coming, what to do?",
+      "response": "If water supply is not coming, you can register a water supply complaint.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844850,
+      "lastUsed": 1772880502054,
+      "useCount": 5
+    },
+    "5d6c0b18d728d943a8b6929dd1e965ca": {
+      "message": "english:Garbage not collected, what to do?",
+      "response": "If garbage is not being collected, you can register a sanitation complaint.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844856,
+      "lastUsed": 1772880502380,
+      "useCount": 5
+    },
+    "28cfb1bad61b0bce25d702d273cecc9c": {
+      "message": "hinglish:Sewer overflow ho raha hai kya kare?",
+      "response": "Sewer overflow ek sanitation problem hai. Aap sewer ya drainage complaint register kar sakte ho.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878844858,
+      "lastUsed": 1772880502601,
+      "useCount": 5
+    },
+    "01535ec92aa9fa5b0f5ed38da1edfe99": {
+      "message": "english:Sewer is overflowing, what to do?",
+      "response": "Sewer overflow is a sanitation problem. You can register a sewer or drainage complaint.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844861,
+      "lastUsed": 1772880502706,
+      "useCount": 5
+    },
+    "2e79721987ede601ed69ab92d54318bf": {
+      "message": "english:Government schemes ki information kaise milegi?",
+      "response": "I can provide you information about different government schemes and explain eligibility.",
+      "metadata": {
+        "source": "training_similar",
+        "language": "english",
+        "score": 0.6438043478260869
+      },
+      "createdAt": 1772878844866,
+      "lastUsed": 1772880503649,
+      "useCount": 5
+    },
+    "392c91f525563a700d4063bf7cfbd4eb": {
+      "message": "english:How to get government schemes information?",
+      "response": "I can provide you information about different government schemes and explain eligibility.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844870,
+      "lastUsed": 1772880503753,
+      "useCount": 5
+    },
+    "40d97080b660f7ea7118d5398c91e2aa": {
+      "message": "english:Ayushman Bharat Yojana kya hai?",
+      "response": "Ayushman Bharat is a government health scheme where eligible families get free treatment benefits. You can check hospital list and eligibility on the official portal.",
+      "metadata": {
+        "source": "training_similar",
+        "language": "english",
+        "score": 0.8933333333333334
+      },
+      "createdAt": 1772878844874,
+      "lastUsed": 1772878844874,
+      "useCount": 1
+    },
+    "822f3903f08cb50d3cd0c2893e207fde": {
+      "message": "english:What is Ayushman Bharat Yojana?",
+      "response": "Ayushman Bharat is a government health scheme where eligible families get free treatment benefits. You can check hospital list and eligibility on the official portal.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844877,
+      "lastUsed": 1772880503961,
+      "useCount": 5
+    },
+    "ab6f745a467ee589c972cd6ce23fcdc0": {
+      "message": "english:How to make Ayushman card?",
+      "response": "To make Ayushman card, you can check eligibility on Ayushman Bharat portal. If you are eligible, card can be made at nearest CSC center or hospital.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844882,
+      "lastUsed": 1772880504169,
+      "useCount": 5
+    },
+    "6cebc8a173ba36973843b1316be14507": {
+      "message": "english:How to apply in PM Awas Yojana?",
+      "response": "For PM Awas Yojana, you can apply online on official government portal.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844890,
+      "lastUsed": 1772880504391,
+      "useCount": 5
+    },
+    "faa7bfdf5105c76072b9ca92903e11e7": {
+      "message": "english:How to make ration card?",
+      "response": "To make ration card, you can apply online on your state food supply portal.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844895,
+      "lastUsed": 1772880504600,
+      "useCount": 5
+    },
+    "38d5f48a262fbd31917e4e792494e4eb": {
+      "message": "english:Can I get volunteer help?",
+      "response": "Yes, if needed you can request volunteer assistance. Volunteer can help you.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844900,
+      "lastUsed": 1772880504807,
+      "useCount": 5
+    },
+    "fc29fd6880c705ac604c382dedbeeb93": {
+      "message": "english:Is filing complaint free?",
+      "response": "Yes, registering civic complaints is free. There is no charge for it.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844907,
+      "lastUsed": 1772880505029,
+      "useCount": 5
+    },
+    "4dd2c2f6e58fbc98b11e8e1029c80a82": {
+      "message": "hinglish:Account kaise banaye?",
+      "response": "VAANI par account banana bahut easy hai. Sabse pehle VAANI website ya app open karein. Uske baad Sign Up / Register par click karein. Apna naam, mobile number aur password enter karein. Mobile par aaya OTP verify karein. Verification ke baad aapka account successfully create ho jayega.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878844910,
+      "lastUsed": 1772880502914,
+      "useCount": 6
+    },
+    "d91f4e0cb40ad6ecb7a71b5b8edae0d1": {
+      "message": "english:How to create account?",
+      "response": "Creating account on VAANI is very easy. First open VAANI website or app. Then click on Sign Up / Register. Enter your name, mobile number and password. Verify OTP received on mobile. After verification your account will be successfully created.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844913,
+      "lastUsed": 1772880503018,
+      "useCount": 5
+    },
+    "a3476fe2f7cfe2f24cfdc7f3c39080d9": {
+      "message": "hinglish:Dhanyavaad",
+      "response": "Aapka welcome hai. Mujhe khushi hai ki main aapki madad kar payi. Agar aapko kisi civic issue report karna ho, government scheme ke baare mein jaana ho, ya kisi complaint ki status check karni ho to aap mujhse pooch sakte hain.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878844916,
+      "lastUsed": 1772880503226,
+      "useCount": 6
+    },
+    "617a534736e602e6c3bd8948d52f7461": {
+      "message": "english:Thank you",
+      "response": "You are welcome. I am glad I could help you. If you need to report any civic issue, know about government schemes, or check complaint status, you can ask me.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772878844918,
+      "lastUsed": 1772880503330,
+      "useCount": 5
+    },
+    "817d67ae30085c27c42fc108a331e77c": {
+      "message": "hinglish:Alvida",
+      "response": "Dhanyavaad. Agar aapko kabhi bhi madad chahiye ho to wapas aa sakte ho. Main madad ke liye yahan hoon.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772878844921,
+      "lastUsed": 1772880503540,
+      "useCount": 5
+    },
+    "82ce389cb69920378289429c2fbd414c": {
+      "message": "hindi:सरकारी स्कीम कैसे पता करें",
+      "response": "सरकारी योजनाओं की जानकारी के लिए आप मुझसे पूछ सकते हो। मैं आपको Ayushman Bharat, PM Awas Yojana, Ration Card और अन्य schemes के बारे में बता सकता हूं। आप scheme का नाम बताइए या 'government schemes' कहिए।",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772879534408,
+      "lastUsed": 1772879534408,
+      "useCount": 1
+    },
+    "c532c7437b9c7801148c94d31cceed8f": {
+      "message": "hinglish:Sarkari scheme kaise pata kare?",
+      "response": "Sarkari schemes ki jaankari ke liye aap mujhse pooch sakte ho. Main aapko Ayushman Bharat, PM Awas Yojana, Ration Card aur anya schemes ke baare me bata sakta hoon. Aap scheme ka naam bataiye ya 'government schemes' kahiye.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772879312313,
+      "lastUsed": 1772880505134,
+      "useCount": 7
+    },
+    "ccb6033dbd9806d78e4200e06d0c9210": {
+      "message": "english:How to find government schemes?",
+      "response": "To find information about government schemes, you can ask me. I can tell you about Ayushman Bharat, PM Awas Yojana, Ration Card and other schemes. You can mention the scheme name or say 'government schemes'.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772879312432,
+      "lastUsed": 1772880505238,
+      "useCount": 5
+    },
+    "d3ec19c716f0b85a4668703f5d6e8edc": {
+      "message": "hindi:सरकारी योजना कैसे पता करें?",
+      "response": "सरकारी योजनाओं की जानकारी के लिए आप मुझसे पूछ सकते हो। मैं आपको Ayushman Bharat, PM Awas Yojana, Ration Card और अन्य schemes के बारे में बता सकता हूं। आप scheme का नाम बताइए या 'government schemes' कहिए।",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hindi"
+      },
+      "createdAt": 1772879312551,
+      "lastUsed": 1772880505342,
+      "useCount": 5
+    },
+    "afde634e48cb5aade177140699aa102e": {
+      "message": "hinglish:sarkari yojana kaise pata kare",
+      "response": "Sarkari schemes ki jaankari ke liye aap mujhse pooch sakte ho. Main aapko Ayushman Bharat, PM Awas Yojana, Ration Card aur anya schemes ke baare me bata sakta hoon. Aap scheme ka naam bataiye ya 'government schemes' kahiye.",
+      "metadata": {
+        "source": "training_similar",
+        "language": "hinglish",
+        "score": 0.7375
+      },
+      "createdAt": 1772879312664,
+      "lastUsed": 1772879312664,
+      "useCount": 1
+    },
+    "fb985a49311c24eac07092e9b11ad34a": {
+      "message": "hindi:तुम क्या मदद कर सकते हो?",
+      "response": "मैं आपको civic issues report करने, government schemes के बारे में बताने और complaint का status check करने में मदद कर सकता हूं।",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hindi"
+      },
+      "createdAt": 1772879424934,
+      "lastUsed": 1772880499398,
+      "useCount": 4
+    },
+    "b290038fed997e8dbaf484de47ddd54a": {
+      "message": "hindi:मुझे मदद चाहिए",
+      "response": "ज़रूर। कृपया बताएं आपको किस चीज़ में मदद चाहिए। मैं आपको सही direction में guide करूंगा।",
+      "metadata": {
+        "source": "training_exact"
+      },
+      "createdAt": 1772885036494,
+      "lastUsed": 1772885036494,
+      "useCount": 1
+    },
+    "d9a5c2c3911afa137d72191945028d46": {
+      "message": "hindi:मैं बहुत परेशान हूं",
+      "response": "मुझे अफ़सोस है कि आप परेशान हैं। कृपया अपनी problem बताएं। मैं आपको solution ढूंढने में मदद करूंगा।",
+      "metadata": {
+        "source": "training_exact"
+      },
+      "createdAt": 1772885047312,
+      "lastUsed": 1772885047312,
+      "useCount": 1
+    },
+    "ca6e23d5edfcb8ed9de977ac13937a6b": {
+      "message": "hinglish:Koi meri problem nahi sun raha",
+      "response": "Aap chinta na kare. Aap apni problem yahan report kar sakte ho. Main aapko sahi department tak pahunchane me madad karunga.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772879425496,
+      "lastUsed": 1772880500458,
+      "useCount": 4
+    },
+    "93807e5c554a7f9298c7d6d57ac45c5c": {
+      "message": "english:No one is listening to my problem",
+      "response": "Don't worry. You can report your problem here. I will help you reach the right department.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "english"
+      },
+      "createdAt": 1772879425549,
+      "lastUsed": 1772880500562,
+      "useCount": 4
+    },
+    "e685c5f735ea9456cc7c926c58f4a977": {
+      "message": "hindi:Complaint कैसे करें?",
+      "response": "Complaint करने के लिए आप problem category choose करें, location बताएं और problem का description लिखें। उसके बाद complaint submit कर सकते हो।",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hindi"
+      },
+      "createdAt": 1772879425718,
+      "lastUsed": 1772880500883,
+      "useCount": 4
+    },
+    "a6b0f3377879bdc4bd9b15c01e6f97ee": {
+      "message": "hindi:Complaint status कैसे check करें?",
+      "response": "आप complaint ID के through अपनी complaint का status check कर सकते हो।",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hindi"
+      },
+      "createdAt": 1772879425892,
+      "lastUsed": 1772880501203,
+      "useCount": 4
+    },
+    "d919d0829ec2869ab88ef16daf78c1ac": {
+      "message": "hindi:सड़क टूट गई है क्या करें?",
+      "response": "अगर सड़क टूट गई है तो आप road maintenance complaint register कर सकते हो। इससे municipal department को issue की information मिल जाएगी।",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hindi"
+      },
+      "createdAt": 1772879426058,
+      "lastUsed": 1772880501518,
+      "useCount": 4
+    },
+    "b64ffbfc3148ae348c0531d5bb54325b": {
+      "message": "hindi:Street light खराब है क्या करें?",
+      "response": "आप street light repair complaint register कर सकते हो। इससे electricity department को repair request भेज दी जाएगी।",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hindi"
+      },
+      "createdAt": 1772879426225,
+      "lastUsed": 1772880501838,
+      "useCount": 4
+    },
+    "b3b88acfe4ce0ecc7206c986c57e95ae": {
+      "message": "hindi:पानी नहीं आ रहा क्या करें?",
+      "response": "अगर पानी supply नहीं आ रही है तो आप water supply complaint register कर सकते हो।",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hindi"
+      },
+      "createdAt": 1772879426391,
+      "lastUsed": 1772880502172,
+      "useCount": 4
+    },
+    "6daa7a845be6bf94fa69f10434c8a7f5": {
+      "message": "hindi:कूड़ा नहीं उठ रहा क्या करें?",
+      "response": "अगर कचरा collect नहीं हो रहा है तो आप sanitation complaint register कर सकते हो।",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hindi"
+      },
+      "createdAt": 1772879426555,
+      "lastUsed": 1772880502492,
+      "useCount": 4
+    },
+    "27d86b3677bc2cf919de93994a9b4fdd": {
+      "message": "hindi:Sewer overflow हो रहा है क्या करें?",
+      "response": "Sewer overflow एक sanitation problem है। आप sewer या drainage complaint register कर सकते हो।",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hindi"
+      },
+      "createdAt": 1772879426724,
+      "lastUsed": 1772880502810,
+      "useCount": 4
+    },
+    "620695412fddda000d92920380f98b80": {
+      "message": "hindi:Account कैसे बनाएं?",
+      "response": "VAANI पर account बनाना बहुत आसान है। सबसे पहले VAANI website या app खोलें। उसके बाद Sign Up / Register पर क्लिक करें। अपना नाम, mobile number और password enter करें। Mobile पर आया OTP verify करें। Verification के बाद आपका account successfully create हो जाएगा।",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hindi"
+      },
+      "createdAt": 1772879426891,
+      "lastUsed": 1772880503122,
+      "useCount": 4
+    },
+    "cd011cc30cc3bfc20db3b15862b1e19f": {
+      "message": "hindi:धन्यवाद",
+      "response": "आपका स्वागत है। मुझे खुशी है कि मैं आपकी मदद कर पाई। अगर आपको किसी civic issue report करना हो, government scheme के बारे में जानना हो, या किसी complaint की status check करनी हो तो आप मुझसे पूछ सकते हैं।",
+      "metadata": {
+        "source": "training_exact"
+      },
+      "createdAt": 1772889627146,
+      "lastUsed": 1772889627146,
+      "useCount": 1
+    },
+    "4b3188a706258e751fc7c5e0804a9b4e": {
+      "message": "hinglish:Ayushman Bharat Yojana kya hai?",
+      "response": "Ayushman Bharat ek government health scheme hai jisme eligible families ko free treatment ka benefit milta hai. Aap hospital list aur eligibility check karne ke liye official portal par ja sakte ho.",
+      "metadata": {
+        "source": "training_exact",
+        "language": "hinglish"
+      },
+      "createdAt": 1772879427286,
+      "lastUsed": 1772880503857,
+      "useCount": 4
+    },
+    "5cfee87ac26db56cb11e9b785f142b03": {
+      "message": "hinglish:Kya main complaint cancel kar sakta hoon?",
+      "response": "Issue report karne ke liye: Pehle, 'report an issue' kahiye aur main aapke liye form khol dungi. Aap potholes, water leaks, broken streetlights, garbage issues, ya koi bhi civic problem report kar sakte hain.",
+      "metadata": {
+        "source": "fallback_voice",
+        "language": "hinglish"
+      },
+      "createdAt": 1772880119422,
+      "lastUsed": 1772880119943,
+      "useCount": 2
+    },
+    "18fce4164621652314d3c4c602986dfa": {
+      "message": "english:Volunteer ka phone number kaise milega?",
+      "response": "Vaani works in simple steps: 1) Login to your account, 2) Choose what you want to do (report, track, or get info), 3) Follow the guided process, 4) Get updates and notifications. It's designed to be easy for everyone to use.",
+      "metadata": {
+        "source": "fallback_voice",
+        "language": "english"
+      },
+      "createdAt": 1772880120785,
+      "lastUsed": 1772880121290,
+      "useCount": 2
+    },
+    "9e9c23b229d74904927395641ea1fd68": {
+      "message": "hinglish:Complaint kitne din me resolve hoti hai?",
+      "response": "Issue report karne ke liye: Pehle, 'report an issue' kahiye aur main aapke liye form khol dungi. Aap potholes, water leaks, broken streetlights, garbage issues, ya koi bhi civic problem report kar sakte hain.",
+      "metadata": {
+        "source": "fallback_voice",
+        "language": "hinglish"
+      },
+      "createdAt": 1772880122238,
+      "lastUsed": 1772880122749,
+      "useCount": 2
+    },
+    "4205e15ca0d35439b41bbf23d2ce1cc3": {
+      "message": "hinglish:Vaani kitne languages support karta hai?",
+      "response": "Main civic issues mein help ke liye yahan hoon. Aap problems report kar sakte hain, complaints track kar sakte hain, ya mujhse Vaani ke baare mein questions pooch sakte hain. Aap kya jaanna chahenge?",
+      "metadata": {
+        "source": "fallback_voice",
+        "language": "hinglish"
+      },
+      "createdAt": 1772880158124,
+      "lastUsed": 1772880158642,
+      "useCount": 2
+    },
+    "19bba67fa04005aeb772b955c69b88c4": {
+      "message": "hinglish:Kya main multiple complaints ek saath file kar sakta hoon?",
+      "response": "Issue report karne ke liye: Pehle, 'report an issue' kahiye aur main aapke liye form khol dungi. Aap potholes, water leaks, broken streetlights, garbage issues, ya koi bhi civic problem report kar sakte hain.",
+      "metadata": {
+        "source": "fallback_voice",
+        "language": "hinglish"
+      },
+      "createdAt": 1772880159475,
+      "lastUsed": 1772880159982,
+      "useCount": 2
+    },
+    "a8a71c4ec5dc95ef9f4aa978c55828c0": {
+      "message": "hindi:पीएम आवास योजना में अप्लाई कैसे करें",
+      "response": "सरकारी योजनाओं की जानकारी के लिए आप मुझसे पूछ सकते हो। मैं आपको Ayushman Bharat, PM Awas Yojana, Ration Card और अन्य schemes के बारे में बता सकता हूं। आप scheme का नाम बताइए या 'government schemes' कहिए।",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772880578611,
+      "lastUsed": 1772880578611,
+      "useCount": 1
+    },
+    "d1bb04867d883fb21472d3bbab053e7e": {
+      "message": "hindi:तुम कौन हो",
+      "response": "मेरा नाम Vaani है। मैं एक AI based civic assistant हूं। मैं citizens की मदद करता हूं civic problems report करने, government schemes की information देने और complaint status track करने में।",
+      "metadata": {
+        "source": "training_exact"
+      },
+      "createdAt": 1772884978719,
+      "lastUsed": 1772884978719,
+      "useCount": 1
+    },
+    "5a99800f36a6f0547ff987b4c51c29f0": {
+      "message": "hindi:अकाउंट कैसे बनाएं",
+      "response": "VAANI पर account बनाना बहुत आसान है। सबसे पहले VAANI website या app खोलें। उसके बाद Sign Up / Register पर क्लिक करें। अपना नाम, mobile number और password enter करें। Mobile पर आया OTP verify करें। Verification के बाद आपका account successfully create हो जाएगा।",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772885360757,
+      "lastUsed": 1772885360757,
+      "useCount": 1
+    },
+    "a634a6e26d9726029a2c30d9df146d30": {
+      "message": "hindi:पानी नहीं आ रहा क्या करें",
+      "response": "अगर पानी supply नहीं आ रही है तो आप water supply complaint register कर सकते हो।",
+      "metadata": {
+        "source": "training_exact"
+      },
+      "createdAt": 1772882044607,
+      "lastUsed": 1772882044607,
+      "useCount": 1
+    },
+    "b541d2a10a2027ab175653fca1821ada": {
+      "message": "hindi:आयुष्मान कार्ड कैसे बनाएं",
+      "response": "VAANI पर account बनाना बहुत आसान है। सबसे पहले VAANI website या app खोलें। उसके बाद Sign Up / Register पर क्लिक करें। अपना नाम, mobile number और password enter करें। Mobile पर आया OTP verify करें। Verification के बाद आपका account successfully create हो जाएगा।",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772882059394,
+      "lastUsed": 1772882059394,
+      "useCount": 1
+    },
+    "d67ac12ef10fdbe5728dea8074d26c72": {
+      "message": "hindi:सीवर ओवरफ्लो हो रहा है क्या करें",
+      "response": "Sewer overflow एक sanitation problem है। आप sewer या drainage complaint register कर सकते हो।",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772885218477,
+      "lastUsed": 1772885218477,
+      "useCount": 1
+    },
+    "9a69ef5fbce5d29a42c272f9cb00f26f": {
+      "message": "hindi:कूड़ा नहीं उठ रहा क्या करें",
+      "response": "अगर कचरा collect नहीं हो रहा है तो आप sanitation complaint register कर सकते हो।",
+      "metadata": {
+        "source": "training_exact"
+      },
+      "createdAt": 1772882198408,
+      "lastUsed": 1772882198408,
+      "useCount": 1
+    },
+    "ab79614f175a57d480f5010d38593a62": {
+      "message": "hindi:गवर्नमेंट स्कीम कैसे पता करें",
+      "response": "सरकारी योजनाओं की जानकारी के लिए आप मुझसे पूछ सकते हो। मैं आपको Ayushman Bharat, PM Awas Yojana, Ration Card और अन्य schemes के बारे में बता सकता हूं। आप scheme का नाम बताइए या 'government schemes' कहिए।",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772882264123,
+      "lastUsed": 1772882264123,
+      "useCount": 1
+    },
+    "47420dad0b58277ad2f1c5a7585911b1": {
+      "message": "hindi:वाणी क्या है",
+      "response": "वाणी एक नागरिक जुड़ाव मंच है जहाँ आप अपने क्षेत्र में सड़क क्षति, पानी की आपूर्ति, या कचरा संग्रह जैसी समस्याओं की रिपोर्ट कर सकते हैं। आप शिकायतें दर्ज कर सकते हैं, उनकी स्थिति ट्रैक कर सकते हैं, और स्वयंसेवक सहायता प्राप्त कर सकते हैं। यह उपयोग करने के लिए मुफ्त है।",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772884996587,
+      "lastUsed": 1772884996587,
+      "useCount": 1
+    },
+    "3b7856c38ef0bd113b2a47e45f8b0a0c": {
+      "message": "hindi:तुम क्या मदद कर सकते हो",
+      "response": "मैं आपको civic issues report करने, government schemes के बारे में बताने और complaint का status check करने में मदद कर सकता हूं।",
+      "metadata": {
+        "source": "training_exact"
+      },
+      "createdAt": 1772885015710,
+      "lastUsed": 1772885015710,
+      "useCount": 1
+    },
+    "42cdb0d28c3302bea1baef776f52f686": {
+      "message": "hindi:कोई मेरी प्रॉब्लम नहीं सुन रहा",
+      "response": "अगर कचरा collect नहीं हो रहा है तो आप sanitation complaint register कर सकते हो।",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772885066472,
+      "lastUsed": 1772885066472,
+      "useCount": 1
+    },
+    "4cff1a0aee7c87b7864db1aea9fc1bd6": {
+      "message": "hindi:कंप्लेंट कैसे करें",
+      "response": "Complaint करने के लिए आप problem category choose करें, location बताएं और problem का description लिखें। उसके बाद complaint submit कर सकते हो।",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772885076696,
+      "lastUsed": 1772885076696,
+      "useCount": 1
+    },
+    "2ef4a25b3a1fe17d0dcac501bbe5b1b5": {
+      "message": "hindi:कंप्लेन कैसे करें",
+      "response": "Complaint करने के लिए आप problem category choose करें, location बताएं और problem का description लिखें। उसके बाद complaint submit कर सकते हो।",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772885082206,
+      "lastUsed": 1772885082206,
+      "useCount": 1
+    },
+    "d908e68a98a22baf143de37645024d94": {
+      "message": "hindi:कंप्लेंट स्टेटस कैसे चेक करें",
+      "response": "वाणी सरल चरणों में काम करती है: 1) अपने खाते में लॉगिन करें, 2) चुनें कि आप क्या करना चाहते हैं, 3) निर्देशित प्रक्रिया का पालन करें, 4) अपडेट और सूचनाएं प्राप्त करें। यह सभी के लिए उपयोग करना आसान है।",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772885100915,
+      "lastUsed": 1772885100915,
+      "useCount": 1
+    },
+    "e9c40b263cddd3369835124905be8da8": {
+      "message": "hindi:सड़क टूट गई है क्या करें",
+      "response": "अगर सड़क टूट गई है तो आप road maintenance complaint register कर सकते हो। इससे municipal department को issue की information मिल जाएगी।",
+      "metadata": {
+        "source": "training_exact"
+      },
+      "createdAt": 1772885122388,
+      "lastUsed": 1772885122388,
+      "useCount": 1
+    },
+    "8f5309ba67b3cf63a05de12b5841421e": {
+      "message": "hindi:स्ट्रीट लाइट खराब है क्या करें",
+      "response": "आप street light repair complaint register कर सकते हो। इससे electricity department को repair request भेज दी जाएगी।",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772885138335,
+      "lastUsed": 1772885138335,
+      "useCount": 1
+    },
+    "f309f934fff2b35dfb8fe305bb7b23dd": {
+      "message": "hindi:पानी नहीं आ रहा है क्या करें",
+      "response": "अगर पानी supply नहीं आ रही है तो आप water supply complaint register कर सकते हो।",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772885177590,
+      "lastUsed": 1772885177590,
+      "useCount": 1
+    },
+    "f765de0c9e7318cf3200b5ca1bbe1dfb": {
+      "message": "hindi:कूड़ा नहीं उठ रहा है क्या करें",
+      "response": "अगर कचरा collect नहीं हो रहा है तो आप sanitation complaint register कर सकते हो।",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772885190203,
+      "lastUsed": 1772885190203,
+      "useCount": 1
+    },
+    "1f40db28efd94fcc255cf1ab11ae099b": {
+      "message": "hindi:इलीगल कंस्ट्रक्शन हो रहा है क्या करें",
+      "response": "Sewer overflow एक sanitation problem है। आप sewer या drainage complaint register कर सकते हो।",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772885233859,
+      "lastUsed": 1772885233859,
+      "useCount": 1
+    },
+    "bda1f248ae4cbf054ef33d0b5d387abd": {
+      "message": "hindi:गवर्नमेंट स्कीम की इनफार्मेशन कैसे मिलेगी",
+      "response": "वाणी सरल चरणों में काम करती है: 1) अपने खाते में लॉगिन करें, 2) चुनें कि आप क्या करना चाहते हैं, 3) निर्देशित प्रक्रिया का पालन करें, 4) अपडेट और सूचनाएं प्राप्त करें। यह सभी के लिए उपयोग करना आसान है।",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772885255735,
+      "lastUsed": 1772885255735,
+      "useCount": 1
+    },
+    "505fb579d5a41c77c8d95822f61a634f": {
+      "message": "hindi:वाणी पर अकाउंट कैसे क्रिएट करें",
+      "response": "वाणी सरल चरणों में काम करती है: 1) अपने खाते में लॉगिन करें, 2) चुनें कि आप क्या करना चाहते हैं, 3) निर्देशित प्रक्रिया का पालन करें, 4) अपडेट और सूचनाएं प्राप्त करें। यह सभी के लिए उपयोग करना आसान है।",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772885350683,
+      "lastUsed": 1772885350683,
+      "useCount": 1
+    },
+    "dc8a67322e5afce0b7de5e9bf902b65d": {
+      "message": "hindi:हर्ष को कैसे फॉर्म से कर दिया है ना",
+      "response": "वाणी सरल चरणों में काम करती है: 1) अपने खाते में लॉगिन करें, 2) चुनें कि आप क्या करना चाहते हैं, 3) निर्देशित प्रक्रिया का पालन करें, 4) अपडेट और सूचनाएं प्राप्त करें। यह सभी के लिए उपयोग करना आसान है।",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772886018204,
+      "lastUsed": 1772886018204,
+      "useCount": 1
+    },
+    "7ede8970ea96ca8045c3afa0eb926abb": {
+      "message": "hindi:आयुष्मान कार्ड कैसे बनवाएं",
+      "response": "वाणी सरल चरणों में काम करती है: 1) अपने खाते में लॉगिन करें, 2) चुनें कि आप क्या करना चाहते हैं, 3) निर्देशित प्रक्रिया का पालन करें, 4) अपडेट और सूचनाएं प्राप्त करें। यह सभी के लिए उपयोग करना आसान है।",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772886700427,
+      "lastUsed": 1772887716926,
+      "useCount": 2
+    }
+  },
+  "stats": {
+    "hits": 309,
+    "misses": 111,
+    "saved": 140
+  },
+  "lastUpdated": "2026-03-07T14:52:29.552Z"
+}

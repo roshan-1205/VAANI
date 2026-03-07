@@ -1,0 +1,1018 @@
+﻿≡ƒôï ALL 65 QUESTIONS WITH CONTEXT & ANSWERS
+
+================================================================================
+
+Total Questions: 65
+
+================================================================================
+
+================================================================================
+≡ƒôé CATEGORY: ACCOUNT CREATION
+   Total: 3 questions
+================================================================================
+
+1. ID: conv_042
+   Context: account_creation_hinglish
+   
+   Γ¥ô QUESTION:
+      "Account kaise banaye?"
+   
+   Γ£à EXPECTED ANSWER:
+      "VAANI par account banana bahut easy hai. Sabse pehle VAANI website ya app open karein. Uske baad Sign Up / Register par click karein. Apna naam, mobile number aur password enter karein. Mobile par aaya OTP verify karein. Verification ke baad aapka account successfully create ho jayega."
+   
+   ≡ƒô¥ Category: account_creation
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+2. ID: conv_043
+   Context: account_creation_english
+   
+   Γ¥ô QUESTION:
+      "How to create account?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Creating account on VAANI is very easy. First open VAANI website or app. Then click on Sign Up / Register. Enter your name, mobile number and password. Verify OTP received on mobile. After verification your account will be successfully created."
+   
+   ≡ƒô¥ Category: account_creation_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+3. ID: conv_044
+   Context: account_creation_hindi
+   
+   Γ¥ô QUESTION:
+      "Account αñòαÑêαñ╕αÑç αñ¼αñ¿αñ╛αñÅαñé?"
+   
+   Γ£à EXPECTED ANSWER:
+      "VAANI αñ¬αñ░ account αñ¼αñ¿αñ╛αñ¿αñ╛ αñ¼αñ╣αÑüαññ αñåαñ╕αñ╛αñ¿ αñ╣αÑêαÑñ αñ╕αñ¼αñ╕αÑç αñ¬αñ╣αñ▓αÑç VAANI website αñ»αñ╛ app αñûαÑïαñ▓αÑçαñéαÑñ αñëαñ╕αñòαÑç αñ¼αñ╛αñª Sign Up / Register αñ¬αñ░ αñòαÑìαñ▓αñ┐αñò αñòαñ░αÑçαñéαÑñ αñàαñ¬αñ¿αñ╛ αñ¿αñ╛αñ«, mobile number αñöαñ░ password enter αñòαñ░αÑçαñéαÑñ Mobile αñ¬αñ░ αñåαñ»αñ╛ OTP verify αñòαñ░αÑçαñéαÑñ Verification αñòαÑç αñ¼αñ╛αñª αñåαñ¬αñòαñ╛ account successfully create αñ╣αÑï αñ£αñ╛αñÅαñùαñ╛αÑñ"
+   
+   ≡ƒô¥ Category: account_creation_hindi
+   ≡ƒîÉ Language: Hindi
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: ASSISTANCE
+   Total: 3 questions
+================================================================================
+
+4. ID: conv_007
+   Context: help_capabilities_hinglish
+   
+   Γ¥ô QUESTION:
+      "Tum kya madad kar sakte ho?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Main aapko civic issues report karne, government schemes ke baare me batane aur complaint ka status check karne me madad kar sakta hoon."
+   
+   ≡ƒô¥ Category: assistance
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+5. ID: conv_008
+   Context: help_capabilities_english
+   
+   Γ¥ô QUESTION:
+      "What help can you provide?"
+   
+   Γ£à EXPECTED ANSWER:
+      "I can help you report civic issues, provide information about government schemes and check complaint status."
+   
+   ≡ƒô¥ Category: assistance_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+6. ID: conv_009
+   Context: help_capabilities_hindi
+   
+   Γ¥ô QUESTION:
+      "αññαÑüαñ« αñòαÑìαñ»αñ╛ αñ«αñªαñª αñòαñ░ αñ╕αñòαññαÑç αñ╣αÑï?"
+   
+   Γ£à EXPECTED ANSWER:
+      "αñ«αÑêαñé αñåαñ¬αñòαÑï civic issues report αñòαñ░αñ¿αÑç, government schemes αñòαÑç αñ¼αñ╛αñ░αÑç αñ«αÑçαñé αñ¼αññαñ╛αñ¿αÑç αñöαñ░ complaint αñòαñ╛ status check αñòαñ░αñ¿αÑç αñ«αÑçαñé αñ«αñªαñª αñòαñ░ αñ╕αñòαññαñ╛ αñ╣αÑéαñéαÑñ"
+   
+   ≡ƒô¥ Category: assistance_hindi
+   ≡ƒîÉ Language: Hindi
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: AYUSHMAN CARD
+   Total: 2 questions
+================================================================================
+
+7. ID: conv_053
+   Context: ayushman_card_hinglish
+   
+   Γ¥ô QUESTION:
+      "Ayushman card kaise banwaye?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Ayushman card banwane ke liye aap Ayushman Bharat portal par eligibility check kar sakte ho. Agar aap eligible ho to nearest CSC center ya hospital me card ban sakta hai."
+   
+   ≡ƒô¥ Category: ayushman_card
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+8. ID: conv_054
+   Context: ayushman_card_english
+   
+   Γ¥ô QUESTION:
+      "How to make Ayushman card?"
+   
+   Γ£à EXPECTED ANSWER:
+      "To make Ayushman card, you can check eligibility on Ayushman Bharat portal. If you are eligible, card can be made at nearest CSC center or hospital."
+   
+   ≡ƒô¥ Category: ayushman_card_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: AYUSHMAN YOJANA
+   Total: 2 questions
+================================================================================
+
+9. ID: conv_051
+   Context: ayushman_info_hinglish
+   
+   Γ¥ô QUESTION:
+      "Ayushman Bharat Yojana kya hai?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Ayushman Bharat ek government health scheme hai jisme eligible families ko free treatment ka benefit milta hai. Aap hospital list aur eligibility check karne ke liye official portal par ja sakte ho."
+   
+   ≡ƒô¥ Category: ayushman_yojana
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+10. ID: conv_052
+   Context: ayushman_info_english
+   
+   Γ¥ô QUESTION:
+      "What is Ayushman Bharat Yojana?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Ayushman Bharat is a government health scheme where eligible families get free treatment benefits. You can check hospital list and eligibility on the official portal."
+   
+   ≡ƒô¥ Category: ayushman_yojana_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: COMPLAINT FILING
+   Total: 3 questions
+================================================================================
+
+11. ID: conv_021
+   Context: complaint_process_hinglish
+   
+   Γ¥ô QUESTION:
+      "Complaint kaise kare?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho."
+   
+   ≡ƒô¥ Category: complaint_filing
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+12. ID: conv_022
+   Context: complaint_process_english
+   
+   Γ¥ô QUESTION:
+      "How to file a complaint?"
+   
+   Γ£à EXPECTED ANSWER:
+      "To file a complaint, choose problem category, provide location and write problem description. Then you can submit the complaint."
+   
+   ≡ƒô¥ Category: complaint_filing_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+13. ID: conv_023
+   Context: complaint_process_hindi
+   
+   Γ¥ô QUESTION:
+      "Complaint αñòαÑêαñ╕αÑç αñòαñ░αÑçαñé?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Complaint αñòαñ░αñ¿αÑç αñòαÑç αñ▓αñ┐αñÅ αñåαñ¬ problem category choose αñòαñ░αÑçαñé, location αñ¼αññαñ╛αñÅαñé αñöαñ░ problem αñòαñ╛ description αñ▓αñ┐αñûαÑçαñéαÑñ αñëαñ╕αñòαÑç αñ¼αñ╛αñª complaint submit αñòαñ░ αñ╕αñòαññαÑç αñ╣αÑïαÑñ"
+   
+   ≡ƒô¥ Category: complaint_filing_hindi
+   ≡ƒîÉ Language: Hindi
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: COMPLAINT TRACKING
+   Total: 3 questions
+================================================================================
+
+14. ID: conv_024
+   Context: complaint_tracking_hinglish
+   
+   Γ¥ô QUESTION:
+      "Complaint status kaise check kare?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Aap complaint ID ke through apni complaint ka status check kar sakte ho."
+   
+   ≡ƒô¥ Category: complaint_tracking
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+15. ID: conv_025
+   Context: complaint_tracking_english
+   
+   Γ¥ô QUESTION:
+      "How to check complaint status?"
+   
+   Γ£à EXPECTED ANSWER:
+      "You can check your complaint status through complaint ID."
+   
+   ≡ƒô¥ Category: complaint_tracking_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+16. ID: conv_026
+   Context: complaint_tracking_hindi
+   
+   Γ¥ô QUESTION:
+      "Complaint status αñòαÑêαñ╕αÑç check αñòαñ░αÑçαñé?"
+   
+   Γ£à EXPECTED ANSWER:
+      "αñåαñ¬ complaint ID αñòαÑç through αñàαñ¬αñ¿αÑÇ complaint αñòαñ╛ status check αñòαñ░ αñ╕αñòαññαÑç αñ╣αÑïαÑñ"
+   
+   ≡ƒô¥ Category: complaint_tracking_hindi
+   ≡ƒîÉ Language: Hindi
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: DRAINAGE
+   Total: 3 questions
+================================================================================
+
+17. ID: conv_039
+   Context: drainage_issue_hinglish
+   
+   Γ¥ô QUESTION:
+      "Sewer overflow ho raha hai kya kare?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Sewer overflow ek sanitation problem hai. Aap sewer ya drainage complaint register kar sakte ho."
+   
+   ≡ƒô¥ Category: drainage
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+18. ID: conv_040
+   Context: drainage_issue_english
+   
+   Γ¥ô QUESTION:
+      "Sewer is overflowing, what to do?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Sewer overflow is a sanitation problem. You can register a sewer or drainage complaint."
+   
+   ≡ƒô¥ Category: drainage_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+19. ID: conv_041
+   Context: drainage_issue_hindi
+   
+   Γ¥ô QUESTION:
+      "Sewer overflow αñ╣αÑï αñ░αñ╣αñ╛ αñ╣αÑê αñòαÑìαñ»αñ╛ αñòαñ░αÑçαñé?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Sewer overflow αñÅαñò sanitation problem αñ╣αÑêαÑñ αñåαñ¬ sewer αñ»αñ╛ drainage complaint register αñòαñ░ αñ╕αñòαññαÑç αñ╣αÑïαÑñ"
+   
+   ≡ƒô¥ Category: drainage_hindi
+   ≡ƒîÉ Language: Hindi
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: EMOTIONAL SUPPORT
+   Total: 3 questions
+================================================================================
+
+20. ID: conv_016
+   Context: emotional_support_hinglish
+   
+   Γ¥ô QUESTION:
+      "Main bahut pareshan hoon"
+   
+   Γ£à EXPECTED ANSWER:
+      "Mujhe afsos hai ki aap pareshan hain. Kripya apni problem bataye. Main aapko solution dhoondhne me madad karunga."
+   
+   ≡ƒô¥ Category: emotional_support
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+21. ID: conv_017
+   Context: emotional_support_english
+   
+   Γ¥ô QUESTION:
+      "I am very worried"
+   
+   Γ£à EXPECTED ANSWER:
+      "I am sorry that you are worried. Please tell me your problem. I will help you find a solution."
+   
+   ≡ƒô¥ Category: emotional_support_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+22. ID: conv_018
+   Context: emotional_support_hindi
+   
+   Γ¥ô QUESTION:
+      "αñ«αÑêαñé αñ¼αñ╣αÑüαññ αñ¬αñ░αÑçαñ╢αñ╛αñ¿ αñ╣αÑéαñé"
+   
+   Γ£à EXPECTED ANSWER:
+      "αñ«αÑüαñ¥αÑç αñàαñ½αñ╝αñ╕αÑïαñ╕ αñ╣αÑê αñòαñ┐ αñåαñ¬ αñ¬αñ░αÑçαñ╢αñ╛αñ¿ αñ╣αÑêαñéαÑñ αñòαÑâαñ¬αñ»αñ╛ αñàαñ¬αñ¿αÑÇ problem αñ¼αññαñ╛αñÅαñéαÑñ αñ«αÑêαñé αñåαñ¬αñòαÑï solution αñóαÑéαñéαñóαñ¿αÑç αñ«αÑçαñé αñ«αñªαñª αñòαñ░αÑéαñéαñùαñ╛αÑñ"
+   
+   ≡ƒô¥ Category: emotional_support_hindi
+   ≡ƒîÉ Language: Hindi
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: FAREWELL
+   Total: 1 questions
+================================================================================
+
+23. ID: conv_048
+   Context: farewell_hinglish
+   
+   Γ¥ô QUESTION:
+      "Alvida"
+   
+   Γ£à EXPECTED ANSWER:
+      "Dhanyavaad. Agar aapko kabhi bhi madad chahiye ho to wapas aa sakte ho. Main madad ke liye yahan hoon."
+   
+   ≡ƒô¥ Category: farewell
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: FREE SERVICE
+   Total: 2 questions
+================================================================================
+
+24. ID: conv_061
+   Context: free_service_hinglish
+   
+   Γ¥ô QUESTION:
+      "Complaint karna free hai kya?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Haan civic complaints register karna free hota hai. Iske liye koi charge nahi hota."
+   
+   ≡ƒô¥ Category: free_service
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+25. ID: conv_062
+   Context: free_service_english
+   
+   Γ¥ô QUESTION:
+      "Is filing complaint free?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Yes, registering civic complaints is free. There is no charge for it."
+   
+   ≡ƒô¥ Category: free_service_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: GARBAGE
+   Total: 3 questions
+================================================================================
+
+26. ID: conv_036
+   Context: garbage_issue_hinglish
+   
+   Γ¥ô QUESTION:
+      "Kooda nahi uth raha kya kare?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Agar kachra collect nahi ho raha hai to aap sanitation complaint register kar sakte ho."
+   
+   ≡ƒô¥ Category: garbage
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+27. ID: conv_037
+   Context: garbage_issue_english
+   
+   Γ¥ô QUESTION:
+      "Garbage not collected, what to do?"
+   
+   Γ£à EXPECTED ANSWER:
+      "If garbage is not being collected, you can register a sanitation complaint."
+   
+   ≡ƒô¥ Category: garbage_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+28. ID: conv_038
+   Context: garbage_issue_hindi
+   
+   Γ¥ô QUESTION:
+      "αñòαÑéαñíαñ╝αñ╛ αñ¿αñ╣αÑÇαñé αñëαñá αñ░αñ╣αñ╛ αñòαÑìαñ»αñ╛ αñòαñ░αÑçαñé?"
+   
+   Γ£à EXPECTED ANSWER:
+      "αñàαñùαñ░ αñòαñÜαñ░αñ╛ collect αñ¿αñ╣αÑÇαñé αñ╣αÑï αñ░αñ╣αñ╛ αñ╣αÑê αññαÑï αñåαñ¬ sanitation complaint register αñòαñ░ αñ╕αñòαññαÑç αñ╣αÑïαÑñ"
+   
+   ≡ƒô¥ Category: garbage_hindi
+   ≡ƒîÉ Language: Hindi
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: GOVERNMENT SCHEMES
+   Total: 2 questions
+================================================================================
+
+29. ID: conv_049
+   Context: schemes_info_hinglish
+   
+   Γ¥ô QUESTION:
+      "Government schemes ki information kaise milegi?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Main aapko different government schemes ke baare me information de sakta hoon aur eligibility bhi samjha sakta hoon."
+   
+   ≡ƒô¥ Category: government_schemes
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+30. ID: conv_050
+   Context: schemes_info_english
+   
+   Γ¥ô QUESTION:
+      "How to get government schemes information?"
+   
+   Γ£à EXPECTED ANSWER:
+      "I can provide you information about different government schemes and explain eligibility."
+   
+   ≡ƒô¥ Category: government_schemes_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: GRATITUDE
+   Total: 3 questions
+================================================================================
+
+31. ID: conv_045
+   Context: gratitude_hinglish
+   
+   Γ¥ô QUESTION:
+      "Dhanyavaad"
+   
+   Γ£à EXPECTED ANSWER:
+      "Aapka welcome hai. Mujhe khushi hai ki main aapki madad kar payi. Agar aapko kisi civic issue report karna ho, government scheme ke baare mein jaana ho, ya kisi complaint ki status check karni ho to aap mujhse pooch sakte hain."
+   
+   ≡ƒô¥ Category: gratitude
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+32. ID: conv_046
+   Context: gratitude_english
+   
+   Γ¥ô QUESTION:
+      "Thank you"
+   
+   Γ£à EXPECTED ANSWER:
+      "You are welcome. I am glad I could help you. If you need to report any civic issue, know about government schemes, or check complaint status, you can ask me."
+   
+   ≡ƒô¥ Category: gratitude_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+33. ID: conv_047
+   Context: gratitude_hindi
+   
+   Γ¥ô QUESTION:
+      "αñºαñ¿αÑìαñ»αñ╡αñ╛αñª"
+   
+   Γ£à EXPECTED ANSWER:
+      "αñåαñ¬αñòαñ╛ αñ╕αÑìαñ╡αñ╛αñùαññ αñ╣αÑêαÑñ αñ«αÑüαñ¥αÑç αñûαÑüαñ╢αÑÇ αñ╣αÑê αñòαñ┐ αñ«αÑêαñé αñåαñ¬αñòαÑÇ αñ«αñªαñª αñòαñ░ αñ¬αñ╛αñêαÑñ αñàαñùαñ░ αñåαñ¬αñòαÑï αñòαñ┐αñ╕αÑÇ civic issue report αñòαñ░αñ¿αñ╛ αñ╣αÑï, government scheme αñòαÑç αñ¼αñ╛αñ░αÑç αñ«αÑçαñé αñ£αñ╛αñ¿αñ¿αñ╛ αñ╣αÑï, αñ»αñ╛ αñòαñ┐αñ╕αÑÇ complaint αñòαÑÇ status check αñòαñ░αñ¿αÑÇ αñ╣αÑï αññαÑï αñåαñ¬ αñ«αÑüαñ¥αñ╕αÑç αñ¬αÑéαñ¢ αñ╕αñòαññαÑç αñ╣αÑêαñéαÑñ"
+   
+   ≡ƒô¥ Category: gratitude_hindi
+   ≡ƒîÉ Language: Hindi
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: GREETING
+   Total: 3 questions
+================================================================================
+
+34. ID: conv_010
+   Context: greeting_hinglish
+   
+   Γ¥ô QUESTION:
+      "Namaste"
+   
+   Γ£à EXPECTED ANSWER:
+      "Namaste. Main Vaani hoon. Kripya bataye main aapki kaise madad kar sakta hoon."
+   
+   ≡ƒô¥ Category: greeting
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+35. ID: conv_011
+   Context: greeting_english
+   
+   Γ¥ô QUESTION:
+      "Hello"
+   
+   Γ£à EXPECTED ANSWER:
+      "Hello. I am Vaani. Please tell me how I can help you."
+   
+   ≡ƒô¥ Category: greeting_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+36. ID: conv_012
+   Context: greeting_hindi
+   
+   Γ¥ô QUESTION:
+      "αñ¿αñ«αñ╕αÑìαññαÑç"
+   
+   Γ£à EXPECTED ANSWER:
+      "αñ¿αñ«αñ╕αÑìαññαÑçαÑñ αñ«αÑêαñé Vaani αñ╣αÑéαñéαÑñ αñòαÑâαñ¬αñ»αñ╛ αñ¼αññαñ╛αñÅαñé αñ«αÑêαñé αñåαñ¬αñòαÑÇ αñòαÑêαñ╕αÑç αñ«αñªαñª αñòαñ░ αñ╕αñòαññαñ╛ αñ╣αÑéαñéαÑñ"
+   
+   ≡ƒô¥ Category: greeting_hindi
+   ≡ƒîÉ Language: Hindi
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: HELP REQUEST
+   Total: 3 questions
+================================================================================
+
+37. ID: conv_013
+   Context: help_request_hinglish
+   
+   Γ¥ô QUESTION:
+      "Mujhe madad chahiye"
+   
+   Γ£à EXPECTED ANSWER:
+      "Zaroor. Kripya bataye aapko kis cheez me madad chahiye. Main aapko sahi direction me guide karunga."
+   
+   ≡ƒô¥ Category: help_request
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+38. ID: conv_014
+   Context: help_request_english
+   
+   Γ¥ô QUESTION:
+      "I need help"
+   
+   Γ£à EXPECTED ANSWER:
+      "Sure. Please tell me what you need help with. I will guide you in the right direction."
+   
+   ≡ƒô¥ Category: help_request_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+39. ID: conv_015
+   Context: help_request_hindi
+   
+   Γ¥ô QUESTION:
+      "αñ«αÑüαñ¥αÑç αñ«αñªαñª αñÜαñ╛αñ╣αñ┐αñÅ"
+   
+   Γ£à EXPECTED ANSWER:
+      "αñ£αñ╝αñ░αÑéαñ░αÑñ αñòαÑâαñ¬αñ»αñ╛ αñ¼αññαñ╛αñÅαñé αñåαñ¬αñòαÑï αñòαñ┐αñ╕ αñÜαÑÇαñ£αñ╝ αñ«αÑçαñé αñ«αñªαñª αñÜαñ╛αñ╣αñ┐αñÅαÑñ αñ«αÑêαñé αñåαñ¬αñòαÑï αñ╕αñ╣αÑÇ direction αñ«αÑçαñé guide αñòαñ░αÑéαñéαñùαñ╛αÑñ"
+   
+   ≡ƒô¥ Category: help_request_hindi
+   ≡ƒîÉ Language: Hindi
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: IGNORED PROBLEM
+   Total: 2 questions
+================================================================================
+
+40. ID: conv_019
+   Context: ignored_problem_hinglish
+   
+   Γ¥ô QUESTION:
+      "Koi meri problem nahi sun raha"
+   
+   Γ£à EXPECTED ANSWER:
+      "Aap chinta na kare. Aap apni problem yahan report kar sakte ho. Main aapko sahi department tak pahunchane me madad karunga."
+   
+   ≡ƒô¥ Category: ignored_problem
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+41. ID: conv_020
+   Context: ignored_problem_english
+   
+   Γ¥ô QUESTION:
+      "No one is listening to my problem"
+   
+   Γ£à EXPECTED ANSWER:
+      "Don't worry. You can report your problem here. I will help you reach the right department."
+   
+   ≡ƒô¥ Category: ignored_problem_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: INTRODUCTION
+   Total: 3 questions
+================================================================================
+
+42. ID: conv_001
+   Context: identity_hinglish
+   
+   Γ¥ô QUESTION:
+      "Tum kaun ho?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic problems report karne, government schemes ki information dene aur complaint status track karne me."
+   
+   ≡ƒô¥ Category: introduction
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+43. ID: conv_002
+   Context: identity_english
+   
+   Γ¥ô QUESTION:
+      "Who are you?"
+   
+   Γ£à EXPECTED ANSWER:
+      "My name is Vaani. I am an AI based civic assistant. I help citizens report civic problems, provide government scheme information and track complaint status."
+   
+   ≡ƒô¥ Category: introduction_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+44. ID: conv_003
+   Context: identity_hindi
+   
+   Γ¥ô QUESTION:
+      "αññαÑüαñ« αñòαÑîαñ¿ αñ╣αÑï?"
+   
+   Γ£à EXPECTED ANSWER:
+      "αñ«αÑçαñ░αñ╛ αñ¿αñ╛αñ« Vaani αñ╣αÑêαÑñ αñ«αÑêαñé αñÅαñò AI based civic assistant αñ╣αÑéαñéαÑñ αñ«αÑêαñé citizens αñòαÑÇ αñ«αñªαñª αñòαñ░αññαñ╛ αñ╣αÑéαñé civic problems report αñòαñ░αñ¿αÑç, government schemes αñòαÑÇ information αñªαÑçαñ¿αÑç αñöαñ░ complaint status track αñòαñ░αñ¿αÑç αñ«αÑçαñéαÑñ"
+   
+   ≡ƒô¥ Category: introduction_hindi
+   ≡ƒîÉ Language: Hindi
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: PLATFORM HELP
+   Total: 3 questions
+================================================================================
+
+45. ID: conv_004
+   Context: about_vaani_hinglish
+   
+   Γ¥ô QUESTION:
+      "Vaani kya hai?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Vaani ek smart AI assistant hai jo logon ko government services aur civic complaints me madad karta hai. Yahan aap road, pani, bijli aur safai jaise issues report kar sakte ho."
+   
+   ≡ƒô¥ Category: platform_help
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+46. ID: conv_005
+   Context: about_vaani_english
+   
+   Γ¥ô QUESTION:
+      "What is Vaani?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Vaani is a smart AI assistant that helps people with government services and civic complaints. Here you can report issues like road, water, electricity and sanitation."
+   
+   ≡ƒô¥ Category: platform_help_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+47. ID: conv_006
+   Context: about_vaani_hindi
+   
+   Γ¥ô QUESTION:
+      "Vaani αñòαÑìαñ»αñ╛ αñ╣αÑê?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Vaani αñÅαñò smart AI assistant αñ╣αÑê αñ£αÑï αñ▓αÑïαñùαÑïαñé αñòαÑï government services αñöαñ░ civic complaints αñ«αÑçαñé αñ«αñªαñª αñòαñ░αññαñ╛ αñ╣αÑêαÑñ αñ»αñ╣αñ╛αñé αñåαñ¬ road, pani, bijli αñöαñ░ safai αñ£αÑêαñ╕αÑç issues report αñòαñ░ αñ╕αñòαññαÑç αñ╣αÑïαÑñ"
+   
+   ≡ƒô¥ Category: platform_help_hindi
+   ≡ƒîÉ Language: Hindi
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: PM AWAS YOJANA
+   Total: 2 questions
+================================================================================
+
+48. ID: conv_055
+   Context: awas_yojana_hinglish
+   
+   Γ¥ô QUESTION:
+      "PM Awas Yojana me apply kaise kare?"
+   
+   Γ£à EXPECTED ANSWER:
+      "PM Awas Yojana ke liye aap official government portal par online application kar sakte ho."
+   
+   ≡ƒô¥ Category: pm_awas_yojana
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+49. ID: conv_056
+   Context: awas_yojana_english
+   
+   Γ¥ô QUESTION:
+      "How to apply in PM Awas Yojana?"
+   
+   Γ£à EXPECTED ANSWER:
+      "For PM Awas Yojana, you can apply online on official government portal."
+   
+   ≡ƒô¥ Category: pm_awas_yojana_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: RATION CARD
+   Total: 2 questions
+================================================================================
+
+50. ID: conv_057
+   Context: ration_card_hinglish
+   
+   Γ¥ô QUESTION:
+      "Ration card kaise banwaye?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Ration card banwane ke liye aap apne state food supply portal par online apply kar sakte ho."
+   
+   ≡ƒô¥ Category: ration_card
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+51. ID: conv_058
+   Context: ration_card_english
+   
+   Γ¥ô QUESTION:
+      "How to make ration card?"
+   
+   Γ£à EXPECTED ANSWER:
+      "To make ration card, you can apply online on your state food supply portal."
+   
+   ≡ƒô¥ Category: ration_card_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: ROAD POTHOLE
+   Total: 3 questions
+================================================================================
+
+52. ID: conv_027
+   Context: road_issue_hinglish
+   
+   Γ¥ô QUESTION:
+      "Sadak toot gayi hai kya kare?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal department ko issue ki information mil jayegi."
+   
+   ≡ƒô¥ Category: road_pothole
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+53. ID: conv_028
+   Context: road_issue_english
+   
+   Γ¥ô QUESTION:
+      "Road is damaged, what to do?"
+   
+   Γ£à EXPECTED ANSWER:
+      "If road is damaged, you can register a road maintenance complaint. This will inform the municipal department about the issue."
+   
+   ≡ƒô¥ Category: road_pothole_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+54. ID: conv_029
+   Context: road_issue_hindi
+   
+   Γ¥ô QUESTION:
+      "αñ╕αñíαñ╝αñò αñƒαÑéαñƒ αñùαñê αñ╣αÑê αñòαÑìαñ»αñ╛ αñòαñ░αÑçαñé?"
+   
+   Γ£à EXPECTED ANSWER:
+      "αñàαñùαñ░ αñ╕αñíαñ╝αñò αñƒαÑéαñƒ αñùαñê αñ╣αÑê αññαÑï αñåαñ¬ road maintenance complaint register αñòαñ░ αñ╕αñòαññαÑç αñ╣αÑïαÑñ αñçαñ╕αñ╕αÑç municipal department αñòαÑï issue αñòαÑÇ information αñ«αñ┐αñ▓ αñ£αñ╛αñÅαñùαÑÇαÑñ"
+   
+   ≡ƒô¥ Category: road_pothole_hindi
+   ≡ƒîÉ Language: Hindi
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: SCHEME INFO
+   Total: 3 questions
+================================================================================
+
+55. ID: conv_063
+   Context: scheme_info_hinglish
+   
+   Γ¥ô QUESTION:
+      "Sarkari scheme kaise pata kare?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Sarkari schemes ki jaankari ke liye aap mujhse pooch sakte ho. Main aapko Ayushman Bharat, PM Awas Yojana, Ration Card aur anya schemes ke baare me bata sakta hoon. Aap scheme ka naam bataiye ya 'government schemes' kahiye."
+   
+   ≡ƒô¥ Category: scheme_info
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+56. ID: conv_064
+   Context: scheme_info_english
+   
+   Γ¥ô QUESTION:
+      "How to find government schemes?"
+   
+   Γ£à EXPECTED ANSWER:
+      "To find information about government schemes, you can ask me. I can tell you about Ayushman Bharat, PM Awas Yojana, Ration Card and other schemes. You can mention the scheme name or say 'government schemes'."
+   
+   ≡ƒô¥ Category: scheme_info_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+57. ID: conv_065
+   Context: scheme_info_hindi
+   
+   Γ¥ô QUESTION:
+      "αñ╕αñ░αñòαñ╛αñ░αÑÇ αñ»αÑïαñ£αñ¿αñ╛ αñòαÑêαñ╕αÑç αñ¬αññαñ╛ αñòαñ░αÑçαñé?"
+   
+   Γ£à EXPECTED ANSWER:
+      "αñ╕αñ░αñòαñ╛αñ░αÑÇ αñ»αÑïαñ£αñ¿αñ╛αñôαñé αñòαÑÇ αñ£αñ╛αñ¿αñòαñ╛αñ░αÑÇ αñòαÑç αñ▓αñ┐αñÅ αñåαñ¬ αñ«αÑüαñ¥αñ╕αÑç αñ¬αÑéαñ¢ αñ╕αñòαññαÑç αñ╣αÑïαÑñ αñ«αÑêαñé αñåαñ¬αñòαÑï Ayushman Bharat, PM Awas Yojana, Ration Card αñöαñ░ αñàαñ¿αÑìαñ» schemes αñòαÑç αñ¼αñ╛αñ░αÑç αñ«αÑçαñé αñ¼αññαñ╛ αñ╕αñòαññαñ╛ αñ╣αÑéαñéαÑñ αñåαñ¬ scheme αñòαñ╛ αñ¿αñ╛αñ« αñ¼αññαñ╛αñçαñÅ αñ»αñ╛ 'government schemes' αñòαñ╣αñ┐αñÅαÑñ"
+   
+   ≡ƒô¥ Category: scheme_info_hindi
+   ≡ƒîÉ Language: Hindi
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: STREETLIGHT
+   Total: 3 questions
+================================================================================
+
+58. ID: conv_030
+   Context: streetlight_issue_hinglish
+   
+   Γ¥ô QUESTION:
+      "Street light kharab hai kya kare?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Aap street light repair complaint register kar sakte ho. Isse electricity department ko repair request bhej di jayegi."
+   
+   ≡ƒô¥ Category: streetlight
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+59. ID: conv_031
+   Context: streetlight_issue_english
+   
+   Γ¥ô QUESTION:
+      "Street light is broken, what to do?"
+   
+   Γ£à EXPECTED ANSWER:
+      "You can register a street light repair complaint. This will send a repair request to the electricity department."
+   
+   ≡ƒô¥ Category: streetlight_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+60. ID: conv_032
+   Context: streetlight_issue_hindi
+   
+   Γ¥ô QUESTION:
+      "Street light αñûαñ░αñ╛αñ¼ αñ╣αÑê αñòαÑìαñ»αñ╛ αñòαñ░αÑçαñé?"
+   
+   Γ£à EXPECTED ANSWER:
+      "αñåαñ¬ street light repair complaint register αñòαñ░ αñ╕αñòαññαÑç αñ╣αÑïαÑñ αñçαñ╕αñ╕αÑç electricity department αñòαÑï repair request αñ¡αÑçαñ£ αñªαÑÇ αñ£αñ╛αñÅαñùαÑÇαÑñ"
+   
+   ≡ƒô¥ Category: streetlight_hindi
+   ≡ƒîÉ Language: Hindi
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: VOLUNTEER HELP
+   Total: 2 questions
+================================================================================
+
+61. ID: conv_059
+   Context: volunteer_help_hinglish
+   
+   Γ¥ô QUESTION:
+      "Volunteer help mil sakti hai kya?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Haan agar zarurat ho to aap volunteer assistance request kar sakte ho. Volunteer aapki madad kar sakta hai."
+   
+   ≡ƒô¥ Category: volunteer_help
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+62. ID: conv_060
+   Context: volunteer_help_english
+   
+   Γ¥ô QUESTION:
+      "Can I get volunteer help?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Yes, if needed you can request volunteer assistance. Volunteer can help you."
+   
+   ≡ƒô¥ Category: volunteer_help_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+================================================================================
+≡ƒôé CATEGORY: WATER SUPPLY
+   Total: 3 questions
+================================================================================
+
+63. ID: conv_033
+   Context: water_issue_hinglish
+   
+   Γ¥ô QUESTION:
+      "Pani nahi aa raha kya kare?"
+   
+   Γ£à EXPECTED ANSWER:
+      "Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho."
+   
+   ≡ƒô¥ Category: water_supply
+   ≡ƒîÉ Language: Hinglish
+   ----------------------------------------------------------------------------
+
+64. ID: conv_034
+   Context: water_issue_english
+   
+   Γ¥ô QUESTION:
+      "Water not coming, what to do?"
+   
+   Γ£à EXPECTED ANSWER:
+      "If water supply is not coming, you can register a water supply complaint."
+   
+   ≡ƒô¥ Category: water_supply_english
+   ≡ƒîÉ Language: English
+   ----------------------------------------------------------------------------
+
+65. ID: conv_035
+   Context: water_issue_hindi
+   
+   Γ¥ô QUESTION:
+      "αñ¬αñ╛αñ¿αÑÇ αñ¿αñ╣αÑÇαñé αñå αñ░αñ╣αñ╛ αñòαÑìαñ»αñ╛ αñòαñ░αÑçαñé?"
+   
+   Γ£à EXPECTED ANSWER:
+      "αñàαñùαñ░ αñ¬αñ╛αñ¿αÑÇ supply αñ¿αñ╣αÑÇαñé αñå αñ░αñ╣αÑÇ αñ╣αÑê αññαÑï αñåαñ¬ water supply complaint register αñòαñ░ αñ╕αñòαññαÑç αñ╣αÑïαÑñ"
+   
+   ≡ƒô¥ Category: water_supply_hindi
+   ≡ƒîÉ Language: Hindi
+   ----------------------------------------------------------------------------
+
+================================================================================
+
+≡ƒôè SUMMARY BY LANGUAGE:
+
+   English Questions: 24
+   Hindi Questions: 16
+   Hinglish Questions: 25
+
+≡ƒôè SUMMARY BY CATEGORY:
+
+   account creation: 3 questions
+   assistance: 3 questions
+   ayushman card: 2 questions
+   ayushman yojana: 2 questions
+   complaint filing: 3 questions
+   complaint tracking: 3 questions
+   drainage: 3 questions
+   emotional support: 3 questions
+   farewell: 1 questions
+   free service: 2 questions
+   garbage: 3 questions
+   government schemes: 2 questions
+   gratitude: 3 questions
+   greeting: 3 questions
+   help request: 3 questions
+   ignored problem: 2 questions
+   introduction: 3 questions
+   platform help: 3 questions
+   pm awas yojana: 2 questions
+   ration card: 2 questions
+   road pothole: 3 questions
+   scheme info: 3 questions
+   streetlight: 3 questions
+   volunteer help: 2 questions
+   water supply: 3 questions
+
+================================================================================
+
+Γ£à All questions documented with context and expected answers!
+≡ƒÄ» Use this as reference for understanding what each question should return

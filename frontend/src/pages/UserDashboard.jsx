@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { logout, getToken } from '../services/authService';
-import AIVoiceInteraction from '../../user-dashboard/src/components/AIVoiceInteraction';
+import VoiceCommandAssistant from '../components/VoiceCommandAssistant';
 
 function UserDashboard() {
   const navigate = useNavigate();
@@ -14,6 +14,17 @@ function UserDashboard() {
     if (!loading && (!user || role !== 'user')) {
       navigate('/login');
     }
+
+    // Listen for voice command events
+    const handleVoiceLogout = () => {
+      handleLogout();
+    };
+
+    window.addEventListener('voice-logout', handleVoiceLogout);
+
+    return () => {
+      window.removeEventListener('voice-logout', handleVoiceLogout);
+    };
   }, [user, role, loading, navigate]);
 
   useEffect(() => {
@@ -85,9 +96,9 @@ function UserDashboard() {
           </div>
         </div>
 
-        {/* Voice Assistant Component */}
+        {/* Voice Command Assistant */}
         <div className="mb-6">
-          <AIVoiceInteraction />
+          <VoiceCommandAssistant />
         </div>
 
         {error && (

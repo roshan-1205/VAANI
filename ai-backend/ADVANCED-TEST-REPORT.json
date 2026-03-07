@@ -1,0 +1,589 @@
+{
+  "timestamp": "2026-03-07T15:00:19.641Z",
+  "summary": {
+    "exact": {
+      "total": 124,
+      "passed": 124,
+      "failed": 0,
+      "accuracy": "100.00%"
+    },
+    "variations": {
+      "total": 285,
+      "passed": 258,
+      "failed": 27,
+      "accuracy": "90.53%"
+    },
+    "fuzzy": {
+      "total": 248,
+      "passed": 213,
+      "failed": 35,
+      "accuracy": "85.89%"
+    },
+    "overall": {
+      "total": 657,
+      "passed": 595,
+      "failed": 62,
+      "accuracy": "90.56%"
+    }
+  },
+  "failedTests": [
+    {
+      "id": "conv_001",
+      "category": "introduction",
+      "original": "Tum kaun ho?",
+      "variation": "tum kon ho?",
+      "variationType": "speech_error",
+      "expected": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic ",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_001",
+      "category": "introduction",
+      "original": "Tum kaun ho?",
+      "variation": "Tum kaun ho",
+      "variationType": "no_punctuation",
+      "expected": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic ",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_004",
+      "category": "platform_help",
+      "original": "Vaani kya hai?",
+      "variation": "wani kya hai?",
+      "variationType": "speech_error",
+      "expected": "Vaani ek smart AI assistant hai jo logon ko government services aur civic complaints me madad karta ",
+      "got": "Vaani is a smart AI assistant that helps people with government services and civic complaints. Here "
+    },
+    {
+      "id": "conv_004",
+      "category": "platform_help",
+      "original": "Vaani kya hai?",
+      "variation": "Vaani kya hai",
+      "variationType": "no_punctuation",
+      "expected": "Vaani ek smart AI assistant hai jo logon ko government services aur civic complaints me madad karta ",
+      "got": "Vaani is a smart AI assistant that helps people with government services and civic complaints. Here "
+    },
+    {
+      "id": "conv_007",
+      "category": "assistance",
+      "original": "Tum kya madad kar sakte ho?",
+      "variation": "Tum kya madad kar sakte ho",
+      "variationType": "no_punctuation",
+      "expected": "Main aapko civic issues report karne, government schemes ke baare me batane aur complaint ka status ",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_019",
+      "category": "ignored_problem",
+      "original": "Koi meri problem nahi sun raha",
+      "variation": "koi meri problem nhi sun raha",
+      "variationType": "speech_error",
+      "expected": "Aap chinta na kare. Aap apni problem yahan report kar sakte ho. Main aapko sahi department tak pahun",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_021",
+      "category": "complaint_filing",
+      "original": "Complaint kaise kare?",
+      "variation": "complaint kese kare?",
+      "variationType": "speech_error",
+      "expected": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_021",
+      "category": "complaint_filing",
+      "original": "Complaint kaise kare?",
+      "variation": "Complaint kaise kare",
+      "variationType": "no_punctuation",
+      "expected": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_024",
+      "category": "complaint_tracking",
+      "original": "Complaint status kaise check kare?",
+      "variation": "complaint status kese check kare?",
+      "variationType": "speech_error",
+      "expected": "Aap complaint ID ke through apni complaint ka status check kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_024",
+      "category": "complaint_tracking",
+      "original": "Complaint status kaise check kare?",
+      "variation": "Complaint status kaise check kare",
+      "variationType": "no_punctuation",
+      "expected": "Aap complaint ID ke through apni complaint ka status check kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_027",
+      "category": "road_pothole",
+      "original": "Sadak toot gayi hai kya kare?",
+      "variation": "sadak toot gai hai kya kare?",
+      "variationType": "speech_error",
+      "expected": "Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal dep",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_027",
+      "category": "road_pothole",
+      "original": "Sadak toot gayi hai kya kare?",
+      "variation": "Sadak toot gayi hai kya kare",
+      "variationType": "no_punctuation",
+      "expected": "Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal dep",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_028",
+      "category": "road_pothole_english",
+      "original": "Road is damaged, what to do?",
+      "variation": "Road is damaged, what to do",
+      "variationType": "no_punctuation",
+      "expected": "If road is damaged, you can register a road maintenance complaint. This will inform the municipal de",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_030",
+      "category": "streetlight",
+      "original": "Street light kharab hai kya kare?",
+      "variation": "Street light kharab hai kya kare",
+      "variationType": "no_punctuation",
+      "expected": "Aap street light repair complaint register kar sakte ho. Isse electricity department ko repair reque",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_031",
+      "category": "streetlight_english",
+      "original": "Street light is broken, what to do?",
+      "variation": "Street light is broken, what to do",
+      "variationType": "no_punctuation",
+      "expected": "You can register a street light repair complaint. This will send a repair request to the electricity",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_033",
+      "category": "water_supply",
+      "original": "Pani nahi aa raha kya kare?",
+      "variation": "pani nhi aa raha kya kare?",
+      "variationType": "speech_error",
+      "expected": "Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_033",
+      "category": "water_supply",
+      "original": "Pani nahi aa raha kya kare?",
+      "variation": "Pani nahi aa raha kya kare",
+      "variationType": "no_punctuation",
+      "expected": "Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_034",
+      "category": "water_supply_english",
+      "original": "Water not coming, what to do?",
+      "variation": "Water not coming, what to do",
+      "variationType": "no_punctuation",
+      "expected": "If water supply is not coming, you can register a water supply complaint.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_036",
+      "category": "garbage",
+      "original": "Kooda nahi uth raha kya kare?",
+      "variation": "kooda nhi uth raha kya kare?",
+      "variationType": "speech_error",
+      "expected": "Agar kachra collect nahi ho raha hai to aap sanitation complaint register kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_036",
+      "category": "garbage",
+      "original": "Kooda nahi uth raha kya kare?",
+      "variation": "Kooda nahi uth raha kya kare",
+      "variationType": "no_punctuation",
+      "expected": "Agar kachra collect nahi ho raha hai to aap sanitation complaint register kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_037",
+      "category": "garbage_english",
+      "original": "Garbage not collected, what to do?",
+      "variation": "Garbage not collected, what to do",
+      "variationType": "no_punctuation",
+      "expected": "If garbage is not being collected, you can register a sanitation complaint.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_039",
+      "category": "drainage",
+      "original": "Sewer overflow ho raha hai kya kare?",
+      "variation": "sewer overflow ho rha hai kya kare?",
+      "variationType": "speech_error",
+      "expected": "Sewer overflow ek sanitation problem hai. Aap sewer ya drainage complaint register kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_039",
+      "category": "drainage",
+      "original": "Sewer overflow ho raha hai kya kare?",
+      "variation": "Sewer overflow ho raha hai kya kare",
+      "variationType": "no_punctuation",
+      "expected": "Sewer overflow ek sanitation problem hai. Aap sewer ya drainage complaint register kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_040",
+      "category": "drainage_english",
+      "original": "Sewer is overflowing, what to do?",
+      "variation": "Sewer is overflowing, what to do",
+      "variationType": "no_punctuation",
+      "expected": "Sewer overflow is a sanitation problem. You can register a sewer or drainage complaint.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_042",
+      "category": "account_creation",
+      "original": "Account kaise banaye?",
+      "variation": "account kese banaye?",
+      "variationType": "speech_error",
+      "expected": "VAANI par account banana bahut easy hai. Sabse pehle VAANI website ya app open karein. Uske baad Sig",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_042",
+      "category": "account_creation",
+      "original": "Account kaise banaye?",
+      "variation": "Account kaise banaye",
+      "variationType": "no_punctuation",
+      "expected": "VAANI par account banana bahut easy hai. Sabse pehle VAANI website ya app open karein. Uske baad Sig",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_049",
+      "category": "government_schemes",
+      "original": "Government schemes ki information kaise milegi?",
+      "variation": "government schemes ki information kese milegi?",
+      "variationType": "speech_error",
+      "expected": "Main aapko different government schemes ke baare me information de sakta hoon aur eligibility bhi sa",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_049",
+      "category": "government_schemes",
+      "original": "Government schemes ki information kaise milegi?",
+      "variation": "Government schemes ki information kaise milegi",
+      "variationType": "no_punctuation",
+      "expected": "Main aapko different government schemes ke baare me information de sakta hoon aur eligibility bhi sa",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_055",
+      "category": "pm_awas_yojana",
+      "original": "PM Awas Yojana me apply kaise kare?",
+      "variation": "pm awas yojana me apply kese kare?",
+      "variationType": "speech_error",
+      "expected": "PM Awas Yojana ke liye aap official government portal par online application kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_055",
+      "category": "pm_awas_yojana",
+      "original": "PM Awas Yojana me apply kaise kare?",
+      "variation": "PM Awas Yojana me apply kaise kare",
+      "variationType": "no_punctuation",
+      "expected": "PM Awas Yojana ke liye aap official government portal par online application kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_057",
+      "category": "ration_card",
+      "original": "Ration card kaise banwaye?",
+      "variation": "ration card kese banwaye?",
+      "variationType": "speech_error",
+      "expected": "Ration card banwane ke liye aap apne state food supply portal par online apply kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_057",
+      "category": "ration_card",
+      "original": "Ration card kaise banwaye?",
+      "variation": "Ration card kaise banwaye",
+      "variationType": "no_punctuation",
+      "expected": "Ration card banwane ke liye aap apne state food supply portal par online apply kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_059",
+      "category": "volunteer_help",
+      "original": "Volunteer help mil sakti hai kya?",
+      "variation": "Volunteer help mil sakti hai kya",
+      "variationType": "no_punctuation",
+      "expected": "Haan agar zarurat ho to aap volunteer assistance request kar sakte ho. Volunteer aapki madad kar sak",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_061",
+      "category": "free_service",
+      "original": "Complaint karna free hai kya?",
+      "variation": "complen karna free hai kya?",
+      "variationType": "speech_error",
+      "expected": "Haan civic complaints register karna free hota hai. Iske liye koi charge nahi hota.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_061",
+      "category": "free_service",
+      "original": "Complaint karna free hai kya?",
+      "variation": "Complaint karna free hai kya",
+      "variationType": "no_punctuation",
+      "expected": "Haan civic complaints register karna free hota hai. Iske liye koi charge nahi hota.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_066",
+      "category": "introduction",
+      "original": "Aap kaun hain?",
+      "variation": "aap kon hain?",
+      "variationType": "speech_error",
+      "expected": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic ",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_066",
+      "category": "introduction",
+      "original": "Aap kaun hain?",
+      "variation": "Aap kaun hain",
+      "variationType": "no_punctuation",
+      "expected": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic ",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_067",
+      "category": "introduction",
+      "original": "Apka naam kya hai?",
+      "variation": "Apka naam kya hai",
+      "variationType": "no_punctuation",
+      "expected": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic ",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_070",
+      "category": "platform_help",
+      "original": "Ye app kya karta hai?",
+      "variation": "Ye app kya karta hai",
+      "variationType": "no_punctuation",
+      "expected": "Vaani ek smart AI assistant hai jo logon ko government services aur civic complaints me madad karta ",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_071",
+      "category": "platform_help",
+      "original": "Isme kya features hain?",
+      "variation": "Isme kya features hain",
+      "variationType": "no_punctuation",
+      "expected": "Vaani me aap civic complaints register kar sakte ho, government schemes ki jaankari le sakte ho, com",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_074",
+      "category": "complaint_filing",
+      "original": "Shikayat kaise darj kare?",
+      "variation": "shikayat kese darj kare?",
+      "variationType": "speech_error",
+      "expected": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_074",
+      "category": "complaint_filing",
+      "original": "Shikayat kaise darj kare?",
+      "variation": "Shikayat kaise darj kare",
+      "variationType": "no_punctuation",
+      "expected": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_075",
+      "category": "complaint_filing",
+      "original": "Complaint register kaise kare?",
+      "variation": "complaint register kese kare?",
+      "variationType": "speech_error",
+      "expected": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_075",
+      "category": "complaint_filing",
+      "original": "Complaint register kaise kare?",
+      "variation": "Complaint register kaise kare",
+      "variationType": "no_punctuation",
+      "expected": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_079",
+      "category": "road_pothole",
+      "original": "Road kharab ho gayi hai",
+      "variation": "road kharab ho gai hai",
+      "variationType": "speech_error",
+      "expected": "Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal dep",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_083",
+      "category": "water_supply",
+      "original": "Pani nahi mil raha",
+      "variation": "pani nhi mil raha",
+      "variationType": "speech_error",
+      "expected": "Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_086",
+      "category": "electricity",
+      "original": "Bijli nahi aa rahi",
+      "variation": "bijli nhi aa rahi",
+      "variationType": "speech_error",
+      "expected": "Agar bijli supply me problem hai to aap electricity complaint register kar sakte ho. Isse electricit",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_090",
+      "category": "garbage",
+      "original": "Kachra nahi utha rahe",
+      "variation": "kachra nhi utha rahe",
+      "variationType": "speech_error",
+      "expected": "Agar kachra collect nahi ho raha hai to aap sanitation complaint register kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_091",
+      "category": "garbage",
+      "original": "Safai wale nahi aaye",
+      "variation": "safai wale nhi aaye",
+      "variationType": "speech_error",
+      "expected": "Agar kachra collect nahi ho raha hai to aap sanitation complaint register kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_097",
+      "category": "ujjwala_yojana",
+      "original": "Ujjwala Yojana kya hai?",
+      "variation": "Ujjwala Yojana kya hai",
+      "variationType": "no_punctuation",
+      "expected": "Pradhan Mantri Ujjwala Yojana ek government scheme hai jisme eligible mahilaon ko free LPG connectio",
+      "got": "Pradhan Mantri Ujjwala Yojana is a government scheme where eligible women get free LPG connection. Y"
+    },
+    {
+      "id": "conv_120",
+      "category": "complaint_tracking",
+      "original": "Meri complaint ka kya hua?",
+      "variation": "meri complen ka kya hua?",
+      "variationType": "speech_error",
+      "expected": "Aap complaint ID ke through apni complaint ka status check kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_120",
+      "category": "complaint_tracking",
+      "original": "Meri complaint ka kya hua?",
+      "variation": "Meri complaint ka kya hua",
+      "variationType": "no_punctuation",
+      "expected": "Aap complaint ID ke through apni complaint ka status check kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_121",
+      "category": "complaint_tracking",
+      "original": "Complaint ka status kya hai?",
+      "variation": "complen ka status kya hai?",
+      "variationType": "speech_error",
+      "expected": "Aap complaint ID ke through apni complaint ka status check kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_121",
+      "category": "complaint_tracking",
+      "original": "Complaint ka status kya hai?",
+      "variation": "Complaint ka status kya hai",
+      "variationType": "no_punctuation",
+      "expected": "Aap complaint ID ke through apni complaint ka status check kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_124",
+      "category": "pm_awas_yojana",
+      "original": "Ghar ke liye scheme kya hai?",
+      "variation": "Ghar ke liye scheme kya hai",
+      "variationType": "no_punctuation",
+      "expected": "PM Awas Yojana ke liye aap official government portal par online application kar sakte ho. Isme elig",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_126",
+      "category": "ration_card",
+      "original": "Ration card ke liye documents kya chahiye?",
+      "variation": "Ration card ke liye documents kya chahiye",
+      "variationType": "no_punctuation",
+      "expected": "Ration card banwane ke liye aapko identity proof, address proof aur income certificate ki zarurat ho",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_128",
+      "category": "drainage",
+      "original": "Nali overflow ho rahi hai",
+      "variation": "nali overflow ho rhi hai",
+      "variationType": "speech_error",
+      "expected": "Sewer overflow ek sanitation problem hai. Aap sewer ya drainage complaint register kar sakte ho.",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_051",
+      "category": "ayushman_yojana",
+      "original": "Ayushman Bharat Yojana kya hai?",
+      "variation": "Ayushman Bharat Yojana kya hai",
+      "variationType": "no_punctuation",
+      "expected": "Ayushman Bharat Yojana (Pradhan Mantri Jan Arogya Yojana - PMJAY) Bharat ki sabse badi health insura",
+      "got": "Ayushman Bharat Yojana (Pradhan Mantri Jan Arogya Yojana - PMJAY) is India's largest health insuranc"
+    },
+    {
+      "id": "conv_053",
+      "category": "ayushman_card",
+      "original": "Ayushman card kaise banwaye?",
+      "variation": "ayushman card kese banwaye?",
+      "variationType": "speech_error",
+      "expected": "Ayushman card banwane ke liye yeh detailed steps follow karein:\n\n1. ELIGIBILITY CHECK:\n   - Ayushman",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_053",
+      "category": "ayushman_card",
+      "original": "Ayushman card kaise banwaye?",
+      "variation": "Ayushman card kaise banwaye",
+      "variationType": "no_punctuation",
+      "expected": "Ayushman card banwane ke liye yeh detailed steps follow karein:\n\n1. ELIGIBILITY CHECK:\n   - Ayushman",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_100",
+      "category": "ayushman_yojana",
+      "original": "Ayushman card ke liye eligible kaun hai?",
+      "variation": "ayushman card ke liye eligible kon hai?",
+      "variationType": "speech_error",
+      "expected": "Ayushman Bharat scheme me yeh log eligible hain:\n\n1. SECC 2011 DATA:\n   - Socio-Economic Caste Censu",
+      "got": "NO RESPONSE"
+    },
+    {
+      "id": "conv_100",
+      "category": "ayushman_yojana",
+      "original": "Ayushman card ke liye eligible kaun hai?",
+      "variation": "Ayushman card ke liye eligible kaun hai",
+      "variationType": "no_punctuation",
+      "expected": "Ayushman Bharat scheme me yeh log eligible hain:\n\n1. SECC 2011 DATA:\n   - Socio-Economic Caste Censu",
+      "got": "NO RESPONSE"
+    }
+  ]
+}

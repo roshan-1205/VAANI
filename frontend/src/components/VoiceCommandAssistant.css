@@ -1,0 +1,242 @@
+.voice-command-container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.voice-command-card {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 20px;
+  padding: 2rem;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.voice-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.voice-header h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.voice-subtitle {
+  font-size: 0.95rem;
+  opacity: 0.9;
+}
+
+.voice-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.mic-button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  background: white;
+  color: #667eea;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.mic-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.mic-button.listening {
+  background: #ff4757;
+  color: white;
+  animation: pulse 1.5s infinite;
+}
+
+.mic-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.speaker-button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.speaker-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.listening-indicator {
+  text-align: center;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.pulse-ring {
+  width: 60px;
+  height: 60px;
+  border: 3px solid white;
+  border-radius: 50%;
+  margin: 0 auto 0.5rem;
+  animation: pulse-ring 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(0.8);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
+}
+
+.processing-indicator {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top-color: white;
+  border-radius: 50%;
+  margin: 0 auto 0.5rem;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.transcript-box,
+.response-box {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.transcript-box strong,
+.response-box strong {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.transcript-box p,
+.response-box p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.response-box {
+  position: relative;
+}
+
+.speaking-icon {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  animation: pulse 1s infinite;
+}
+
+.error-box {
+  background: rgba(255, 71, 87, 0.2);
+  border: 1px solid rgba(255, 71, 87, 0.4);
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.error-box p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.voice-commands-help {
+  margin-top: 1.5rem;
+}
+
+.voice-commands-help details {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.voice-commands-help summary {
+  font-weight: 600;
+  padding: 0.5rem 0;
+  outline: none;
+  user-select: none;
+}
+
+.voice-commands-help ul {
+  list-style: none;
+  padding: 0.5rem 0 0 0;
+  margin: 0;
+}
+
+.voice-commands-help li {
+  padding: 0.4rem 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.voice-commands-help li:last-child {
+  border-bottom: none;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .voice-command-card {
+    padding: 1.5rem;
+  }
+
+  .voice-header h3 {
+    font-size: 1.5rem;
+  }
+
+  .mic-button {
+    width: 70px;
+    height: 70px;
+  }
+}

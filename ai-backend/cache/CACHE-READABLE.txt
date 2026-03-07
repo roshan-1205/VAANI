@@ -1,0 +1,2240 @@
+# VAANI CACHE - ALL ENTRIES
+
+Total Entries: 124
+Last Updated: 2026-03-07T12:51:47.252Z
+File Size: 43.50 KB
+
+====================================================================================================
+
+ENTRY 1/124
+====================================================================================================
+
+KEY: ddc3facb4eaa70453d676bdbea54a4f2
+MESSAGE: hinglish:Tum kaun ho?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:23 pm
+LAST USED: 7/3/2026, 4:18:18 pm
+USE COUNT: 9
+RESPONSE LENGTH: 198 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic problems report karne, government schemes ki information dene aur complaint status track karne me.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 2/124
+====================================================================================================
+
+KEY: 0dffef24bc58d73720e7a7803d49e25b
+MESSAGE: english:Who are you?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:23 pm
+LAST USED: 7/3/2026, 4:18:18 pm
+USE COUNT: 7
+RESPONSE LENGTH: 156 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+My name is Vaani. I am an AI based civic assistant. I help citizens report civic problems, provide government scheme information and track complaint status.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 3/124
+====================================================================================================
+
+KEY: 50b362716dd3dabff3152b65a1d435fa
+MESSAGE: hindi:तुम कौन हो?
+LANGUAGE: hindi
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:23 pm
+LAST USED: 7/3/2026, 4:18:18 pm
+USE COUNT: 7
+RESPONSE LENGTH: 187 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मेरा नाम Vaani है। मैं एक AI based civic assistant हूं। मैं citizens की मदद करता हूं civic problems report करने, government schemes की information देने और complaint status track करने में।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 4/124
+====================================================================================================
+
+KEY: 20add97c9af21868bf90e871420bc4a1
+MESSAGE: hinglish:tum kon ho
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:23 pm
+LAST USED: 7/3/2026, 3:58:57 pm
+USE COUNT: 3
+RESPONSE LENGTH: 198 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic problems report karne, government schemes ki information dene aur complaint status track karne me.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 5/124
+====================================================================================================
+
+KEY: 7dff271cf8a596f971be84b1dcc2cc1f
+MESSAGE: hinglish:wani kya hai
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:23 pm
+LAST USED: 7/3/2026, 3:58:57 pm
+USE COUNT: 3
+RESPONSE LENGTH: 176 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Vaani ek smart AI assistant hai jo logon ko government services aur civic complaints me madad karta hai. Yahan aap road, pani, bijli aur safai jaise issues report kar sakte ho.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 6/124
+====================================================================================================
+
+KEY: dc26f8f040264fef8df992382ddb63f3
+MESSAGE: hinglish:complain kese kare
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:23 pm
+LAST USED: 7/3/2026, 3:58:57 pm
+USE COUNT: 2
+RESPONSE LENGTH: 148 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 7/124
+====================================================================================================
+
+KEY: 19eed46830d373e5b6f6ceb1568544d8
+MESSAGE: hinglish:pani nhi aa rha
+LANGUAGE: hinglish
+SOURCE: training_similar
+CREATED: 7/3/2026, 3:50:24 pm
+LAST USED: 7/3/2026, 3:58:57 pm
+USE COUNT: 3
+RESPONSE LENGTH: 86 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 8/124
+====================================================================================================
+
+KEY: e61626415f20182ba5098936de5fc55e
+MESSAGE: hinglish:Vaani kya hai?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:24 pm
+LAST USED: 7/3/2026, 4:18:18 pm
+USE COUNT: 9
+RESPONSE LENGTH: 176 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Vaani ek smart AI assistant hai jo logon ko government services aur civic complaints me madad karta hai. Yahan aap road, pani, bijli aur safai jaise issues report kar sakte ho.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 9/124
+====================================================================================================
+
+KEY: 2653877499ecb880acae5a212ebff912
+MESSAGE: english:What is Vaani?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:24 pm
+LAST USED: 7/3/2026, 4:18:18 pm
+USE COUNT: 7
+RESPONSE LENGTH: 167 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Vaani is a smart AI assistant that helps people with government services and civic complaints. Here you can report issues like road, water, electricity and sanitation.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 10/124
+====================================================================================================
+
+KEY: 08a7f4c956a0ab77d62d52b20457557e
+MESSAGE: hinglish:Ayushman card kaise banwaye?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:24 pm
+LAST USED: 7/3/2026, 4:18:24 pm
+USE COUNT: 8
+RESPONSE LENGTH: 170 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Ayushman card banwane ke liye aap Ayushman Bharat portal par eligibility check kar sakte ho. Agar aap eligible ho to nearest CSC center ya hospital me card ban sakta hai.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 11/124
+====================================================================================================
+
+KEY: d28c3e0d26f8c82b7578c63c06bfe7a1
+MESSAGE: hinglish:Volunteer help mil sakti hai kya?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:24 pm
+LAST USED: 7/3/2026, 4:18:24 pm
+USE COUNT: 8
+RESPONSE LENGTH: 107 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Haan agar zarurat ho to aap volunteer assistance request kar sakte ho. Volunteer aapki madad kar sakta hai.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 12/124
+====================================================================================================
+
+KEY: 28726e9ee61c222fe82dc1313e1985c3
+MESSAGE: hinglish:Complaint karna free hai kya?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:24 pm
+LAST USED: 7/3/2026, 4:18:24 pm
+USE COUNT: 7
+RESPONSE LENGTH: 83 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Haan civic complaints register karna free hota hai. Iske liye koi charge nahi hota.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 13/124
+====================================================================================================
+
+KEY: 9348a77840da4d538c0b5e6aeb18b546
+MESSAGE: hinglish:PM Awas Yojana me apply kaise kare?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:24 pm
+LAST USED: 7/3/2026, 4:18:24 pm
+USE COUNT: 7
+RESPONSE LENGTH: 90 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+PM Awas Yojana ke liye aap official government portal par online application kar sakte ho.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 14/124
+====================================================================================================
+
+KEY: ae819ab3a612ec278d0566dc4cc56df9
+MESSAGE: hinglish:Ration card kaise banwaye?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:24 pm
+LAST USED: 7/3/2026, 4:18:24 pm
+USE COUNT: 7
+RESPONSE LENGTH: 92 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Ration card banwane ke liye aap apne state food supply portal par online apply kar sakte ho.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 15/124
+====================================================================================================
+
+KEY: 5674e5491794aeaba18dbb669ef67b90
+MESSAGE: hinglish:Sadak toot gayi hai kya kare?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:24 pm
+LAST USED: 7/3/2026, 4:18:21 pm
+USE COUNT: 7
+RESPONSE LENGTH: 143 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal department ko issue ki information mil jayegi.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 16/124
+====================================================================================================
+
+KEY: 944814597221bd1c8d34f7de0ae31faa
+MESSAGE: hinglish:Street light kharab hai kya kare?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:25 pm
+LAST USED: 7/3/2026, 4:18:21 pm
+USE COUNT: 8
+RESPONSE LENGTH: 118 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Aap street light repair complaint register kar sakte ho. Isse electricity department ko repair request bhej di jayegi.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 17/124
+====================================================================================================
+
+KEY: 2ce8a4d9f90f9fe237a2432cf2414cfa
+MESSAGE: hinglish:Kooda nahi uth raha kya kare?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:25 pm
+LAST USED: 7/3/2026, 4:18:22 pm
+USE COUNT: 7
+RESPONSE LENGTH: 87 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Agar kachra collect nahi ho raha hai to aap sanitation complaint register kar sakte ho.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 18/124
+====================================================================================================
+
+KEY: c8a085244cb2f499ad1eb7ece7f22916
+MESSAGE: hinglish:tum koun ho
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:33 pm
+LAST USED: 7/3/2026, 3:50:33 pm
+USE COUNT: 1
+RESPONSE LENGTH: 198 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic problems report karne, government schemes ki information dene aur complaint status track karne me.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 19/124
+====================================================================================================
+
+KEY: da3dd587e8f890fd29fd81e61776e218
+MESSAGE: hinglish:vani kya he
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:33 pm
+LAST USED: 7/3/2026, 3:50:33 pm
+USE COUNT: 1
+RESPONSE LENGTH: 176 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Vaani ek smart AI assistant hai jo logon ko government services aur civic complaints me madad karta hai. Yahan aap road, pani, bijli aur safai jaise issues report kar sakte ho.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 20/124
+====================================================================================================
+
+KEY: 9b30ca99205960890a29146f4bcce55a
+MESSAGE: hinglish:complaint kese kare
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:33 pm
+LAST USED: 7/3/2026, 3:50:33 pm
+USE COUNT: 1
+RESPONSE LENGTH: 148 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 21/124
+====================================================================================================
+
+KEY: 4d0e23ff5a524461dc5261801d9afde9
+MESSAGE: hinglish:complain kaise kare
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:33 pm
+LAST USED: 7/3/2026, 3:50:33 pm
+USE COUNT: 1
+RESPONSE LENGTH: 148 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 22/124
+====================================================================================================
+
+KEY: 4f571df6d93f8f131a03e5734732319c
+MESSAGE: hinglish:sadak tut gayi hai
+LANGUAGE: hinglish
+SOURCE: training_similar
+CREATED: 7/3/2026, 3:50:33 pm
+LAST USED: 7/3/2026, 3:50:33 pm
+USE COUNT: 1
+RESPONSE LENGTH: 143 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal department ko issue ki information mil jayegi.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 23/124
+====================================================================================================
+
+KEY: 7d41d7ce073e1480cd8786b8714947b0
+MESSAGE: hinglish:sadak toot gai hai
+LANGUAGE: hinglish
+SOURCE: training_similar
+CREATED: 7/3/2026, 3:50:33 pm
+LAST USED: 7/3/2026, 3:50:33 pm
+USE COUNT: 1
+RESPONSE LENGTH: 143 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal department ko issue ki information mil jayegi.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 24/124
+====================================================================================================
+
+KEY: 2238673d285406a78e51b0c0adb26c34
+MESSAGE: hinglish:pani nahi aa raha
+LANGUAGE: hinglish
+SOURCE: training_similar
+CREATED: 7/3/2026, 3:50:33 pm
+LAST USED: 7/3/2026, 3:50:33 pm
+USE COUNT: 1
+RESPONSE LENGTH: 86 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 25/124
+====================================================================================================
+
+KEY: f02cb4c3503d53140dfff893f4ec036d
+MESSAGE: hindi:Vaani क्या है?
+LANGUAGE: hindi
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:19 pm
+USE COUNT: 5
+RESPONSE LENGTH: 165 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Vaani एक smart AI assistant है जो लोगों को government services और civic complaints में मदद करता है। यहां आप road, pani, bijli और safai जैसे issues report कर सकते हो।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 26/124
+====================================================================================================
+
+KEY: b6f5b3ef871f9aac85dc257bee3e4929
+MESSAGE: hinglish:Tum kya madad kar sakte ho?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:19 pm
+USE COUNT: 5
+RESPONSE LENGTH: 136 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Main aapko civic issues report karne, government schemes ke baare me batane aur complaint ka status check karne me madad kar sakta hoon.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 27/124
+====================================================================================================
+
+KEY: ed6ee260c77e5c2a751e3018dd361113
+MESSAGE: english:What help can you provide?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:19 pm
+USE COUNT: 5
+RESPONSE LENGTH: 108 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+I can help you report civic issues, provide information about government schemes and check complaint status.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 28/124
+====================================================================================================
+
+KEY: 89b0ff97748bad2365f77ea9193d6371
+MESSAGE: hinglish:Namaste
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:19 pm
+USE COUNT: 5
+RESPONSE LENGTH: 78 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Namaste. Main Vaani hoon. Kripya bataye main aapki kaise madad kar sakta hoon.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 29/124
+====================================================================================================
+
+KEY: 75e4d685012ed6d472df246b46489f21
+MESSAGE: english:Hello
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:19 pm
+USE COUNT: 5
+RESPONSE LENGTH: 53 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Hello. I am Vaani. Please tell me how I can help you.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 30/124
+====================================================================================================
+
+KEY: fb54dfe066f5b3a813814e1fcd917cc8
+MESSAGE: hinglish:Mujhe madad chahiye
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:19 pm
+USE COUNT: 5
+RESPONSE LENGTH: 99 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Zaroor. Kripya bataye aapko kis cheez me madad chahiye. Main aapko sahi direction me guide karunga.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 31/124
+====================================================================================================
+
+KEY: 6a3e0fe8567c0e3c671dc7c2dd3dbe2f
+MESSAGE: english:I need help
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:19 pm
+USE COUNT: 5
+RESPONSE LENGTH: 86 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Sure. Please tell me what you need help with. I will guide you in the right direction.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 32/124
+====================================================================================================
+
+KEY: 1afd67708d1764af0aa42fc251c575ce
+MESSAGE: hinglish:Main bahut pareshan hoon
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:20 pm
+USE COUNT: 5
+RESPONSE LENGTH: 113 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Mujhe afsos hai ki aap pareshan hain. Kripya apni problem bataye. Main aapko solution dhoondhne me madad karunga.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 33/124
+====================================================================================================
+
+KEY: 90f7ce38f297180f508fcfdd79615137
+MESSAGE: english:I am very worried
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:20 pm
+USE COUNT: 5
+RESPONSE LENGTH: 94 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+I am sorry that you are worried. Please tell me your problem. I will help you find a solution.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 34/124
+====================================================================================================
+
+KEY: 9b59785efe36676b74bbe3f21912eed6
+MESSAGE: hinglish:Complaint kaise kare?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:20 pm
+USE COUNT: 6
+RESPONSE LENGTH: 148 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 35/124
+====================================================================================================
+
+KEY: 54254ced955fc29c74b594c5e40786ae
+MESSAGE: english:How to file a complaint?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:20 pm
+USE COUNT: 5
+RESPONSE LENGTH: 128 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+To file a complaint, choose problem category, provide location and write problem description. Then you can submit the complaint.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 36/124
+====================================================================================================
+
+KEY: d758395c0b0faca7ca2262056ce9d7fc
+MESSAGE: english:Complaint status kaise check kare?
+LANGUAGE: english
+SOURCE: training_similar
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:20 pm
+USE COUNT: 5
+RESPONSE LENGTH: 57 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+You can check your complaint status through complaint ID.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 37/124
+====================================================================================================
+
+KEY: b6fa8d93287398da7396b3e2b4660825
+MESSAGE: english:How to check complaint status?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:21 pm
+USE COUNT: 5
+RESPONSE LENGTH: 57 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+You can check your complaint status through complaint ID.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 38/124
+====================================================================================================
+
+KEY: b39603c4687a07c7b483a3ecd94a97f2
+MESSAGE: english:Road is damaged, what to do?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:21 pm
+USE COUNT: 5
+RESPONSE LENGTH: 125 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+If road is damaged, you can register a road maintenance complaint. This will inform the municipal department about the issue.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 39/124
+====================================================================================================
+
+KEY: a8a01f169f888a96b8c9addd16b68a4b
+MESSAGE: english:Street light is broken, what to do?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:21 pm
+USE COUNT: 5
+RESPONSE LENGTH: 112 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+You can register a street light repair complaint. This will send a repair request to the electricity department.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 40/124
+====================================================================================================
+
+KEY: 4d56c74322bc1e5c389a18277fef5c58
+MESSAGE: hinglish:Pani nahi aa raha kya kare?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:21 pm
+USE COUNT: 6
+RESPONSE LENGTH: 86 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 41/124
+====================================================================================================
+
+KEY: 3650656d5695508a48631c559859e263
+MESSAGE: english:Water not coming, what to do?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:22 pm
+USE COUNT: 5
+RESPONSE LENGTH: 73 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+If water supply is not coming, you can register a water supply complaint.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 42/124
+====================================================================================================
+
+KEY: 5d6c0b18d728d943a8b6929dd1e965ca
+MESSAGE: english:Garbage not collected, what to do?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:22 pm
+USE COUNT: 5
+RESPONSE LENGTH: 75 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+If garbage is not being collected, you can register a sanitation complaint.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 43/124
+====================================================================================================
+
+KEY: 28cfb1bad61b0bce25d702d273cecc9c
+MESSAGE: hinglish:Sewer overflow ho raha hai kya kare?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:22 pm
+USE COUNT: 5
+RESPONSE LENGTH: 96 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Sewer overflow ek sanitation problem hai. Aap sewer ya drainage complaint register kar sakte ho.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 44/124
+====================================================================================================
+
+KEY: 01535ec92aa9fa5b0f5ed38da1edfe99
+MESSAGE: english:Sewer is overflowing, what to do?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:22 pm
+USE COUNT: 5
+RESPONSE LENGTH: 87 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Sewer overflow is a sanitation problem. You can register a sewer or drainage complaint.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 45/124
+====================================================================================================
+
+KEY: 2e79721987ede601ed69ab92d54318bf
+MESSAGE: english:Government schemes ki information kaise milegi?
+LANGUAGE: english
+SOURCE: training_similar
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:23 pm
+USE COUNT: 5
+RESPONSE LENGTH: 89 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+I can provide you information about different government schemes and explain eligibility.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 46/124
+====================================================================================================
+
+KEY: 392c91f525563a700d4063bf7cfbd4eb
+MESSAGE: english:How to get government schemes information?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:23 pm
+USE COUNT: 5
+RESPONSE LENGTH: 89 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+I can provide you information about different government schemes and explain eligibility.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 47/124
+====================================================================================================
+
+KEY: 40d97080b660f7ea7118d5398c91e2aa
+MESSAGE: english:Ayushman Bharat Yojana kya hai?
+LANGUAGE: english
+SOURCE: training_similar
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 3:50:44 pm
+USE COUNT: 1
+RESPONSE LENGTH: 166 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Ayushman Bharat is a government health scheme where eligible families get free treatment benefits. You can check hospital list and eligibility on the official portal.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 48/124
+====================================================================================================
+
+KEY: 822f3903f08cb50d3cd0c2893e207fde
+MESSAGE: english:What is Ayushman Bharat Yojana?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:23 pm
+USE COUNT: 5
+RESPONSE LENGTH: 166 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Ayushman Bharat is a government health scheme where eligible families get free treatment benefits. You can check hospital list and eligibility on the official portal.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 49/124
+====================================================================================================
+
+KEY: ab6f745a467ee589c972cd6ce23fcdc0
+MESSAGE: english:How to make Ayushman card?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:24 pm
+USE COUNT: 5
+RESPONSE LENGTH: 148 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+To make Ayushman card, you can check eligibility on Ayushman Bharat portal. If you are eligible, card can be made at nearest CSC center or hospital.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 50/124
+====================================================================================================
+
+KEY: 6cebc8a173ba36973843b1316be14507
+MESSAGE: english:How to apply in PM Awas Yojana?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:24 pm
+USE COUNT: 5
+RESPONSE LENGTH: 71 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+For PM Awas Yojana, you can apply online on official government portal.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 51/124
+====================================================================================================
+
+KEY: faa7bfdf5105c76072b9ca92903e11e7
+MESSAGE: english:How to make ration card?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:24 pm
+USE COUNT: 5
+RESPONSE LENGTH: 75 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+To make ration card, you can apply online on your state food supply portal.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 52/124
+====================================================================================================
+
+KEY: 38d5f48a262fbd31917e4e792494e4eb
+MESSAGE: english:Can I get volunteer help?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:24 pm
+USE COUNT: 5
+RESPONSE LENGTH: 76 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Yes, if needed you can request volunteer assistance. Volunteer can help you.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 53/124
+====================================================================================================
+
+KEY: fc29fd6880c705ac604c382dedbeeb93
+MESSAGE: english:Is filing complaint free?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:25 pm
+USE COUNT: 5
+RESPONSE LENGTH: 69 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Yes, registering civic complaints is free. There is no charge for it.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 54/124
+====================================================================================================
+
+KEY: 4dd2c2f6e58fbc98b11e8e1029c80a82
+MESSAGE: hinglish:Account kaise banaye?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:22 pm
+USE COUNT: 6
+RESPONSE LENGTH: 286 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+VAANI par account banana bahut easy hai. Sabse pehle VAANI website ya app open karein. Uske baad Sign Up / Register par click karein. Apna naam, mobile number aur password enter karein. Mobile par aaya OTP verify karein. Verification ke baad aapka account successfully create ho jayega.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 55/124
+====================================================================================================
+
+KEY: d91f4e0cb40ad6ecb7a71b5b8edae0d1
+MESSAGE: english:How to create account?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:23 pm
+USE COUNT: 5
+RESPONSE LENGTH: 244 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Creating account on VAANI is very easy. First open VAANI website or app. Then click on Sign Up / Register. Enter your name, mobile number and password. Verify OTP received on mobile. After verification your account will be successfully created.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 56/124
+====================================================================================================
+
+KEY: a3476fe2f7cfe2f24cfdc7f3c39080d9
+MESSAGE: hinglish:Dhanyavaad
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:23 pm
+USE COUNT: 6
+RESPONSE LENGTH: 227 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Aapka welcome hai. Mujhe khushi hai ki main aapki madad kar payi. Agar aapko kisi civic issue report karna ho, government scheme ke baare mein jaana ho, ya kisi complaint ki status check karni ho to aap mujhse pooch sakte hain.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 57/124
+====================================================================================================
+
+KEY: 617a534736e602e6c3bd8948d52f7461
+MESSAGE: english:Thank you
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:23 pm
+USE COUNT: 5
+RESPONSE LENGTH: 157 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+You are welcome. I am glad I could help you. If you need to report any civic issue, know about government schemes, or check complaint status, you can ask me.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 58/124
+====================================================================================================
+
+KEY: 817d67ae30085c27c42fc108a331e77c
+MESSAGE: hinglish:Alvida
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:50:44 pm
+LAST USED: 7/3/2026, 4:18:23 pm
+USE COUNT: 5
+RESPONSE LENGTH: 102 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Dhanyavaad. Agar aapko kabhi bhi madad chahiye ho to wapas aa sakte ho. Main madad ke liye yahan hoon.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 59/124
+====================================================================================================
+
+KEY: c532c7437b9c7801148c94d31cceed8f
+MESSAGE: hinglish:Sarkari scheme kaise pata kare?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:58:32 pm
+LAST USED: 7/3/2026, 4:18:25 pm
+USE COUNT: 7
+RESPONSE LENGTH: 223 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Sarkari schemes ki jaankari ke liye aap mujhse pooch sakte ho. Main aapko Ayushman Bharat, PM Awas Yojana, Ration Card aur anya schemes ke baare me bata sakta hoon. Aap scheme ka naam bataiye ya 'government schemes' kahiye.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 60/124
+====================================================================================================
+
+KEY: ccb6033dbd9806d78e4200e06d0c9210
+MESSAGE: english:How to find government schemes?
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:58:32 pm
+LAST USED: 7/3/2026, 4:18:25 pm
+USE COUNT: 5
+RESPONSE LENGTH: 207 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+To find information about government schemes, you can ask me. I can tell you about Ayushman Bharat, PM Awas Yojana, Ration Card and other schemes. You can mention the scheme name or say 'government schemes'.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 61/124
+====================================================================================================
+
+KEY: d3ec19c716f0b85a4668703f5d6e8edc
+MESSAGE: hindi:सरकारी योजना कैसे पता करें?
+LANGUAGE: hindi
+SOURCE: training_exact
+CREATED: 7/3/2026, 3:58:32 pm
+LAST USED: 7/3/2026, 4:18:25 pm
+USE COUNT: 5
+RESPONSE LENGTH: 203 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+सरकारी योजनाओं की जानकारी के लिए आप मुझसे पूछ सकते हो। मैं आपको Ayushman Bharat, PM Awas Yojana, Ration Card और अन्य schemes के बारे में बता सकता हूं। आप scheme का नाम बताइए या 'government schemes' कहिए।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 62/124
+====================================================================================================
+
+KEY: afde634e48cb5aade177140699aa102e
+MESSAGE: hinglish:sarkari yojana kaise pata kare
+LANGUAGE: hinglish
+SOURCE: training_similar
+CREATED: 7/3/2026, 3:58:32 pm
+LAST USED: 7/3/2026, 3:58:32 pm
+USE COUNT: 1
+RESPONSE LENGTH: 223 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Sarkari schemes ki jaankari ke liye aap mujhse pooch sakte ho. Main aapko Ayushman Bharat, PM Awas Yojana, Ration Card aur anya schemes ke baare me bata sakta hoon. Aap scheme ka naam bataiye ya 'government schemes' kahiye.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 63/124
+====================================================================================================
+
+KEY: fb985a49311c24eac07092e9b11ad34a
+MESSAGE: hindi:तुम क्या मदद कर सकते हो?
+LANGUAGE: hindi
+SOURCE: training_exact
+CREATED: 7/3/2026, 4:00:24 pm
+LAST USED: 7/3/2026, 4:18:19 pm
+USE COUNT: 4
+RESPONSE LENGTH: 126 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं आपको civic issues report करने, government schemes के बारे में बताने और complaint का status check करने में मदद कर सकता हूं।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 64/124
+====================================================================================================
+
+KEY: ca6e23d5edfcb8ed9de977ac13937a6b
+MESSAGE: hinglish:Koi meri problem nahi sun raha
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 4:00:25 pm
+LAST USED: 7/3/2026, 4:18:20 pm
+USE COUNT: 4
+RESPONSE LENGTH: 123 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Aap chinta na kare. Aap apni problem yahan report kar sakte ho. Main aapko sahi department tak pahunchane me madad karunga.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 65/124
+====================================================================================================
+
+KEY: 93807e5c554a7f9298c7d6d57ac45c5c
+MESSAGE: english:No one is listening to my problem
+LANGUAGE: english
+SOURCE: training_exact
+CREATED: 7/3/2026, 4:00:25 pm
+LAST USED: 7/3/2026, 4:18:20 pm
+USE COUNT: 4
+RESPONSE LENGTH: 90 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Don't worry. You can report your problem here. I will help you reach the right department.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 66/124
+====================================================================================================
+
+KEY: e685c5f735ea9456cc7c926c58f4a977
+MESSAGE: hindi:Complaint कैसे करें?
+LANGUAGE: hindi
+SOURCE: training_exact
+CREATED: 7/3/2026, 4:00:25 pm
+LAST USED: 7/3/2026, 4:18:20 pm
+USE COUNT: 4
+RESPONSE LENGTH: 140 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Complaint करने के लिए आप problem category choose करें, location बताएं और problem का description लिखें। उसके बाद complaint submit कर सकते हो।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 67/124
+====================================================================================================
+
+KEY: a6b0f3377879bdc4bd9b15c01e6f97ee
+MESSAGE: hindi:Complaint status कैसे check करें?
+LANGUAGE: hindi
+SOURCE: training_exact
+CREATED: 7/3/2026, 4:00:25 pm
+LAST USED: 7/3/2026, 4:18:21 pm
+USE COUNT: 4
+RESPONSE LENGTH: 69 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+आप complaint ID के through अपनी complaint का status check कर सकते हो।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 68/124
+====================================================================================================
+
+KEY: d919d0829ec2869ab88ef16daf78c1ac
+MESSAGE: hindi:सड़क टूट गई है क्या करें?
+LANGUAGE: hindi
+SOURCE: training_exact
+CREATED: 7/3/2026, 4:00:26 pm
+LAST USED: 7/3/2026, 4:18:21 pm
+USE COUNT: 4
+RESPONSE LENGTH: 133 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+अगर सड़क टूट गई है तो आप road maintenance complaint register कर सकते हो। इससे municipal department को issue की information मिल जाएगी।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 69/124
+====================================================================================================
+
+KEY: b64ffbfc3148ae348c0531d5bb54325b
+MESSAGE: hindi:Street light खराब है क्या करें?
+LANGUAGE: hindi
+SOURCE: training_exact
+CREATED: 7/3/2026, 4:00:26 pm
+LAST USED: 7/3/2026, 4:18:21 pm
+USE COUNT: 4
+RESPONSE LENGTH: 113 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+आप street light repair complaint register कर सकते हो। इससे electricity department को repair request भेज दी जाएगी।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 70/124
+====================================================================================================
+
+KEY: b3b88acfe4ce0ecc7206c986c57e95ae
+MESSAGE: hindi:पानी नहीं आ रहा क्या करें?
+LANGUAGE: hindi
+SOURCE: training_exact
+CREATED: 7/3/2026, 4:00:26 pm
+LAST USED: 7/3/2026, 4:18:22 pm
+USE COUNT: 4
+RESPONSE LENGTH: 79 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+अगर पानी supply नहीं आ रही है तो आप water supply complaint register कर सकते हो।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 71/124
+====================================================================================================
+
+KEY: 6daa7a845be6bf94fa69f10434c8a7f5
+MESSAGE: hindi:कूड़ा नहीं उठ रहा क्या करें?
+LANGUAGE: hindi
+SOURCE: training_exact
+CREATED: 7/3/2026, 4:00:26 pm
+LAST USED: 7/3/2026, 4:18:22 pm
+USE COUNT: 4
+RESPONSE LENGTH: 79 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+अगर कचरा collect नहीं हो रहा है तो आप sanitation complaint register कर सकते हो।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 72/124
+====================================================================================================
+
+KEY: 27d86b3677bc2cf919de93994a9b4fdd
+MESSAGE: hindi:Sewer overflow हो रहा है क्या करें?
+LANGUAGE: hindi
+SOURCE: training_exact
+CREATED: 7/3/2026, 4:00:26 pm
+LAST USED: 7/3/2026, 4:18:22 pm
+USE COUNT: 4
+RESPONSE LENGTH: 92 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Sewer overflow एक sanitation problem है। आप sewer या drainage complaint register कर सकते हो।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 73/124
+====================================================================================================
+
+KEY: 620695412fddda000d92920380f98b80
+MESSAGE: hindi:Account कैसे बनाएं?
+LANGUAGE: hindi
+SOURCE: training_exact
+CREATED: 7/3/2026, 4:00:26 pm
+LAST USED: 7/3/2026, 4:18:23 pm
+USE COUNT: 4
+RESPONSE LENGTH: 259 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+VAANI पर account बनाना बहुत आसान है। सबसे पहले VAANI website या app खोलें। उसके बाद Sign Up / Register पर क्लिक करें। अपना नाम, mobile number और password enter करें। Mobile पर आया OTP verify करें। Verification के बाद आपका account successfully create हो जाएगा।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 74/124
+====================================================================================================
+
+KEY: 4b3188a706258e751fc7c5e0804a9b4e
+MESSAGE: hinglish:Ayushman Bharat Yojana kya hai?
+LANGUAGE: hinglish
+SOURCE: training_exact
+CREATED: 7/3/2026, 4:00:27 pm
+LAST USED: 7/3/2026, 4:18:23 pm
+USE COUNT: 4
+RESPONSE LENGTH: 198 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Ayushman Bharat ek government health scheme hai jisme eligible families ko free treatment ka benefit milta hai. Aap hospital list aur eligibility check karne ke liye official portal par ja sakte ho.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 75/124
+====================================================================================================
+
+KEY: 82ce389cb69920378289429c2fbd414c
+MESSAGE: hindi:सरकारी स्कीम कैसे पता करें
+LANGUAGE: unknown
+SOURCE: training_similar
+CREATED: 7/3/2026, 4:02:14 pm
+LAST USED: 7/3/2026, 4:02:14 pm
+USE COUNT: 1
+RESPONSE LENGTH: 203 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+सरकारी योजनाओं की जानकारी के लिए आप मुझसे पूछ सकते हो। मैं आपको Ayushman Bharat, PM Awas Yojana, Ration Card और अन्य schemes के बारे में बता सकता हूं। आप scheme का नाम बताइए या 'government schemes' कहिए।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 76/124
+====================================================================================================
+
+KEY: f400892b006b271f1a28e742e21d1077
+MESSAGE: hindi:थैंक
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 4:03:33 pm
+LAST USED: 7/3/2026, 4:03:35 pm
+USE COUNT: 2
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 77/124
+====================================================================================================
+
+KEY: 5cfee87ac26db56cb11e9b785f142b03
+MESSAGE: hinglish:Kya main complaint cancel kar sakta hoon?
+LANGUAGE: hinglish
+SOURCE: fallback_voice
+CREATED: 7/3/2026, 4:11:59 pm
+LAST USED: 7/3/2026, 4:11:59 pm
+USE COUNT: 2
+RESPONSE LENGTH: 208 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Issue report karne ke liye: Pehle, 'report an issue' kahiye aur main aapke liye form khol dungi. Aap potholes, water leaks, broken streetlights, garbage issues, ya koi bhi civic problem report kar sakte hain.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 78/124
+====================================================================================================
+
+KEY: 18fce4164621652314d3c4c602986dfa
+MESSAGE: english:Volunteer ka phone number kaise milega?
+LANGUAGE: english
+SOURCE: fallback_voice
+CREATED: 7/3/2026, 4:12:00 pm
+LAST USED: 7/3/2026, 4:12:01 pm
+USE COUNT: 2
+RESPONSE LENGTH: 224 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Vaani works in simple steps: 1) Login to your account, 2) Choose what you want to do (report, track, or get info), 3) Follow the guided process, 4) Get updates and notifications. It's designed to be easy for everyone to use.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 79/124
+====================================================================================================
+
+KEY: 9e9c23b229d74904927395641ea1fd68
+MESSAGE: hinglish:Complaint kitne din me resolve hoti hai?
+LANGUAGE: hinglish
+SOURCE: fallback_voice
+CREATED: 7/3/2026, 4:12:02 pm
+LAST USED: 7/3/2026, 4:12:02 pm
+USE COUNT: 2
+RESPONSE LENGTH: 208 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Issue report karne ke liye: Pehle, 'report an issue' kahiye aur main aapke liye form khol dungi. Aap potholes, water leaks, broken streetlights, garbage issues, ya koi bhi civic problem report kar sakte hain.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 80/124
+====================================================================================================
+
+KEY: 4205e15ca0d35439b41bbf23d2ce1cc3
+MESSAGE: hinglish:Vaani kitne languages support karta hai?
+LANGUAGE: hinglish
+SOURCE: fallback_voice
+CREATED: 7/3/2026, 4:12:38 pm
+LAST USED: 7/3/2026, 4:12:38 pm
+USE COUNT: 2
+RESPONSE LENGTH: 199 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Main civic issues mein help ke liye yahan hoon. Aap problems report kar sakte hain, complaints track kar sakte hain, ya mujhse Vaani ke baare mein questions pooch sakte hain. Aap kya jaanna chahenge?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 81/124
+====================================================================================================
+
+KEY: 19bba67fa04005aeb772b955c69b88c4
+MESSAGE: hinglish:Kya main multiple complaints ek saath file kar sakta hoon?
+LANGUAGE: hinglish
+SOURCE: fallback_voice
+CREATED: 7/3/2026, 4:12:39 pm
+LAST USED: 7/3/2026, 4:12:39 pm
+USE COUNT: 2
+RESPONSE LENGTH: 208 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Issue report karne ke liye: Pehle, 'report an issue' kahiye aur main aapke liye form khol dungi. Aap potholes, water leaks, broken streetlights, garbage issues, ya koi bhi civic problem report kar sakte hain.
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 82/124
+====================================================================================================
+
+KEY: a8a71c4ec5dc95ef9f4aa978c55828c0
+MESSAGE: hindi:पीएम आवास योजना में अप्लाई कैसे करें
+LANGUAGE: unknown
+SOURCE: training_similar
+CREATED: 7/3/2026, 4:19:38 pm
+LAST USED: 7/3/2026, 4:19:38 pm
+USE COUNT: 1
+RESPONSE LENGTH: 203 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+सरकारी योजनाओं की जानकारी के लिए आप मुझसे पूछ सकते हो। मैं आपको Ayushman Bharat, PM Awas Yojana, Ration Card और अन्य schemes के बारे में बता सकता हूं। आप scheme का नाम बताइए या 'government schemes' कहिए।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 83/124
+====================================================================================================
+
+KEY: 1330f736149ed44069ae18d52b184a0b
+MESSAGE: hindi:आयुष्मान भारत योजना क्या है
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 4:20:00 pm
+LAST USED: 7/3/2026, 6:18:18 pm
+USE COUNT: 7
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 84/124
+====================================================================================================
+
+KEY: d8b1bd59c70da6eda6ae3f6d6434a451
+MESSAGE: hindi:हाउ टू गेट गवर्नमेंट स्कीम इनफॉरमेशन
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 4:42:19 pm
+LAST USED: 7/3/2026, 4:42:19 pm
+USE COUNT: 1
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 85/124
+====================================================================================================
+
+KEY: 9b3f11d74010f4126b465135cb25f0bf
+MESSAGE: hindi:अलविदा
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 4:43:13 pm
+LAST USED: 7/3/2026, 4:43:13 pm
+USE COUNT: 1
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 86/124
+====================================================================================================
+
+KEY: 851f896fb84b4e73767cbc562996301e
+MESSAGE: hindi:मुझे कुछ पूछना है
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 4:43:28 pm
+LAST USED: 7/3/2026, 4:43:28 pm
+USE COUNT: 1
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 87/124
+====================================================================================================
+
+KEY: a634a6e26d9726029a2c30d9df146d30
+MESSAGE: hindi:पानी नहीं आ रहा क्या करें
+LANGUAGE: unknown
+SOURCE: training_exact
+CREATED: 7/3/2026, 4:44:04 pm
+LAST USED: 7/3/2026, 4:44:04 pm
+USE COUNT: 1
+RESPONSE LENGTH: 79 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+अगर पानी supply नहीं आ रही है तो आप water supply complaint register कर सकते हो।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 88/124
+====================================================================================================
+
+KEY: b541d2a10a2027ab175653fca1821ada
+MESSAGE: hindi:आयुष्मान कार्ड कैसे बनाएं
+LANGUAGE: unknown
+SOURCE: training_similar
+CREATED: 7/3/2026, 4:44:19 pm
+LAST USED: 7/3/2026, 4:44:19 pm
+USE COUNT: 1
+RESPONSE LENGTH: 259 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+VAANI पर account बनाना बहुत आसान है। सबसे पहले VAANI website या app खोलें। उसके बाद Sign Up / Register पर क्लिक करें। अपना नाम, mobile number और password enter करें। Mobile पर आया OTP verify करें। Verification के बाद आपका account successfully create हो जाएगा।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 89/124
+====================================================================================================
+
+KEY: 6dca985c14187264b29c2785dec82fb2
+MESSAGE: hindi:पीएम आवास योजना
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 4:44:27 pm
+LAST USED: 7/3/2026, 4:44:27 pm
+USE COUNT: 1
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 90/124
+====================================================================================================
+
+KEY: 38e9b67344d2306874401231acc94450
+MESSAGE: hindi:फिक्स थिस
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 4:45:19 pm
+LAST USED: 7/3/2026, 4:45:19 pm
+USE COUNT: 1
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 91/124
+====================================================================================================
+
+KEY: 9a69ef5fbce5d29a42c272f9cb00f26f
+MESSAGE: hindi:कूड़ा नहीं उठ रहा क्या करें
+LANGUAGE: unknown
+SOURCE: training_exact
+CREATED: 7/3/2026, 4:46:38 pm
+LAST USED: 7/3/2026, 4:46:38 pm
+USE COUNT: 1
+RESPONSE LENGTH: 79 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+अगर कचरा collect नहीं हो रहा है तो आप sanitation complaint register कर सकते हो।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 92/124
+====================================================================================================
+
+KEY: dd93138da6f405426fd7fd77d7d33e26
+MESSAGE: hindi:गवर्नमेंट स्कीम क्या है
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 4:47:27 pm
+LAST USED: 7/3/2026, 4:47:27 pm
+USE COUNT: 1
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 93/124
+====================================================================================================
+
+KEY: b35eedf14dde29e263e061d8f42283d4
+MESSAGE: hindi:गवर्नमेंट
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 4:47:31 pm
+LAST USED: 7/3/2026, 4:47:31 pm
+USE COUNT: 1
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 94/124
+====================================================================================================
+
+KEY: ab79614f175a57d480f5010d38593a62
+MESSAGE: hindi:गवर्नमेंट स्कीम कैसे पता करें
+LANGUAGE: unknown
+SOURCE: training_similar
+CREATED: 7/3/2026, 4:47:44 pm
+LAST USED: 7/3/2026, 4:47:44 pm
+USE COUNT: 1
+RESPONSE LENGTH: 203 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+सरकारी योजनाओं की जानकारी के लिए आप मुझसे पूछ सकते हो। मैं आपको Ayushman Bharat, PM Awas Yojana, Ration Card और अन्य schemes के बारे में बता सकता हूं। आप scheme का नाम बताइए या 'government schemes' कहिए।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 95/124
+====================================================================================================
+
+KEY: d1bb04867d883fb21472d3bbab053e7e
+MESSAGE: hindi:तुम कौन हो
+LANGUAGE: unknown
+SOURCE: training_exact
+CREATED: 7/3/2026, 5:32:58 pm
+LAST USED: 7/3/2026, 5:32:58 pm
+USE COUNT: 1
+RESPONSE LENGTH: 187 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मेरा नाम Vaani है। मैं एक AI based civic assistant हूं। मैं citizens की मदद करता हूं civic problems report करने, government schemes की information देने और complaint status track करने में।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 96/124
+====================================================================================================
+
+KEY: 47420dad0b58277ad2f1c5a7585911b1
+MESSAGE: hindi:वाणी क्या है
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 5:33:16 pm
+LAST USED: 7/3/2026, 5:33:16 pm
+USE COUNT: 1
+RESPONSE LENGTH: 268 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+वाणी एक नागरिक जुड़ाव मंच है जहाँ आप अपने क्षेत्र में सड़क क्षति, पानी की आपूर्ति, या कचरा संग्रह जैसी समस्याओं की रिपोर्ट कर सकते हैं। आप शिकायतें दर्ज कर सकते हैं, उनकी स्थिति ट्रैक कर सकते हैं, और स्वयंसेवक सहायता प्राप्त कर सकते हैं। यह उपयोग करने के लिए मुफ्त है।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 97/124
+====================================================================================================
+
+KEY: 3b7856c38ef0bd113b2a47e45f8b0a0c
+MESSAGE: hindi:तुम क्या मदद कर सकते हो
+LANGUAGE: unknown
+SOURCE: training_exact
+CREATED: 7/3/2026, 5:33:35 pm
+LAST USED: 7/3/2026, 5:33:35 pm
+USE COUNT: 1
+RESPONSE LENGTH: 126 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं आपको civic issues report करने, government schemes के बारे में बताने और complaint का status check करने में मदद कर सकता हूं।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 98/124
+====================================================================================================
+
+KEY: 80a7ba110da66c09a8f01a8d73c1a57a
+MESSAGE: hindi:नमस्ते
+LANGUAGE: unknown
+SOURCE: training_exact
+CREATED: 7/3/2026, 5:33:47 pm
+LAST USED: 7/3/2026, 5:33:47 pm
+USE COUNT: 1
+RESPONSE LENGTH: 65 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+नमस्ते। मैं Vaani हूं। कृपया बताएं मैं आपकी कैसे मदद कर सकता हूं।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 99/124
+====================================================================================================
+
+KEY: b290038fed997e8dbaf484de47ddd54a
+MESSAGE: hindi:मुझे मदद चाहिए
+LANGUAGE: unknown
+SOURCE: training_exact
+CREATED: 7/3/2026, 5:33:56 pm
+LAST USED: 7/3/2026, 5:33:56 pm
+USE COUNT: 1
+RESPONSE LENGTH: 88 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+ज़रूर। कृपया बताएं आपको किस चीज़ में मदद चाहिए। मैं आपको सही direction में guide करूंगा।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 100/124
+====================================================================================================
+
+KEY: d9a5c2c3911afa137d72191945028d46
+MESSAGE: hindi:मैं बहुत परेशान हूं
+LANGUAGE: unknown
+SOURCE: training_exact
+CREATED: 7/3/2026, 5:34:07 pm
+LAST USED: 7/3/2026, 5:34:07 pm
+USE COUNT: 1
+RESPONSE LENGTH: 99 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मुझे अफ़सोस है कि आप परेशान हैं। कृपया अपनी problem बताएं। मैं आपको solution ढूंढने में मदद करूंगा।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 101/124
+====================================================================================================
+
+KEY: 42cdb0d28c3302bea1baef776f52f686
+MESSAGE: hindi:कोई मेरी प्रॉब्लम नहीं सुन रहा
+LANGUAGE: unknown
+SOURCE: training_similar
+CREATED: 7/3/2026, 5:34:26 pm
+LAST USED: 7/3/2026, 5:34:26 pm
+USE COUNT: 1
+RESPONSE LENGTH: 79 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+अगर कचरा collect नहीं हो रहा है तो आप sanitation complaint register कर सकते हो।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 102/124
+====================================================================================================
+
+KEY: 4cff1a0aee7c87b7864db1aea9fc1bd6
+MESSAGE: hindi:कंप्लेंट कैसे करें
+LANGUAGE: unknown
+SOURCE: training_similar
+CREATED: 7/3/2026, 5:34:36 pm
+LAST USED: 7/3/2026, 5:34:36 pm
+USE COUNT: 1
+RESPONSE LENGTH: 140 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Complaint करने के लिए आप problem category choose करें, location बताएं और problem का description लिखें। उसके बाद complaint submit कर सकते हो।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 103/124
+====================================================================================================
+
+KEY: 200ee53041416a871616180a861e550c
+MESSAGE: hindi:दूसरा
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 5:34:37 pm
+LAST USED: 7/3/2026, 5:34:37 pm
+USE COUNT: 1
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 104/124
+====================================================================================================
+
+KEY: 2ef4a25b3a1fe17d0dcac501bbe5b1b5
+MESSAGE: hindi:कंप्लेन कैसे करें
+LANGUAGE: unknown
+SOURCE: training_similar
+CREATED: 7/3/2026, 5:34:42 pm
+LAST USED: 7/3/2026, 5:34:42 pm
+USE COUNT: 1
+RESPONSE LENGTH: 140 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Complaint करने के लिए आप problem category choose करें, location बताएं और problem का description लिखें। उसके बाद complaint submit कर सकते हो।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 105/124
+====================================================================================================
+
+KEY: d908e68a98a22baf143de37645024d94
+MESSAGE: hindi:कंप्लेंट स्टेटस कैसे चेक करें
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 5:35:00 pm
+LAST USED: 7/3/2026, 5:35:00 pm
+USE COUNT: 1
+RESPONSE LENGTH: 201 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+वाणी सरल चरणों में काम करती है: 1) अपने खाते में लॉगिन करें, 2) चुनें कि आप क्या करना चाहते हैं, 3) निर्देशित प्रक्रिया का पालन करें, 4) अपडेट और सूचनाएं प्राप्त करें। यह सभी के लिए उपयोग करना आसान है।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 106/124
+====================================================================================================
+
+KEY: e9c40b263cddd3369835124905be8da8
+MESSAGE: hindi:सड़क टूट गई है क्या करें
+LANGUAGE: unknown
+SOURCE: training_exact
+CREATED: 7/3/2026, 5:35:22 pm
+LAST USED: 7/3/2026, 5:35:22 pm
+USE COUNT: 1
+RESPONSE LENGTH: 133 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+अगर सड़क टूट गई है तो आप road maintenance complaint register कर सकते हो। इससे municipal department को issue की information मिल जाएगी।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 107/124
+====================================================================================================
+
+KEY: 8f5309ba67b3cf63a05de12b5841421e
+MESSAGE: hindi:स्ट्रीट लाइट खराब है क्या करें
+LANGUAGE: unknown
+SOURCE: training_similar
+CREATED: 7/3/2026, 5:35:38 pm
+LAST USED: 7/3/2026, 5:35:38 pm
+USE COUNT: 1
+RESPONSE LENGTH: 113 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+आप street light repair complaint register कर सकते हो। इससे electricity department को repair request भेज दी जाएगी।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 108/124
+====================================================================================================
+
+KEY: f309f934fff2b35dfb8fe305bb7b23dd
+MESSAGE: hindi:पानी नहीं आ रहा है क्या करें
+LANGUAGE: unknown
+SOURCE: training_similar
+CREATED: 7/3/2026, 5:36:17 pm
+LAST USED: 7/3/2026, 5:36:17 pm
+USE COUNT: 1
+RESPONSE LENGTH: 79 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+अगर पानी supply नहीं आ रही है तो आप water supply complaint register कर सकते हो।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 109/124
+====================================================================================================
+
+KEY: f765de0c9e7318cf3200b5ca1bbe1dfb
+MESSAGE: hindi:कूड़ा नहीं उठ रहा है क्या करें
+LANGUAGE: unknown
+SOURCE: training_similar
+CREATED: 7/3/2026, 5:36:30 pm
+LAST USED: 7/3/2026, 5:36:30 pm
+USE COUNT: 1
+RESPONSE LENGTH: 79 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+अगर कचरा collect नहीं हो रहा है तो आप sanitation complaint register कर सकते हो।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 110/124
+====================================================================================================
+
+KEY: d67ac12ef10fdbe5728dea8074d26c72
+MESSAGE: hindi:सीवर ओवरफ्लो हो रहा है क्या करें
+LANGUAGE: unknown
+SOURCE: training_similar
+CREATED: 7/3/2026, 5:36:58 pm
+LAST USED: 7/3/2026, 5:36:58 pm
+USE COUNT: 1
+RESPONSE LENGTH: 92 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Sewer overflow एक sanitation problem है। आप sewer या drainage complaint register कर सकते हो।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 111/124
+====================================================================================================
+
+KEY: 1f40db28efd94fcc255cf1ab11ae099b
+MESSAGE: hindi:इलीगल कंस्ट्रक्शन हो रहा है क्या करें
+LANGUAGE: unknown
+SOURCE: training_similar
+CREATED: 7/3/2026, 5:37:13 pm
+LAST USED: 7/3/2026, 5:37:13 pm
+USE COUNT: 1
+RESPONSE LENGTH: 92 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+Sewer overflow एक sanitation problem है। आप sewer या drainage complaint register कर सकते हो।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 112/124
+====================================================================================================
+
+KEY: bda1f248ae4cbf054ef33d0b5d387abd
+MESSAGE: hindi:गवर्नमेंट स्कीम की इनफार्मेशन कैसे मिलेगी
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 5:37:35 pm
+LAST USED: 7/3/2026, 5:37:35 pm
+USE COUNT: 1
+RESPONSE LENGTH: 201 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+वाणी सरल चरणों में काम करती है: 1) अपने खाते में लॉगिन करें, 2) चुनें कि आप क्या करना चाहते हैं, 3) निर्देशित प्रक्रिया का पालन करें, 4) अपडेट और सूचनाएं प्राप्त करें। यह सभी के लिए उपयोग करना आसान है।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 113/124
+====================================================================================================
+
+KEY: 170e9600227b4b64ed1d74a03c1bc3e6
+MESSAGE: hindi:आयुष्मान योजना क्या है
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 5:37:49 pm
+LAST USED: 7/3/2026, 5:37:49 pm
+USE COUNT: 1
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 114/124
+====================================================================================================
+
+KEY: 7990688a9cae8c009fcb5ccf7813a853
+MESSAGE: hindi:पीएम आवास योजना क्या है
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 5:38:03 pm
+LAST USED: 7/3/2026, 5:38:03 pm
+USE COUNT: 1
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 115/124
+====================================================================================================
+
+KEY: baa940f7c4f152e9bdb274736b1962c2
+MESSAGE: hindi:कंप्लेंट फ्री है क्या
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 5:38:17 pm
+LAST USED: 7/3/2026, 5:38:17 pm
+USE COUNT: 1
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 116/124
+====================================================================================================
+
+KEY: 079e2e724424e736c0b625988c4d63e6
+MESSAGE: hindi:पूजा लास्ट वाले चाहता हूं मैं लास्ट वाला से कुछ
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 5:38:28 pm
+LAST USED: 7/3/2026, 5:38:28 pm
+USE COUNT: 1
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 117/124
+====================================================================================================
+
+KEY: 505fb579d5a41c77c8d95822f61a634f
+MESSAGE: hindi:वाणी पर अकाउंट कैसे क्रिएट करें
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 5:39:10 pm
+LAST USED: 7/3/2026, 5:39:10 pm
+USE COUNT: 1
+RESPONSE LENGTH: 201 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+वाणी सरल चरणों में काम करती है: 1) अपने खाते में लॉगिन करें, 2) चुनें कि आप क्या करना चाहते हैं, 3) निर्देशित प्रक्रिया का पालन करें, 4) अपडेट और सूचनाएं प्राप्त करें। यह सभी के लिए उपयोग करना आसान है।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 118/124
+====================================================================================================
+
+KEY: 5a99800f36a6f0547ff987b4c51c29f0
+MESSAGE: hindi:अकाउंट कैसे बनाएं
+LANGUAGE: unknown
+SOURCE: training_similar
+CREATED: 7/3/2026, 5:39:20 pm
+LAST USED: 7/3/2026, 5:39:20 pm
+USE COUNT: 1
+RESPONSE LENGTH: 259 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+VAANI पर account बनाना बहुत आसान है। सबसे पहले VAANI website या app खोलें। उसके बाद Sign Up / Register पर क्लिक करें। अपना नाम, mobile number और password enter करें। Mobile पर आया OTP verify करें। Verification के बाद आपका account successfully create हो जाएगा।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 119/124
+====================================================================================================
+
+KEY: 2953e70942e6e41d3b1231843ef1b3cd
+MESSAGE: hindi:मुझे गवर्नमेंट स्कीम समझ नहीं आ रही है
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 5:39:47 pm
+LAST USED: 7/3/2026, 5:39:47 pm
+USE COUNT: 1
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 120/124
+====================================================================================================
+
+KEY: cd011cc30cc3bfc20db3b15862b1e19f
+MESSAGE: hindi:धन्यवाद
+LANGUAGE: unknown
+SOURCE: training_exact
+CREATED: 7/3/2026, 5:40:10 pm
+LAST USED: 7/3/2026, 5:40:10 pm
+USE COUNT: 1
+RESPONSE LENGTH: 202 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+आपका स्वागत है। मुझे खुशी है कि मैं आपकी मदद कर पाई। अगर आपको किसी civic issue report करना हो, government scheme के बारे में जानना हो, या किसी complaint की status check करनी हो तो आप मुझसे पूछ सकते हैं।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 121/124
+====================================================================================================
+
+KEY: dc8a67322e5afce0b7de5e9bf902b65d
+MESSAGE: hindi:हर्ष को कैसे फॉर्म से कर दिया है ना
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 5:50:18 pm
+LAST USED: 7/3/2026, 5:50:18 pm
+USE COUNT: 1
+RESPONSE LENGTH: 201 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+वाणी सरल चरणों में काम करती है: 1) अपने खाते में लॉगिन करें, 2) चुनें कि आप क्या करना चाहते हैं, 3) निर्देशित प्रक्रिया का पालन करें, 4) अपडेट और सूचनाएं प्राप्त करें। यह सभी के लिए उपयोग करना आसान है।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 122/124
+====================================================================================================
+
+KEY: d7644c0dde9fbb04ccd492ef76e6cee3
+MESSAGE: hindi:डिस्टर्ब कर रहा है
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 6:01:27 pm
+LAST USED: 7/3/2026, 6:01:27 pm
+USE COUNT: 1
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 123/124
+====================================================================================================
+
+KEY: 7ede8970ea96ca8045c3afa0eb926abb
+MESSAGE: hindi:आयुष्मान कार्ड कैसे बनवाएं
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 6:01:40 pm
+LAST USED: 7/3/2026, 6:18:36 pm
+USE COUNT: 2
+RESPONSE LENGTH: 201 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+वाणी सरल चरणों में काम करती है: 1) अपने खाते में लॉगिन करें, 2) चुनें कि आप क्या करना चाहते हैं, 3) निर्देशित प्रक्रिया का पालन करें, 4) अपडेट और सूचनाएं प्राप्त करें। यह सभी के लिए उपयोग करना आसान है।
+----------------------------------------------------------------------------------------------------
+
+
+ENTRY 124/124
+====================================================================================================
+
+KEY: e3242bbdf56bb51ede6b4ab2a3d5f2f7
+MESSAGE: hindi:क्या है मत लिखा आयुष्मान भारत योजना
+LANGUAGE: unknown
+SOURCE: fallback
+CREATED: 7/3/2026, 6:18:30 pm
+LAST USED: 7/3/2026, 6:18:30 pm
+USE COUNT: 1
+RESPONSE LENGTH: 178 characters
+
+RESPONSE:
+----------------------------------------------------------------------------------------------------
+मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?
+----------------------------------------------------------------------------------------------------
+
+

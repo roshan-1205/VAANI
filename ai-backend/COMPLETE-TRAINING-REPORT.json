@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-03-07T15:00:19.390Z",
+  "summary": {
+    "total": 124,
+    "passed": 124,
+    "failed": 0,
+    "accuracy": "100.00%"
+  },
+  "failedTests": [],
+  "cacheStats": {
+    "hits": 433,
+    "misses": 111,
+    "saved": 512,
+    "hitRate": "79.60%",
+    "totalEntries": 250,
+    "estimatedSavings": "433 API calls saved"
+  },
+  "indexerStats": {
+    "totalConversations": 124,
+    "languages": {
+      "english": 41,
+      "hindi": 30,
+      "hinglish": 53
+    },
+    "categories": 74,
+    "keywords": 168,
+    "exactMatches": 124
+  }
+}

@@ -1,0 +1,1315 @@
+{
+  "timestamp": "2026-03-07T10:57:28.677Z",
+  "summary": {
+    "totalTests": 106,
+    "passed": 0,
+    "failed": 106,
+    "accuracy": "0.00"
+  },
+  "categoryResults": {
+    "introduction": {
+      "passed": 0,
+      "total": 3
+    },
+    "introduction_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "introduction_hindi": {
+      "passed": 0,
+      "total": 1
+    },
+    "platform_help": {
+      "passed": 0,
+      "total": 5
+    },
+    "platform_help_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "platform_help_hindi": {
+      "passed": 0,
+      "total": 1
+    },
+    "assistance": {
+      "passed": 0,
+      "total": 2
+    },
+    "assistance_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "assistance_hindi": {
+      "passed": 0,
+      "total": 1
+    },
+    "greeting": {
+      "passed": 0,
+      "total": 2
+    },
+    "greeting_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "greeting_hindi": {
+      "passed": 0,
+      "total": 1
+    },
+    "help_request": {
+      "passed": 0,
+      "total": 2
+    },
+    "help_request_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "help_request_hindi": {
+      "passed": 0,
+      "total": 1
+    },
+    "emotional_support": {
+      "passed": 0,
+      "total": 2
+    },
+    "emotional_support_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "emotional_support_hindi": {
+      "passed": 0,
+      "total": 1
+    },
+    "ignored_problem": {
+      "passed": 0,
+      "total": 2
+    },
+    "ignored_problem_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "complaint_filing": {
+      "passed": 0,
+      "total": 3
+    },
+    "complaint_filing_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "complaint_filing_hindi": {
+      "passed": 0,
+      "total": 1
+    },
+    "complaint_tracking": {
+      "passed": 0,
+      "total": 1
+    },
+    "complaint_tracking_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "complaint_tracking_hindi": {
+      "passed": 0,
+      "total": 1
+    },
+    "road_pothole": {
+      "passed": 0,
+      "total": 3
+    },
+    "road_pothole_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "road_pothole_hindi": {
+      "passed": 0,
+      "total": 1
+    },
+    "streetlight": {
+      "passed": 0,
+      "total": 3
+    },
+    "streetlight_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "streetlight_hindi": {
+      "passed": 0,
+      "total": 1
+    },
+    "water_supply": {
+      "passed": 0,
+      "total": 2
+    },
+    "water_supply_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "water_supply_hindi": {
+      "passed": 0,
+      "total": 1
+    },
+    "garbage": {
+      "passed": 0,
+      "total": 2
+    },
+    "garbage_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "garbage_hindi": {
+      "passed": 0,
+      "total": 1
+    },
+    "drainage": {
+      "passed": 0,
+      "total": 3
+    },
+    "drainage_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "drainage_hindi": {
+      "passed": 0,
+      "total": 1
+    },
+    "account_creation": {
+      "passed": 0,
+      "total": 3
+    },
+    "account_creation_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "account_creation_hindi": {
+      "passed": 0,
+      "total": 1
+    },
+    "gratitude": {
+      "passed": 0,
+      "total": 2
+    },
+    "gratitude_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "gratitude_hindi": {
+      "passed": 0,
+      "total": 1
+    },
+    "farewell": {
+      "passed": 0,
+      "total": 2
+    },
+    "government_schemes": {
+      "passed": 0,
+      "total": 1
+    },
+    "government_schemes_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "ayushman_yojana": {
+      "passed": 0,
+      "total": 4
+    },
+    "ayushman_yojana_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "ayushman_card": {
+      "passed": 0,
+      "total": 3
+    },
+    "ayushman_card_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "pm_awas_yojana": {
+      "passed": 0,
+      "total": 4
+    },
+    "pm_awas_yojana_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "ration_card": {
+      "passed": 0,
+      "total": 3
+    },
+    "ration_card_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "volunteer_help": {
+      "passed": 0,
+      "total": 3
+    },
+    "volunteer_help_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "free_service": {
+      "passed": 0,
+      "total": 3
+    },
+    "free_service_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "scheme_info": {
+      "passed": 0,
+      "total": 3
+    },
+    "scheme_info_english": {
+      "passed": 0,
+      "total": 1
+    },
+    "scheme_info_hindi": {
+      "passed": 0,
+      "total": 1
+    }
+  },
+  "detailedResults": [
+    {
+      "id": "conv_001",
+      "category": "introduction",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_002",
+      "category": "introduction_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_003",
+      "category": "introduction_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_004",
+      "category": "platform_help",
+      "totalVariations": 5,
+      "passed": 0,
+      "failed": 5,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_005",
+      "category": "platform_help_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_006",
+      "category": "platform_help_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_007",
+      "category": "assistance",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_008",
+      "category": "assistance_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_009",
+      "category": "assistance_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_010",
+      "category": "greeting",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_011",
+      "category": "greeting_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_012",
+      "category": "greeting_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_013",
+      "category": "help_request",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_014",
+      "category": "help_request_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_015",
+      "category": "help_request_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_016",
+      "category": "emotional_support",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_017",
+      "category": "emotional_support_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_018",
+      "category": "emotional_support_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_019",
+      "category": "ignored_problem",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_020",
+      "category": "ignored_problem_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_021",
+      "category": "complaint_filing",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_022",
+      "category": "complaint_filing_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_023",
+      "category": "complaint_filing_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_024",
+      "category": "complaint_tracking",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_025",
+      "category": "complaint_tracking_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_026",
+      "category": "complaint_tracking_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_027",
+      "category": "road_pothole",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_028",
+      "category": "road_pothole_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_029",
+      "category": "road_pothole_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_030",
+      "category": "streetlight",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_031",
+      "category": "streetlight_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_032",
+      "category": "streetlight_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_033",
+      "category": "water_supply",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_034",
+      "category": "water_supply_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_035",
+      "category": "water_supply_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_036",
+      "category": "garbage",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_037",
+      "category": "garbage_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_038",
+      "category": "garbage_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_039",
+      "category": "drainage",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_040",
+      "category": "drainage_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_041",
+      "category": "drainage_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_042",
+      "category": "account_creation",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_043",
+      "category": "account_creation_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_044",
+      "category": "account_creation_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_045",
+      "category": "gratitude",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_046",
+      "category": "gratitude_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_047",
+      "category": "gratitude_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_048",
+      "category": "farewell",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_049",
+      "category": "government_schemes",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_050",
+      "category": "government_schemes_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_051",
+      "category": "ayushman_yojana",
+      "totalVariations": 4,
+      "passed": 0,
+      "failed": 4,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_052",
+      "category": "ayushman_yojana_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_053",
+      "category": "ayushman_card",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_054",
+      "category": "ayushman_card_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_055",
+      "category": "pm_awas_yojana",
+      "totalVariations": 4,
+      "passed": 0,
+      "failed": 4,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_056",
+      "category": "pm_awas_yojana_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_057",
+      "category": "ration_card",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_058",
+      "category": "ration_card_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_059",
+      "category": "volunteer_help",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_060",
+      "category": "volunteer_help_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_061",
+      "category": "free_service",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_062",
+      "category": "free_service_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_063",
+      "category": "scheme_info",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_064",
+      "category": "scheme_info_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_065",
+      "category": "scheme_info_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    }
+  ],
+  "lowAccuracyConversations": [
+    {
+      "id": "conv_001",
+      "category": "introduction",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_002",
+      "category": "introduction_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_003",
+      "category": "introduction_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_004",
+      "category": "platform_help",
+      "totalVariations": 5,
+      "passed": 0,
+      "failed": 5,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_005",
+      "category": "platform_help_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_006",
+      "category": "platform_help_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_007",
+      "category": "assistance",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_008",
+      "category": "assistance_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_009",
+      "category": "assistance_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_010",
+      "category": "greeting",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_011",
+      "category": "greeting_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_012",
+      "category": "greeting_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_013",
+      "category": "help_request",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_014",
+      "category": "help_request_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_015",
+      "category": "help_request_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_016",
+      "category": "emotional_support",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_017",
+      "category": "emotional_support_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_018",
+      "category": "emotional_support_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_019",
+      "category": "ignored_problem",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_020",
+      "category": "ignored_problem_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_021",
+      "category": "complaint_filing",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_022",
+      "category": "complaint_filing_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_023",
+      "category": "complaint_filing_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_024",
+      "category": "complaint_tracking",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_025",
+      "category": "complaint_tracking_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_026",
+      "category": "complaint_tracking_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_027",
+      "category": "road_pothole",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_028",
+      "category": "road_pothole_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_029",
+      "category": "road_pothole_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_030",
+      "category": "streetlight",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_031",
+      "category": "streetlight_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_032",
+      "category": "streetlight_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_033",
+      "category": "water_supply",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_034",
+      "category": "water_supply_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_035",
+      "category": "water_supply_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_036",
+      "category": "garbage",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_037",
+      "category": "garbage_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_038",
+      "category": "garbage_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_039",
+      "category": "drainage",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_040",
+      "category": "drainage_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_041",
+      "category": "drainage_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_042",
+      "category": "account_creation",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_043",
+      "category": "account_creation_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_044",
+      "category": "account_creation_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_045",
+      "category": "gratitude",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_046",
+      "category": "gratitude_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_047",
+      "category": "gratitude_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_048",
+      "category": "farewell",
+      "totalVariations": 2,
+      "passed": 0,
+      "failed": 2,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_049",
+      "category": "government_schemes",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_050",
+      "category": "government_schemes_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_051",
+      "category": "ayushman_yojana",
+      "totalVariations": 4,
+      "passed": 0,
+      "failed": 4,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_052",
+      "category": "ayushman_yojana_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_053",
+      "category": "ayushman_card",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_054",
+      "category": "ayushman_card_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_055",
+      "category": "pm_awas_yojana",
+      "totalVariations": 4,
+      "passed": 0,
+      "failed": 4,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_056",
+      "category": "pm_awas_yojana_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_057",
+      "category": "ration_card",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_058",
+      "category": "ration_card_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_059",
+      "category": "volunteer_help",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_060",
+      "category": "volunteer_help_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_061",
+      "category": "free_service",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_062",
+      "category": "free_service_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_063",
+      "category": "scheme_info",
+      "totalVariations": 3,
+      "passed": 0,
+      "failed": 3,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_064",
+      "category": "scheme_info_english",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    },
+    {
+      "id": "conv_065",
+      "category": "scheme_info_hindi",
+      "totalVariations": 1,
+      "passed": 0,
+      "failed": 1,
+      "accuracy": "0.00"
+    }
+  ]
+}

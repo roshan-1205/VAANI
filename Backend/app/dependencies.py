@@ -28,7 +28,7 @@ async def get_current_user(authorization: Optional[str] = Header(None)):
             detail=f"Invalid or expired token: {str(e)}"
         )
 
-async def require_role(required_role: str):
+def require_role(required_role: str):
     """Factory function to create role-based dependencies"""
     async def role_checker(authorization: Optional[str] = Header(None)):
         user = await get_current_user(authorization)

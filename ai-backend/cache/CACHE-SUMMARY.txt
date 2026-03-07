@@ -1,0 +1,36 @@
+# CACHE SUMMARY
+
+Total Entries: 124
+
+## By Language:
+- unknown: 45 entries
+- hinglish: 39 entries
+- english: 28 entries
+- hindi: 12 entries
+
+## Ayushman Entries:
+
+1. hinglish:Ayushman card kaise banwaye?
+   Key: 08a7f4c956a0ab77d62d52b20457557e
+   Length: 170 chars
+   Use count: 8
+
+2. english:Ayushman Bharat Yojana kya hai?
+   Key: 40d97080b660f7ea7118d5398c91e2aa
+   Length: 166 chars
+   Use count: 1
+
+3. english:What is Ayushman Bharat Yojana?
+   Key: 822f3903f08cb50d3cd0c2893e207fde
+   Length: 166 chars
+   Use count: 5
+
+4. english:How to make Ayushman card?
+   Key: ab6f745a467ee589c972cd6ce23fcdc0
+   Length: 148 chars
+   Use count: 5
+
+5. hinglish:Ayushman Bharat Yojana kya hai?
+   Key: 4b3188a706258e751fc7c5e0804a9b4e
+   Length: 198 chars
+   Use count: 4

@@ -1,0 +1,1513 @@
+{
+  "timestamp": "2026-03-07T11:04:12.042Z",
+  "summary": {
+    "totalTests": 130,
+    "passed": 130,
+    "failed": 0,
+    "accuracy": "100.00"
+  },
+  "languageResults": {
+    "hinglish": {
+      "total": 45,
+      "passed": 45,
+      "accuracy": "100.00"
+    },
+    "english": {
+      "total": 53,
+      "passed": 53,
+      "accuracy": "100.00"
+    },
+    "hindi": {
+      "total": 32,
+      "passed": 32,
+      "accuracy": "100.00"
+    }
+  },
+  "categoryResults": {
+    "introduction": {
+      "passed": 3,
+      "total": 3
+    },
+    "introduction_english": {
+      "passed": 2,
+      "total": 2
+    },
+    "introduction_hindi": {
+      "passed": 2,
+      "total": 2
+    },
+    "platform_help": {
+      "passed": 3,
+      "total": 3
+    },
+    "platform_help_english": {
+      "passed": 2,
+      "total": 2
+    },
+    "platform_help_hindi": {
+      "passed": 2,
+      "total": 2
+    },
+    "assistance": {
+      "passed": 1,
+      "total": 1
+    },
+    "assistance_english": {
+      "passed": 1,
+      "total": 1
+    },
+    "assistance_hindi": {
+      "passed": 1,
+      "total": 1
+    },
+    "greeting": {
+      "passed": 3,
+      "total": 3
+    },
+    "greeting_english": {
+      "passed": 2,
+      "total": 2
+    },
+    "greeting_hindi": {
+      "passed": 2,
+      "total": 2
+    },
+    "help_request": {
+      "passed": 3,
+      "total": 3
+    },
+    "help_request_english": {
+      "passed": 2,
+      "total": 2
+    },
+    "help_request_hindi": {
+      "passed": 2,
+      "total": 2
+    },
+    "emotional_support": {
+      "passed": 1,
+      "total": 1
+    },
+    "emotional_support_english": {
+      "passed": 1,
+      "total": 1
+    },
+    "emotional_support_hindi": {
+      "passed": 1,
+      "total": 1
+    },
+    "ignored_problem": {
+      "passed": 1,
+      "total": 1
+    },
+    "ignored_problem_english": {
+      "passed": 1,
+      "total": 1
+    },
+    "complaint_filing": {
+      "passed": 3,
+      "total": 3
+    },
+    "complaint_filing_english": {
+      "passed": 2,
+      "total": 2
+    },
+    "complaint_filing_hindi": {
+      "passed": 2,
+      "total": 2
+    },
+    "complaint_tracking": {
+      "passed": 3,
+      "total": 3
+    },
+    "complaint_tracking_english": {
+      "passed": 2,
+      "total": 2
+    },
+    "complaint_tracking_hindi": {
+      "passed": 2,
+      "total": 2
+    },
+    "road_pothole": {
+      "passed": 3,
+      "total": 3
+    },
+    "road_pothole_english": {
+      "passed": 2,
+      "total": 2
+    },
+    "road_pothole_hindi": {
+      "passed": 2,
+      "total": 2
+    },
+    "streetlight": {
+      "passed": 1,
+      "total": 1
+    },
+    "streetlight_english": {
+      "passed": 1,
+      "total": 1
+    },
+    "streetlight_hindi": {
+      "passed": 1,
+      "total": 1
+    },
+    "water_supply": {
+      "passed": 3,
+      "total": 3
+    },
+    "water_supply_english": {
+      "passed": 2,
+      "total": 2
+    },
+    "water_supply_hindi": {
+      "passed": 2,
+      "total": 2
+    },
+    "garbage": {
+      "passed": 3,
+      "total": 3
+    },
+    "garbage_english": {
+      "passed": 2,
+      "total": 2
+    },
+    "garbage_hindi": {
+      "passed": 2,
+      "total": 2
+    },
+    "drainage": {
+      "passed": 2,
+      "total": 2
+    },
+    "drainage_english": {
+      "passed": 2,
+      "total": 2
+    },
+    "drainage_hindi": {
+      "passed": 2,
+      "total": 2
+    },
+    "account_creation": {
+      "passed": 1,
+      "total": 1
+    },
+    "account_creation_english": {
+      "passed": 1,
+      "total": 1
+    },
+    "account_creation_hindi": {
+      "passed": 1,
+      "total": 1
+    },
+    "gratitude": {
+      "passed": 3,
+      "total": 3
+    },
+    "gratitude_english": {
+      "passed": 2,
+      "total": 2
+    },
+    "gratitude_hindi": {
+      "passed": 1,
+      "total": 1
+    },
+    "farewell": {
+      "passed": 2,
+      "total": 2
+    },
+    "government_schemes": {
+      "passed": 2,
+      "total": 2
+    },
+    "government_schemes_english": {
+      "passed": 2,
+      "total": 2
+    },
+    "ayushman_yojana": {
+      "passed": 2,
+      "total": 2
+    },
+    "ayushman_yojana_english": {
+      "passed": 2,
+      "total": 2
+    },
+    "ayushman_card": {
+      "passed": 1,
+      "total": 1
+    },
+    "ayushman_card_english": {
+      "passed": 1,
+      "total": 1
+    },
+    "pm_awas_yojana": {
+      "passed": 2,
+      "total": 2
+    },
+    "pm_awas_yojana_english": {
+      "passed": 2,
+      "total": 2
+    },
+    "ration_card": {
+      "passed": 2,
+      "total": 2
+    },
+    "ration_card_english": {
+      "passed": 2,
+      "total": 2
+    },
+    "volunteer_help": {
+      "passed": 1,
+      "total": 1
+    },
+    "volunteer_help_english": {
+      "passed": 1,
+      "total": 1
+    },
+    "free_service": {
+      "passed": 1,
+      "total": 1
+    },
+    "free_service_english": {
+      "passed": 1,
+      "total": 1
+    },
+    "scheme_info": {
+      "passed": 1,
+      "total": 1
+    },
+    "scheme_info_english": {
+      "passed": 1,
+      "total": 1
+    },
+    "scheme_info_hindi": {
+      "passed": 1,
+      "total": 1
+    },
+    "electricity": {
+      "passed": 2,
+      "total": 2
+    },
+    "electricity_english": {
+      "passed": 1,
+      "total": 1
+    },
+    "electricity_hindi": {
+      "passed": 1,
+      "total": 1
+    },
+    "government_schemes_hindi": {
+      "passed": 1,
+      "total": 1
+    },
+    "ujjwala_yojana": {
+      "passed": 1,
+      "total": 1
+    },
+    "ujjwala_yojana_english": {
+      "passed": 1,
+      "total": 1
+    },
+    "ujjwala_yojana_hindi": {
+      "passed": 1,
+      "total": 1
+    },
+    "ayushman_yojana_hindi": {
+      "passed": 1,
+      "total": 1
+    },
+    "emergency": {
+      "passed": 1,
+      "total": 1
+    },
+    "emergency_english": {
+      "passed": 1,
+      "total": 1
+    },
+    "emergency_hindi": {
+      "passed": 1,
+      "total": 1
+    },
+    "farewell_english": {
+      "passed": 1,
+      "total": 1
+    },
+    "farewell_hindi": {
+      "passed": 1,
+      "total": 1
+    }
+  },
+  "detailedResults": [
+    {
+      "id": "conv_001",
+      "category": "introduction",
+      "language": "hinglish",
+      "question": "Tum kaun ho?",
+      "expected": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic problems report karne, government schemes ki information dene aur complaint status track karne me.",
+      "got": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic problems report karne, government schemes ki information dene aur complaint status track karne me.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_002",
+      "category": "introduction_english",
+      "language": "english",
+      "question": "Who are you?",
+      "expected": "My name is Vaani. I am an AI based civic assistant. I help citizens report civic problems, provide government scheme information and track complaint status.",
+      "got": "My name is Vaani. I am an AI based civic assistant. I help citizens report civic problems, provide government scheme information and track complaint status.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_003",
+      "category": "introduction_hindi",
+      "language": "hindi",
+      "question": "तुम कौन हो?",
+      "expected": "मेरा नाम Vaani है। मैं एक AI based civic assistant हूं। मैं citizens की मदद करता हूं civic problems report करने, government schemes की information देने और complaint status track करने में।",
+      "got": "मेरा नाम Vaani है। मैं एक AI based civic assistant हूं। मैं citizens की मदद करता हूं civic problems report करने, government schemes की information देने और complaint status track करने में।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_004",
+      "category": "platform_help",
+      "language": "hinglish",
+      "question": "Vaani kya hai?",
+      "expected": "Vaani ek smart AI assistant hai jo logon ko government services aur civic complaints me madad karta hai. Yahan aap road, pani, bijli aur safai jaise issues report kar sakte ho.",
+      "got": "Vaani ek smart AI assistant hai jo logon ko government services aur civic complaints me madad karta hai. Yahan aap road, pani, bijli aur safai jaise issues report kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_005",
+      "category": "platform_help_english",
+      "language": "english",
+      "question": "What is Vaani?",
+      "expected": "Vaani is a smart AI assistant that helps people with government services and civic complaints. Here you can report issues like road, water, electricity and sanitation.",
+      "got": "Vaani is a smart AI assistant that helps people with government services and civic complaints. Here you can report issues like road, water, electricity and sanitation.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_006",
+      "category": "platform_help_hindi",
+      "language": "hindi",
+      "question": "Vaani क्या है?",
+      "expected": "Vaani एक smart AI assistant है जो लोगों को government services और civic complaints में मदद करता है। यहां आप road, pani, bijli और safai जैसे issues report कर सकते हो।",
+      "got": "Vaani एक smart AI assistant है जो लोगों को government services और civic complaints में मदद करता है। यहां आप road, pani, bijli और safai जैसे issues report कर सकते हो।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_007",
+      "category": "assistance",
+      "language": "hinglish",
+      "question": "Tum kya madad kar sakte ho?",
+      "expected": "Main aapko civic issues report karne, government schemes ke baare me batane aur complaint ka status check karne me madad kar sakta hoon.",
+      "got": "Main aapko civic issues report karne, government schemes ke baare me batane aur complaint ka status check karne me madad kar sakta hoon.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_008",
+      "category": "assistance_english",
+      "language": "english",
+      "question": "What help can you provide?",
+      "expected": "I can help you report civic issues, provide information about government schemes and check complaint status.",
+      "got": "I can help you report civic issues, provide information about government schemes and check complaint status.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_009",
+      "category": "assistance_hindi",
+      "language": "hindi",
+      "question": "तुम क्या मदद कर सकते हो?",
+      "expected": "मैं आपको civic issues report करने, government schemes के बारे में बताने और complaint का status check करने में मदद कर सकता हूं।",
+      "got": "मैं आपको civic issues report करने, government schemes के बारे में बताने और complaint का status check करने में मदद कर सकता हूं।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_010",
+      "category": "greeting",
+      "language": "hinglish",
+      "question": "Namaste",
+      "expected": "Namaste. Main Vaani hoon. Kripya bataye main aapki kaise madad kar sakta hoon.",
+      "got": "Namaste. Main Vaani hoon. Kripya bataye main aapki kaise madad kar sakta hoon.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_011",
+      "category": "greeting_english",
+      "language": "english",
+      "question": "Hello",
+      "expected": "Hello. I am Vaani. Please tell me how I can help you.",
+      "got": "Hello. I am Vaani. Please tell me how I can help you.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_012",
+      "category": "greeting_hindi",
+      "language": "hindi",
+      "question": "नमस्ते",
+      "expected": "नमस्ते। मैं Vaani हूं। कृपया बताएं मैं आपकी कैसे मदद कर सकता हूं।",
+      "got": "नमस्ते। मैं Vaani हूं। कृपया बताएं मैं आपकी कैसे मदद कर सकता हूं।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_013",
+      "category": "help_request",
+      "language": "hinglish",
+      "question": "Mujhe madad chahiye",
+      "expected": "Zaroor. Kripya bataye aapko kis cheez me madad chahiye. Main aapko sahi direction me guide karunga.",
+      "got": "Zaroor. Kripya bataye aapko kis cheez me madad chahiye. Main aapko sahi direction me guide karunga.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_014",
+      "category": "help_request_english",
+      "language": "english",
+      "question": "I need help",
+      "expected": "Sure. Please tell me what you need help with. I will guide you in the right direction.",
+      "got": "Sure. Please tell me what you need help with. I will guide you in the right direction.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_015",
+      "category": "help_request_hindi",
+      "language": "hindi",
+      "question": "मुझे मदद चाहिए",
+      "expected": "ज़रूर। कृपया बताएं आपको किस चीज़ में मदद चाहिए। मैं आपको सही direction में guide करूंगा।",
+      "got": "ज़रूर। कृपया बताएं आपको किस चीज़ में मदद चाहिए। मैं आपको सही direction में guide करूंगा।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_016",
+      "category": "emotional_support",
+      "language": "hinglish",
+      "question": "Main bahut pareshan hoon",
+      "expected": "Mujhe afsos hai ki aap pareshan hain. Kripya apni problem bataye. Main aapko solution dhoondhne me madad karunga.",
+      "got": "Mujhe afsos hai ki aap pareshan hain. Kripya apni problem bataye. Main aapko solution dhoondhne me madad karunga.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_017",
+      "category": "emotional_support_english",
+      "language": "english",
+      "question": "I am very worried",
+      "expected": "I am sorry that you are worried. Please tell me your problem. I will help you find a solution.",
+      "got": "I am sorry that you are worried. Please tell me your problem. I will help you find a solution.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_018",
+      "category": "emotional_support_hindi",
+      "language": "hindi",
+      "question": "मैं बहुत परेशान हूं",
+      "expected": "मुझे अफ़सोस है कि आप परेशान हैं। कृपया अपनी problem बताएं। मैं आपको solution ढूंढने में मदद करूंगा।",
+      "got": "मुझे अफ़सोस है कि आप परेशान हैं। कृपया अपनी problem बताएं। मैं आपको solution ढूंढने में मदद करूंगा।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_019",
+      "category": "ignored_problem",
+      "language": "hinglish",
+      "question": "Koi meri problem nahi sun raha",
+      "expected": "Aap chinta na kare. Aap apni problem yahan report kar sakte ho. Main aapko sahi department tak pahunchane me madad karunga.",
+      "got": "Aap chinta na kare. Aap apni problem yahan report kar sakte ho. Main aapko sahi department tak pahunchane me madad karunga.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_020",
+      "category": "ignored_problem_english",
+      "language": "english",
+      "question": "No one is listening to my problem",
+      "expected": "Don't worry. You can report your problem here. I will help you reach the right department.",
+      "got": "Don't worry. You can report your problem here. I will help you reach the right department.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_021",
+      "category": "complaint_filing",
+      "language": "hinglish",
+      "question": "Complaint kaise kare?",
+      "expected": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.",
+      "got": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_022",
+      "category": "complaint_filing_english",
+      "language": "english",
+      "question": "How to file a complaint?",
+      "expected": "To file a complaint, choose problem category, provide location and write problem description. Then you can submit the complaint.",
+      "got": "To file a complaint, choose problem category, provide location and write problem description. Then you can submit the complaint.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_023",
+      "category": "complaint_filing_hindi",
+      "language": "hindi",
+      "question": "Complaint कैसे करें?",
+      "expected": "Complaint करने के लिए आप problem category choose करें, location बताएं और problem का description लिखें। उसके बाद complaint submit कर सकते हो।",
+      "got": "Complaint करने के लिए आप problem category choose करें, location बताएं और problem का description लिखें। उसके बाद complaint submit कर सकते हो।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_024",
+      "category": "complaint_tracking",
+      "language": "english",
+      "question": "Complaint status kaise check kare?",
+      "expected": "Aap complaint ID ke through apni complaint ka status check kar sakte ho.",
+      "got": "Aap complaint ID ke through apni complaint ka status check kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_025",
+      "category": "complaint_tracking_english",
+      "language": "english",
+      "question": "How to check complaint status?",
+      "expected": "You can check your complaint status through complaint ID.",
+      "got": "You can check your complaint status through complaint ID.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_026",
+      "category": "complaint_tracking_hindi",
+      "language": "hindi",
+      "question": "Complaint status कैसे check करें?",
+      "expected": "आप complaint ID के through अपनी complaint का status check कर सकते हो।",
+      "got": "आप complaint ID के through अपनी complaint का status check कर सकते हो।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_027",
+      "category": "road_pothole",
+      "language": "hinglish",
+      "question": "Sadak toot gayi hai kya kare?",
+      "expected": "Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal department ko issue ki information mil jayegi.",
+      "got": "Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal department ko issue ki information mil jayegi.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_028",
+      "category": "road_pothole_english",
+      "language": "english",
+      "question": "Road is damaged, what to do?",
+      "expected": "If road is damaged, you can register a road maintenance complaint. This will inform the municipal department about the issue.",
+      "got": "If road is damaged, you can register a road maintenance complaint. This will inform the municipal department about the issue.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_029",
+      "category": "road_pothole_hindi",
+      "language": "hindi",
+      "question": "सड़क टूट गई है क्या करें?",
+      "expected": "अगर सड़क टूट गई है तो आप road maintenance complaint register कर सकते हो। इससे municipal department को issue की information मिल जाएगी।",
+      "got": "अगर सड़क टूट गई है तो आप road maintenance complaint register कर सकते हो। इससे municipal department को issue की information मिल जाएगी।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_030",
+      "category": "streetlight",
+      "language": "hinglish",
+      "question": "Street light kharab hai kya kare?",
+      "expected": "Aap street light repair complaint register kar sakte ho. Isse electricity department ko repair request bhej di jayegi.",
+      "got": "Aap street light repair complaint register kar sakte ho. Isse electricity department ko repair request bhej di jayegi.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_031",
+      "category": "streetlight_english",
+      "language": "english",
+      "question": "Street light is broken, what to do?",
+      "expected": "You can register a street light repair complaint. This will send a repair request to the electricity department.",
+      "got": "You can register a street light repair complaint. This will send a repair request to the electricity department.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_032",
+      "category": "streetlight_hindi",
+      "language": "hindi",
+      "question": "Street light खराब है क्या करें?",
+      "expected": "आप street light repair complaint register कर सकते हो। इससे electricity department को repair request भेज दी जाएगी।",
+      "got": "आप street light repair complaint register कर सकते हो। इससे electricity department को repair request भेज दी जाएगी।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_033",
+      "category": "water_supply",
+      "language": "hinglish",
+      "question": "Pani nahi aa raha kya kare?",
+      "expected": "Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.",
+      "got": "Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_034",
+      "category": "water_supply_english",
+      "language": "english",
+      "question": "Water not coming, what to do?",
+      "expected": "If water supply is not coming, you can register a water supply complaint.",
+      "got": "If water supply is not coming, you can register a water supply complaint.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_035",
+      "category": "water_supply_hindi",
+      "language": "hindi",
+      "question": "पानी नहीं आ रहा क्या करें?",
+      "expected": "अगर पानी supply नहीं आ रही है तो आप water supply complaint register कर सकते हो।",
+      "got": "अगर पानी supply नहीं आ रही है तो आप water supply complaint register कर सकते हो।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_036",
+      "category": "garbage",
+      "language": "hinglish",
+      "question": "Kooda nahi uth raha kya kare?",
+      "expected": "Agar kachra collect nahi ho raha hai to aap sanitation complaint register kar sakte ho.",
+      "got": "Agar kachra collect nahi ho raha hai to aap sanitation complaint register kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_037",
+      "category": "garbage_english",
+      "language": "english",
+      "question": "Garbage not collected, what to do?",
+      "expected": "If garbage is not being collected, you can register a sanitation complaint.",
+      "got": "If garbage is not being collected, you can register a sanitation complaint.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_038",
+      "category": "garbage_hindi",
+      "language": "hindi",
+      "question": "कूड़ा नहीं उठ रहा क्या करें?",
+      "expected": "अगर कचरा collect नहीं हो रहा है तो आप sanitation complaint register कर सकते हो।",
+      "got": "अगर कचरा collect नहीं हो रहा है तो आप sanitation complaint register कर सकते हो।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_039",
+      "category": "drainage",
+      "language": "hinglish",
+      "question": "Sewer overflow ho raha hai kya kare?",
+      "expected": "Sewer overflow ek sanitation problem hai. Aap sewer ya drainage complaint register kar sakte ho.",
+      "got": "Sewer overflow ek sanitation problem hai. Aap sewer ya drainage complaint register kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_040",
+      "category": "drainage_english",
+      "language": "english",
+      "question": "Sewer is overflowing, what to do?",
+      "expected": "Sewer overflow is a sanitation problem. You can register a sewer or drainage complaint.",
+      "got": "Sewer overflow is a sanitation problem. You can register a sewer or drainage complaint.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_041",
+      "category": "drainage_hindi",
+      "language": "hindi",
+      "question": "Sewer overflow हो रहा है क्या करें?",
+      "expected": "Sewer overflow एक sanitation problem है। आप sewer या drainage complaint register कर सकते हो।",
+      "got": "Sewer overflow एक sanitation problem है। आप sewer या drainage complaint register कर सकते हो।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_042",
+      "category": "account_creation",
+      "language": "hinglish",
+      "question": "Account kaise banaye?",
+      "expected": "VAANI par account banana bahut easy hai. Sabse pehle VAANI website ya app open karein. Uske baad Sign Up / Register par click karein. Apna naam, mobile number aur password enter karein. Mobile par aaya OTP verify karein. Verification ke baad aapka account successfully create ho jayega.",
+      "got": "VAANI par account banana bahut easy hai. Sabse pehle VAANI website ya app open karein. Uske baad Sign Up / Register par click karein. Apna naam, mobile number aur password enter karein. Mobile par aaya OTP verify karein. Verification ke baad aapka account successfully create ho jayega.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_043",
+      "category": "account_creation_english",
+      "language": "english",
+      "question": "How to create account?",
+      "expected": "Creating account on VAANI is very easy. First open VAANI website or app. Then click on Sign Up / Register. Enter your name, mobile number and password. Verify OTP received on mobile. After verification your account will be successfully created.",
+      "got": "Creating account on VAANI is very easy. First open VAANI website or app. Then click on Sign Up / Register. Enter your name, mobile number and password. Verify OTP received on mobile. After verification your account will be successfully created.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_044",
+      "category": "account_creation_hindi",
+      "language": "hindi",
+      "question": "Account कैसे बनाएं?",
+      "expected": "VAANI पर account बनाना बहुत आसान है। सबसे पहले VAANI website या app खोलें। उसके बाद Sign Up / Register पर क्लिक करें। अपना नाम, mobile number और password enter करें। Mobile पर आया OTP verify करें। Verification के बाद आपका account successfully create हो जाएगा।",
+      "got": "VAANI पर account बनाना बहुत आसान है। सबसे पहले VAANI website या app खोलें। उसके बाद Sign Up / Register पर क्लिक करें। अपना नाम, mobile number और password enter करें। Mobile पर आया OTP verify करें। Verification के बाद आपका account successfully create हो जाएगा।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_045",
+      "category": "gratitude",
+      "language": "hinglish",
+      "question": "Dhanyavaad",
+      "expected": "Aapka welcome hai. Mujhe khushi hai ki main aapki madad kar payi. Agar aapko kisi civic issue report karna ho, government scheme ke baare mein jaana ho, ya kisi complaint ki status check karni ho to aap mujhse pooch sakte hain.",
+      "got": "Aapka welcome hai. Mujhe khushi hai ki main aapki madad kar payi. Agar aapko kisi civic issue report karna ho, government scheme ke baare mein jaana ho, ya kisi complaint ki status check karni ho to aap mujhse pooch sakte hain.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_046",
+      "category": "gratitude_english",
+      "language": "english",
+      "question": "Thank you",
+      "expected": "You are welcome. I am glad I could help you. If you need to report any civic issue, know about government schemes, or check complaint status, you can ask me.",
+      "got": "You are welcome. I am glad I could help you. If you need to report any civic issue, know about government schemes, or check complaint status, you can ask me.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_047",
+      "category": "gratitude_hindi",
+      "language": "hindi",
+      "question": "धन्यवाद",
+      "expected": "आपका स्वागत है। मुझे खुशी है कि मैं आपकी मदद कर पाई। अगर आपको किसी civic issue report करना हो, government scheme के बारे में जानना हो, या किसी complaint की status check करनी हो तो आप मुझसे पूछ सकते हैं।",
+      "got": "आपका स्वागत है। मुझे खुशी है कि मैं आपकी मदद कर पाई। अगर आपको किसी civic issue report करना हो, government scheme के बारे में जानना हो, या किसी complaint की status check करनी हो तो आप मुझसे पूछ सकते हैं।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_048",
+      "category": "farewell",
+      "language": "hinglish",
+      "question": "Alvida",
+      "expected": "Dhanyavaad. Agar aapko kabhi bhi madad chahiye ho to wapas aa sakte ho. Main madad ke liye yahan hoon.",
+      "got": "Dhanyavaad. Agar aapko kabhi bhi madad chahiye ho to wapas aa sakte ho. Main madad ke liye yahan hoon.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_049",
+      "category": "government_schemes",
+      "language": "english",
+      "question": "Government schemes ki information kaise milegi?",
+      "expected": "Main aapko different government schemes ke baare me information de sakta hoon aur eligibility bhi samjha sakta hoon.",
+      "got": "Main aapko different government schemes ke baare me information de sakta hoon aur eligibility bhi samjha sakta hoon.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_050",
+      "category": "government_schemes_english",
+      "language": "english",
+      "question": "How to get government schemes information?",
+      "expected": "I can provide you information about different government schemes and explain eligibility.",
+      "got": "I can provide you information about different government schemes and explain eligibility.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_051",
+      "category": "ayushman_yojana",
+      "language": "hinglish",
+      "question": "Ayushman Bharat Yojana kya hai?",
+      "expected": "Ayushman Bharat ek government health scheme hai jisme eligible families ko free treatment ka benefit milta hai. Aap hospital list aur eligibility check karne ke liye official portal par ja sakte ho.",
+      "got": "Ayushman Bharat ek government health scheme hai jisme eligible families ko free treatment ka benefit milta hai. Aap hospital list aur eligibility check karne ke liye official portal par ja sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_052",
+      "category": "ayushman_yojana_english",
+      "language": "english",
+      "question": "What is Ayushman Bharat Yojana?",
+      "expected": "Ayushman Bharat is a government health scheme where eligible families get free treatment benefits. You can check hospital list and eligibility on the official portal.",
+      "got": "Ayushman Bharat is a government health scheme where eligible families get free treatment benefits. You can check hospital list and eligibility on the official portal.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_053",
+      "category": "ayushman_card",
+      "language": "hinglish",
+      "question": "Ayushman card kaise banwaye?",
+      "expected": "Ayushman card banwane ke liye aap Ayushman Bharat portal par eligibility check kar sakte ho. Agar aap eligible ho to nearest CSC center ya hospital me card ban sakta hai.",
+      "got": "Ayushman card banwane ke liye aap Ayushman Bharat portal par eligibility check kar sakte ho. Agar aap eligible ho to nearest CSC center ya hospital me card ban sakta hai.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_054",
+      "category": "ayushman_card_english",
+      "language": "english",
+      "question": "How to make Ayushman card?",
+      "expected": "To make Ayushman card, you can check eligibility on Ayushman Bharat portal. If you are eligible, card can be made at nearest CSC center or hospital.",
+      "got": "To make Ayushman card, you can check eligibility on Ayushman Bharat portal. If you are eligible, card can be made at nearest CSC center or hospital.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_055",
+      "category": "pm_awas_yojana",
+      "language": "hinglish",
+      "question": "PM Awas Yojana me apply kaise kare?",
+      "expected": "PM Awas Yojana ke liye aap official government portal par online application kar sakte ho.",
+      "got": "PM Awas Yojana ke liye aap official government portal par online application kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_056",
+      "category": "pm_awas_yojana_english",
+      "language": "english",
+      "question": "How to apply in PM Awas Yojana?",
+      "expected": "For PM Awas Yojana, you can apply online on official government portal.",
+      "got": "For PM Awas Yojana, you can apply online on official government portal.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_057",
+      "category": "ration_card",
+      "language": "hinglish",
+      "question": "Ration card kaise banwaye?",
+      "expected": "Ration card banwane ke liye aap apne state food supply portal par online apply kar sakte ho.",
+      "got": "Ration card banwane ke liye aap apne state food supply portal par online apply kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_058",
+      "category": "ration_card_english",
+      "language": "english",
+      "question": "How to make ration card?",
+      "expected": "To make ration card, you can apply online on your state food supply portal.",
+      "got": "To make ration card, you can apply online on your state food supply portal.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_059",
+      "category": "volunteer_help",
+      "language": "hinglish",
+      "question": "Volunteer help mil sakti hai kya?",
+      "expected": "Haan agar zarurat ho to aap volunteer assistance request kar sakte ho. Volunteer aapki madad kar sakta hai.",
+      "got": "Haan agar zarurat ho to aap volunteer assistance request kar sakte ho. Volunteer aapki madad kar sakta hai.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_060",
+      "category": "volunteer_help_english",
+      "language": "english",
+      "question": "Can I get volunteer help?",
+      "expected": "Yes, if needed you can request volunteer assistance. Volunteer can help you.",
+      "got": "Yes, if needed you can request volunteer assistance. Volunteer can help you.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_061",
+      "category": "free_service",
+      "language": "hinglish",
+      "question": "Complaint karna free hai kya?",
+      "expected": "Haan civic complaints register karna free hota hai. Iske liye koi charge nahi hota.",
+      "got": "Haan civic complaints register karna free hota hai. Iske liye koi charge nahi hota.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_062",
+      "category": "free_service_english",
+      "language": "english",
+      "question": "Is filing complaint free?",
+      "expected": "Yes, registering civic complaints is free. There is no charge for it.",
+      "got": "Yes, registering civic complaints is free. There is no charge for it.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_063",
+      "category": "scheme_info",
+      "language": "hinglish",
+      "question": "Sarkari scheme kaise pata kare?",
+      "expected": "Sarkari schemes ki jaankari ke liye aap mujhse pooch sakte ho. Main aapko Ayushman Bharat, PM Awas Yojana, Ration Card aur anya schemes ke baare me bata sakta hoon. Aap scheme ka naam bataiye ya 'government schemes' kahiye.",
+      "got": "Sarkari schemes ki jaankari ke liye aap mujhse pooch sakte ho. Main aapko Ayushman Bharat, PM Awas Yojana, Ration Card aur anya schemes ke baare me bata sakta hoon. Aap scheme ka naam bataiye ya 'government schemes' kahiye.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_064",
+      "category": "scheme_info_english",
+      "language": "english",
+      "question": "How to find government schemes?",
+      "expected": "To find information about government schemes, you can ask me. I can tell you about Ayushman Bharat, PM Awas Yojana, Ration Card and other schemes. You can mention the scheme name or say 'government schemes'.",
+      "got": "To find information about government schemes, you can ask me. I can tell you about Ayushman Bharat, PM Awas Yojana, Ration Card and other schemes. You can mention the scheme name or say 'government schemes'.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_065",
+      "category": "scheme_info_hindi",
+      "language": "hindi",
+      "question": "सरकारी योजना कैसे पता करें?",
+      "expected": "सरकारी योजनाओं की जानकारी के लिए आप मुझसे पूछ सकते हो। मैं आपको Ayushman Bharat, PM Awas Yojana, Ration Card और अन्य schemes के बारे में बता सकता हूं। आप scheme का नाम बताइए या 'government schemes' कहिए।",
+      "got": "सरकारी योजनाओं की जानकारी के लिए आप मुझसे पूछ सकते हो। मैं आपको Ayushman Bharat, PM Awas Yojana, Ration Card और अन्य schemes के बारे में बता सकता हूं। आप scheme का नाम बताइए या 'government schemes' कहिए।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_066",
+      "category": "introduction",
+      "language": "hinglish",
+      "question": "Aap kaun hain?",
+      "expected": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic problems report karne, government schemes ki information dene aur complaint status track karne me.",
+      "got": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic problems report karne, government schemes ki information dene aur complaint status track karne me.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_067",
+      "category": "introduction",
+      "language": "hinglish",
+      "question": "Apka naam kya hai?",
+      "expected": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic problems report karne, government schemes ki information dene aur complaint status track karne me.",
+      "got": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic problems report karne, government schemes ki information dene aur complaint status track karne me.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_068",
+      "category": "introduction_english",
+      "language": "english",
+      "question": "What is your name?",
+      "expected": "My name is Vaani. I am an AI based civic assistant. I help citizens report civic problems, provide government scheme information and track complaint status.",
+      "got": "My name is Vaani. I am an AI based civic assistant. I help citizens report civic problems, provide government scheme information and track complaint status.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_069",
+      "category": "introduction_hindi",
+      "language": "hindi",
+      "question": "आपका नाम क्या है?",
+      "expected": "मेरा नाम Vaani है। मैं एक AI based civic assistant हूं। मैं citizens की मदद करता हूं civic problems report करने, government schemes की information देने और complaint status track करने में।",
+      "got": "मेरा नाम Vaani है। मैं एक AI based civic assistant हूं। मैं citizens की मदद करता हूं civic problems report करने, government schemes की information देने और complaint status track करने में।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_070",
+      "category": "platform_help",
+      "language": "hinglish",
+      "question": "Ye app kya karta hai?",
+      "expected": "Vaani ek smart AI assistant hai jo logon ko government services aur civic complaints me madad karta hai. Yahan aap road, pani, bijli aur safai jaise issues report kar sakte ho.",
+      "got": "Vaani ek smart AI assistant hai jo logon ko government services aur civic complaints me madad karta hai. Yahan aap road, pani, bijli aur safai jaise issues report kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_071",
+      "category": "platform_help",
+      "language": "hinglish",
+      "question": "Isme kya features hain?",
+      "expected": "Vaani me aap civic complaints register kar sakte ho, government schemes ki jaankari le sakte ho, complaint status track kar sakte ho aur volunteer help request kar sakte ho.",
+      "got": "Vaani me aap civic complaints register kar sakte ho, government schemes ki jaankari le sakte ho, complaint status track kar sakte ho aur volunteer help request kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_072",
+      "category": "platform_help_english",
+      "language": "english",
+      "question": "What features does this have?",
+      "expected": "In Vaani you can register civic complaints, get information about government schemes, track complaint status and request volunteer help.",
+      "got": "In Vaani you can register civic complaints, get information about government schemes, track complaint status and request volunteer help.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_073",
+      "category": "platform_help_hindi",
+      "language": "hindi",
+      "question": "इसमें क्या features हैं?",
+      "expected": "Vaani में आप civic complaints register कर सकते हो, government schemes की जानकारी ले सकते हो, complaint status track कर सकते हो और volunteer help request कर सकते हो।",
+      "got": "Vaani में आप civic complaints register कर सकते हो, government schemes की जानकारी ले सकते हो, complaint status track कर सकते हो और volunteer help request कर सकते हो।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_074",
+      "category": "complaint_filing",
+      "language": "hinglish",
+      "question": "Shikayat kaise darj kare?",
+      "expected": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.",
+      "got": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_075",
+      "category": "complaint_filing",
+      "language": "hinglish",
+      "question": "Complaint register kaise kare?",
+      "expected": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.",
+      "got": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_076",
+      "category": "complaint_filing_english",
+      "language": "english",
+      "question": "How do I register a complaint?",
+      "expected": "To file a complaint, choose problem category, provide location and write problem description. Then you can submit the complaint.",
+      "got": "To file a complaint, choose problem category, provide location and write problem description. Then you can submit the complaint.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_077",
+      "category": "complaint_filing_hindi",
+      "language": "hindi",
+      "question": "शिकायत कैसे दर्ज करें?",
+      "expected": "Complaint करने के लिए आप problem category choose करें, location बताएं और problem का description लिखें। उसके बाद complaint submit कर सकते हो।",
+      "got": "Complaint करने के लिए आप problem category choose करें, location बताएं और problem का description लिखें। उसके बाद complaint submit कर सकते हो।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_078",
+      "category": "road_pothole",
+      "language": "hinglish",
+      "question": "Sadak me gadda hai",
+      "expected": "Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal department ko issue ki information mil jayegi.",
+      "got": "Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal department ko issue ki information mil jayegi.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_079",
+      "category": "road_pothole",
+      "language": "hinglish",
+      "question": "Road kharab ho gayi hai",
+      "expected": "Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal department ko issue ki information mil jayegi.",
+      "got": "Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal department ko issue ki information mil jayegi.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_080",
+      "category": "road_pothole_english",
+      "language": "english",
+      "question": "There is a pothole in the road",
+      "expected": "If road is damaged, you can register a road maintenance complaint. This will inform the municipal department about the issue.",
+      "got": "If road is damaged, you can register a road maintenance complaint. This will inform the municipal department about the issue.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_081",
+      "category": "road_pothole_hindi",
+      "language": "hindi",
+      "question": "सड़क में गड्ढा है",
+      "expected": "अगर सड़क टूट गई है तो आप road maintenance complaint register कर सकते हो। इससे municipal department को issue की information मिल जाएगी।",
+      "got": "अगर सड़क टूट गई है तो आप road maintenance complaint register कर सकते हो। इससे municipal department को issue की information मिल जाएगी।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_082",
+      "category": "water_supply",
+      "language": "hinglish",
+      "question": "Pani ki supply band hai",
+      "expected": "Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.",
+      "got": "Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_083",
+      "category": "water_supply",
+      "language": "hinglish",
+      "question": "Pani nahi mil raha",
+      "expected": "Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.",
+      "got": "Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_084",
+      "category": "water_supply_english",
+      "language": "english",
+      "question": "Water supply is stopped",
+      "expected": "If water supply is not coming, you can register a water supply complaint.",
+      "got": "If water supply is not coming, you can register a water supply complaint.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_085",
+      "category": "water_supply_hindi",
+      "language": "hindi",
+      "question": "पानी की supply बंद है",
+      "expected": "अगर पानी supply नहीं आ रही है तो आप water supply complaint register कर सकते हो।",
+      "got": "अगर पानी supply नहीं आ रही है तो आप water supply complaint register कर सकते हो।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_086",
+      "category": "electricity",
+      "language": "hinglish",
+      "question": "Bijli nahi aa rahi",
+      "expected": "Agar bijli supply me problem hai to aap electricity complaint register kar sakte ho. Isse electricity department ko issue ki jaankari mil jayegi.",
+      "got": "Agar bijli supply me problem hai to aap electricity complaint register kar sakte ho. Isse electricity department ko issue ki jaankari mil jayegi.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_087",
+      "category": "electricity",
+      "language": "hinglish",
+      "question": "Power cut ho gaya hai",
+      "expected": "Agar bijli supply me problem hai to aap electricity complaint register kar sakte ho. Isse electricity department ko issue ki jaankari mil jayegi.",
+      "got": "Agar bijli supply me problem hai to aap electricity complaint register kar sakte ho. Isse electricity department ko issue ki jaankari mil jayegi.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_088",
+      "category": "electricity_english",
+      "language": "english",
+      "question": "No electricity",
+      "expected": "If there is a problem with electricity supply, you can register an electricity complaint. This will inform the electricity department about the issue.",
+      "got": "If there is a problem with electricity supply, you can register an electricity complaint. This will inform the electricity department about the issue.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_089",
+      "category": "electricity_hindi",
+      "language": "hindi",
+      "question": "बिजली नहीं आ रही",
+      "expected": "अगर बिजली supply में problem है तो आप electricity complaint register कर सकते हो। इससे electricity department को issue की जानकारी मिल जाएगी।",
+      "got": "अगर बिजली supply में problem है तो आप electricity complaint register कर सकते हो। इससे electricity department को issue की जानकारी मिल जाएगी।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_090",
+      "category": "garbage",
+      "language": "hinglish",
+      "question": "Kachra nahi utha rahe",
+      "expected": "Agar kachra collect nahi ho raha hai to aap sanitation complaint register kar sakte ho.",
+      "got": "Agar kachra collect nahi ho raha hai to aap sanitation complaint register kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_091",
+      "category": "garbage",
+      "language": "hinglish",
+      "question": "Safai wale nahi aaye",
+      "expected": "Agar kachra collect nahi ho raha hai to aap sanitation complaint register kar sakte ho.",
+      "got": "Agar kachra collect nahi ho raha hai to aap sanitation complaint register kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_092",
+      "category": "garbage_english",
+      "language": "english",
+      "question": "Garbage collectors did not come",
+      "expected": "If garbage is not being collected, you can register a sanitation complaint.",
+      "got": "If garbage is not being collected, you can register a sanitation complaint.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_093",
+      "category": "garbage_hindi",
+      "language": "hindi",
+      "question": "कचरा नहीं उठा रहे",
+      "expected": "अगर कचरा collect नहीं हो रहा है तो आप sanitation complaint register कर सकते हो।",
+      "got": "अगर कचरा collect नहीं हो रहा है तो आप sanitation complaint register कर सकते हो।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_094",
+      "category": "government_schemes",
+      "language": "hinglish",
+      "question": "Kya kya schemes hain?",
+      "expected": "Main aapko Ayushman Bharat, PM Awas Yojana, Ration Card, Pradhan Mantri Ujjwala Yojana aur anya government schemes ke baare me bata sakta hoon.",
+      "got": "Main aapko Ayushman Bharat, PM Awas Yojana, Ration Card, Pradhan Mantri Ujjwala Yojana aur anya government schemes ke baare me bata sakta hoon.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_095",
+      "category": "government_schemes_english",
+      "language": "english",
+      "question": "What schemes are available?",
+      "expected": "I can tell you about Ayushman Bharat, PM Awas Yojana, Ration Card, Pradhan Mantri Ujjwala Yojana and other government schemes.",
+      "got": "I can tell you about Ayushman Bharat, PM Awas Yojana, Ration Card, Pradhan Mantri Ujjwala Yojana and other government schemes.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_096",
+      "category": "government_schemes_hindi",
+      "language": "hindi",
+      "question": "क्या क्या schemes हैं?",
+      "expected": "मैं आपको Ayushman Bharat, PM Awas Yojana, Ration Card, Pradhan Mantri Ujjwala Yojana और अन्य government schemes के बारे में बता सकता हूं।",
+      "got": "मैं आपको Ayushman Bharat, PM Awas Yojana, Ration Card, Pradhan Mantri Ujjwala Yojana और अन्य government schemes के बारे में बता सकता हूं।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_097",
+      "category": "ujjwala_yojana",
+      "language": "hinglish",
+      "question": "Ujjwala Yojana kya hai?",
+      "expected": "Pradhan Mantri Ujjwala Yojana ek government scheme hai jisme eligible mahilaon ko free LPG connection milta hai. Iske liye aap apne nearest LPG distributor se apply kar sakte ho.",
+      "got": "Pradhan Mantri Ujjwala Yojana ek government scheme hai jisme eligible mahilaon ko free LPG connection milta hai. Iske liye aap apne nearest LPG distributor se apply kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_098",
+      "category": "ujjwala_yojana_english",
+      "language": "english",
+      "question": "What is Ujjwala Yojana?",
+      "expected": "Pradhan Mantri Ujjwala Yojana is a government scheme where eligible women get free LPG connection. You can apply for this at your nearest LPG distributor.",
+      "got": "Pradhan Mantri Ujjwala Yojana is a government scheme where eligible women get free LPG connection. You can apply for this at your nearest LPG distributor.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_099",
+      "category": "ujjwala_yojana_hindi",
+      "language": "hindi",
+      "question": "उज्ज्वला योजना क्या है?",
+      "expected": "Pradhan Mantri Ujjwala Yojana एक government scheme है जिसमें eligible महिलाओं को free LPG connection मिलता है। इसके लिए आप अपने nearest LPG distributor से apply कर सकते हो।",
+      "got": "Pradhan Mantri Ujjwala Yojana एक government scheme है जिसमें eligible महिलाओं को free LPG connection मिलता है। इसके लिए आप अपने nearest LPG distributor से apply कर सकते हो।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_100",
+      "category": "ayushman_yojana",
+      "language": "english",
+      "question": "Ayushman card ke liye eligible kaun hai?",
+      "expected": "Ayushman Bharat scheme me garib aur middle class families eligible hain. Aap official Ayushman portal par apna naam check kar sakte ho ya nearest hospital me jaake eligibility verify kar sakte ho.",
+      "got": "Ayushman Bharat scheme me garib aur middle class families eligible hain. Aap official Ayushman portal par apna naam check kar sakte ho ya nearest hospital me jaake eligibility verify kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_101",
+      "category": "ayushman_yojana_english",
+      "language": "english",
+      "question": "Who is eligible for Ayushman card?",
+      "expected": "In Ayushman Bharat scheme, poor and middle class families are eligible. You can check your name on official Ayushman portal or verify eligibility at nearest hospital.",
+      "got": "In Ayushman Bharat scheme, poor and middle class families are eligible. You can check your name on official Ayushman portal or verify eligibility at nearest hospital.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_102",
+      "category": "ayushman_yojana_hindi",
+      "language": "hindi",
+      "question": "Ayushman card के लिए eligible कौन है?",
+      "expected": "Ayushman Bharat scheme में गरीब और middle class families eligible हैं। आप official Ayushman portal पर अपना नाम check कर सकते हो या nearest hospital में जाकर eligibility verify कर सकते हो।",
+      "got": "Ayushman Bharat scheme में गरीब और middle class families eligible हैं। आप official Ayushman portal पर अपना नाम check कर सकते हो या nearest hospital में जाकर eligibility verify कर सकते हो।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_103",
+      "category": "emergency",
+      "language": "hinglish",
+      "question": "Emergency hai",
+      "expected": "Agar emergency hai to kripya 112 dial karein ya nearest police station se sampark karein. Main aapko civic complaints me madad kar sakta hoon.",
+      "got": "Agar emergency hai to kripya 112 dial karein ya nearest police station se sampark karein. Main aapko civic complaints me madad kar sakta hoon.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_104",
+      "category": "emergency_english",
+      "language": "english",
+      "question": "This is an emergency",
+      "expected": "If this is an emergency, please dial 112 or contact nearest police station. I can help you with civic complaints.",
+      "got": "If this is an emergency, please dial 112 or contact nearest police station. I can help you with civic complaints.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_105",
+      "category": "emergency_hindi",
+      "language": "hindi",
+      "question": "यह emergency है",
+      "expected": "अगर emergency है तो कृपया 112 dial करें या nearest police station से संपर्क करें। मैं आपको civic complaints में मदद कर सकता हूं।",
+      "got": "अगर emergency है तो कृपया 112 dial करें या nearest police station से संपर्क करें। मैं आपको civic complaints में मदद कर सकता हूं।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_106",
+      "category": "greeting",
+      "language": "english",
+      "question": "Hi",
+      "expected": "Namaste. Main Vaani hoon. Kripya bataye main aapki kaise madad kar sakta hoon.",
+      "got": "Namaste. Main Vaani hoon. Kripya bataye main aapki kaise madad kar sakta hoon.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_107",
+      "category": "greeting",
+      "language": "english",
+      "question": "Hey",
+      "expected": "Namaste. Main Vaani hoon. Kripya bataye main aapki kaise madad kar sakta hoon.",
+      "got": "Namaste. Main Vaani hoon. Kripya bataye main aapki kaise madad kar sakta hoon.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_108",
+      "category": "greeting_english",
+      "language": "english",
+      "question": "Good morning",
+      "expected": "Good morning. I am Vaani. Please tell me how I can help you.",
+      "got": "Good morning. I am Vaani. Please tell me how I can help you.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_109",
+      "category": "greeting_hindi",
+      "language": "hindi",
+      "question": "सुप्रभात",
+      "expected": "सुप्रभात। मैं Vaani हूं। कृपया बताएं मैं आपकी कैसे मदद कर सकता हूं।",
+      "got": "सुप्रभात। मैं Vaani हूं। कृपया बताएं मैं आपकी कैसे मदद कर सकता हूं।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_110",
+      "category": "farewell",
+      "language": "english",
+      "question": "Bye",
+      "expected": "Dhanyavaad. Agar aapko kabhi bhi madad chahiye ho to wapas aa sakte ho. Main madad ke liye yahan hoon.",
+      "got": "Dhanyavaad. Agar aapko kabhi bhi madad chahiye ho to wapas aa sakte ho. Main madad ke liye yahan hoon.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_111",
+      "category": "farewell_english",
+      "language": "english",
+      "question": "Goodbye",
+      "expected": "Thank you. If you ever need help, you can come back. I am here to help.",
+      "got": "Thank you. If you ever need help, you can come back. I am here to help.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_112",
+      "category": "farewell_hindi",
+      "language": "hindi",
+      "question": "अलविदा",
+      "expected": "धन्यवाद। अगर आपको कभी भी मदद चाहिए हो तो वापस आ सकते हो। मैं मदद के लिए यहां हूं।",
+      "got": "धन्यवाद। अगर आपको कभी भी मदद चाहिए हो तो वापस आ सकते हो। मैं मदद के लिए यहां हूं।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_113",
+      "category": "gratitude",
+      "language": "hinglish",
+      "question": "Shukriya",
+      "expected": "Aapka welcome hai. Mujhe khushi hai ki main aapki madad kar payi. Agar aapko kisi civic issue report karna ho, government scheme ke baare mein jaana ho, ya kisi complaint ki status check karni ho to aap mujhse pooch sakte hain.",
+      "got": "Aapka welcome hai. Mujhe khushi hai ki main aapki madad kar payi. Agar aapko kisi civic issue report karna ho, government scheme ke baare mein jaana ho, ya kisi complaint ki status check karni ho to aap mujhse pooch sakte hain.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_114",
+      "category": "gratitude",
+      "language": "english",
+      "question": "Thanks",
+      "expected": "Aapka welcome hai. Mujhe khushi hai ki main aapki madad kar payi. Agar aapko kisi civic issue report karna ho, government scheme ke baare mein jaana ho, ya kisi complaint ki status check karni ho to aap mujhse pooch sakte hain.",
+      "got": "Aapka welcome hai. Mujhe khushi hai ki main aapki madad kar payi. Agar aapko kisi civic issue report karna ho, government scheme ke baare mein jaana ho, ya kisi complaint ki status check karni ho to aap mujhse pooch sakte hain.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_115",
+      "category": "gratitude_english",
+      "language": "english",
+      "question": "Thanks a lot",
+      "expected": "You are welcome. I am glad I could help you. If you need to report any civic issue, know about government schemes, or check complaint status, you can ask me.",
+      "got": "You are welcome. I am glad I could help you. If you need to report any civic issue, know about government schemes, or check complaint status, you can ask me.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_116",
+      "category": "help_request",
+      "language": "hinglish",
+      "question": "Kuch help chahiye",
+      "expected": "Zaroor. Kripya bataye aapko kis cheez me madad chahiye. Main aapko sahi direction me guide karunga.",
+      "got": "Zaroor. Kripya bataye aapko kis cheez me madad chahiye. Main aapko sahi direction me guide karunga.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_117",
+      "category": "help_request",
+      "language": "hinglish",
+      "question": "Mujhe kuch puchna hai",
+      "expected": "Zaroor. Kripya bataye aapko kis cheez me madad chahiye. Main aapko sahi direction me guide karunga.",
+      "got": "Zaroor. Kripya bataye aapko kis cheez me madad chahiye. Main aapko sahi direction me guide karunga.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_118",
+      "category": "help_request_english",
+      "language": "english",
+      "question": "I have a question",
+      "expected": "Sure. Please tell me what you need help with. I will guide you in the right direction.",
+      "got": "Sure. Please tell me what you need help with. I will guide you in the right direction.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_119",
+      "category": "help_request_hindi",
+      "language": "hindi",
+      "question": "मुझे कुछ पूछना है",
+      "expected": "ज़रूर। कृपया बताएं आपको किस चीज़ में मदद चाहिए। मैं आपको सही direction में guide करूंगा।",
+      "got": "ज़रूर। कृपया बताएं आपको किस चीज़ में मदद चाहिए। मैं आपको सही direction में guide करूंगा।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_120",
+      "category": "complaint_tracking",
+      "language": "hinglish",
+      "question": "Meri complaint ka kya hua?",
+      "expected": "Aap complaint ID ke through apni complaint ka status check kar sakte ho.",
+      "got": "Aap complaint ID ke through apni complaint ka status check kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_121",
+      "category": "complaint_tracking",
+      "language": "english",
+      "question": "Complaint ka status kya hai?",
+      "expected": "Aap complaint ID ke through apni complaint ka status check kar sakte ho.",
+      "got": "Aap complaint ID ke through apni complaint ka status check kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_122",
+      "category": "complaint_tracking_english",
+      "language": "english",
+      "question": "What happened to my complaint?",
+      "expected": "You can check your complaint status through complaint ID.",
+      "got": "You can check your complaint status through complaint ID.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_123",
+      "category": "complaint_tracking_hindi",
+      "language": "hindi",
+      "question": "मेरी complaint का क्या हुआ?",
+      "expected": "आप complaint ID के through अपनी complaint का status check कर सकते हो।",
+      "got": "आप complaint ID के through अपनी complaint का status check कर सकते हो।",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_124",
+      "category": "pm_awas_yojana",
+      "language": "english",
+      "question": "Ghar ke liye scheme kya hai?",
+      "expected": "PM Awas Yojana ke liye aap official government portal par online application kar sakte ho. Isme eligible families ko ghar banane ke liye financial assistance milti hai.",
+      "got": "PM Awas Yojana ke liye aap official government portal par online application kar sakte ho. Isme eligible families ko ghar banane ke liye financial assistance milti hai.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_125",
+      "category": "pm_awas_yojana_english",
+      "language": "english",
+      "question": "What is the scheme for house?",
+      "expected": "For PM Awas Yojana, you can apply online on official government portal. In this, eligible families get financial assistance to build house.",
+      "got": "For PM Awas Yojana, you can apply online on official government portal. In this, eligible families get financial assistance to build house.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_126",
+      "category": "ration_card",
+      "language": "english",
+      "question": "Ration card ke liye documents kya chahiye?",
+      "expected": "Ration card banwane ke liye aapko identity proof, address proof aur income certificate ki zarurat hogi. Aap apne state food supply portal par online apply kar sakte ho.",
+      "got": "Ration card banwane ke liye aapko identity proof, address proof aur income certificate ki zarurat hogi. Aap apne state food supply portal par online apply kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_127",
+      "category": "ration_card_english",
+      "language": "english",
+      "question": "What documents are needed for ration card?",
+      "expected": "To make ration card, you will need identity proof, address proof and income certificate. You can apply online on your state food supply portal.",
+      "got": "To make ration card, you will need identity proof, address proof and income certificate. You can apply online on your state food supply portal.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_128",
+      "category": "drainage",
+      "language": "hinglish",
+      "question": "Nali overflow ho rahi hai",
+      "expected": "Sewer overflow ek sanitation problem hai. Aap sewer ya drainage complaint register kar sakte ho.",
+      "got": "Sewer overflow ek sanitation problem hai. Aap sewer ya drainage complaint register kar sakte ho.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_129",
+      "category": "drainage_english",
+      "language": "english",
+      "question": "Drain is overflowing",
+      "expected": "Sewer overflow is a sanitation problem. You can register a sewer or drainage complaint.",
+      "got": "Sewer overflow is a sanitation problem. You can register a sewer or drainage complaint.",
+      "status": "PASS"
+    },
+    {
+      "id": "conv_130",
+      "category": "drainage_hindi",
+      "language": "hindi",
+      "question": "नाली overflow हो रही है",
+      "expected": "Sewer overflow एक sanitation problem है। आप sewer या drainage complaint register कर सकते हो।",
+      "got": "Sewer overflow एक sanitation problem है। आप sewer या drainage complaint register कर सकते हो।",
+      "status": "PASS"
+    }
+  ],
+  "failedTests": []
+}

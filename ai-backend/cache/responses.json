@@ -1,0 +1,1728 @@
+{
+  "responses": {
+    "3f33a8b8df99abb474ced64abdc0222e": {
+      "message": "Tum kaun ho?",
+      "response": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic problems report karne, government schemes ki information dene aur complaint status track karne me.",
+      "metadata": {
+        "category": "introduction",
+        "id": "conv_001"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "76a7c626a4f0d976725bda3afbe9f373": {
+      "message": "Who are you?",
+      "response": "My name is Vaani. I am an AI based civic assistant. I help citizens report civic problems, provide government scheme information and track complaint status.",
+      "metadata": {
+        "category": "introduction_english",
+        "id": "conv_002"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "f4e800e653a7349225fa68703ceabeb4": {
+      "message": "तुम कौन हो?",
+      "response": "मेरा नाम Vaani है। मैं एक AI based civic assistant हूं। मैं citizens की मदद करता हूं civic problems report करने, government schemes की information देने और complaint status track करने में।",
+      "metadata": {
+        "category": "introduction_hindi",
+        "id": "conv_003"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "8ece6d7649cdd3cd5378e7e37aa572d9": {
+      "message": "Vaani kya hai?",
+      "response": "Vaani ek smart AI assistant hai jo logon ko government services aur civic complaints me madad karta hai. Yahan aap road, pani, bijli aur safai jaise issues report kar sakte ho.",
+      "metadata": {
+        "category": "platform_help",
+        "id": "conv_004"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "8e24ac33a461c7b152cb7677e1dc6d43": {
+      "message": "What is Vaani?",
+      "response": "Vaani is a smart AI assistant that helps people with government services and civic complaints. Here you can report issues like road, water, electricity and sanitation.",
+      "metadata": {
+        "category": "platform_help_english",
+        "id": "conv_005"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "f96b3c1700dd8f1d95a982838b135730": {
+      "message": "Vaani क्या है?",
+      "response": "Vaani एक smart AI assistant है जो लोगों को government services और civic complaints में मदद करता है। यहां आप road, pani, bijli और safai जैसे issues report कर सकते हो।",
+      "metadata": {
+        "category": "platform_help_hindi",
+        "id": "conv_006"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "1605ff1a90b534e39dbe41b59b2561c8": {
+      "message": "Tum kya madad kar sakte ho?",
+      "response": "Main aapko civic issues report karne, government schemes ke baare me batane aur complaint ka status check karne me madad kar sakta hoon.",
+      "metadata": {
+        "category": "assistance",
+        "id": "conv_007"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "6d07c39a9d9c8e139dc6a99c8e7d4e52": {
+      "message": "What help can you provide?",
+      "response": "I can help you report civic issues, provide information about government schemes and check complaint status.",
+      "metadata": {
+        "category": "assistance_english",
+        "id": "conv_008"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "ea9a2e4b18f918fb661d66047afe7683": {
+      "message": "तुम क्या मदद कर सकते हो?",
+      "response": "मैं आपको civic issues report करने, government schemes के बारे में बताने और complaint का status check करने में मदद कर सकता हूं।",
+      "metadata": {
+        "category": "assistance_hindi",
+        "id": "conv_009"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "d7a257eee410a2c83fa460276ebffa07": {
+      "message": "Namaste",
+      "response": "Namaste. Main Vaani hoon. Kripya bataye main aapki kaise madad kar sakta hoon.",
+      "metadata": {
+        "category": "greeting",
+        "id": "conv_010"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "5d41402abc4b2a76b9719d911017c592": {
+      "message": "Hello",
+      "response": "Hello. I am Vaani. Please tell me how I can help you.",
+      "metadata": {
+        "category": "greeting_english",
+        "id": "conv_011"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "16e2d966d4ab046e2442bc008b4da566": {
+      "message": "नमस्ते",
+      "response": "नमस्ते। मैं Vaani हूं। कृपया बताएं मैं आपकी कैसे मदद कर सकता हूं।",
+      "metadata": {
+        "category": "greeting_hindi",
+        "id": "conv_012"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "d944f301b36fec08743dde34403c0966": {
+      "message": "Mujhe madad chahiye",
+      "response": "Zaroor. Kripya bataye aapko kis cheez me madad chahiye. Main aapko sahi direction me guide karunga.",
+      "metadata": {
+        "category": "help_request",
+        "id": "conv_013"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "9a9b0e97f617b6e79b77c3bde1e88f58": {
+      "message": "I need help",
+      "response": "Sure. Please tell me what you need help with. I will guide you in the right direction.",
+      "metadata": {
+        "category": "help_request_english",
+        "id": "conv_014"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "37097911054befec817b6c480adc3e20": {
+      "message": "मुझे मदद चाहिए",
+      "response": "ज़रूर। कृपया बताएं आपको किस चीज़ में मदद चाहिए। मैं आपको सही direction में guide करूंगा।",
+      "metadata": {
+        "category": "help_request_hindi",
+        "id": "conv_015"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "b2ea610b536a310fcb3e3090796ec198": {
+      "message": "Main bahut pareshan hoon",
+      "response": "Mujhe afsos hai ki aap pareshan hain. Kripya apni problem bataye. Main aapko solution dhoondhne me madad karunga.",
+      "metadata": {
+        "category": "emotional_support",
+        "id": "conv_016"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "22548030f011f83540b40a6eddda9ffc": {
+      "message": "I am very worried",
+      "response": "I am sorry that you are worried. Please tell me your problem. I will help you find a solution.",
+      "metadata": {
+        "category": "emotional_support_english",
+        "id": "conv_017"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "51e7efefa19a59bb97df1b78e8908d1b": {
+      "message": "मैं बहुत परेशान हूं",
+      "response": "मुझे अफ़सोस है कि आप परेशान हैं। कृपया अपनी problem बताएं। मैं आपको solution ढूंढने में मदद करूंगा।",
+      "metadata": {
+        "category": "emotional_support_hindi",
+        "id": "conv_018"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "8db1d59d01c3efd28b76363ce0043365": {
+      "message": "Koi meri problem nahi sun raha",
+      "response": "Aap chinta na kare. Aap apni problem yahan report kar sakte ho. Main aapko sahi department tak pahunchane me madad karunga.",
+      "metadata": {
+        "category": "ignored_problem",
+        "id": "conv_019"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "90b8185255269f2cad11387527e87301": {
+      "message": "No one is listening to my problem",
+      "response": "Don't worry. You can report your problem here. I will help you reach the right department.",
+      "metadata": {
+        "category": "ignored_problem_english",
+        "id": "conv_020"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "5f2781bed59747acad0690bff6ec42f1": {
+      "message": "Complaint kaise kare?",
+      "response": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.",
+      "metadata": {
+        "category": "complaint_filing",
+        "id": "conv_021"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "29e7ff4e51c23edfbb6e63e650563d7e": {
+      "message": "How to file a complaint?",
+      "response": "To file a complaint, choose problem category, provide location and write problem description. Then you can submit the complaint.",
+      "metadata": {
+        "category": "complaint_filing_english",
+        "id": "conv_022"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "06c110ecca427cbd2fae813369ec6088": {
+      "message": "Complaint कैसे करें?",
+      "response": "Complaint करने के लिए आप problem category choose करें, location बताएं और problem का description लिखें। उसके बाद complaint submit कर सकते हो।",
+      "metadata": {
+        "category": "complaint_filing_hindi",
+        "id": "conv_023"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "5e1e086a4e37efb0682997dd1962c5da": {
+      "message": "Complaint status kaise check kare?",
+      "response": "Aap complaint ID ke through apni complaint ka status check kar sakte ho.",
+      "metadata": {
+        "category": "complaint_tracking",
+        "id": "conv_024"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "ca6b91dfe6e2ca7adc518c96f3979024": {
+      "message": "How to check complaint status?",
+      "response": "You can check your complaint status through complaint ID.",
+      "metadata": {
+        "category": "complaint_tracking_english",
+        "id": "conv_025"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "a94f9773ce9ba78cd179c1d9c621d83e": {
+      "message": "Complaint status कैसे check करें?",
+      "response": "आप complaint ID के through अपनी complaint का status check कर सकते हो।",
+      "metadata": {
+        "category": "complaint_tracking_hindi",
+        "id": "conv_026"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "b5a3758ccc821f0ccc308d3d539b4ca2": {
+      "message": "Sadak toot gayi hai kya kare?",
+      "response": "Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal department ko issue ki information mil jayegi.",
+      "metadata": {
+        "category": "road_pothole",
+        "id": "conv_027"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "a7ac938eaa5b3b7ae2ddb85b619c374a": {
+      "message": "Road is damaged, what to do?",
+      "response": "If road is damaged, you can register a road maintenance complaint. This will inform the municipal department about the issue.",
+      "metadata": {
+        "category": "road_pothole_english",
+        "id": "conv_028"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "10c9c4fda879d5bfb600b90d979cc85d": {
+      "message": "सड़क टूट गई है क्या करें?",
+      "response": "अगर सड़क टूट गई है तो आप road maintenance complaint register कर सकते हो। इससे municipal department को issue की information मिल जाएगी।",
+      "metadata": {
+        "category": "road_pothole_hindi",
+        "id": "conv_029"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "c392c2974addc0984391ff27656f921f": {
+      "message": "Street light kharab hai kya kare?",
+      "response": "Aap street light repair complaint register kar sakte ho. Isse electricity department ko repair request bhej di jayegi.",
+      "metadata": {
+        "category": "streetlight",
+        "id": "conv_030"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "e5834a6a2fdeab9a609aba2694aca948": {
+      "message": "Street light is broken, what to do?",
+      "response": "You can register a street light repair complaint. This will send a repair request to the electricity department.",
+      "metadata": {
+        "category": "streetlight_english",
+        "id": "conv_031"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "032d2896fb45eca97f2271628872d11f": {
+      "message": "Street light खराब है क्या करें?",
+      "response": "आप street light repair complaint register कर सकते हो। इससे electricity department को repair request भेज दी जाएगी।",
+      "metadata": {
+        "category": "streetlight_hindi",
+        "id": "conv_032"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "1e093527c99626adaf25ae9c123dcff9": {
+      "message": "Pani nahi aa raha kya kare?",
+      "response": "Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.",
+      "metadata": {
+        "category": "water_supply",
+        "id": "conv_033"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "39c9b4c710044d8d677d4f8200bc3c3a": {
+      "message": "Water not coming, what to do?",
+      "response": "If water supply is not coming, you can register a water supply complaint.",
+      "metadata": {
+        "category": "water_supply_english",
+        "id": "conv_034"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "55e0fb713ccafe126839316426ec84d3": {
+      "message": "पानी नहीं आ रहा क्या करें?",
+      "response": "अगर पानी supply नहीं आ रही है तो आप water supply complaint register कर सकते हो।",
+      "metadata": {
+        "category": "water_supply_hindi",
+        "id": "conv_035"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "53fd8ab2ae33332c1a095b071d57a865": {
+      "message": "Kooda nahi uth raha kya kare?",
+      "response": "Agar kachra collect nahi ho raha hai to aap sanitation complaint register kar sakte ho.",
+      "metadata": {
+        "category": "garbage",
+        "id": "conv_036"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "161b6f94c90f476096c18941e4624db3": {
+      "message": "Garbage not collected, what to do?",
+      "response": "If garbage is not being collected, you can register a sanitation complaint.",
+      "metadata": {
+        "category": "garbage_english",
+        "id": "conv_037"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "68e40629c0eb8b616333f5a969be3583": {
+      "message": "कूड़ा नहीं उठ रहा क्या करें?",
+      "response": "अगर कचरा collect नहीं हो रहा है तो आप sanitation complaint register कर सकते हो।",
+      "metadata": {
+        "category": "garbage_hindi",
+        "id": "conv_038"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "9f4280dee7b2f5ab5a7b7c5307c76192": {
+      "message": "Sewer overflow ho raha hai kya kare?",
+      "response": "Sewer overflow ek sanitation problem hai. Aap sewer ya drainage complaint register kar sakte ho.",
+      "metadata": {
+        "category": "drainage",
+        "id": "conv_039"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "0a281707bc9c32be7b821893c106ce5c": {
+      "message": "Sewer is overflowing, what to do?",
+      "response": "Sewer overflow is a sanitation problem. You can register a sewer or drainage complaint.",
+      "metadata": {
+        "category": "drainage_english",
+        "id": "conv_040"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "ea0e5b50780bf9383ece8c6420b46bb7": {
+      "message": "Sewer overflow हो रहा है क्या करें?",
+      "response": "Sewer overflow एक sanitation problem है। आप sewer या drainage complaint register कर सकते हो।",
+      "metadata": {
+        "category": "drainage_hindi",
+        "id": "conv_041"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "69b0a295f840bd8468d9777e8170cb02": {
+      "message": "Account kaise banaye?",
+      "response": "VAANI par account banana bahut easy hai. Sabse pehle VAANI website ya app open karein. Uske baad Sign Up / Register par click karein. Apna naam, mobile number aur password enter karein. Mobile par aaya OTP verify karein. Verification ke baad aapka account successfully create ho jayega.",
+      "metadata": {
+        "category": "account_creation",
+        "id": "conv_042"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "4daf1d629d8a209b19beeb2195d2ca92": {
+      "message": "How to create account?",
+      "response": "Creating account on VAANI is very easy. First open VAANI website or app. Then click on Sign Up / Register. Enter your name, mobile number and password. Verify OTP received on mobile. After verification your account will be successfully created.",
+      "metadata": {
+        "category": "account_creation_english",
+        "id": "conv_043"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "68649ac33743f3a28e8d83096e3bf9cc": {
+      "message": "Account कैसे बनाएं?",
+      "response": "VAANI पर account बनाना बहुत आसान है। सबसे पहले VAANI website या app खोलें। उसके बाद Sign Up / Register पर क्लिक करें। अपना नाम, mobile number और password enter करें। Mobile पर आया OTP verify करें। Verification के बाद आपका account successfully create हो जाएगा।",
+      "metadata": {
+        "category": "account_creation_hindi",
+        "id": "conv_044"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "4b17551e0da3c07d739d245f484ccebc": {
+      "message": "Dhanyavaad",
+      "response": "Aapka welcome hai. Mujhe khushi hai ki main aapki madad kar payi. Agar aapko kisi civic issue report karna ho, government scheme ke baare mein jaana ho, ya kisi complaint ki status check karni ho to aap mujhse pooch sakte hain.",
+      "metadata": {
+        "category": "gratitude",
+        "id": "conv_045"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "455472b522fd0a1e27aaa91c4033db65": {
+      "message": "Thank you",
+      "response": "You are welcome. I am glad I could help you. If you need to report any civic issue, know about government schemes, or check complaint status, you can ask me.",
+      "metadata": {
+        "category": "gratitude_english",
+        "id": "conv_046"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "29db52969d3985965cd01dc51b235ede": {
+      "message": "धन्यवाद",
+      "response": "आपका स्वागत है। मुझे खुशी है कि मैं आपकी मदद कर पाई। अगर आपको किसी civic issue report करना हो, government scheme के बारे में जानना हो, या किसी complaint की status check करनी हो तो आप मुझसे पूछ सकते हैं।",
+      "metadata": {
+        "category": "gratitude_hindi",
+        "id": "conv_047"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "67b199eeb75c602f41b014f480b39f62": {
+      "message": "Alvida",
+      "response": "Dhanyavaad. Agar aapko kabhi bhi madad chahiye ho to wapas aa sakte ho. Main madad ke liye yahan hoon.",
+      "metadata": {
+        "category": "farewell",
+        "id": "conv_048"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "9ca6179deca25d859f815f7ea09a2f3e": {
+      "message": "Government schemes ki information kaise milegi?",
+      "response": "Main aapko different government schemes ke baare me information de sakta hoon aur eligibility bhi samjha sakta hoon.",
+      "metadata": {
+        "category": "government_schemes",
+        "id": "conv_049"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "97bc85239da6dd066b6b6ac05eb7bad5": {
+      "message": "How to get government schemes information?",
+      "response": "I can provide you information about different government schemes and explain eligibility.",
+      "metadata": {
+        "category": "government_schemes_english",
+        "id": "conv_050"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "145f6ff9f8284c56b2e1ab2981fdca8d": {
+      "message": "PM Awas Yojana me apply kaise kare?",
+      "response": "PM Awas Yojana ke liye aap official government portal par online application kar sakte ho.",
+      "metadata": {
+        "category": "pm_awas_yojana",
+        "id": "conv_055"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "e376885e373b485bafc7acfd77ac896d": {
+      "message": "How to apply in PM Awas Yojana?",
+      "response": "For PM Awas Yojana, you can apply online on official government portal.",
+      "metadata": {
+        "category": "pm_awas_yojana_english",
+        "id": "conv_056"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "965acdb954b605662dab458b3414b4f3": {
+      "message": "Ration card kaise banwaye?",
+      "response": "Ration card banwane ke liye aap apne state food supply portal par online apply kar sakte ho.",
+      "metadata": {
+        "category": "ration_card",
+        "id": "conv_057"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "7e164877490bbd2ce74bde6899e46676": {
+      "message": "How to make ration card?",
+      "response": "To make ration card, you can apply online on your state food supply portal.",
+      "metadata": {
+        "category": "ration_card_english",
+        "id": "conv_058"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "427a02bcec5a83399992079ae7d965d9": {
+      "message": "Volunteer help mil sakti hai kya?",
+      "response": "Haan agar zarurat ho to aap volunteer assistance request kar sakte ho. Volunteer aapki madad kar sakta hai.",
+      "metadata": {
+        "category": "volunteer_help",
+        "id": "conv_059"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "030bfe0f9b4a20e00780854c27579b3f": {
+      "message": "Can I get volunteer help?",
+      "response": "Yes, if needed you can request volunteer assistance. Volunteer can help you.",
+      "metadata": {
+        "category": "volunteer_help_english",
+        "id": "conv_060"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "62419d301a0e496fb8388c75824d82f0": {
+      "message": "Complaint karna free hai kya?",
+      "response": "Haan civic complaints register karna free hota hai. Iske liye koi charge nahi hota.",
+      "metadata": {
+        "category": "free_service",
+        "id": "conv_061"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "8bfa85e4be9e790db285595913250cc2": {
+      "message": "Is filing complaint free?",
+      "response": "Yes, registering civic complaints is free. There is no charge for it.",
+      "metadata": {
+        "category": "free_service_english",
+        "id": "conv_062"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "c461732bcf1cee71d2ebb5d7aa5e59c6": {
+      "message": "Aap kaun hain?",
+      "response": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic problems report karne, government schemes ki information dene aur complaint status track karne me.",
+      "metadata": {
+        "category": "introduction",
+        "id": "conv_066"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "ed8b4c0a201f923e23f52c0821627b64": {
+      "message": "Apka naam kya hai?",
+      "response": "Mera naam Vaani hai. Main ek AI based civic assistant hoon. Main citizens ki madad karta hoon civic problems report karne, government schemes ki information dene aur complaint status track karne me.",
+      "metadata": {
+        "category": "introduction",
+        "id": "conv_067"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "84ed2067cf603fff6b8fd958b79972f2": {
+      "message": "What is your name?",
+      "response": "My name is Vaani. I am an AI based civic assistant. I help citizens report civic problems, provide government scheme information and track complaint status.",
+      "metadata": {
+        "category": "introduction_english",
+        "id": "conv_068"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "056d9cb478e1616a241eff137c538fa5": {
+      "message": "आपका नाम क्या है?",
+      "response": "मेरा नाम Vaani है। मैं एक AI based civic assistant हूं। मैं citizens की मदद करता हूं civic problems report करने, government schemes की information देने और complaint status track करने में।",
+      "metadata": {
+        "category": "introduction_hindi",
+        "id": "conv_069"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "9746415d516cedb1f100943aad7956c4": {
+      "message": "Ye app kya karta hai?",
+      "response": "Vaani ek smart AI assistant hai jo logon ko government services aur civic complaints me madad karta hai. Yahan aap road, pani, bijli aur safai jaise issues report kar sakte ho.",
+      "metadata": {
+        "category": "platform_help",
+        "id": "conv_070"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "479839b205da7950f73798e0b3c4281c": {
+      "message": "Isme kya features hain?",
+      "response": "Vaani me aap civic complaints register kar sakte ho, government schemes ki jaankari le sakte ho, complaint status track kar sakte ho aur volunteer help request kar sakte ho.",
+      "metadata": {
+        "category": "platform_help",
+        "id": "conv_071"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "574d78f9be1b7ebd6d0247aad733b712": {
+      "message": "What features does this have?",
+      "response": "In Vaani you can register civic complaints, get information about government schemes, track complaint status and request volunteer help.",
+      "metadata": {
+        "category": "platform_help_english",
+        "id": "conv_072"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "42410f6c3fb2e8f46d1d3825aec28366": {
+      "message": "इसमें क्या features हैं?",
+      "response": "Vaani में आप civic complaints register कर सकते हो, government schemes की जानकारी ले सकते हो, complaint status track कर सकते हो और volunteer help request कर सकते हो।",
+      "metadata": {
+        "category": "platform_help_hindi",
+        "id": "conv_073"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "4d19d398dfd58eabfccd48d54e84b2e8": {
+      "message": "Shikayat kaise darj kare?",
+      "response": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.",
+      "metadata": {
+        "category": "complaint_filing",
+        "id": "conv_074"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "8b4d5d91fffe59397ff3808ad13a1e17": {
+      "message": "Complaint register kaise kare?",
+      "response": "Complaint karne ke liye aap problem category choose kare, location bataye aur problem ka description likhe. Uske baad complaint submit kar sakte ho.",
+      "metadata": {
+        "category": "complaint_filing",
+        "id": "conv_075"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "f72f3d56f2e3ffd01e4f6ac4aae29512": {
+      "message": "How do I register a complaint?",
+      "response": "To file a complaint, choose problem category, provide location and write problem description. Then you can submit the complaint.",
+      "metadata": {
+        "category": "complaint_filing_english",
+        "id": "conv_076"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "95eb6e3bfe2a20287897dc734d900180": {
+      "message": "शिकायत कैसे दर्ज करें?",
+      "response": "Complaint करने के लिए आप problem category choose करें, location बताएं और problem का description लिखें। उसके बाद complaint submit कर सकते हो।",
+      "metadata": {
+        "category": "complaint_filing_hindi",
+        "id": "conv_077"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "7c59f91c6f84a687a9d0d5665f96461c": {
+      "message": "Sadak me gadda hai",
+      "response": "Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal department ko issue ki information mil jayegi.",
+      "metadata": {
+        "category": "road_pothole",
+        "id": "conv_078"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "2cc256923fbdfa3705f6affa484b8294": {
+      "message": "Road kharab ho gayi hai",
+      "response": "Agar sadak toot gayi hai to aap road maintenance complaint register kar sakte ho. Isse municipal department ko issue ki information mil jayegi.",
+      "metadata": {
+        "category": "road_pothole",
+        "id": "conv_079"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "ad4083d2b476b58bfd305bad4251e2e0": {
+      "message": "There is a pothole in the road",
+      "response": "If road is damaged, you can register a road maintenance complaint. This will inform the municipal department about the issue.",
+      "metadata": {
+        "category": "road_pothole_english",
+        "id": "conv_080"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "90bf5e70b905698f29bf9fce7b1ede2b": {
+      "message": "सड़क में गड्ढा है",
+      "response": "अगर सड़क टूट गई है तो आप road maintenance complaint register कर सकते हो। इससे municipal department को issue की information मिल जाएगी।",
+      "metadata": {
+        "category": "road_pothole_hindi",
+        "id": "conv_081"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "da08c1d13789e5e09309875184fccae9": {
+      "message": "Pani ki supply band hai",
+      "response": "Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.",
+      "metadata": {
+        "category": "water_supply",
+        "id": "conv_082"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "e1c2ff2dcc1ab51e366b38afe8c2d68d": {
+      "message": "Pani nahi mil raha",
+      "response": "Agar pani supply nahi aa rahi hai to aap water supply complaint register kar sakte ho.",
+      "metadata": {
+        "category": "water_supply",
+        "id": "conv_083"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "e7a779d753356304da6016fc90168311": {
+      "message": "Water supply is stopped",
+      "response": "If water supply is not coming, you can register a water supply complaint.",
+      "metadata": {
+        "category": "water_supply_english",
+        "id": "conv_084"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "92b0883a43d7a5ad6a73b240ba8988b1": {
+      "message": "पानी की supply बंद है",
+      "response": "अगर पानी supply नहीं आ रही है तो आप water supply complaint register कर सकते हो।",
+      "metadata": {
+        "category": "water_supply_hindi",
+        "id": "conv_085"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "31f1ee572f1f7de929fc82945b7ff55b": {
+      "message": "Bijli nahi aa rahi",
+      "response": "Agar bijli supply me problem hai to aap electricity complaint register kar sakte ho. Isse electricity department ko issue ki jaankari mil jayegi.",
+      "metadata": {
+        "category": "electricity",
+        "id": "conv_086"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "917574ee4e6e13ae209f1855bf811c9d": {
+      "message": "Power cut ho gaya hai",
+      "response": "Agar bijli supply me problem hai to aap electricity complaint register kar sakte ho. Isse electricity department ko issue ki jaankari mil jayegi.",
+      "metadata": {
+        "category": "electricity",
+        "id": "conv_087"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "18aeef35d3237d6cfb58f9a3f2664717": {
+      "message": "No electricity",
+      "response": "If there is a problem with electricity supply, you can register an electricity complaint. This will inform the electricity department about the issue.",
+      "metadata": {
+        "category": "electricity_english",
+        "id": "conv_088"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "aed463ebd6aa996127e9de9d69a17410": {
+      "message": "बिजली नहीं आ रही",
+      "response": "अगर बिजली supply में problem है तो आप electricity complaint register कर सकते हो। इससे electricity department को issue की जानकारी मिल जाएगी।",
+      "metadata": {
+        "category": "electricity_hindi",
+        "id": "conv_089"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "8aa03004e918776c941bf043db355657": {
+      "message": "Kachra nahi utha rahe",
+      "response": "Agar kachra collect nahi ho raha hai to aap sanitation complaint register kar sakte ho.",
+      "metadata": {
+        "category": "garbage",
+        "id": "conv_090"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "07915fe6e5781d0e9b56255c4cf0de20": {
+      "message": "Safai wale nahi aaye",
+      "response": "Agar kachra collect nahi ho raha hai to aap sanitation complaint register kar sakte ho.",
+      "metadata": {
+        "category": "garbage",
+        "id": "conv_091"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "bd2de656b5a5d36e36f9ee5ec8b093c7": {
+      "message": "Garbage collectors did not come",
+      "response": "If garbage is not being collected, you can register a sanitation complaint.",
+      "metadata": {
+        "category": "garbage_english",
+        "id": "conv_092"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "f9d7ba4994c122ea251a86324df43dac": {
+      "message": "कचरा नहीं उठा रहे",
+      "response": "अगर कचरा collect नहीं हो रहा है तो आप sanitation complaint register कर सकते हो।",
+      "metadata": {
+        "category": "garbage_hindi",
+        "id": "conv_093"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "6ec350964baf0e866e6516821177f23d": {
+      "message": "Ujjwala Yojana kya hai?",
+      "response": "Pradhan Mantri Ujjwala Yojana ek government scheme hai jisme eligible mahilaon ko free LPG connection milta hai. Iske liye aap apne nearest LPG distributor se apply kar sakte ho.",
+      "metadata": {
+        "category": "ujjwala_yojana",
+        "id": "conv_097"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "32e6424dc45a2402aacc635c2e40ad2c": {
+      "message": "What is Ujjwala Yojana?",
+      "response": "Pradhan Mantri Ujjwala Yojana is a government scheme where eligible women get free LPG connection. You can apply for this at your nearest LPG distributor.",
+      "metadata": {
+        "category": "ujjwala_yojana_english",
+        "id": "conv_098"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "df86cf9d463b8a52e7bedc5b54f9fccb": {
+      "message": "उज्ज्वला योजना क्या है?",
+      "response": "Pradhan Mantri Ujjwala Yojana एक government scheme है जिसमें eligible महिलाओं को free LPG connection मिलता है। इसके लिए आप अपने nearest LPG distributor से apply कर सकते हो।",
+      "metadata": {
+        "category": "ujjwala_yojana_hindi",
+        "id": "conv_099"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "fac7084b0d51734edcb86ca2c44e5780": {
+      "message": "Emergency hai",
+      "response": "Agar emergency hai to kripya 112 dial karein ya nearest police station se sampark karein. Main aapko civic complaints me madad kar sakta hoon.",
+      "metadata": {
+        "category": "emergency",
+        "id": "conv_103"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "1f610d610d72824d9c8f158336f62189": {
+      "message": "This is an emergency",
+      "response": "If this is an emergency, please dial 112 or contact nearest police station. I can help you with civic complaints.",
+      "metadata": {
+        "category": "emergency_english",
+        "id": "conv_104"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "823fb8a2eb6e54fa3d11559b795d0d22": {
+      "message": "यह emergency है",
+      "response": "अगर emergency है तो कृपया 112 dial करें या nearest police station से संपर्क करें। मैं आपको civic complaints में मदद कर सकता हूं।",
+      "metadata": {
+        "category": "emergency_hindi",
+        "id": "conv_105"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "49f68a5c8493ec2c0bf489821c21fc3b": {
+      "message": "Hi",
+      "response": "Namaste. Main Vaani hoon. Kripya bataye main aapki kaise madad kar sakta hoon.",
+      "metadata": {
+        "category": "greeting",
+        "id": "conv_106"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "6057f13c496ecf7fd777ceb9e79ae285": {
+      "message": "Hey",
+      "response": "Namaste. Main Vaani hoon. Kripya bataye main aapki kaise madad kar sakta hoon.",
+      "metadata": {
+        "category": "greeting",
+        "id": "conv_107"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "2b849500e4585dab4196ec9a415edf8f": {
+      "message": "Good morning",
+      "response": "Good morning. I am Vaani. Please tell me how I can help you.",
+      "metadata": {
+        "category": "greeting_english",
+        "id": "conv_108"
+      },
+      "createdAt": 1772899043170,
+      "lastUsed": 1772899043170,
+      "useCount": 1
+    },
+    "07700a6336599eea93541b89cbd4331a": {
+      "message": "सुप्रभात",
+      "response": "सुप्रभात। मैं Vaani हूं। कृपया बताएं मैं आपकी कैसे मदद कर सकता हूं।",
+      "metadata": {
+        "category": "greeting_hindi",
+        "id": "conv_109"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "bfa99df33b137bc8fb5f5407d7e58da8": {
+      "message": "Bye",
+      "response": "Dhanyavaad. Agar aapko kabhi bhi madad chahiye ho to wapas aa sakte ho. Main madad ke liye yahan hoon.",
+      "metadata": {
+        "category": "farewell",
+        "id": "conv_110"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "69faab6268350295550de7d587bc323d": {
+      "message": "Goodbye",
+      "response": "Thank you. If you ever need help, you can come back. I am here to help.",
+      "metadata": {
+        "category": "farewell_english",
+        "id": "conv_111"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "1ada2b116fd01196f02077f061c29de5": {
+      "message": "अलविदा",
+      "response": "धन्यवाद। अगर आपको कभी भी मदद चाहिए हो तो वापस आ सकते हो। मैं मदद के लिए यहां हूं।",
+      "metadata": {
+        "category": "farewell_hindi",
+        "id": "conv_112"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "dd0e4272628519d999b334abea315ec6": {
+      "message": "Shukriya",
+      "response": "Aapka welcome hai. Mujhe khushi hai ki main aapki madad kar payi. Agar aapko kisi civic issue report karna ho, government scheme ke baare mein jaana ho, ya kisi complaint ki status check karni ho to aap mujhse pooch sakte hain.",
+      "metadata": {
+        "category": "gratitude",
+        "id": "conv_113"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "71d3e8b42792b5e476804f4f7fbddc58": {
+      "message": "Thanks",
+      "response": "Aapka welcome hai. Mujhe khushi hai ki main aapki madad kar payi. Agar aapko kisi civic issue report karna ho, government scheme ke baare mein jaana ho, ya kisi complaint ki status check karni ho to aap mujhse pooch sakte hain.",
+      "metadata": {
+        "category": "gratitude",
+        "id": "conv_114"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "3c37e8276a5fa206242139dbb8b4ec87": {
+      "message": "Thanks a lot",
+      "response": "You are welcome. I am glad I could help you. If you need to report any civic issue, know about government schemes, or check complaint status, you can ask me.",
+      "metadata": {
+        "category": "gratitude_english",
+        "id": "conv_115"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "fa8242c6affa7ca095dceef26829c539": {
+      "message": "Kuch help chahiye",
+      "response": "Zaroor. Kripya bataye aapko kis cheez me madad chahiye. Main aapko sahi direction me guide karunga.",
+      "metadata": {
+        "category": "help_request",
+        "id": "conv_116"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "eeb160c10f0bb928c3917edd00e3a61e": {
+      "message": "Mujhe kuch puchna hai",
+      "response": "Zaroor. Kripya bataye aapko kis cheez me madad chahiye. Main aapko sahi direction me guide karunga.",
+      "metadata": {
+        "category": "help_request",
+        "id": "conv_117"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "a65bc286ddfe3335d704e2aecce8c3d0": {
+      "message": "I have a question",
+      "response": "Sure. Please tell me what you need help with. I will guide you in the right direction.",
+      "metadata": {
+        "category": "help_request_english",
+        "id": "conv_118"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "b988ffd86d411dd502c7dd76c3ab7152": {
+      "message": "मुझे कुछ पूछना है",
+      "response": "ज़रूर। कृपया बताएं आपको किस चीज़ में मदद चाहिए। मैं आपको सही direction में guide करूंगा।",
+      "metadata": {
+        "category": "help_request_hindi",
+        "id": "conv_119"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "fe63ab79e6558fbe7b17714076d03960": {
+      "message": "Meri complaint ka kya hua?",
+      "response": "Aap complaint ID ke through apni complaint ka status check kar sakte ho.",
+      "metadata": {
+        "category": "complaint_tracking",
+        "id": "conv_120"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "f5280514c8e514e7d0383ac4ca0e21c1": {
+      "message": "Complaint ka status kya hai?",
+      "response": "Aap complaint ID ke through apni complaint ka status check kar sakte ho.",
+      "metadata": {
+        "category": "complaint_tracking",
+        "id": "conv_121"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "340e8b319289286a5b8d28b5489e9ee6": {
+      "message": "What happened to my complaint?",
+      "response": "You can check your complaint status through complaint ID.",
+      "metadata": {
+        "category": "complaint_tracking_english",
+        "id": "conv_122"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "53b2ebf089974c8763435856ae56f2e6": {
+      "message": "मेरी complaint का क्या हुआ?",
+      "response": "आप complaint ID के through अपनी complaint का status check कर सकते हो।",
+      "metadata": {
+        "category": "complaint_tracking_hindi",
+        "id": "conv_123"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "72c88ad445f1bd80596bfb69cf9a72e6": {
+      "message": "Ghar ke liye scheme kya hai?",
+      "response": "PM Awas Yojana ke liye aap official government portal par online application kar sakte ho. Isme eligible families ko ghar banane ke liye financial assistance milti hai.",
+      "metadata": {
+        "category": "pm_awas_yojana",
+        "id": "conv_124"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "67afdcdf819f694665ab130b7ad28cc1": {
+      "message": "What is the scheme for house?",
+      "response": "For PM Awas Yojana, you can apply online on official government portal. In this, eligible families get financial assistance to build house.",
+      "metadata": {
+        "category": "pm_awas_yojana_english",
+        "id": "conv_125"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "3085371a842fdaebe609cdab7eff0ace": {
+      "message": "Ration card ke liye documents kya chahiye?",
+      "response": "Ration card banwane ke liye aapko identity proof, address proof aur income certificate ki zarurat hogi. Aap apne state food supply portal par online apply kar sakte ho.",
+      "metadata": {
+        "category": "ration_card",
+        "id": "conv_126"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "4c82898c4143d196784243ad35b5dcb4": {
+      "message": "What documents are needed for ration card?",
+      "response": "To make ration card, you will need identity proof, address proof and income certificate. You can apply online on your state food supply portal.",
+      "metadata": {
+        "category": "ration_card_english",
+        "id": "conv_127"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "87da459fe94990e05ef7840f3b90e66d": {
+      "message": "Nali overflow ho rahi hai",
+      "response": "Sewer overflow ek sanitation problem hai. Aap sewer ya drainage complaint register kar sakte ho.",
+      "metadata": {
+        "category": "drainage",
+        "id": "conv_128"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "65b3abe2afaa24744bd6a92cbf63b478": {
+      "message": "Drain is overflowing",
+      "response": "Sewer overflow is a sanitation problem. You can register a sewer or drainage complaint.",
+      "metadata": {
+        "category": "drainage_english",
+        "id": "conv_129"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "623224c84f2829ef1a3cf709128883b4": {
+      "message": "नाली overflow हो रही है",
+      "response": "Sewer overflow एक sanitation problem है। आप sewer या drainage complaint register कर सकते हो।",
+      "metadata": {
+        "category": "drainage_hindi",
+        "id": "conv_130"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "07809053347592afa5f230db2684ad54": {
+      "message": "Ayushman Bharat Yojana kya hai?",
+      "response": "Ayushman Bharat Yojana (Pradhan Mantri Jan Arogya Yojana - PMJAY) Bharat ki sabse badi health insurance scheme hai jo September 2018 me launch hui thi. Isme eligible families ko har saal 5 lakh rupaye tak ka free medical treatment milta hai. Yeh scheme garib aur middle class families ke liye hai. Isme 1,350+ medical procedures cover hote hain jaise surgery, medicines, diagnostic tests, hospitalization, aur follow-up care. Aap India ke kisi bhi empanelled hospital me cashless treatment le sakte ho. Scheme me 10 crore se zyada families (50 crore+ log) covered hain. Yeh duniya ki sabse badi government funded health scheme hai.",
+      "metadata": {
+        "category": "ayushman_yojana",
+        "id": "conv_051"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "f81e61eee6e2957f6855bf1405c41098": {
+      "message": "What is Ayushman Bharat Yojana?",
+      "response": "Ayushman Bharat Yojana (Pradhan Mantri Jan Arogya Yojana - PMJAY) is India's largest health insurance scheme launched in September 2018. It provides eligible families with free medical treatment up to 5 lakh rupees per year. This scheme is designed for poor and middle class families. It covers 1,350+ medical procedures including surgery, medicines, diagnostic tests, hospitalization, and follow-up care. You can get cashless treatment at any empanelled hospital across India. The scheme covers more than 10 crore families (50+ crore people). It is the world's largest government funded health scheme.",
+      "metadata": {
+        "category": "ayushman_yojana_english",
+        "id": "conv_052"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "eaf2531ab8681c8b31847b1d9c9700a0": {
+      "message": "Ayushman card kaise banwaye?",
+      "response": "Ayushman card banwane ke liye yeh detailed steps follow karein:\n\n1. ELIGIBILITY CHECK:\n   - Ayushman Bharat website (pmjay.gov.in) par jaayein\n   - Apna mobile number aur Aadhaar/Ration card number enter karein\n   - System batayega ki aap eligible hain ya nahi\n\n2. DOCUMENTS TAYYAR KAREIN:\n   - Aadhaar card (mandatory)\n   - Ration card (if available)\n   - Address proof (bijli bill, rent agreement, etc.)\n   - Family ID proof\n\n3. CSC/HOSPITAL VISIT:\n   - Nearest Common Service Center (CSC) ya empanelled hospital jaayein\n   - Apne documents dikhaayein\n   - Operator aapki details verify karega\n\n4. CARD PRINTING:\n   - Verification ke baad card instantly print ho jayega\n   - Card bilkul FREE hai, koi charge nahi\n   - Card me aapka naam, photo, aur family details hongi\n\n5. ACTIVATION:\n   - Card turant active ho jata hai\n   - Aap kisi bhi empanelled hospital me treatment le sakte hain\n\nHELPLINE: 14555 (toll-free) - Kisi bhi problem ke liye call karein",
+      "metadata": {
+        "category": "ayushman_card",
+        "id": "conv_053"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "f9801ae2db1b82a8f885e99f1f3f419f": {
+      "message": "How to make Ayushman card?",
+      "response": "To make Ayushman card, follow these detailed steps:\n\n1. ELIGIBILITY CHECK:\n   - Visit Ayushman Bharat website (pmjay.gov.in)\n   - Enter your mobile number and Aadhaar/Ration card number\n   - System will tell you if you are eligible\n\n2. PREPARE DOCUMENTS:\n   - Aadhaar card (mandatory)\n   - Ration card (if available)\n   - Address proof (electricity bill, rent agreement, etc.)\n   - Family ID proof\n\n3. VISIT CSC/HOSPITAL:\n   - Go to nearest Common Service Center (CSC) or empanelled hospital\n   - Show your documents\n   - Operator will verify your details\n\n4. CARD PRINTING:\n   - After verification, card will be printed instantly\n   - Card is completely FREE, no charges\n   - Card will have your name, photo, and family details\n\n5. ACTIVATION:\n   - Card gets activated immediately\n   - You can get treatment at any empanelled hospital\n\nHELPLINE: 14555 (toll-free) - Call for any issues",
+      "metadata": {
+        "category": "ayushman_card_english",
+        "id": "conv_054"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "b152a307e2e3b2174282b1b4e0f5a477": {
+      "message": "Ayushman card ke liye eligible kaun hai?",
+      "response": "Ayushman Bharat scheme me yeh log eligible hain:\n\n1. SECC 2011 DATA:\n   - Socio-Economic Caste Census 2011 me listed families automatically eligible hain\n\n2. RURAL AREAS CRITERIA:\n   - Kaccha ghar (mud house) me rehne wale\n   - Ghar me koi adult member (16-59 years) nahi\n   - Female headed household (mahila mukhiya)\n   - Disabled member wale families\n   - SC/ST (Scheduled Caste/Tribe) families\n   - Landless laborers (bhoomihin majdoor)\n   - Manual scavengers\n   - Primitive tribal groups\n\n3. URBAN AREAS CRITERIA:\n   - Rag pickers (kachra bechne wale)\n   - Beggars (bhikhari)\n   - Domestic workers (ghar ka kaam karne wale)\n   - Street vendors (rehri wale)\n   - Construction workers (nirman majdoor)\n   - Plumbers, electricians, painters\n   - Transport workers (rickshaw pullers, drivers)\n   - Sweepers, sanitation workers\n\n4. ELIGIBILITY CHECK:\n   - Website: pmjay.gov.in\n   - Toll-free helpline: 14555\n   - Nearest CSC center\n\n5. IMPORTANT:\n   - Agar aapka naam SECC list me hai to aap automatically eligible hain\n   - Income limit nahi hai, SECC criteria se decide hota hai",
+      "metadata": {
+        "category": "ayushman_yojana",
+        "id": "conv_100"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "05032238f782e5678675664e888a9e80": {
+      "message": "Who is eligible for Ayushman card?",
+      "response": "Following people are eligible for Ayushman Bharat scheme:\n\n1. SECC 2011 DATA:\n   - Families listed in Socio-Economic Caste Census 2011 are automatically eligible\n\n2. RURAL AREAS CRITERIA:\n   - Living in kaccha house (mud house)\n   - No adult member in household (16-59 years)\n   - Female headed household\n   - Families with disabled member\n   - SC/ST (Scheduled Caste/Tribe) families\n   - Landless laborers\n   - Manual scavengers\n   - Primitive tribal groups\n\n3. URBAN AREAS CRITERIA:\n   - Rag pickers\n   - Beggars\n   - Domestic workers\n   - Street vendors\n   - Construction workers\n   - Plumbers, electricians, painters\n   - Transport workers (rickshaw pullers, drivers)\n   - Sweepers, sanitation workers\n\n4. ELIGIBILITY CHECK:\n   - Website: pmjay.gov.in\n   - Toll-free helpline: 14555\n   - Nearest CSC center\n\n5. IMPORTANT:\n   - If your name is in SECC list, you are automatically eligible\n   - No income limit, decided by SECC criteria",
+      "metadata": {
+        "category": "ayushman_yojana_english",
+        "id": "conv_101"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "f29c7b6f7e0637fa7e1b6f9f0040dde0": {
+      "message": "Ayushman card के लिए eligible कौन है?",
+      "response": "Ayushman Bharat योजना में ये लोग eligible हैं:\n\n1. SECC 2011 DATA:\n   - Socio-Economic Caste Census 2011 में listed families automatically eligible हैं\n\n2. RURAL AREAS CRITERIA:\n   - कच्चा घर (mud house) में रहने वाले\n   - घर में कोई adult member (16-59 years) नहीं\n   - Female headed household (महिला मुखिया)\n   - Disabled member वाले families\n   - SC/ST (Scheduled Caste/Tribe) families\n   - Landless laborers (भूमिहीन मजदूर)\n   - Manual scavengers\n   - Primitive tribal groups\n\n3. URBAN AREAS CRITERIA:\n   - Rag pickers (कचरा बेचने वाले)\n   - Beggars (भिखारी)\n   - Domestic workers (घर का काम करने वाले)\n   - Street vendors (रेहड़ी वाले)\n   - Construction workers (निर्माण मजदूर)\n   - Plumbers, electricians, painters\n   - Transport workers (rickshaw pullers, drivers)\n   - Sweepers, sanitation workers\n\n4. ELIGIBILITY CHECK:\n   - Website: pmjay.gov.in\n   - Toll-free helpline: 14555\n   - Nearest CSC center\n\n5. IMPORTANT:\n   - अगर आपका नाम SECC list में है तो आप automatically eligible हैं\n   - Income limit नहीं है, SECC criteria से decide होता है",
+      "metadata": {
+        "category": "ayushman_yojana_hindi",
+        "id": "conv_102"
+      },
+      "createdAt": 1772899043171,
+      "lastUsed": 1772899043171,
+      "useCount": 1
+    },
+    "f1b5f2b44bacd36dd42cf64e4c0ca000": {
+      "message": "बिजली नहीं आ रही है",
+      "response": "अगर बिजली supply में problem है तो आप electricity complaint register कर सकते हो। इससे electricity department को issue की जानकारी मिल जाएगी।",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772899521454,
+      "lastUsed": 1772899521454,
+      "useCount": 1
+    },
+    "28e3ca6cf224cde2ee85209b602dbf6d": {
+      "message": "आयुष्मान भारत योजना क्या है",
+      "response": "I'm here to help with civic issues. You can report problems, track complaints, or ask me questions about Vaani. What would you like to know?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772899958829,
+      "lastUsed": 1772900145171,
+      "useCount": 3
+    },
+    "95c029d98a0e266edd069a847fd95481": {
+      "message": "english:how does vaani work",
+      "response": "Vaani is a smart AI assistant that helps people with government services and civic complaints. Here you can report issues like road, water, electricity and sanitation.",
+      "metadata": {
+        "source": "training_similar",
+        "language": "english",
+        "score": 0.5118421052631579
+      },
+      "createdAt": 1772900013672,
+      "lastUsed": 1772900013672,
+      "useCount": 1
+    },
+    "81e040e9ddffe2c8a4ba9411831fe3bd": {
+      "message": "how does it work",
+      "response": "Vaani works in simple steps: 1) Login to your account, 2) Choose what you want to do (report, track, or get info), 3) Follow the guided process, 4) Get updates and notifications. It's designed to be easy for everyone to use.",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772900062610,
+      "lastUsed": 1772900062610,
+      "useCount": 1
+    },
+    "7773ed41636da658fb9e677bdc64b6a9": {
+      "message": "report an issue",
+      "response": "To report an issue: First, say 'report an issue' and I'll open the form. You can report potholes, water leaks, broken streetlights, garbage problems, or any civic issue. Just describe the problem and add a photo if possible.",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772900063724,
+      "lastUsed": 1772900063724,
+      "useCount": 1
+    },
+    "4ed1b3199eb65bf3aac2b323f7447f5e": {
+      "message": "track my complaint",
+      "response": "To report an issue: First, say 'report an issue' and I'll open the form. You can report potholes, water leaks, broken streetlights, garbage problems, or any civic issue. Just describe the problem and add a photo if possible.",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772900064522,
+      "lastUsed": 1772900064522,
+      "useCount": 1
+    },
+    "0bd20b7c47db44db18ea24043a46ae79": {
+      "message": "हु आर यू",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772900124843,
+      "lastUsed": 1772900124843,
+      "useCount": 1
+    },
+    "6ff5e031ec49f0218719b10aeaed4dc5": {
+      "message": "यह ऐप क्या करता है",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772900171863,
+      "lastUsed": 1772901184479,
+      "useCount": 3
+    },
+    "974aae398e7c12f5cf4358e175f483f5": {
+      "message": "राशन कार्ड कैसे बनाएं",
+      "response": "वाणी सरल चरणों में काम करती है: 1) अपने खाते में लॉगिन करें, 2) चुनें कि आप क्या करना चाहते हैं, 3) निर्देशित प्रक्रिया का पालन करें, 4) अपडेट और सूचनाएं प्राप्त करें। यह सभी के लिए उपयोग करना आसान है।",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772900750940,
+      "lastUsed": 1772900750940,
+      "useCount": 1
+    },
+    "6efc18afaaf4618ae242d52687d7a109": {
+      "message": "वालंटियर हेल्प मिल सकती है क्या",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772900770230,
+      "lastUsed": 1772900770230,
+      "useCount": 1
+    },
+    "a51038309f3177d0cf23a648d604378a": {
+      "message": "इसमें क्या फीचर्स है",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901201410,
+      "lastUsed": 1772901201410,
+      "useCount": 1
+    },
+    "74c45344ab0a723038a98c10022cc415": {
+      "message": "रोड खराब हो गई है",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901294044,
+      "lastUsed": 1772901294044,
+      "useCount": 1
+    },
+    "95bc9610a77875171539067a5ba50453": {
+      "message": "इमरजेंसी है",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901364712,
+      "lastUsed": 1772901364712,
+      "useCount": 1
+    },
+    "90b223cede41233aa0026532319fa43a": {
+      "message": "यह इमरजेंसी है",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901383883,
+      "lastUsed": 1772901383883,
+      "useCount": 1
+    },
+    "9c39efb7dd1489e15b8db7c9f72216fd": {
+      "message": "गुड मॉर्निंग",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901402171,
+      "lastUsed": 1772901402171,
+      "useCount": 1
+    },
+    "369f21c44c60e1d399935793f3c9165d": {
+      "message": "कुछ हेल्प चाहिए",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901465264,
+      "lastUsed": 1772901466962,
+      "useCount": 2
+    },
+    "ea589ebb0a4b3c11d9cb2e12e978af64": {
+      "message": "मेरी कंप्लेंट का क्या हुआ",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901500883,
+      "lastUsed": 1772901500883,
+      "useCount": 1
+    },
+    "ac5200c986097ec262455229ce373728": {
+      "message": "कंप्लेन का स्टेटस क्या है",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901512906,
+      "lastUsed": 1772901512906,
+      "useCount": 1
+    },
+    "9a591c81f0670b1c8a0c247bf4a7da5c": {
+      "message": "घर के लिए स्कीम क्या है",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901532318,
+      "lastUsed": 1772901532318,
+      "useCount": 1
+    },
+    "2a6a18bac00b16d34ac94fb278f6bbdd": {
+      "message": "राशन कार्ड के लिए डॉक्यूमेंट क्या चाहिए",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901563435,
+      "lastUsed": 1772901563435,
+      "useCount": 1
+    },
+    "2481d97ef383c2f43bbacfb3d37cf5be": {
+      "message": "नाली ओवरफ्लो हो रही है",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901581026,
+      "lastUsed": 1772901611680,
+      "useCount": 2
+    },
+    "71f4730f2d416533612f6a52137f1041": {
+      "message": "हाउ टू मेक आयुष्मान कार्ड",
+      "response": "Ayushman Bharat योजना में ये लोग eligible हैं:\n\n1. SECC 2011 DATA:\n   - Socio-Economic Caste Census 2011 में listed families automatically eligible हैं\n\n2. RURAL AREAS CRITERIA:\n   - कच्चा घर (mud house) में रहने वाले\n   - घर में कोई adult member (16-59 years) नहीं\n   - Female headed household (महिला मुखिया)\n   - Disabled member वाले families\n   - SC/ST (Scheduled Caste/Tribe) families\n   - Landless laborers (भूमिहीन मजदूर)\n   - Manual scavengers\n   - Primitive tribal groups\n\n3. URBAN AREAS CRITERIA:\n   - Rag pickers (कचरा बेचने वाले)\n   - Beggars (भिखारी)\n   - Domestic workers (घर का काम करने वाले)\n   - Street vendors (रेहड़ी वाले)\n   - Construction workers (निर्माण मजदूर)\n   - Plumbers, electricians, painters\n   - Transport workers (rickshaw pullers, drivers)\n   - Sweepers, sanitation workers\n\n4. ELIGIBILITY CHECK:\n   - Website: pmjay.gov.in\n   - Toll-free helpline: 14555\n   - Nearest CSC center\n\n5. IMPORTANT:\n   - अगर आपका नाम SECC list में है तो आप automatically eligible हैं\n   - Income limit नहीं है, SECC criteria से decide होता है",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772901636465,
+      "lastUsed": 1772901636465,
+      "useCount": 1
+    },
+    "de9d58dcfdd8759ca6eff3703a01b506": {
+      "message": "आयुष्मान कार्ड के लिए एलिजिबल कौन है",
+      "response": "Ayushman Bharat योजना में ये लोग eligible हैं:\n\n1. SECC 2011 DATA:\n   - Socio-Economic Caste Census 2011 में listed families automatically eligible हैं\n\n2. RURAL AREAS CRITERIA:\n   - कच्चा घर (mud house) में रहने वाले\n   - घर में कोई adult member (16-59 years) नहीं\n   - Female headed household (महिला मुखिया)\n   - Disabled member वाले families\n   - SC/ST (Scheduled Caste/Tribe) families\n   - Landless laborers (भूमिहीन मजदूर)\n   - Manual scavengers\n   - Primitive tribal groups\n\n3. URBAN AREAS CRITERIA:\n   - Rag pickers (कचरा बेचने वाले)\n   - Beggars (भिखारी)\n   - Domestic workers (घर का काम करने वाले)\n   - Street vendors (रेहड़ी वाले)\n   - Construction workers (निर्माण मजदूर)\n   - Plumbers, electricians, painters\n   - Transport workers (rickshaw pullers, drivers)\n   - Sweepers, sanitation workers\n\n4. ELIGIBILITY CHECK:\n   - Website: pmjay.gov.in\n   - Toll-free helpline: 14555\n   - Nearest CSC center\n\n5. IMPORTANT:\n   - अगर आपका नाम SECC list में है तो आप automatically eligible हैं\n   - Income limit नहीं है, SECC criteria से decide होता है",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772901677248,
+      "lastUsed": 1772901677248,
+      "useCount": 1
+    },
+    "6df04d172812f346e7d596cb2265bbb6": {
+      "message": "व्हाट इस आयुष्मान भारत योजना",
+      "response": "Ayushman Bharat योजना में ये लोग eligible हैं:\n\n1. SECC 2011 DATA:\n   - Socio-Economic Caste Census 2011 में listed families automatically eligible हैं\n\n2. RURAL AREAS CRITERIA:\n   - कच्चा घर (mud house) में रहने वाले\n   - घर में कोई adult member (16-59 years) नहीं\n   - Female headed household (महिला मुखिया)\n   - Disabled member वाले families\n   - SC/ST (Scheduled Caste/Tribe) families\n   - Landless laborers (भूमिहीन मजदूर)\n   - Manual scavengers\n   - Primitive tribal groups\n\n3. URBAN AREAS CRITERIA:\n   - Rag pickers (कचरा बेचने वाले)\n   - Beggars (भिखारी)\n   - Domestic workers (घर का काम करने वाले)\n   - Street vendors (रेहड़ी वाले)\n   - Construction workers (निर्माण मजदूर)\n   - Plumbers, electricians, painters\n   - Transport workers (rickshaw pullers, drivers)\n   - Sweepers, sanitation workers\n\n4. ELIGIBILITY CHECK:\n   - Website: pmjay.gov.in\n   - Toll-free helpline: 14555\n   - Nearest CSC center\n\n5. IMPORTANT:\n   - अगर आपका नाम SECC list में है तो आप automatically eligible हैं\n   - Income limit नहीं है, SECC criteria से decide होता है",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772901751427,
+      "lastUsed": 1772901751427,
+      "useCount": 1
+    },
+    "4b5b3a45b94ef188582dafc25bd26e6d": {
+      "message": "किसी को रिपीट कर रहा है",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901760277,
+      "lastUsed": 1772901760277,
+      "useCount": 1
+    },
+    "94a6511f1aaba0154986672884c65d6e": {
+      "message": "ग्रीन इस ओवरफ्लो",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901774544,
+      "lastUsed": 1772901774544,
+      "useCount": 1
+    },
+    "ae0f79fd1836c8b37d9c1e375b2b3be9": {
+      "message": "ब्रायन इस ओवरफ्लो",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901778087,
+      "lastUsed": 1772901778087,
+      "useCount": 1
+    },
+    "f170091a8b66c314f4faa3c55f1c803d": {
+      "message": "ड्रेन इस ओवरफ्लो",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901788229,
+      "lastUsed": 1772901788229,
+      "useCount": 1
+    },
+    "de38bc63064ff15528c82df4f9f8238b": {
+      "message": "व्हाट डॉक्युमेंट्स अरे नीडेड फॉर राशन कार्ड",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901808076,
+      "lastUsed": 1772901808076,
+      "useCount": 1
+    },
+    "6f603a05701c1e073e74b904af599f7d": {
+      "message": "व्हाट इस वाणी",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901832299,
+      "lastUsed": 1772901841605,
+      "useCount": 3
+    },
+    "583da44b04f9edb66d56d18b2794def4": {
+      "message": "हेलो हेलो",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901866976,
+      "lastUsed": 1772901866976,
+      "useCount": 1
+    },
+    "608f0b988db4a96066af7dd8870de96c": {
+      "message": "flower",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901912856,
+      "lastUsed": 1772901912856,
+      "useCount": 1
+    },
+    "58705e8208df2326294117ba853305bd": {
+      "message": "bijli nhi aa rhi",
+      "response": "मैं नागरिक मुद्दों में मदद के लिए यहाँ हूँ। आप समस्याओं की रिपोर्ट कर सकते हैं, शिकायतों को ट्रैक कर सकते हैं, या मुझसे वाणी के बारे में सवाल पूछ सकते हैं। आप क्या जानना चाहेंगे?",
+      "metadata": {
+        "source": "fallback"
+      },
+      "createdAt": 1772901926626,
+      "lastUsed": 1772901926626,
+      "useCount": 1
+    },
+    "25fb44dd08e0ea4c667d357a029466db": {
+      "message": "what documents is needed for ration card?",
+      "response": "To make ration card, you will need identity proof, address proof and income certificate. You can apply online on your state food supply portal.",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772901955744,
+      "lastUsed": 1772901955744,
+      "useCount": 1
+    },
+    "4e02f6ece2ea426d35e9642b760d0a41": {
+      "message": "vaani ky h?",
+      "response": "Vaani is a smart AI assistant that helps people with government services and civic complaints. Here you can report issues like road, water, electricity and sanitation.",
+      "metadata": {
+        "source": "training_similar"
+      },
+      "createdAt": 1772907911485,
+      "lastUsed": 1772907911485,
+      "useCount": 1
+    }
+  },
+  "stats": {
+    "total": 124,
+    "created": "2026-03-07T15:57:23.164Z",
+    "misses": 34,
+    "saved": 34,
+    "hits": 6
+  },
+  "lastUpdated": "2026-03-07T18:28:40.938Z"
+}

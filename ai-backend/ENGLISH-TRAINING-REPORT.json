@@ -1,0 +1,577 @@
+{
+  "timestamp": "2026-03-07T15:41:08.416Z",
+  "language": "english",
+  "summary": {
+    "total": 94,
+    "passed": 94,
+    "failed": 0,
+    "accuracy": "100.00%"
+  },
+  "failedTests": [],
+  "englishConversations": [
+    {
+      "id": "conv_001",
+      "category": "introduction",
+      "question": "Tum kaun ho?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_002",
+      "category": "introduction_english",
+      "question": "Who are you?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_004",
+      "category": "platform_help",
+      "question": "Vaani kya hai?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_005",
+      "category": "platform_help_english",
+      "question": "What is Vaani?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_007",
+      "category": "assistance",
+      "question": "Tum kya madad kar sakte ho?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_008",
+      "category": "assistance_english",
+      "question": "What help can you provide?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_010",
+      "category": "greeting",
+      "question": "Namaste",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_011",
+      "category": "greeting_english",
+      "question": "Hello",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_013",
+      "category": "help_request",
+      "question": "Mujhe madad chahiye",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_014",
+      "category": "help_request_english",
+      "question": "I need help",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_016",
+      "category": "emotional_support",
+      "question": "Main bahut pareshan hoon",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_017",
+      "category": "emotional_support_english",
+      "question": "I am very worried",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_019",
+      "category": "ignored_problem",
+      "question": "Koi meri problem nahi sun raha",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_020",
+      "category": "ignored_problem_english",
+      "question": "No one is listening to my problem",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_021",
+      "category": "complaint_filing",
+      "question": "Complaint kaise kare?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_022",
+      "category": "complaint_filing_english",
+      "question": "How to file a complaint?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_024",
+      "category": "complaint_tracking",
+      "question": "Complaint status kaise check kare?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_025",
+      "category": "complaint_tracking_english",
+      "question": "How to check complaint status?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_027",
+      "category": "road_pothole",
+      "question": "Sadak toot gayi hai kya kare?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_028",
+      "category": "road_pothole_english",
+      "question": "Road is damaged, what to do?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_030",
+      "category": "streetlight",
+      "question": "Street light kharab hai kya kare?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_031",
+      "category": "streetlight_english",
+      "question": "Street light is broken, what to do?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_033",
+      "category": "water_supply",
+      "question": "Pani nahi aa raha kya kare?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_034",
+      "category": "water_supply_english",
+      "question": "Water not coming, what to do?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_036",
+      "category": "garbage",
+      "question": "Kooda nahi uth raha kya kare?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_037",
+      "category": "garbage_english",
+      "question": "Garbage not collected, what to do?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_039",
+      "category": "drainage",
+      "question": "Sewer overflow ho raha hai kya kare?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_040",
+      "category": "drainage_english",
+      "question": "Sewer is overflowing, what to do?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_042",
+      "category": "account_creation",
+      "question": "Account kaise banaye?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_043",
+      "category": "account_creation_english",
+      "question": "How to create account?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_045",
+      "category": "gratitude",
+      "question": "Dhanyavaad",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_046",
+      "category": "gratitude_english",
+      "question": "Thank you",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_048",
+      "category": "farewell",
+      "question": "Alvida",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_049",
+      "category": "government_schemes",
+      "question": "Government schemes ki information kaise milegi?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_050",
+      "category": "government_schemes_english",
+      "question": "How to get government schemes information?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_055",
+      "category": "pm_awas_yojana",
+      "question": "PM Awas Yojana me apply kaise kare?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_056",
+      "category": "pm_awas_yojana_english",
+      "question": "How to apply in PM Awas Yojana?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_057",
+      "category": "ration_card",
+      "question": "Ration card kaise banwaye?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_058",
+      "category": "ration_card_english",
+      "question": "How to make ration card?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_059",
+      "category": "volunteer_help",
+      "question": "Volunteer help mil sakti hai kya?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_060",
+      "category": "volunteer_help_english",
+      "question": "Can I get volunteer help?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_061",
+      "category": "free_service",
+      "question": "Complaint karna free hai kya?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_062",
+      "category": "free_service_english",
+      "question": "Is filing complaint free?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_066",
+      "category": "introduction",
+      "question": "Aap kaun hain?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_067",
+      "category": "introduction",
+      "question": "Apka naam kya hai?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_068",
+      "category": "introduction_english",
+      "question": "What is your name?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_070",
+      "category": "platform_help",
+      "question": "Ye app kya karta hai?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_071",
+      "category": "platform_help",
+      "question": "Isme kya features hain?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_072",
+      "category": "platform_help_english",
+      "question": "What features does this have?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_074",
+      "category": "complaint_filing",
+      "question": "Shikayat kaise darj kare?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_075",
+      "category": "complaint_filing",
+      "question": "Complaint register kaise kare?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_076",
+      "category": "complaint_filing_english",
+      "question": "How do I register a complaint?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_078",
+      "category": "road_pothole",
+      "question": "Sadak me gadda hai",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_079",
+      "category": "road_pothole",
+      "question": "Road kharab ho gayi hai",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_080",
+      "category": "road_pothole_english",
+      "question": "There is a pothole in the road",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_082",
+      "category": "water_supply",
+      "question": "Pani ki supply band hai",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_083",
+      "category": "water_supply",
+      "question": "Pani nahi mil raha",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_084",
+      "category": "water_supply_english",
+      "question": "Water supply is stopped",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_086",
+      "category": "electricity",
+      "question": "Bijli nahi aa rahi",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_087",
+      "category": "electricity",
+      "question": "Power cut ho gaya hai",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_088",
+      "category": "electricity_english",
+      "question": "No electricity",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_090",
+      "category": "garbage",
+      "question": "Kachra nahi utha rahe",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_091",
+      "category": "garbage",
+      "question": "Safai wale nahi aaye",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_092",
+      "category": "garbage_english",
+      "question": "Garbage collectors did not come",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_097",
+      "category": "ujjwala_yojana",
+      "question": "Ujjwala Yojana kya hai?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_098",
+      "category": "ujjwala_yojana_english",
+      "question": "What is Ujjwala Yojana?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_103",
+      "category": "emergency",
+      "question": "Emergency hai",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_104",
+      "category": "emergency_english",
+      "question": "This is an emergency",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_106",
+      "category": "greeting",
+      "question": "Hi",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_107",
+      "category": "greeting",
+      "question": "Hey",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_108",
+      "category": "greeting_english",
+      "question": "Good morning",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_110",
+      "category": "farewell",
+      "question": "Bye",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_111",
+      "category": "farewell_english",
+      "question": "Goodbye",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_113",
+      "category": "gratitude",
+      "question": "Shukriya",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_114",
+      "category": "gratitude",
+      "question": "Thanks",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_115",
+      "category": "gratitude_english",
+      "question": "Thanks a lot",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_116",
+      "category": "help_request",
+      "question": "Kuch help chahiye",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_117",
+      "category": "help_request",
+      "question": "Mujhe kuch puchna hai",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_118",
+      "category": "help_request_english",
+      "question": "I have a question",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_120",
+      "category": "complaint_tracking",
+      "question": "Meri complaint ka kya hua?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_121",
+      "category": "complaint_tracking",
+      "question": "Complaint ka status kya hai?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_122",
+      "category": "complaint_tracking_english",
+      "question": "What happened to my complaint?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_124",
+      "category": "pm_awas_yojana",
+      "question": "Ghar ke liye scheme kya hai?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_125",
+      "category": "pm_awas_yojana_english",
+      "question": "What is the scheme for house?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_126",
+      "category": "ration_card",
+      "question": "Ration card ke liye documents kya chahiye?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_127",
+      "category": "ration_card_english",
+      "question": "What documents are needed for ration card?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_128",
+      "category": "drainage",
+      "question": "Nali overflow ho rahi hai",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_129",
+      "category": "drainage_english",
+      "question": "Drain is overflowing",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_051",
+      "category": "ayushman_yojana",
+      "question": "Ayushman Bharat Yojana kya hai?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_052",
+      "category": "ayushman_yojana_english",
+      "question": "What is Ayushman Bharat Yojana?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_053",
+      "category": "ayushman_card",
+      "question": "Ayushman card kaise banwaye?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_054",
+      "category": "ayushman_card_english",
+      "question": "How to make Ayushman card?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_100",
+      "category": "ayushman_yojana",
+      "question": "Ayushman card ke liye eligible kaun hai?",
+      "detectedLanguage": "english"
+    },
+    {
+      "id": "conv_101",
+      "category": "ayushman_yojana_english",
+      "question": "Who is eligible for Ayushman card?",
+      "detectedLanguage": "english"
+    }
+  ]
+}
