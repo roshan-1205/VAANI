@@ -118,7 +118,7 @@ const VoiceCommandAssistant = () => {
 
     try {
       // Send to AI backend for processing
-      const response = await fetch('http://localhost:5000/voice-command', {
+      const response = await fetch('https://vaani-ai-backend-production-8cab.up.railway.app/voice-command', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 

@@ -180,7 +180,7 @@ const LiveHelp = () => {
     setShowMenu(false);
     
     // Clear conversation on backend
-    fetch('http://localhost:5000/clear-conversation', {
+    fetch('https://vaani-ai-backend-production-8cab.up.railway.app/clear-conversation', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -216,7 +216,7 @@ const LiveHelp = () => {
 
     try {
       // Call AI backend
-      const response = await fetch('http://localhost:5000/chat', {
+      const response = await fetch('https://vaani-ai-backend-production-8cab.up.railway.app/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

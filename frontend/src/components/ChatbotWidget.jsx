@@ -34,7 +34,7 @@ function ChatbotWidget() {
   try {
     console.log("Sending message to backend:", userMessage.text)
     
-    const res = await fetch("http://localhost:5000/chat", {
+    const res = await fetch("https://vaani-ai-backend-production-8cab.up.railway.app/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

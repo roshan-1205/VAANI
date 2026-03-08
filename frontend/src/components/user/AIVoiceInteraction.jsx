@@ -178,8 +178,8 @@ const AIVoiceInteraction = () => {
     try {
       console.log('Sending to AI backend:', text);
 
-      // Call local ai-backend server
-      const response = await fetch('http://localhost:5000/chat', {
+      // Call Railway AI backend server
+      const response = await fetch('https://vaani-ai-backend-production-8cab.up.railway.app/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -101,7 +101,7 @@ const CallingInterface = ({ isOpen, onClose, onCallEnd }) => {
 
   const processWithAI = async (text) => {
     try {
-      const response = await fetch('http://localhost:5000/chat', {
+      const response = await fetch('https://vaani-ai-backend-production-8cab.up.railway.app/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
