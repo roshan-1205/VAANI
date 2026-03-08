@@ -1,0 +1,8 @@
+{
+  "name": "vaani-fastapi-backend",
+  "version": "1.0.0",
+  "description": "VAANI FastAPI Authentication Backend",
+  "scripts": {
+    "start": "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+  }
+}
