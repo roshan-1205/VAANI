@@ -84,7 +84,7 @@ function OverviewPage() {
                   PLATFORM OVERVIEW
                 </span>
               </div>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-text-#01070f mb-6 tracking-tight">
+              <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-gray-900 mb-6 tracking-tight leading-tight">
                 Understanding How Our Platform Works
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto leading-relaxed">

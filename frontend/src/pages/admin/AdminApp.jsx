@@ -32,11 +32,11 @@ function AdminApp() {
   }
 
   return (
-    <div className="flex min-h-screen bg-[#0a1628]">
+    <div className="flex min-h-screen bg-[#e2e2e2]">
       <AdminSidebar collapsed={sidebarCollapsed} setCollapsed={setSidebarCollapsed} />
       <div className={`flex-1 transition-all duration-300 ${sidebarCollapsed ? 'ml-20' : 'ml-[260px]'} max-md:ml-0`}>
         <AdminNavbar />
-        <div className="bg-[#0a1628]">
+        <div className="bg-[#e2e2e2] min-h-[calc(100vh-80px)]">
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/dashboard" element={<Dashboard />} />

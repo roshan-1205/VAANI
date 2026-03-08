@@ -14,6 +14,7 @@ import { checkVolunteerAuth } from '../../utils/volunteerAuth';
 
 const VolunteerDashboard = () => {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -24,26 +25,49 @@ const VolunteerDashboard = () => {
     }
   }, [navigate]);
 
+  useEffect(() => {
+    // Handle mobile detection and sidebar auto-collapse
+    const handleResize = () => {
+      const mobile = window.innerWidth < 1024;
+      setIsMobile(mobile);
+      if (mobile) {
+        setSidebarCollapsed(true);
+      }
+    };
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
   return (
     <VolunteerProvider>
       <div className="flex min-h-screen bg-gradient-to-br from-gray-100 to-gray-200">
         {/* Sidebar */}
-        <Sidebar collapsed={sidebarCollapsed} setCollapsed={setSidebarCollapsed} />
+        <Sidebar 
+          collapsed={sidebarCollapsed} 
+          setCollapsed={setSidebarCollapsed}
+          isMobile={isMobile}
+        />
         
         {/* Main Content Area */}
         <div 
-          className="flex-1 flex flex-col max-lg:ml-0"
+          className="flex-1 flex flex-col w-full lg:ml-0"
           style={{
-            marginLeft: sidebarCollapsed ? '80px' : '260px',
+            marginLeft: isMobile ? '0' : (sidebarCollapsed ? '80px' : '260px'),
             transition: 'margin-left 0.4s cubic-bezier(0.4, 0, 0.2, 1)'
           }}
         >
           {/* Navbar */}
-          <Navbar />
+          <Navbar 
+            sidebarCollapsed={sidebarCollapsed}
+            setSidebarCollapsed={setSidebarCollapsed}
+            isMobile={isMobile}
+          />
           
           {/* Page Content */}
           <main className="flex-1 overflow-x-hidden overflow-y-auto">
-            <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <div className="container mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-4 sm:py-6">
               <Routes>
                 <Route path="/" element={<Overview />} />
                 <Route path="/my-tasks" element={<MyTasks />} />

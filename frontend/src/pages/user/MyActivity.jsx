@@ -113,46 +113,49 @@ const MyActivity = () => {
   ];
 
   return (
-    <div className="p-6 min-h-[calc(100vh-80px)]">
+    <div className="p-4 sm:p-6 lg:p-8 min-h-[calc(100vh-80px)] bg-white">
+      {/* Header Section */}
       <motion.div
-        className="flex justify-between items-start mb-8"
+        className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6 sm:mb-8"
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <div>
-          <h1 className="font-poppins text-[32px] font-bold text-[#01070f] m-0 mb-2">My Activity</h1>
-          <p className="font-poppins text-sm text-[#01070f]/60 m-0">Track all your interactions and service requests</p>
+        <div className="flex-1">
+          <h1 className="font-poppins text-2xl sm:text-3xl lg:text-[32px] font-bold text-[#01070f] m-0 mb-2">My Activity</h1>
+          <p className="font-poppins text-xs sm:text-sm text-[#01070f]/60 m-0">Track all your interactions and service requests</p>
         </div>
-        <button className="flex items-center gap-2 px-6 py-3 bg-[#01070f] text-white border-none rounded-xl font-poppins text-sm font-medium cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_8px_16px_rgba(1,7,15,0.2)]">
-          <Download size={18} />
+        <button className="flex items-center gap-2 px-4 sm:px-6 py-2.5 sm:py-3 bg-[#01070f] text-white border-none rounded-xl font-poppins text-xs sm:text-sm font-medium cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_8px_16px_rgba(1,7,15,0.2)] w-full sm:w-auto justify-center">
+          <Download size={16} className="sm:w-[18px] sm:h-[18px]" />
           Export Report
         </button>
       </motion.div>
 
-      <div className="grid grid-cols-4 gap-4 mb-6">
+      {/* Stats Grid - Responsive */}
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6">
         {stats.map((stat, index) => (
           <motion.div
             key={index}
-            className="bg-[#01070f] rounded-2xl p-6 text-center"
+            className="bg-[#01070f] rounded-xl sm:rounded-2xl p-4 sm:p-6 text-center"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.1 + index * 0.05 }}
           >
-            <div className="font-poppins text-4xl font-bold mb-2" style={{ color: stat.color }}>{stat.value}</div>
-            <div className="font-poppins text-[13px] text-white/70">{stat.label}</div>
+            <div className="font-poppins text-3xl sm:text-4xl font-bold mb-1 sm:mb-2" style={{ color: stat.color }}>{stat.value}</div>
+            <div className="font-poppins text-[11px] sm:text-[13px] text-white/70">{stat.label}</div>
           </motion.div>
         ))}
       </div>
 
+      {/* Filters - Responsive */}
       <motion.div
-        className="flex gap-4 mb-6"
+        className="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-6"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3 }}
       >
-        <div className="flex items-center gap-2 bg-[#01070f] px-4 py-3 rounded-xl text-white">
-          <Filter size={18} />
-          <select value={filterStatus} onChange={(e) => setFilterStatus(e.target.value)} className="bg-transparent border-none text-white font-poppins text-sm cursor-pointer outline-none">
+        <div className="flex items-center gap-2 bg-[#01070f] px-3 sm:px-4 py-2.5 sm:py-3 rounded-xl text-white flex-1 sm:flex-initial">
+          <Filter size={16} className="sm:w-[18px] sm:h-[18px] flex-shrink-0" />
+          <select value={filterStatus} onChange={(e) => setFilterStatus(e.target.value)} className="bg-transparent border-none text-white font-poppins text-xs sm:text-sm cursor-pointer outline-none flex-1 min-w-0">
             <option value="all" className="bg-[#01070f] text-white">All Status</option>
             <option value="Completed" className="bg-[#01070f] text-white">Completed</option>
             <option value="In Progress" className="bg-[#01070f] text-white">In Progress</option>
@@ -161,9 +164,9 @@ const MyActivity = () => {
           </select>
         </div>
         
-        <div className="flex items-center gap-2 bg-[#01070f] px-4 py-3 rounded-xl text-white">
-          <Filter size={18} />
-          <select value={filterCategory} onChange={(e) => setFilterCategory(e.target.value)} className="bg-transparent border-none text-white font-poppins text-sm cursor-pointer outline-none">
+        <div className="flex items-center gap-2 bg-[#01070f] px-3 sm:px-4 py-2.5 sm:py-3 rounded-xl text-white flex-1 sm:flex-initial">
+          <Filter size={16} className="sm:w-[18px] sm:h-[18px] flex-shrink-0" />
+          <select value={filterCategory} onChange={(e) => setFilterCategory(e.target.value)} className="bg-transparent border-none text-white font-poppins text-xs sm:text-sm cursor-pointer outline-none flex-1 min-w-0">
             <option value="all" className="bg-[#01070f] text-white">All Categories</option>
             <option value="Healthcare" className="bg-[#01070f] text-white">Healthcare</option>
             <option value="Legal" className="bg-[#01070f] text-white">Legal</option>
@@ -173,40 +176,45 @@ const MyActivity = () => {
         </div>
       </motion.div>
 
-      <div className="flex flex-col gap-4">
+      {/* Activity List - Responsive */}
+      <div className="flex flex-col gap-3 sm:gap-4">
         {filteredActivities.map((activity, index) => (
           <motion.div
             key={activity.id}
-            className="flex gap-5 bg-[#01070f] rounded-2xl p-6 transition-all duration-300 hover:translate-x-1 hover:shadow-[0_8px_24px_rgba(1,7,15,0.15)]"
+            className="flex flex-col sm:flex-row gap-4 sm:gap-5 bg-[#01070f] rounded-xl sm:rounded-2xl p-4 sm:p-6 transition-all duration-300 hover:translate-x-1 hover:shadow-[0_8px_24px_rgba(1,7,15,0.15)]"
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.4 + index * 0.05 }}
           >
-            <div className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0" style={{ backgroundColor: `${getStatusColor(activity.status)}20`, color: getStatusColor(activity.status) }}>
+            {/* Icon */}
+            <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl flex items-center justify-center flex-shrink-0 self-start" style={{ backgroundColor: `${getStatusColor(activity.status)}20`, color: getStatusColor(activity.status) }}>
               {getStatusIcon(activity.status)}
             </div>
             
-            <div className="flex-1">
-              <div className="flex justify-between items-start mb-2">
-                <h3 className="font-poppins text-lg font-semibold text-white m-0">{activity.title}</h3>
-                <span className="font-poppins text-xs text-white/50">{activity.duration} ago</span>
+            {/* Content */}
+            <div className="flex-1 min-w-0">
+              <div className="flex flex-col sm:flex-row sm:justify-between sm:items-start gap-2 mb-2">
+                <h3 className="font-poppins text-base sm:text-lg font-semibold text-white m-0 break-words">{activity.title}</h3>
+                <span className="font-poppins text-xs text-white/50 flex-shrink-0">{activity.duration} ago</span>
               </div>
               
-              <p className="font-poppins text-sm text-white/70 m-0 mb-4 leading-relaxed">{activity.description}</p>
+              <p className="font-poppins text-xs sm:text-sm text-white/70 m-0 mb-3 sm:mb-4 leading-relaxed">{activity.description}</p>
               
-              <div className="flex items-center gap-3 flex-wrap">
-                <span className="px-3 py-1.5 rounded-lg font-poppins text-xs font-semibold" style={{ backgroundColor: `${getCategoryColor(activity.category)}20`, color: getCategoryColor(activity.category) }}>
+              {/* Tags and Meta Info */}
+              <div className="flex items-center gap-2 sm:gap-3 flex-wrap">
+                <span className="px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg font-poppins text-[10px] sm:text-xs font-semibold" style={{ backgroundColor: `${getCategoryColor(activity.category)}20`, color: getCategoryColor(activity.category) }}>
                   {activity.category}
                 </span>
-                <span className="px-3 py-1.5 rounded-lg font-poppins text-xs font-semibold" style={{ backgroundColor: `${getStatusColor(activity.status)}20`, color: getStatusColor(activity.status) }}>
+                <span className="px-2.5 sm:px-3 py-1 sm:py-1.5 rounded-lg font-poppins text-[10px] sm:text-xs font-semibold" style={{ backgroundColor: `${getStatusColor(activity.status)}20`, color: getStatusColor(activity.status) }}>
                   {activity.status}
                 </span>
-                <span className="flex items-center gap-1 font-poppins text-xs text-white/50">
-                  <Calendar size={14} />
-                  {new Date(activity.date).toLocaleDateString()}
+                <span className="flex items-center gap-1 font-poppins text-[10px] sm:text-xs text-white/50">
+                  <Calendar size={12} className="sm:w-[14px] sm:h-[14px]" />
+                  <span className="hidden sm:inline">{new Date(activity.date).toLocaleDateString()}</span>
+                  <span className="sm:hidden">{new Date(activity.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })}</span>
                 </span>
-                <span className="flex items-center gap-1 font-poppins text-xs text-white/50">
-                  <Clock size={14} />
+                <span className="flex items-center gap-1 font-poppins text-[10px] sm:text-xs text-white/50">
+                  <Clock size={12} className="sm:w-[14px] sm:h-[14px]" />
                   {activity.time}
                 </span>
               </div>

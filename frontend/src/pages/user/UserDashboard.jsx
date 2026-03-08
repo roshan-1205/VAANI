@@ -15,6 +15,7 @@ import LoadingScreen from '../../components/user/LoadingScreen';
 
 const UserDashboard = () => {
   const [sidebarCollapsed, setSidebarCollapsed] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -24,6 +25,21 @@ const UserDashboard = () => {
     return () => clearTimeout(timer);
   }, []);
 
+  // Close sidebar on mobile when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (sidebarOpen && window.innerWidth < 1024) {
+        const sidebar = document.getElementById('mobile-sidebar');
+        if (sidebar && !sidebar.contains(e.target) && !e.target.closest('.hamburger-btn')) {
+          setSidebarOpen(false);
+        }
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => document.removeEventListener('mousedown', handleClickOutside);
+  }, [sidebarOpen]);
+
   if (loading) {
     return <LoadingScreen />;
   }
@@ -31,12 +47,19 @@ const UserDashboard = () => {
   return (
     <UserProvider>
       <div className="flex min-h-screen bg-white">
-        <Sidebar collapsed={sidebarCollapsed} setCollapsed={setSidebarCollapsed} />
+        <Sidebar 
+          collapsed={sidebarCollapsed} 
+          setCollapsed={setSidebarCollapsed}
+          mobileOpen={sidebarOpen}
+          setMobileOpen={setSidebarOpen}
+        />
         <div 
-          className={`flex-1 transition-[margin-left] duration-[400ms] ease-[cubic-bezier(0.4,0,0.2,1)] ${sidebarCollapsed ? 'ml-20' : 'ml-60'}`}
-          style={{ marginLeft: sidebarCollapsed ? '80px' : '240px' }}
+          className={`flex-1 transition-[margin-left] duration-[400ms] ease-[cubic-bezier(0.4,0,0.2,1)] lg:ml-60 ${sidebarCollapsed ? 'lg:ml-20' : 'lg:ml-60'}`}
         >
-          <Navbar />
+          <Navbar 
+            onMenuClick={() => setSidebarOpen(!sidebarOpen)}
+            sidebarOpen={sidebarOpen}
+          />
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/my-activity" element={<MyActivity />} />

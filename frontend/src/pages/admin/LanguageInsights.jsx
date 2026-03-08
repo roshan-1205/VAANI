@@ -11,10 +11,10 @@ const LanguageInsights = () => {
       const style = document.createElement('style');
       style.id = styleId;
       style.textContent = `
-        .language-insights-page { padding: 32px; max-width: 1400px; margin: 0 auto; background: #0a1628; min-height: 100vh; }
+        .language-insights-page { padding: 32px; max-width: 1400px; margin: 0 auto; background: #e2e2e2; min-height: 100vh; }
         .page-header { margin-bottom: 32px; }
-        .page-header h1 { color: white; font-size: 32px; font-weight: 700; margin-bottom: 8px; font-family: 'Montserrat', sans-serif; }
-        .page-header p { color: rgba(255, 255, 255, 0.6); font-size: 14px; }
+        .page-header h1 { color: black; font-size: 32px; font-weight: 700; margin-bottom: 8px; font-family: 'Montserrat', sans-serif; }
+        .page-header p { color: rgba(0, 0, 0, 0.6); font-size: 14px; }
         .overview-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 32px; }
         .overview-card { background: #01070f; padding: 20px; border-radius: 12px; display: flex; align-items: center; gap: 16px; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3); border: 1px solid rgba(255, 255, 255, 0.05); }
         .overview-icon { width: 56px; height: 56px; border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }

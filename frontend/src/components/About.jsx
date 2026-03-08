@@ -85,22 +85,22 @@ function About() {
             className="space-y-6"
           >
             {/* Stats Cards */}
-            <div className="grid grid-cols-2 gap-6">
-              <div className="bg-gradient-to-br from-[#D4A574] to-[#C19A6B] rounded-2xl p-8 text-white shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
-                <div className="text-5xl font-bold mb-2">20+</div>
-                <div className="text-lg opacity-90">Languages Supported</div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6">
+              <div className="bg-gradient-to-br from-[#D4A574] to-[#C19A6B] rounded-2xl p-6 sm:p-8 text-white shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-center flex flex-col items-center justify-center min-h-[140px]">
+                <div className="text-4xl sm:text-5xl font-bold mb-2">20+</div>
+                <div className="text-base sm:text-lg opacity-90">Languages Supported</div>
               </div>
-              <div className="bg-gradient-to-br from-[#F5DEB3] to-[#DEB887] rounded-2xl p-8 text-gray-800 shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
-                <div className="text-5xl font-bold mb-2">24/7</div>
-                <div className="text-lg opacity-90">Availability</div>
+              <div className="bg-gradient-to-br from-[#F5DEB3] to-[#DEB887] rounded-2xl p-6 sm:p-8 text-gray-800 shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-center flex flex-col items-center justify-center min-h-[140px]">
+                <div className="text-4xl sm:text-5xl font-bold mb-2">24/7</div>
+                <div className="text-base sm:text-lg opacity-90">Availability</div>
               </div>
-              <div className="bg-gradient-to-br from-[#E8D5B7] to-[#D4A574] rounded-2xl p-8 text-gray-800 shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
-                <div className="text-5xl font-bold mb-2">100%</div>
-                <div className="text-lg opacity-90">Free Access</div>
+              <div className="bg-gradient-to-br from-[#E8D5B7] to-[#D4A574] rounded-2xl p-6 sm:p-8 text-gray-800 shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-center flex flex-col items-center justify-center min-h-[140px]">
+                <div className="text-4xl sm:text-5xl font-bold mb-2">100%</div>
+                <div className="text-base sm:text-lg opacity-90">Free Access</div>
               </div>
-              <div className="bg-gradient-to-br from-[#C19A6B] to-[#A67C52] rounded-2xl p-8 text-white shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300">
-                <div className="text-5xl font-bold mb-2">99.9%</div>
-                <div className="text-lg opacity-90">Uptime</div>
+              <div className="bg-gradient-to-br from-[#C19A6B] to-[#A67C52] rounded-2xl p-6 sm:p-8 text-white shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300 text-center flex flex-col items-center justify-center min-h-[140px]">
+                <div className="text-4xl sm:text-5xl font-bold mb-2">99.9%</div>
+                <div className="text-base sm:text-lg opacity-90">Uptime</div>
               </div>
             </div>
 

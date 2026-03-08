@@ -10,10 +10,10 @@ const Services = () => {
       const style = document.createElement('style');
       style.id = styleId;
       style.textContent = `
-        .services-page { padding: 32px; max-width: 1400px; margin: 0 auto; background: #0a1628; min-height: 100vh; }
+        .services-page { padding: 32px; max-width: 1400px; margin: 0 auto; background: #e2e2e2; min-height: 100vh; }
         .page-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 32px; }
-        .page-header h1 { color: white; font-size: 32px; font-weight: 700; margin-bottom: 8px; font-family: 'Montserrat', sans-serif; }
-        .page-header p { color: rgba(255, 255, 255, 0.6); font-size: 14px; }
+        .page-header h1 { color: black; font-size: 32px; font-weight: 700; margin-bottom: 8px; font-family: 'Montserrat', sans-serif; }
+        .page-header p { color: rgba(0, 0, 0, 0.6); font-size: 14px; }
         .btn-primary { display: flex; align-items: center; gap: 8px; padding: 12px 24px; background: #3b82f6; color: white; border: none; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; }
         .btn-primary:hover { background: #2563eb; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4); }
         .overview-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; margin-bottom: 32px; }

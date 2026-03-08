@@ -40,48 +40,54 @@ const Dashboard = () => {
   ];
 
   return (
-    <div className="p-8 max-w-[1400px] mx-auto bg-white min-h-screen">
-      <div className="mb-8">
-        <h2 className="font-['Poppins'] text-[32px] font-bold text-[#01070f] mb-2">
+    <div className="p-4 sm:p-6 lg:p-8 w-full bg-white min-h-screen">
+      {/* Header Section */}
+      <div className="mb-6 sm:mb-8">
+        <h2 className="font-['Poppins'] text-2xl sm:text-3xl lg:text-[32px] font-bold text-[#01070f] mb-2">
           {getGreeting()}, {userData.name}!
         </h2>
-        <p className="font-['Poppins'] text-sm text-[#6b7280]">
+        <p className="font-['Poppins'] text-xs sm:text-sm text-[#6b7280]">
           Welcome to your Vaani dashboard. Here's your activity summary.
         </p>
       </div>
 
-      <div className="grid grid-cols-4 gap-4 mb-8">
+      {/* Stats Grid - Responsive */}
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-6 sm:mb-8">
         {stats.map((stat, index) => (
           <div 
             key={index} 
-            className="bg-[#01070f] rounded-2xl p-6 shadow-[0_8px_32px_rgba(0,0,0,0.3)] border border-white/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_48px_rgba(0,0,0,0.5)]"
+            className="bg-[#01070f] rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-[0_8px_32px_rgba(0,0,0,0.3)] border border-white/5 transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_48px_rgba(0,0,0,0.5)]"
           >
             <div 
-              className="w-12 h-12 rounded-xl flex items-center justify-center mb-4"
+              className="w-10 h-10 sm:w-12 sm:h-12 rounded-lg sm:rounded-xl flex items-center justify-center mb-3 sm:mb-4"
               style={{ backgroundColor: stat.bgColor }}
             >
-              <stat.icon size={24} style={{ color: stat.color }} />
+              <stat.icon size={20} className="sm:w-6 sm:h-6" style={{ color: stat.color }} />
             </div>
-            <div className="text-white font-['Poppins'] text-[32px] font-bold mb-1">
+            <div className="text-white font-['Poppins'] text-2xl sm:text-3xl lg:text-[32px] font-bold mb-1">
               {stat.value}
             </div>
-            <div className="text-white/60 font-['Poppins'] text-[13px] uppercase tracking-wide">
+            <div className="text-white/60 font-['Poppins'] text-[11px] sm:text-[13px] uppercase tracking-wide">
               {stat.label}
             </div>
           </div>
         ))}
       </div>
 
-      <div className="grid grid-cols-[1fr_400px] gap-6">
-        <div className="flex flex-col gap-6">
+      {/* Main Content Grid - Responsive */}
+      <div className="grid grid-cols-1 xl:grid-cols-[1fr_400px] gap-4 sm:gap-6">
+        {/* Left Column */}
+        <div className="flex flex-col gap-4 sm:gap-6">
           <AIVoiceInteraction />
           
-          <div className="grid grid-cols-2 gap-6">
+          {/* Charts Grid - Responsive */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
             <IssueCategoryChart />
             <IssueTrendChart />
           </div>
         </div>
 
+        {/* Right Column - Previous Issues */}
         <div className="flex flex-col">
           <PreviousIssues />
         </div>

@@ -629,10 +629,10 @@ export default Users;
 // Inject styles
 const styleSheet = document.createElement("style");
 styleSheet.textContent = `
-.users-page { padding: 32px; background: #0a1628; min-height: calc(100vh - 80px); }
+.users-page { padding: 32px; background: #e2e2e2; min-height: calc(100vh - 80px); }
 .page-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 32px; }
-.page-header h1 { font-family: 'Montserrat', sans-serif; font-size: 32px; font-weight: 700; color: white; margin: 0 0 8px 0; }
-.page-header p { font-family: 'Poppins', sans-serif; font-size: 14px; color: rgba(255, 255, 255, 0.6); margin: 0; }
+.page-header h1 { font-family: 'Montserrat', sans-serif; font-size: 32px; font-weight: 700; color: black; margin: 0 0 8px 0; }
+.page-header p { font-family: 'Poppins', sans-serif; font-size: 14px; color: rgba(0, 0, 0, 0.6); margin: 0; }
 .header-actions { display: flex; gap: 12px; }
 .btn-primary, .btn-secondary { display: flex; align-items: center; gap: 8px; padding: 12px 24px; border: none; border-radius: 12px; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; }
 .btn-primary { background: #10b981; color: white; }

@@ -1,0 +1,215 @@
+/* VideoSection Responsive Styles */
+
+/* Section border radius - responsive */
+.video-section {
+  border-radius: 0 2rem 2rem 0;
+}
+
+@media (min-width: 640px) {
+  .video-section {
+    border-radius: 0 5rem 5rem 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .video-section {
+    border-radius: 0 8rem 8rem 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .video-section {
+    border-radius: 0 12rem 12rem 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .video-section {
+    border-radius: 0 20rem 20rem 0;
+  }
+}
+
+/* Video container border radius - responsive */
+.video-container {
+  border-radius: 1rem;
+}
+
+@media (min-width: 640px) {
+  .video-container {
+    border-radius: 1.5rem 4rem 4rem 1.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .video-container {
+    border-radius: 1.5rem 8rem 8rem 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .video-container {
+    border-radius: 1.5rem 12rem 12rem 1.5rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .video-container {
+    border-radius: 1.5rem 15rem 15rem 1.5rem;
+  }
+}
+
+/* Video optimization */
+.video-container video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Ensure video doesn't cause layout shift */
+.video-container::before {
+  content: '';
+  display: block;
+  padding-top: 75%; /* 4:3 aspect ratio */
+  position: relative;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Text responsive improvements */
+.video-section-title {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+/* Mobile-specific optimizations */
+@media (max-width: 639px) {
+  .video-section-title {
+    font-size: clamp(1.25rem, 5vw, 1.5rem);
+    line-height: 1.3;
+  }
+  
+  /* Reduce video quality on very small screens for performance */
+  .video-container video {
+    filter: brightness(0.95);
+  }
+}
+
+/* Tablet optimizations */
+@media (min-width: 640px) and (max-width: 1023px) {
+  .video-section-title {
+    font-size: clamp(1.875rem, 4vw, 2.5rem);
+  }
+}
+
+/* Desktop optimizations */
+@media (min-width: 1024px) {
+  .video-section-title {
+    font-size: clamp(2.5rem, 3.5vw, 3.75rem);
+  }
+}
+
+/* Extra small devices (< 375px) */
+@media (max-width: 374px) {
+  .video-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0 1.5rem 1.5rem 0;
+  }
+  
+  .video-container {
+    border-radius: 0.75rem;
+    height: 250px;
+  }
+  
+  .video-section-title {
+    font-size: 1.125rem;
+    padding: 0 0.5rem;
+  }
+}
+
+/* Landscape mobile optimization */
+@media (max-width: 767px) and (orientation: landscape) {
+  .video-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .video-container {
+    height: 280px;
+  }
+}
+
+/* Prevent video from causing horizontal scroll */
+.video-section,
+.video-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Loading state */
+.video-container video:not([src]) {
+  background: linear-gradient(135deg, #1e3a8a 0%, #7c3aed 100%);
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+  .video-container video {
+    animation: none;
+  }
+  
+  .video-section [class*="animate-"] {
+    animation: none;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .video-container {
+    border-width: 3px;
+    border-color: white;
+  }
+}
+
+/* Dark mode optimization (if needed) */
+@media (prefers-color-scheme: dark) {
+  .video-section {
+    background-color: #000;
+  }
+}
+
+/* Touch device optimizations */
+@media (hover: none) and (pointer: coarse) {
+  /* Larger touch targets on mobile */
+  .video-section button {
+    min-height: 48px;
+    min-width: 48px;
+  }
+}
+
+/* Print styles */
+@media print {
+  .video-section {
+    page-break-inside: avoid;
+  }
+  
+  .video-container video {
+    display: none;
+  }
+  
+  .video-container::after {
+    content: 'Video content available online';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f3f4f6;
+    color: #1f2937;
+    font-size: 1rem;
+  }
+}

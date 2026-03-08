@@ -1,9 +1,9 @@
 import React from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { LayoutDashboard, CheckSquare, Activity, BookOpen, TrendingUp, MessageSquare, Settings, ChevronLeft } from 'lucide-react';
+import { LayoutDashboard, CheckSquare, Activity, BookOpen, TrendingUp, MessageSquare, Settings, ChevronLeft, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const Sidebar = ({ collapsed, setCollapsed }) => {
+const Sidebar = ({ collapsed, setCollapsed, isMobile }) => {
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -19,11 +19,78 @@ const Sidebar = ({ collapsed, setCollapsed }) => {
 
   const handleNavigation = (path) => {
     navigate(path);
+    if (isMobile) {
+      setCollapsed(true);
+    }
   };
 
+  // Mobile overlay
+  if (isMobile) {
+    return (
+      <>
+        {/* Backdrop */}
+        <AnimatePresence>
+          {!collapsed && (
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.3 }}
+              className="fixed inset-0 bg-black/50 z-[99] lg:hidden"
+              onClick={() => setCollapsed(true)}
+            />
+          )}
+        </AnimatePresence>
+
+        {/* Mobile Sidebar */}
+        <motion.div 
+          className="fixed left-0 top-0 h-screen bg-[#01070f] py-6 px-4 z-[100] shadow-2xl lg:hidden"
+          initial={{ x: -260 }}
+          animate={{ x: collapsed ? -260 : 0 }}
+          transition={{ 
+            duration: 0.3, 
+            ease: [0.4, 0, 0.2, 1]
+          }}
+          style={{ width: '260px' }}
+        >
+          <div className="flex items-center justify-between mb-10 px-2">
+            <h2 className="text-white text-xl font-bold tracking-wide">Volunteer</h2>
+            <button 
+              className="bg-white/10 hover:bg-white/20 text-white w-8 h-8 rounded-lg flex items-center justify-center cursor-pointer transition-all duration-200"
+              onClick={() => setCollapsed(true)}
+            >
+              <X size={20} />
+            </button>
+          </div>
+          
+          <nav className="flex flex-col gap-2">
+            {menuItems.map((item, index) => {
+              const isActive = location.pathname === item.path;
+              return (
+                <button
+                  key={index}
+                  className={`flex items-center gap-4 py-3 px-4 rounded-lg cursor-pointer transition-all duration-200 text-sm font-medium border-none w-full text-left ${
+                    isActive
+                      ? 'bg-green-500/20 text-green-500' 
+                      : 'text-white/70 hover:bg-white/10 hover:text-white'
+                  }`}
+                  onClick={() => handleNavigation(item.path)}
+                >
+                  <item.icon size={20} />
+                  <span>{item.label}</span>
+                </button>
+              );
+            })}
+          </nav>
+        </motion.div>
+      </>
+    );
+  }
+
+  // Desktop sidebar
   return (
     <motion.div 
-      className="fixed left-0 top-0 h-screen bg-[#01070f] py-6 z-[100] shadow-2xl max-lg:hidden overflow-hidden"
+      className="fixed left-0 top-0 h-screen bg-[#01070f] py-6 z-[100] shadow-2xl hidden lg:block overflow-hidden"
       initial={false}
       animate={{ 
         width: collapsed ? 80 : 260,

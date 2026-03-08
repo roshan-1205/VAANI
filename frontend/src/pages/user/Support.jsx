@@ -63,61 +63,67 @@ const Support = () => {
   };
 
   return (
-    <div className="p-8 min-h-screen max-w-[1400px] mx-auto bg-white">
-      <div className="flex items-center gap-4 mb-8">
-        <div className="w-16 h-16 bg-[#01070f] rounded-2xl flex items-center justify-center text-white shadow-[0_8px_32px_rgba(0,0,0,0.3)]">
-          <HelpCircle size={32} />
+    <div className="p-4 sm:p-6 lg:p-8 min-h-screen w-full bg-white pb-20 sm:pb-8">
+      {/* Header */}
+      <div className="flex flex-col sm:flex-row items-start sm:items-center gap-3 sm:gap-4 mb-6 sm:mb-8">
+        <div className="w-12 h-12 sm:w-16 sm:h-16 bg-[#01070f] rounded-xl sm:rounded-2xl flex items-center justify-center text-white shadow-[0_8px_32px_rgba(0,0,0,0.3)] flex-shrink-0">
+          <HelpCircle size={24} className="sm:w-8 sm:h-8" />
         </div>
-        <div>
-          <h1 className="font-['Poppins'] text-[32px] font-bold text-[#01070f] m-0 mb-1">Help & Support</h1>
-          <p className="font-['Poppins'] text-sm text-[#6b7280] m-0">Find answers and get assistance</p>
+        <div className="flex-1 min-w-0">
+          <h1 className="font-['Poppins'] text-2xl sm:text-3xl lg:text-[32px] font-bold text-[#01070f] m-0 mb-0.5 sm:mb-1">Help & Support</h1>
+          <p className="font-['Poppins'] text-xs sm:text-sm text-[#6b7280] m-0">Find answers and get assistance</p>
         </div>
       </div>
 
-      <div className="mb-8">
-        <div className="flex items-center gap-3 px-6 py-4 bg-[#f9fafb] border-2 border-[#e5e7eb] rounded-2xl">
-          <Search size={20} className="text-[#9ca3af]" />
+      {/* Search Bar */}
+      <div className="mb-6 sm:mb-8">
+        <div className="flex items-center gap-2 sm:gap-3 px-4 sm:px-6 py-3 sm:py-4 bg-[#f9fafb] border-2 border-[#e5e7eb] rounded-xl sm:rounded-2xl">
+          <Search size={18} className="sm:w-5 sm:h-5 text-[#9ca3af] flex-shrink-0" />
           <input 
             type="text" 
             placeholder="Search for help..." 
             value={searchTerm} 
             onChange={(e) => setSearchTerm(e.target.value)} 
-            className="flex-1 bg-transparent border-none outline-none text-[#01070f] font-['Poppins'] text-base placeholder:text-[#9ca3af]" 
+            className="flex-1 bg-transparent border-none outline-none text-[#01070f] font-['Poppins'] text-sm sm:text-base placeholder:text-[#9ca3af] min-w-0" 
           />
         </div>
       </div>
 
-      <div className="grid grid-cols-4 gap-4 mb-12">
+      {/* Resources Grid */}
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 mb-8 sm:mb-12">
         {resources.map((resource, index) => (
           <div 
             key={index} 
-            className="bg-[#01070f] rounded-2xl p-6 text-center cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_48px_rgba(0,0,0,0.5)] shadow-[0_8px_32px_rgba(0,0,0,0.3)] border border-white/5" 
+            className="bg-[#01070f] rounded-xl sm:rounded-2xl p-4 sm:p-6 text-center cursor-pointer transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_12px_48px_rgba(0,0,0,0.5)] active:scale-95 shadow-[0_8px_32px_rgba(0,0,0,0.3)] border border-white/5" 
             onClick={resource.action}
           >
             <div 
-              className="w-16 h-16 mx-auto mb-4 rounded-xl flex items-center justify-center" 
+              className="w-12 h-12 sm:w-16 sm:h-16 mx-auto mb-3 sm:mb-4 rounded-lg sm:rounded-xl flex items-center justify-center" 
               style={{ backgroundColor: `${resource.color}33`, color: resource.color }}
             >
-              <resource.icon size={28} />
+              <resource.icon size={20} className="sm:w-7 sm:h-7" />
             </div>
-            <h3 className="font-['Poppins'] text-base font-semibold text-white m-0 mb-2">{resource.title}</h3>
-            <p className="font-['Poppins'] text-[13px] text-white/60 m-0 leading-snug">{resource.description}</p>
+            <h3 className="font-['Poppins'] text-sm sm:text-base font-semibold text-white m-0 mb-1 sm:mb-2">{resource.title}</h3>
+            <p className="font-['Poppins'] text-[11px] sm:text-[13px] text-white/60 m-0 leading-snug">{resource.description}</p>
           </div>
         ))}
       </div>
 
+      {/* FAQ Section */}
       <div>
-        <div className="mb-6">
-          <h2 className="font-['Poppins'] text-2xl font-bold text-[#01070f] m-0 mb-6">Frequently Asked Questions</h2>
-          <div className="flex gap-2 flex-wrap bg-[#f9fafb] p-1.5 rounded-xl border-2 border-[#e5e7eb] w-fit">
+        <div className="mb-4 sm:mb-6">
+          <h2 className="font-['Poppins'] text-xl sm:text-2xl font-bold text-[#01070f] m-0 mb-4 sm:mb-6">Frequently Asked Questions</h2>
+          
+          {/* Category Filters */}
+          <div className="flex gap-2 flex-wrap bg-[#f9fafb] p-1.5 rounded-xl border-2 border-[#e5e7eb] w-full sm:w-fit overflow-x-auto">
             {categories.map(cat => (
               <button 
                 key={cat.id} 
-                className={`flex items-center gap-2 px-4 py-2.5 ${selectedCategory === cat.id ? 'bg-gradient-to-br from-[#10b981] to-[#059669] text-white shadow-[0_4px_12px_rgba(16,185,129,0.3)]' : 'bg-transparent text-[#6b7280]'} border-none rounded-lg font-['Poppins'] text-sm font-semibold cursor-pointer transition-all duration-300`} 
+                className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-2 sm:py-2.5 ${selectedCategory === cat.id ? 'bg-gradient-to-br from-[#10b981] to-[#059669] text-white shadow-[0_4px_12px_rgba(16,185,129,0.3)]' : 'bg-transparent text-[#6b7280]'} border-none rounded-lg font-['Poppins'] text-xs sm:text-sm font-semibold cursor-pointer transition-all duration-300 active:scale-95 whitespace-nowrap`} 
                 onClick={() => setSelectedCategory(cat.id)}
               >
-                {cat.label}
-                <span className="inline-flex items-center justify-center min-w-[20px] h-5 px-1.5 bg-white/20 rounded-[10px] text-xs font-semibold">
+                <span>{cat.label}</span>
+                <span className="inline-flex items-center justify-center min-w-[18px] sm:min-w-[20px] h-4 sm:h-5 px-1 sm:px-1.5 bg-white/20 rounded-[10px] text-[10px] sm:text-xs font-semibold">
                   {cat.count}
                 </span>
               </button>
@@ -125,25 +131,26 @@ const Support = () => {
           </div>
         </div>
         
-        <div className="bg-[#01070f] rounded-2xl p-6 shadow-[0_8px_32px_rgba(0,0,0,0.3)] border border-white/5 mb-12">
-          <div className="flex flex-col gap-3">
+        {/* FAQ List */}
+        <div className="bg-[#01070f] rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-[0_8px_32px_rgba(0,0,0,0.3)] border border-white/5 mb-8 sm:mb-12">
+          <div className="flex flex-col gap-2 sm:gap-3">
             {filteredFaqs.map((faq) => (
               <div 
                 key={faq.id} 
                 className="bg-white/[0.03] rounded-xl overflow-hidden border-l-[3px] border-[#3b82f6] transition-all duration-300 hover:bg-white/[0.08]"
               >
                 <button 
-                  className="w-full flex justify-between items-center px-6 py-5 bg-transparent border-none text-white font-['Poppins'] text-[15px] font-semibold text-left cursor-pointer" 
+                  className="w-full flex justify-between items-center px-4 sm:px-6 py-4 sm:py-5 bg-transparent border-none text-white font-['Poppins'] text-sm sm:text-[15px] font-semibold text-left cursor-pointer active:scale-[0.98]" 
                   onClick={() => setExpandedFaq(expandedFaq === faq.id ? null : faq.id)}
                 >
-                  <span>{faq.question}</span>
+                  <span className="flex-1 pr-2">{faq.question}</span>
                   <ChevronDown 
-                    size={20} 
-                    className={`transition-transform duration-300 flex-shrink-0 ml-4 ${expandedFaq === faq.id ? 'rotate-180' : ''}`}
+                    size={18} 
+                    className={`sm:w-5 sm:h-5 transition-transform duration-300 flex-shrink-0 ${expandedFaq === faq.id ? 'rotate-180' : ''}`}
                   />
                 </button>
                 {expandedFaq === faq.id && (
-                  <div className="px-6 pb-5 font-['Poppins'] text-sm text-white/70 leading-relaxed border-t border-white/5 pt-4">
+                  <div className="px-4 sm:px-6 pb-4 sm:pb-5 font-['Poppins'] text-xs sm:text-sm text-white/70 leading-relaxed border-t border-white/5 pt-3 sm:pt-4">
                     {faq.answer}
                   </div>
                 )}
@@ -152,12 +159,13 @@ const Support = () => {
           </div>
         </div>
 
+        {/* No Results */}
         {filteredFaqs.length === 0 && (
-          <div className="flex flex-col items-center justify-center py-15 px-5 text-center bg-[#01070f] rounded-2xl p-12 shadow-[0_8px_32px_rgba(0,0,0,0.3)] border border-white/5">
-            <HelpCircle size={48} className="text-white/20" />
-            <p className="font-['Poppins'] text-base text-white/50 mt-4 mb-4">No results found for "{searchTerm}"</p>
+          <div className="flex flex-col items-center justify-center py-10 sm:py-15 px-4 sm:px-5 text-center bg-[#01070f] rounded-xl sm:rounded-2xl p-8 sm:p-12 shadow-[0_8px_32px_rgba(0,0,0,0.3)] border border-white/5">
+            <HelpCircle size={40} className="sm:w-12 sm:h-12 text-white/20" />
+            <p className="font-['Poppins'] text-sm sm:text-base text-white/50 mt-3 sm:mt-4 mb-3 sm:mb-4">No results found for "{searchTerm}"</p>
             <button 
-              className="px-6 py-2.5 bg-gradient-to-br from-[#10b981] to-[#059669] text-white border-none rounded-lg font-['Poppins'] text-sm font-semibold cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_4px_12px_rgba(16,185,129,0.3)]" 
+              className="px-5 sm:px-6 py-2 sm:py-2.5 bg-gradient-to-br from-[#10b981] to-[#059669] text-white border-none rounded-lg font-['Poppins'] text-xs sm:text-sm font-semibold cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_4px_12px_rgba(16,185,129,0.3)] active:scale-95" 
               onClick={() => setSearchTerm('')}
             >
               Clear Search
@@ -166,67 +174,73 @@ const Support = () => {
         )}
       </div>
 
-      <div className="bg-[#01070f] rounded-3xl p-10 text-center shadow-[0_8px_32px_rgba(0,0,0,0.3)] border border-white/5">
-        <h3 className="font-['Poppins'] text-2xl font-bold text-white m-0 mb-2">Still need help?</h3>
-        <p className="font-['Poppins'] text-sm text-white/70 m-0 mb-6">Our support team is available 24/7 to assist you</p>
-        <div className="flex justify-center gap-8 mb-6 flex-wrap">
-          <div className="flex items-center gap-2 text-white/80 font-['Poppins'] text-sm">
-            <Clock size={20} className="text-white/60" />
+      {/* Contact Section */}
+      <div className="bg-[#01070f] rounded-2xl sm:rounded-3xl p-6 sm:p-10 text-center shadow-[0_8px_32px_rgba(0,0,0,0.3)] border border-white/5">
+        <h3 className="font-['Poppins'] text-xl sm:text-2xl font-bold text-white m-0 mb-1 sm:mb-2">Still need help?</h3>
+        <p className="font-['Poppins'] text-xs sm:text-sm text-white/70 m-0 mb-4 sm:mb-6">Our support team is available 24/7 to assist you</p>
+        
+        {/* Contact Info */}
+        <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-8 mb-4 sm:mb-6 flex-wrap">
+          <div className="flex items-center justify-center gap-2 text-white/80 font-['Poppins'] text-xs sm:text-sm">
+            <Clock size={16} className="sm:w-5 sm:h-5 text-white/60 flex-shrink-0" />
             <span>24/7 Support</span>
           </div>
-          <div className="flex items-center gap-2 text-white/80 font-['Poppins'] text-sm">
-            <Phone size={20} className="text-white/60" />
+          <div className="flex items-center justify-center gap-2 text-white/80 font-['Poppins'] text-xs sm:text-sm">
+            <Phone size={16} className="sm:w-5 sm:h-5 text-white/60 flex-shrink-0" />
             <span>+91 1800-XXX-XXXX</span>
           </div>
-          <div className="flex items-center gap-2 text-white/80 font-['Poppins'] text-sm">
-            <Mail size={20} className="text-white/60" />
-            <span>vaani.voice.assist@gmail.com</span>
+          <div className="flex items-center justify-center gap-2 text-white/80 font-['Poppins'] text-xs sm:text-sm truncate">
+            <Mail size={16} className="sm:w-5 sm:h-5 text-white/60 flex-shrink-0" />
+            <span className="truncate">vaani.voice.assist@gmail.com</span>
           </div>
         </div>
-        <div className="flex gap-4 justify-center">
+        
+        {/* Action Buttons */}
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center">
           <button 
-            className="flex items-center gap-2 px-7 py-3.5 bg-gradient-to-br from-[#10b981] to-[#3b82f6] text-white border-none rounded-xl font-['Poppins'] text-[15px] font-semibold cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(16,185,129,0.4)]" 
+            className="flex items-center justify-center gap-2 px-5 sm:px-7 py-3 sm:py-3.5 bg-gradient-to-br from-[#10b981] to-[#3b82f6] text-white border-none rounded-xl font-['Poppins'] text-sm sm:text-[15px] font-semibold cursor-pointer transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(16,185,129,0.4)] active:scale-95" 
             onClick={() => setShowContactModal(true)}
           >
-            <Mail size={18} />
-            Email Support
+            <Mail size={16} className="sm:w-[18px] sm:h-[18px]" />
+            <span>Email Support</span>
           </button>
-          <button className="flex items-center gap-2 px-7 py-3.5 bg-white/10 text-white border border-white/20 rounded-xl font-['Poppins'] text-[15px] font-semibold cursor-pointer transition-all duration-300 hover:bg-white/15 hover:-translate-y-0.5">
-            <MessageCircle size={18} />
-            Live Chat
+          <button className="flex items-center justify-center gap-2 px-5 sm:px-7 py-3 sm:py-3.5 bg-white/10 text-white border border-white/20 rounded-xl font-['Poppins'] text-sm sm:text-[15px] font-semibold cursor-pointer transition-all duration-300 hover:bg-white/15 hover:-translate-y-0.5 active:scale-95">
+            <MessageCircle size={16} className="sm:w-[18px] sm:h-[18px]" />
+            <span>Live Chat</span>
           </button>
         </div>
       </div>
 
+      {/* Contact Modal */}
       {showContactModal && (
         <div 
-          className="fixed inset-0 bg-black/70 backdrop-blur-sm z-[1000] flex items-center justify-center p-5" 
+          className="fixed inset-0 bg-black/70 backdrop-blur-sm z-[1000] flex items-center justify-center p-4 sm:p-5" 
           onClick={() => !submitStatus && setShowContactModal(false)}
         >
           <div 
-            className="bg-[#0a1628] rounded-2xl p-8 w-[90%] max-w-[600px] z-[1001] shadow-[0_20px_60px_rgba(0,0,0,0.5)] border border-white/10 max-h-[90vh] overflow-y-auto" 
+            className="bg-[#0a1628] rounded-xl sm:rounded-2xl p-6 sm:p-8 w-full max-w-[600px] z-[1001] shadow-[0_20px_60px_rgba(0,0,0,0.5)] border border-white/10 max-h-[90vh] overflow-y-auto" 
             onClick={(e) => e.stopPropagation()}
           >
             {submitStatus === 'success' ? (
-              <div className="flex flex-col items-center justify-center py-10 px-5 text-center">
-                <CheckCircle size={64} className="text-[#10b981] mb-5" />
-                <h3 className="text-white font-['Poppins'] text-2xl font-bold m-0 mb-3">Message Sent!</h3>
-                <p className="text-white/70 font-['Poppins'] text-sm m-0">We'll get back to you within 24 hours</p>
+              <div className="flex flex-col items-center justify-center py-8 sm:py-10 px-4 sm:px-5 text-center">
+                <CheckCircle size={48} className="sm:w-16 sm:h-16 text-[#10b981] mb-4 sm:mb-5" />
+                <h3 className="text-white font-['Poppins'] text-xl sm:text-2xl font-bold m-0 mb-2 sm:mb-3">Message Sent!</h3>
+                <p className="text-white/70 font-['Poppins'] text-xs sm:text-sm m-0">We'll get back to you within 24 hours</p>
               </div>
             ) : (
               <>
-                <div className="flex justify-between items-center mb-6">
-                  <h2 className="text-white font-['Poppins'] text-2xl font-bold m-0">Contact Support</h2>
+                <div className="flex justify-between items-center mb-5 sm:mb-6">
+                  <h2 className="text-white font-['Poppins'] text-xl sm:text-2xl font-bold m-0">Contact Support</h2>
                   <button 
-                    className="bg-white/10 border-none text-white w-8 h-8 rounded-lg flex items-center justify-center cursor-pointer transition-all duration-200 flex-shrink-0 hover:bg-white/20" 
+                    className="bg-white/10 border-none text-white w-8 h-8 rounded-lg flex items-center justify-center cursor-pointer transition-all duration-200 flex-shrink-0 hover:bg-white/20 active:scale-95" 
                     onClick={() => setShowContactModal(false)}
                   >
-                    <X size={20} />
+                    <X size={18} className="sm:w-5 sm:h-5" />
                   </button>
                 </div>
                 <form onSubmit={handleContactSubmit}>
-                  <div className="mb-5">
-                    <label className="block text-white/80 font-['Poppins'] text-sm font-medium mb-2">Name</label>
+                  <div className="mb-4 sm:mb-5">
+                    <label className="block text-white/80 font-['Poppins'] text-xs sm:text-sm font-medium mb-2">Name</label>
                     <input 
                       type="text" 
                       name="name" 
@@ -235,11 +249,11 @@ const Support = () => {
                       placeholder="Your full name" 
                       required 
                       disabled={submitStatus === 'sending'} 
-                      className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white font-['Poppins'] text-sm transition-all duration-300 box-border focus:outline-none focus:border-[#10b981] focus:bg-white/8 placeholder:text-white/40 disabled:opacity-60 disabled:cursor-not-allowed" 
+                      className="w-full px-3 sm:px-4 py-2.5 sm:py-3 bg-white/5 border border-white/10 rounded-lg text-white font-['Poppins'] text-sm transition-all duration-300 box-border focus:outline-none focus:border-[#10b981] focus:bg-white/8 placeholder:text-white/40 disabled:opacity-60 disabled:cursor-not-allowed" 
                     />
                   </div>
-                  <div className="mb-5">
-                    <label className="block text-white/80 font-['Poppins'] text-sm font-medium mb-2">Email</label>
+                  <div className="mb-4 sm:mb-5">
+                    <label className="block text-white/80 font-['Poppins'] text-xs sm:text-sm font-medium mb-2">Email</label>
                     <input 
                       type="email" 
                       name="email" 
@@ -248,11 +262,11 @@ const Support = () => {
                       placeholder="your.email@example.com" 
                       required 
                       disabled={submitStatus === 'sending'} 
-                      className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white font-['Poppins'] text-sm transition-all duration-300 box-border focus:outline-none focus:border-[#10b981] focus:bg-white/8 placeholder:text-white/40 disabled:opacity-60 disabled:cursor-not-allowed" 
+                      className="w-full px-3 sm:px-4 py-2.5 sm:py-3 bg-white/5 border border-white/10 rounded-lg text-white font-['Poppins'] text-sm transition-all duration-300 box-border focus:outline-none focus:border-[#10b981] focus:bg-white/8 placeholder:text-white/40 disabled:opacity-60 disabled:cursor-not-allowed" 
                     />
                   </div>
-                  <div className="mb-5">
-                    <label className="block text-white/80 font-['Poppins'] text-sm font-medium mb-2">Subject</label>
+                  <div className="mb-4 sm:mb-5">
+                    <label className="block text-white/80 font-['Poppins'] text-xs sm:text-sm font-medium mb-2">Subject</label>
                     <input 
                       type="text" 
                       name="subject" 
@@ -261,11 +275,11 @@ const Support = () => {
                       placeholder="Brief description of your issue" 
                       required 
                       disabled={submitStatus === 'sending'} 
-                      className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white font-['Poppins'] text-sm transition-all duration-300 box-border focus:outline-none focus:border-[#10b981] focus:bg-white/8 placeholder:text-white/40 disabled:opacity-60 disabled:cursor-not-allowed" 
+                      className="w-full px-3 sm:px-4 py-2.5 sm:py-3 bg-white/5 border border-white/10 rounded-lg text-white font-['Poppins'] text-sm transition-all duration-300 box-border focus:outline-none focus:border-[#10b981] focus:bg-white/8 placeholder:text-white/40 disabled:opacity-60 disabled:cursor-not-allowed" 
                     />
                   </div>
-                  <div className="mb-5">
-                    <label className="block text-white/80 font-['Poppins'] text-sm font-medium mb-2">Message</label>
+                  <div className="mb-4 sm:mb-5">
+                    <label className="block text-white/80 font-['Poppins'] text-xs sm:text-sm font-medium mb-2">Message</label>
                     <textarea 
                       name="message" 
                       value={contactForm.message} 
@@ -274,13 +288,13 @@ const Support = () => {
                       rows="5" 
                       required 
                       disabled={submitStatus === 'sending'} 
-                      className="w-full px-4 py-3 bg-white/5 border border-white/10 rounded-lg text-white font-['Poppins'] text-sm transition-all duration-300 box-border resize-vertical min-h-[120px] focus:outline-none focus:border-[#10b981] focus:bg-white/8 placeholder:text-white/40 disabled:opacity-60 disabled:cursor-not-allowed" 
+                      className="w-full px-3 sm:px-4 py-2.5 sm:py-3 bg-white/5 border border-white/10 rounded-lg text-white font-['Poppins'] text-sm transition-all duration-300 box-border resize-vertical min-h-[120px] focus:outline-none focus:border-[#10b981] focus:bg-white/8 placeholder:text-white/40 disabled:opacity-60 disabled:cursor-not-allowed" 
                     />
                   </div>
-                  <div className="flex gap-3 mt-6">
+                  <div className="flex gap-3 mt-5 sm:mt-6">
                     <button 
                       type="button" 
-                      className="flex-1 px-6 py-3 rounded-lg font-['Poppins'] text-sm font-semibold cursor-pointer transition-all duration-300 border-none bg-white/10 text-white border border-white/10 hover:bg-white/15 disabled:opacity-60 disabled:cursor-not-allowed disabled:transform-none" 
+                      className="flex-1 px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg font-['Poppins'] text-sm font-semibold cursor-pointer transition-all duration-300 border-none bg-white/10 text-white border border-white/10 hover:bg-white/15 active:scale-95 disabled:opacity-60 disabled:cursor-not-allowed disabled:transform-none" 
                       onClick={() => setShowContactModal(false)} 
                       disabled={submitStatus === 'sending'}
                     >
@@ -288,15 +302,15 @@ const Support = () => {
                     </button>
                     <button 
                       type="submit" 
-                      className="flex-1 px-6 py-3 rounded-lg font-['Poppins'] text-sm font-semibold cursor-pointer transition-all duration-300 border-none flex items-center justify-center gap-2 bg-gradient-to-br from-[#10b981] to-[#3b82f6] text-white hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(16,185,129,0.4)] disabled:opacity-60 disabled:cursor-not-allowed disabled:transform-none" 
+                      className="flex-1 px-4 sm:px-6 py-2.5 sm:py-3 rounded-lg font-['Poppins'] text-sm font-semibold cursor-pointer transition-all duration-300 border-none flex items-center justify-center gap-2 bg-gradient-to-br from-[#10b981] to-[#3b82f6] text-white hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(16,185,129,0.4)] active:scale-95 disabled:opacity-60 disabled:cursor-not-allowed disabled:transform-none" 
                       disabled={submitStatus === 'sending'}
                     >
                       {submitStatus === 'sending' ? (
                         <>Sending...</>
                       ) : (
                         <>
-                          <Send size={18} />
-                          Send Message
+                          <Send size={16} className="sm:w-[18px] sm:h-[18px]" />
+                          <span>Send Message</span>
                         </>
                       )}
                     </button>

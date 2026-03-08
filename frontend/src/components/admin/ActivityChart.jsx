@@ -14,29 +14,29 @@ const ActivityChart = () => {
 
   return (
     <motion.div
-      className="bg-dark p-6 rounded-xl shadow-[0_4px_16px_rgba(0,0,0,0.1)]"
+      className="bg-dark p-6 max-md:p-5 max-sm:p-4 rounded-xl shadow-[0_4px_16px_rgba(0,0,0,0.1)]"
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.4 }}
     >
-      <div className="flex justify-between items-center mb-6">
-        <h3 className="text-white text-lg font-semibold">Real-time Activity</h3>
-        <span className="flex items-center gap-2 text-success text-[13px] font-medium">
+      <div className="flex justify-between items-center mb-6 max-sm:mb-4">
+        <h3 className="text-white text-lg max-sm:text-base font-semibold">Real-time Activity</h3>
+        <span className="flex items-center gap-2 text-success text-[13px] max-sm:text-xs font-medium">
           <span className="w-2 h-2 bg-success rounded-full animate-pulse"></span>
           Live
         </span>
       </div>
       
-      <ResponsiveContainer width="100%" height={300}>
+      <ResponsiveContainer width="100%" height={300} className="max-sm:h-[250px]">
         <LineChart data={data}>
           <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.1)" />
-          <XAxis dataKey="time" stroke="rgba(255,255,255,0.5)" />
-          <YAxis stroke="rgba(255,255,255,0.5)" />
+          <XAxis dataKey="time" stroke="rgba(255,255,255,0.5)" style={{ fontSize: '12px' }} />
+          <YAxis stroke="rgba(255,255,255,0.5)" style={{ fontSize: '12px' }} />
           <Tooltip
-            contentStyle={{ background: '#01070f', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px' }}
+            contentStyle={{ background: '#01070f', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', fontSize: '12px' }}
             labelStyle={{ color: 'white' }}
           />
-          <Legend />
+          <Legend wrapperStyle={{ fontSize: '12px' }} />
           <Line type="monotone" dataKey="calls" stroke="#3b82f6" strokeWidth={2} dot={{ r: 4 }} />
           <Line type="monotone" dataKey="resolved" stroke="#10b981" strokeWidth={2} dot={{ r: 4 }} />
         </LineChart>

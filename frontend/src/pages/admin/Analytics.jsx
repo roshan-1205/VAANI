@@ -57,7 +57,7 @@ const Analytics = () => {
         animate={{ opacity: 1, y: 0 }}
       >
         <div>
-          <h1>Analytics</h1>
+          <h1 style={{ color: '#000000' }}>Analytics</h1>
           <p>Comprehensive performance metrics and insights</p>
         </div>
         <div className="header-actions">
@@ -261,14 +261,14 @@ export default Analytics;
 // Inject styles
 const styleSheet = document.createElement("style");
 styleSheet.textContent = `
-.analytics-page { padding: 32px; background: #0a1628; min-height: calc(100vh - 80px); }
+.analytics-page { padding: 32px; background: #e2e2e2; min-height: calc(100vh - 80px); }
 .page-header { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 32px; flex-wrap: wrap; gap: 16px; }
-.page-header h1 { font-family: 'Montserrat', sans-serif; font-size: 32px; font-weight: 700; color: white; margin: 0 0 8px 0; }
-.page-header p { font-family: 'Poppins', sans-serif; font-size: 14px; color: rgba(255, 255, 255, 0.6); margin: 0; }
+.page-header h1 { font-family: 'Montserrat', sans-serif; font-size: 32px; font-weight: 700; color: #000000; margin: 0 0 8px 0; }
+.page-header p { font-family: 'Poppins', sans-serif; font-size: 14px; color: rgba(0, 0, 0, 0.6); margin: 0; }
 .header-actions { display: flex; gap: 12px; align-items: center; }
-.time-range-selector { display: flex; align-items: center; gap: 8px; padding: 10px 16px; background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 10px; color: white; }
-.time-range-selector select { background: transparent; border: none; outline: none; color: white; font-family: 'Poppins', sans-serif; font-size: 14px; cursor: pointer; }
-.time-range-selector select option { background: #01070f; }
+.time-range-selector { display: flex; align-items: center; gap: 8px; padding: 10px 16px; background: rgba(0, 0, 0, 0.05); border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 10px; color: #1a1a1a; }
+.time-range-selector select { background: transparent; border: none; outline: none; color: #1a1a1a; font-family: 'Poppins', sans-serif; font-size: 14px; cursor: pointer; }
+.time-range-selector select option { background: white; color: #1a1a1a; }
 .export-dropdown { position: relative; }
 .btn-export { display: flex; align-items: center; gap: 8px; padding: 10px 20px; background: #10b981; border: none; border-radius: 10px; color: white; font-family: 'Poppins', sans-serif; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.3s ease; }
 .btn-export:hover { background: #059669; transform: translateY(-2px); box-shadow: 0 8px 16px rgba(16, 185, 129, 0.3); }
