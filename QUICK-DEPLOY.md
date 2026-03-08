@@ -5,7 +5,7 @@
 ### Prerequisites
 ```bash
 ✅ AWS Account
-✅ GitHub Repo: https://github.com/roshan-1205/VAANImai
+✅ GitHub Repo: https://github.com/roshan-1205/VAANI
 ✅ Firebase Config Ready
 ```
 
