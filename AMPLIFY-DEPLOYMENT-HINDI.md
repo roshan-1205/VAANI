@@ -8,7 +8,7 @@
 
 आपके पास ये चीजें होनी चाहिए:
 - ✅ AWS Account (अगर नहीं है तो https://aws.amazon.com/ पर बनाएं)
-- ✅ GitHub Repository: https://github.com/Aayush-2910/VAANI.git
+- ✅ GitHub Repository: https://github.com/roshan-1205/VAANImai
 - ✅ Firebase Project (authentication के लिए)
 
 ---
@@ -53,7 +53,7 @@
 ### Step 5: Repository और Branch Select करें
 
 1. **Repository** dropdown में:
-   - `Aayush-2910/VAANI` select करें
+   - `roshan-1205/VAANImai` select करें
    - अगर नहीं दिख रहा तो **"View GitHub permissions"** पर click करें
 
 2. **Branch** select करें:
@@ -359,7 +359,7 @@ Deployment के बाद:
 
 **Resources:**
 - AWS Amplify Docs: https://docs.amplify.aws/
-- GitHub Issues: https://github.com/Aayush-2910/VAANI/issues
+- GitHub Issues: https://github.com/roshan-1205/VAANImai/issues
 - AWS Support: https://console.aws.amazon.com/support/
 
 **Common Commands:**

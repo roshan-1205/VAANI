@@ -5,7 +5,7 @@
 ### Prerequisites
 ```bash
 ✅ AWS Account
-✅ GitHub Repo: https://github.com/Aayush-2910/VAANI.git
+✅ GitHub Repo: https://github.com/roshan-1205/VAANImai
 ✅ Firebase Config Ready
 ```
 
@@ -25,7 +25,7 @@ https://console.aws.amazon.com/
 ```
 → Select GitHub
 → Authorize AWS Amplify
-→ Select: Aayush-2910/VAANI
+→ Select: roshan-1205/VAANImai
 → Branch: main
 ```
 
@@ -180,7 +180,7 @@ Type: 200 (Rewrite)
 - **Detailed Guide:** `DEPLOYMENT-GUIDE.md`
 - **Hindi Guide:** `AMPLIFY-DEPLOYMENT-HINDI.md`
 - **AWS Docs:** https://docs.amplify.aws/
-- **GitHub:** https://github.com/Aayush-2910/VAANI
+- **GitHub:** https://github.com/roshan-1205/VAANImai
 
 ---
 

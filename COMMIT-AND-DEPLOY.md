@@ -49,7 +49,7 @@ git push origin main
    - Authorize AWS Amplify
 
 3. **Select Repository**
-   - Repository: `Aayush-2910/VAANI`
+   - Repository: `roshan-1205/VAANImai`
    - Branch: `main`
    - Click "Next"
 
@@ -279,7 +279,7 @@ Amplify Console → Your App → Notifications
 
 **Resources:**
 - AWS Amplify Docs: https://docs.amplify.aws/
-- GitHub Repo: https://github.com/Aayush-2910/VAANI
+- GitHub Repo: https://github.com/roshan-1205/VAANImai
 - AWS Support: https://console.aws.amazon.com/support/
 
 ---

@@ -4,7 +4,7 @@
 
 ### Prerequisites
 - ✅ AWS Account
-- ✅ GitHub Repository: https://github.com/Aayush-2910/VAANI.git
+- ✅ GitHub Repository: https://github.com/roshan-1205/VAANImai
 - ✅ AWS Amplify access
 
 ---
@@ -32,7 +32,7 @@
    - GitHub authorization allow karein
 
 2. **Repository select karein**
-   - Repository: `Aayush-2910/VAANI`
+   - Repository: `roshan-1205/VAANImai`
    - Branch: `main` (ya aapka default branch)
    - "Next" click karein
 
@@ -271,7 +271,7 @@ VITE_API_URL environment variable verify karein
 
 **Issues face kar rahe hain?**
 - AWS Amplify Documentation: https://docs.amplify.aws/
-- GitHub Issues: https://github.com/Aayush-2910/VAANI/issues
+- GitHub Issues: https://github.com/roshan-1205/VAANImai/issues
 
 ---
 

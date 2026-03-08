@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Aayush-2910/VAANI.git"
+    "url": "git+https://github.com/roshan-1205/VAANI.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Aayush-2910/VAANI/issues"
+    "url": "https://github.com/roshan-1205/VAANI/issues"
   },
-  "homepage": "https://github.com/Aayush-2910/VAANI#readme",
+  "homepage": "https://github.com/roshan-1205/VAANI#readme",
   "devDependencies": {
     "@aws-amplify/backend": "^1.21.0",
     "@aws-amplify/backend-cli": "^1.8.2",

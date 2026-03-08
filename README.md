@@ -75,8 +75,8 @@ VAANI is a comprehensive voice-first platform designed to bridge the gap between
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/vaani.git
-cd vaani
+git clone https://github.com/roshan-1205/VAANI.git
+cd VAANI
 ```
 
 ### 2️⃣ Frontend Setup
