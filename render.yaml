@@ -1,0 +1,33 @@
+services:
+  # Node.js AI Backend
+  - type: web
+    name: vaani-ai-backend
+    runtime: node
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: cd ai-backend && npm install
+    startCommand: cd ai-backend && node server-production.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 5000
+      - key: AWS_REGION
+        value: us-east-1
+      # AWS credentials will be added via Render dashboard
+
+  # Python FastAPI Backend
+  - type: web
+    name: vaani-fastapi-backend
+    runtime: python
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: cd Backend && pip install -r requirements.txt
+    startCommand: cd Backend && uvicorn app.main:app --host 0.0.0.0 --port 8000
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: FIREBASE_CREDENTIALS_PATH
+        value: ./serviceAccountKey.json
