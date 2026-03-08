@@ -2,20 +2,32 @@ import firebase_admin
 from firebase_admin import credentials, auth
 from app.config import settings
 import os
+import json
 
 # Initialize Firebase Admin SDK
 def initialize_firebase():
     if not firebase_admin._apps:
         try:
-            cred_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), settings.FIREBASE_CREDENTIALS_PATH)
-            if os.path.exists(cred_path):
-                cred = credentials.Certificate(cred_path)
+            # Try to get credentials from environment variable first
+            firebase_creds_json = os.getenv('FIREBASE_CREDENTIALS_JSON')
+            
+            if firebase_creds_json:
+                # Parse JSON from environment variable
+                cred_dict = json.loads(firebase_creds_json)
+                cred = credentials.Certificate(cred_dict)
                 firebase_admin.initialize_app(cred)
-                print("✅ Firebase Admin SDK initialized successfully")
+                print("✅ Firebase Admin SDK initialized from environment variable")
             else:
-                print("⚠️  Firebase credentials not found - running in mock mode")
-                print(f"   Expected: {cred_path}")
-                print("   Create serviceAccountKey.json from Firebase Console")
+                # Fallback to file-based credentials
+                cred_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), settings.FIREBASE_CREDENTIALS_PATH)
+                if os.path.exists(cred_path):
+                    cred = credentials.Certificate(cred_path)
+                    firebase_admin.initialize_app(cred)
+                    print("✅ Firebase Admin SDK initialized from file")
+                else:
+                    print("⚠️  Firebase credentials not found - running in mock mode")
+                    print(f"   Expected file: {cred_path}")
+                    print("   Or set FIREBASE_CREDENTIALS_JSON environment variable")
         except Exception as e:
             print(f"⚠️  Firebase initialization failed: {e}")
             print("   Backend will run in mock mode")
