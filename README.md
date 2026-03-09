@@ -530,7 +530,7 @@ Built with ❤️ by the VAANI Team
 
 ## 📞 Support
 
-For support, email support@vaani.com or join our Slack channel.
+For support, email vaani.voice.assist@gmail.com or join our Slack channel.
 
 ---
 
