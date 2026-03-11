@@ -63,6 +63,66 @@ VAANI is a comprehensive voice-first platform designed to bridge the gap between
 
 ---
 
+🎤 Supported Voice Queries
+
+VAANI understands natural voice queries from citizens in English and Hinglish. Below are some example questions the assistant can handle.
+
+👋 General Interaction
+
+Tum kaun ho?
+
+Vaani kya hai?
+
+Tum kya madad kar sakte ho?
+
+Namaste
+
+Mujhe madad chahiye
+
+Mai bahut pareshan hu
+
+Mujhe kuch poochna hai
+
+Aapka naam kya hai?
+
+Dhanyavaad
+
+Alvida
+
+🏙️ Civic Issues & Complaints
+
+Complaint kaise kare?
+
+Complaint status kaise check kare?
+
+Sadak tut gayi hai kya kare?
+
+Street light kharab hai kya kare?
+
+Pani nahi aa raha kya kare?
+
+Kachra nahi uth raha kya kare?
+
+Sewer overflow ho raha kya kare?
+
+Bijli nahi aa rahi hai
+
+👤 Account & System
+
+Account kaise banaye?
+
+🏛️ Government Schemes
+
+Sarkari yojna kya hai?
+
+Ujjwala yojna kya hai?
+
+Ayushman card ke liye eligible kaun hai?
+
+How to make Ayushman card?
+
+---
+
 ## 🚀 Quick Start
 
 ### Prerequisites
