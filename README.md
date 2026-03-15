@@ -32,6 +32,12 @@ VAANI is a comprehensive voice-first platform designed to bridge the gap between
 
 ---
 
+## 🌟 Live Demo
+
+Visit my portfolio: **[https://vaani-ai-assistant-419de.web.app](https://vaani-ai-assistant-419de.web.app)**
+
+---
+
 ## ✨ Features
 
 ### 🎙️ Voice Assistant
