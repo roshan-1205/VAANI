@@ -121,7 +121,7 @@ function SignupPage() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img 
-            src="https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/Vaani-images/jaiho.jpeg"
+            src="https://res.cloudinary.com/dvbqsllqw/image/upload/v1774446440/jaiho_ly48bb.jpg"
             alt="Background"
             className="w-full h-full object-cover"
           />
@@ -134,7 +134,7 @@ function SignupPage() {
           {/* Logo */}
           <div className="flex justify-center mb-1">
             <img 
-              src="https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/Vaani-images/blacklogo.png"
+              src="https://res.cloudinary.com/dvbqsllqw/image/upload/v1774446438/blacklogo_zjsq0r.png"
               alt="Vaani Logo" 
               className="h-36 h-36 object-cover"
             />

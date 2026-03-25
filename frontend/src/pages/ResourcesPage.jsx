@@ -78,17 +78,17 @@ function ResourcesPage() {
     {
       title: "Getting Started with Voice Services",
       description: "Learn how to access government services using voice commands in your preferred language",
-      thumbnail: "https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/Vaani-images/Images/r1.jpg"
+      thumbnail: "https://res.cloudinary.com/dvbqsllqw/image/upload/v1774446368/r1_xi66d0.jpg"
     },
     {
       title: "Understanding Your Rights",
       description: "Comprehensive guide to citizen rights and how to exercise them through our platform",
-      thumbnail: "https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/Vaani-images/Images/r2.jpg"
+      thumbnail: "https://res.cloudinary.com/dvbqsllqw/image/upload/v1774446369/r2_sqzjrs.jpg"
     },
     {
       title: "Scheme Application Process",
       description: "Step-by-step guide to applying for government schemes and tracking your applications",
-      thumbnail: "https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/Vaani-images/Images/r3.jpg"
+      thumbnail: "https://res.cloudinary.com/dvbqsllqw/image/upload/v1774446370/r3_ynwvhn.jpg"
     }
   ]
 

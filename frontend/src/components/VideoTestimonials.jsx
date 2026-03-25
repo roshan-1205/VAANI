@@ -113,19 +113,19 @@ function VideoTestimonials() {
       id: 1,
       name: "Aayush Pandey",
       role: "Student, Madhya Pradesh",
-      videoSrc: "https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/aayush.mp4"
+      videoSrc: "https://res.cloudinary.com/dvbqsllqw/video/upload/v1774447483/InShot_20260228_153441541_mgluyg.mp4"
     },
     {
       id: 2,
       name: "Roshan Kumar Singh",
       role: "Student, Bihar",
-      videoSrc: "https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/roshan.mp4"
+      videoSrc: "https://res.cloudinary.com/dvbqsllqw/video/upload/v1774447452/InShot_20260228_155026980_fpnv2l.mp4"
     },
     {
       id: 3,
       name: "Shiva Kewat",
       role: "Student, Anuppur",
-      videoSrc: "https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/shiva.mp4"
+      videoSrc: "https://res.cloudinary.com/dvbqsllqw/video/upload/v1774447422/InShot_20260228_160114169_gyf06l.mp4"
     }
   ]
 

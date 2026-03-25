@@ -6,7 +6,7 @@ function BlogPage() {
   const featuredPost = {
     title: "How Voice AI is Transforming Government Services in Rural India",
     description: "Discover how voice-powered technology is breaking down barriers and making government services accessible to millions of citizens in remote areas",
-    image: "https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/Vaani-images/Images/service1.jpeg",
+    image: "https://res.cloudinary.com/dvbqsllqw/image/upload/v1774446375/service1_qwl926.jpg",
     category: "Featured",
     author: "Dr. Priya Sharma",
     date: "March 15, 2024"
@@ -16,7 +16,7 @@ function BlogPage() {
     {
       title: "How Voice AI Helps Rural Citizens",
       excerpt: "Exploring the impact of voice technology in bridging the digital divide for rural communities",
-      image: "https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/Vaani-images/Images/resource1.jpeg",
+      image: "https://res.cloudinary.com/dvbqsllqw/image/upload/v1774446369/resource1_ekojqh.jpg",
       category: "Technology",
       author: "Rajesh Kumar",
       date: "March 10, 2024"
@@ -24,7 +24,7 @@ function BlogPage() {
     {
       title: "Future of Government AI Assistants",
       excerpt: "What's next for AI-powered government services and citizen engagement platforms",
-      image: "https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/Vaani-images/Images/resource3.jpeg",
+      image: "https://res.cloudinary.com/dvbqsllqw/image/upload/v1774446370/resource3_lue7si.jpg",
       category: "Innovation",
       author: "Ananya Patel",
       date: "March 8, 2024"
@@ -32,7 +32,7 @@ function BlogPage() {
     {
       title: "Accessibility in Digital India",
       excerpt: "Building inclusive digital infrastructure that serves every citizen regardless of ability",
-      image: "https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/Vaani-images/Images/resource4.jpeg",
+      image: "https://res.cloudinary.com/dvbqsllqw/image/upload/v1774446369/resource4_s1whhw.jpg",
       category: "Accessibility",
       author: "Vikram Singh",
       date: "March 5, 2024"
@@ -40,7 +40,7 @@ function BlogPage() {
     {
       title: "NLP in Regional Languages",
       excerpt: "The challenges and breakthroughs in natural language processing for Indian languages",
-      image: "https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/Vaani-images/Images/resource2.jpeg",
+      image: "https://res.cloudinary.com/dvbqsllqw/image/upload/v1774446370/resource2_d0eeoa.jpg",
       category: "AI & ML",
       author: "Dr. Meera Reddy",
       date: "March 2, 2024"
@@ -48,7 +48,7 @@ function BlogPage() {
     {
       title: "Voice Interfaces vs Traditional Apps",
       excerpt: "Comparing user experience and accessibility between voice and traditional interfaces",
-      image:"https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/Vaani-images/Images/resource5.jpeg",
+      image:"https://res.cloudinary.com/dvbqsllqw/image/upload/v1774446372/resource5_dhuzcn.jpg",
       category: "UX Design",
       author: "Arjun Mehta",
       date: "February 28, 2024"
@@ -56,7 +56,7 @@ function BlogPage() {
     {
       title: "AI for Social Impact",
       excerpt: "How artificial intelligence is being leveraged to solve real-world social challenges",
-      image: "https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/Vaani-images/Images/resource6.jpeg",
+      image: "https://res.cloudinary.com/dvbqsllqw/image/upload/v1774446376/resource6_vdxdzk.jpg",
       category: "Social Impact",
       author: "Dr. Priya Sharma",
       date: "February 25, 2024"

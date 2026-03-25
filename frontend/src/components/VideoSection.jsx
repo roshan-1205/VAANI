@@ -14,7 +14,7 @@ function VideoSection() {
                            h-[280px] xs:h-[320px] sm:h-[400px] md:h-[500px] lg:h-[550px] 
                            w-full max-w-full">
               <video
-                src="https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/animation.mp4"
+                src="https://res.cloudinary.com/dvbqsllqw/video/upload/v1774446285/WhatsApp_Video_2026-02-26_at_10.58.48_PM_cvzbrj.mp4"
                 autoPlay
                 loop
                 muted

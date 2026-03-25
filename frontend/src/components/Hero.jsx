@@ -13,7 +13,7 @@ function Hero() {
           muted 
           playsInline
         >
-          <source src="https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/landingPage-Bg.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dvbqsllqw/video/upload/v1774447273/lv_0_20260325192701_sxk3cm.mp4" type="video/mp4" />
         </video>
         
         {/* Content Overlay */}
@@ -43,7 +43,7 @@ Vaani transforms complex processes into simple conversations.
               {/* Glow effect behind */}
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 blur-xl opacity-75 animate-pulse -z-10"></div>
               <img 
-                src="https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/Vaani-images/new.png" 
+                src="https://res.cloudinary.com/dvbqsllqw/image/upload/v1774446447/new_wrmgcw.png" 
                 alt="AI Assistant"
                 className="w-full h-full object-cover rounded-3xl  relative z-10"
               />

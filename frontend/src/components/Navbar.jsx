@@ -38,7 +38,7 @@ function Navbar() {
           <Link to="/" className="flex items-center space-x-3 z-50" onClick={closeMobileMenu}>
             <div className="flex items-center justify-center">
               <img 
-                src="https://vaani-storage.s3.eu-north-1.amazonaws.com/assets/Vaani-images/mainlogo.png" 
+                src="https://res.cloudinary.com/dvbqsllqw/image/upload/v1774446444/mainlogo_dz8cyf.png" 
                 alt="Vaani Logo" 
                 className="h-12 w-16 md:h-16 md:w-20 object-cover" 
               />
