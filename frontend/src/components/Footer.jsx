@@ -10,7 +10,7 @@ function Footer() {
           {/* Brand Column - Left Side */}
           <div className="lg:col-span-1 flex flex-col">
             <div className="mb-3">
-              <img src='/src/assets/mainlogo.png' alt="Vaani Logo" className="w-40 h-auto object-contain" />
+              <img src='https://res.cloudinary.com/dvbqsllqw/image/upload/v1774446444/mainlogo_dz8cyf.png' alt="Vaani Logo" className="w-40 h-auto object-contain" />
             </div>
             <p className="text-[#94A3B8] text-base leading-relaxed mb-6">
               Empowering citizens through voice technology. Access government services anytime, anywhere.

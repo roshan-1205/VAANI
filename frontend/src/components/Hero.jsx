@@ -13,7 +13,7 @@ function Hero() {
           muted 
           playsInline
         >
-          <source src="https://res.cloudinary.com/dvbqsllqw/video/upload/v1774447273/lv_0_20260325192701_sxk3cm.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dn0vcpamn/video/upload/v1774680350/lv_0_20260328121155_woxwk4.mp4" type="video/mp4" />
         </video>
         
         {/* Content Overlay */}
